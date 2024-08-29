@@ -264,40 +264,11 @@ export const videoThumbnailDetails = [
 ];
 
 export const cardDetails = [
-  {
-    id: "card1",
-    title: "Elegant Vows",
-    cat: "Muslim",
-    price: 20,
-    des: "Elegant ivory card with gold foil lettering and intricate lace patterns.",
-    path: "https://i.ibb.co/NFhN5J1/card1.jpg",
-    path2: "",
-    path3: "",
-  },
-  {
-    id: "card2",
-    title: "Joyful Union",
-    cat: "Muslim",
-    price: 15,
-    des: "Rustic kraft paper invitation with hand-drawn floral accents.",
-    path: "https://i.ibb.co/5r0HWLx/card2.jpg",
-    path2: "",
-    path3: "",
-  },
-  {
-    id: "card3",
-    title: "Sacred Bond",
-    cat: "Muslim",
-    price: 10,
-    des: "Modern minimalist design with clean lines and a monochrome color scheme.",
-    path: "https://i.ibb.co/y8MjkrY/card3.jpg",
-    path2: "",
-    path3: "",
-  },
+
   {
     id: "card4",
     title: "Timeless Love",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 13,
     des: "Vintage-inspired card with delicate watercolor florals and cursive script.",
     path: "https://i.ibb.co/vVBSW0k/card5-2.jpg",
@@ -307,7 +278,7 @@ export const cardDetails = [
   {
     id: "card5",
     title: "Blissful Beginnings",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 46,
     des: "Chic black and white invitation with bold typography and geometric shapes.",
     path: "https://i.ibb.co/RBbfwLz/card5.jpg",
@@ -317,7 +288,7 @@ export const cardDetails = [
   {
     id: "card6",
     title: "Pure Romance",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 14,
     des: "Classic navy and gold invitation with a timeless monogram.",
     path: "https://i.ibb.co/By8wF1J/card6.jpg",
@@ -327,7 +298,7 @@ export const cardDetails = [
   {
     id: "card7",
     title: "Eternal Bliss",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 19,
     des: "Whimsical card featuring watercolor illustrations and playful fonts.",
     path: "https://i.ibb.co/4pBdt7r/card7.jpg",
@@ -337,7 +308,7 @@ export const cardDetails = [
   {
     id: "card8",
     title: "Serene Ceremony",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Luxurious card with velvet touch finish and gold embossing.",
     path: "https://i.ibb.co/nCvLf7z/card9.jpg",
@@ -347,7 +318,7 @@ export const cardDetails = [
   {
     id: "card9",
     title: "Classic Love",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Romantic blush pink invitation with rose gold foil details.",
     path: "https://i.ibb.co/khWKkP2/card10.jpg",
@@ -357,7 +328,7 @@ export const cardDetails = [
   {
     id: "card10",
     title: "Heartfelt Union",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Tropical-themed card with vibrant palm leaves and exotic flowers",
     path: "https://i.ibb.co/tK0TvKC/card11.jpg",
@@ -367,7 +338,7 @@ export const cardDetails = [
   {
     id: "card11",
     title: "Divine Love",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Elegant emerald green invitation with gold accents and a satin ribbon.",
     path: "https://i.ibb.co/crTmJtY/card12.jpg",
@@ -377,7 +348,7 @@ export const cardDetails = [
   {
     id: "card12",
     title: "Graceful Union",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Art deco-inspired design with metallic accents and bold patterns.",
     path: "https://i.ibb.co/crstXWq/card13.jpg",
@@ -387,7 +358,7 @@ export const cardDetails = [
   {
     id: "card13",
     title: "True Love",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Simple kraft paper card with twine and a wax seal",
     path: "https://i.ibb.co/j4mBZzb/card14.jpg",
@@ -397,7 +368,7 @@ export const cardDetails = [
   {
     id: "card14",
     title: "Regal Wedding",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Nautical-themed invitation with navy stripes and anchor motifs.",
     path: "https://i.ibb.co/w6bJYth/card15.jpg",
@@ -407,7 +378,7 @@ export const cardDetails = [
   {
     id: "card15",
     title: "Happy Hearts",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Sophisticated marble design with gold foil details.",
     path: "https://i.ibb.co/fXz3cwt/card16.jpg",
@@ -417,7 +388,7 @@ export const cardDetails = [
   {
     id: "card16",
     title: "Sweet Vows",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Bohemian-style card with dreamcatcher illustrations and earthy tones.",
     path: "https://i.ibb.co/Fgbrq4x/card16-2.jpg",
@@ -427,7 +398,7 @@ export const cardDetails = [
   {
     id: "card17",
     title: " Beautiful Beginnings",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Glamorous glittery gold invitation with a classic script font.",
     path: "https://i.ibb.co/SmHVPXV/card17.jpg",
@@ -437,7 +408,7 @@ export const cardDetails = [
   {
     id: "card18",
     title: "Cherished Moments",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Eco-friendly card made from recycled paper with botanical prints.",
     path: "https://i.ibb.co/5Lyc1v0/card18.jpg",
@@ -447,7 +418,7 @@ export const cardDetails = [
   {
     id: "card19",
     title: "Precious Love",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Fairy tale-inspired design with enchanted forest illustrations.",
     path: "https://i.ibb.co/tzCcrpq/card19.jpg",
@@ -457,7 +428,7 @@ export const cardDetails = [
   {
     id: "card20",
     title: "Love Knot",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Elegant cream and gold invitation with intricate laser-cut details.",
     path: "https://i.ibb.co/cDNLWgr/card20.jpg",
@@ -467,7 +438,7 @@ export const cardDetails = [
   {
     id: "card21",
     title: "Serene Vows",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Floral watercolor card with a delicate border and elegant script.",
     path: "https://i.ibb.co/Vt347b5/card21.jpg",
@@ -477,7 +448,7 @@ export const cardDetails = [
   {
     id: "card22",
     title: "Blissful Union",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Modern acrylic invitation with sleek typography.",
     path: "https://i.ibb.co/Rpp6C92/card22.jpg",
@@ -487,7 +458,7 @@ export const cardDetails = [
   {
     id: "card23",
     title: "Perfect Pair",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Rustic wood veneer card with engraved details.",
     path: "https://i.ibb.co/WWztyDn/card24.jpg",
@@ -497,7 +468,7 @@ export const cardDetails = [
   {
     id: "card24",
     title: " Simple Elegance",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Sophisticated grey and silver invitation with a minimalist design.",
     path: "https://i.ibb.co/RpLmqkF/card23.jpg",
@@ -507,7 +478,7 @@ export const cardDetails = [
   {
     id: "card25",
     title: " Pure Joy",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Tropical destination wedding invitation with vibrant hibiscus flowers.",
     path: "https://i.ibb.co/Qjp1Z7G/card25.jpg",
@@ -517,7 +488,7 @@ export const cardDetails = [
   {
     id: "card26",
     title: "Golden Moments",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Whimsical balloon-themed card with colorful illustrations.",
     path: "https://i.ibb.co/GCkLJZd/card27.jpg",
@@ -527,7 +498,7 @@ export const cardDetails = [
   {
     id: "card27",
     title: "Sacred Promise",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Vintage postcard-style invitation with a nostalgic feel.",
     path: "https://i.ibb.co/dgWvzqk/card26.jpg",
@@ -537,7 +508,7 @@ export const cardDetails = [
   {
     id: "card28",
     title: " Lovely Bond",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Elegant pearl-finished card with lace patterns and satin bow.",
     path: "https://i.ibb.co/4KfPxJh/card28.jpg",
@@ -547,7 +518,7 @@ export const cardDetails = [
   {
     id: "card29",
     title: "Joyous Journey",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Bold red and gold invitation with a traditional Asian design.",
     path: "https://i.ibb.co/9YB7wMY/card29.jpg",
@@ -557,7 +528,7 @@ export const cardDetails = [
   {
     id: "card30",
     title: "Sweet Love",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Charming cottage-themed card with hand-painted flowers.",
     path: "https://i.ibb.co/R3fK1r3/card30.jpg",
@@ -567,7 +538,7 @@ export const cardDetails = [
   {
     id: "card31",
     title: "Radiant Hearts",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Luxurious velvet card with gold foil stamping.",
     path: "https://i.ibb.co/fXx26Hp/card31.jpg",
@@ -577,7 +548,7 @@ export const cardDetails = [
   {
     id: "card32",
     title: "Enchanted Love",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Minimalist kraft paper invitation with calligraphy.",
     path: "https://i.ibb.co/hBN889q/card32.jpg",
@@ -587,7 +558,7 @@ export const cardDetails = [
   {
     id: "card33",
     title: "Elegant Affair",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Elegant scroll invitation with gold accents and a ribbon tie.",
     path: "https://i.ibb.co/c12NpWT/card33.jpg",
@@ -597,7 +568,7 @@ export const cardDetails = [
   {
     id: "card34",
     title: "Love’s Embrace",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Rustic burlap card with lace and twine details.",
     path: "https://i.ibb.co/cx4XWpH/card34.png",
@@ -607,7 +578,7 @@ export const cardDetails = [
   {
     id: "card35",
     title: " Dreamy Vows",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Classic black-tie invitation with sleek black and white design.",
     path: "https://i.ibb.co/rFH3wD0/card35.jpg",
@@ -617,7 +588,7 @@ export const cardDetails = [
   {
     id: "card36",
     title: "Serene Union",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Nautical navy and white card with anchor details.",
     path: "https://i.ibb.co/GdG21MH/card36.png",
@@ -627,7 +598,7 @@ export const cardDetails = [
   {
     id: "card37",
     title: "Charming Ceremony",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Botanical-themed invitation with lush greenery illustrations.",
     path: "https://i.ibb.co/1K2yNJD/card37.jpg",
@@ -637,7 +608,7 @@ export const cardDetails = [
   {
     id: "card38",
     title: "Elegant Love",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Vintage lace overlay card with pearl accents.",
     path: "https://i.ibb.co/xfNHGXS/card38.png",
@@ -647,7 +618,7 @@ export const cardDetails = [
   {
     id: "card39",
     title: "Heartfelt Ceremony",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Modern geometric design with gold foil and bold typography.",
     path: "https://i.ibb.co/ryPgfJt/card39.png",
@@ -657,7 +628,7 @@ export const cardDetails = [
   {
     id: "card40",
     title: " Regal Union",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Floral laser-cut invitation with a blush pink ribbon.",
     path: "https://i.ibb.co/tpGJJz1/card40.jpg",
@@ -667,7 +638,7 @@ export const cardDetails = [
   {
     id: "card41",
     title: "Sacred Ceremony",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Elegant damask pattern card with silver foil.",
     path: "https://i.ibb.co/FgN06HL/card43.jpg",
@@ -677,7 +648,7 @@ export const cardDetails = [
   {
     id: "card42",
     title: "Joyful Hearts",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Whimsical garden-themed card with colorful floral illustrations.",
     path: "https://i.ibb.co/5KGdp2F/card41.jpg",
@@ -687,7 +658,7 @@ export const cardDetails = [
   {
     id: "card43",
     title: "Blissful Ceremony",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Sophisticated navy and gold invitation with a monogrammed seal.",
     path: "https://i.ibb.co/7RwqTSB/card42.jpg",
@@ -697,7 +668,7 @@ export const cardDetails = [
   {
     id: "card44",
     title: "Lovely Vows",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Rustic kraft paper card with botanical prints and twine.",
     path: "https://i.ibb.co/bF8Jb8r/card45.png",
@@ -707,7 +678,7 @@ export const cardDetails = [
   {
     id: "card45",
     title: " Pure Bliss",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Glamorous glitter invitation with elegant script font.",
     path: "https://i.ibb.co/T8X2c4w/card46.png",
@@ -715,9 +686,39 @@ export const cardDetails = [
     path3: "",
   },
   {
+    id: "card1",
+    title: "Elegant Vows",
+    cat: "Hindu",
+    price: 20,
+    des: "Elegant ivory card with gold foil lettering and intricate lace patterns.",
+    path: "https://i.ibb.co/NFhN5J1/card1.jpg",
+    path2: "",
+    path3: "",
+  },
+  {
+    id: "card2",
+    title: "Joyful Union",
+    cat: "Hindu",
+    price: 15,
+    des: "Rustic kraft paper invitation with hand-drawn floral accents.",
+    path: "https://i.ibb.co/5r0HWLx/card2.jpg",
+    path2: "",
+    path3: "",
+  },
+  {
+    id: "card3",
+    title: "Sacred Bond",
+    cat: "Hindu",
+    price: 10,
+    des: "Modern minimalist design with clean lines and a monochrome color scheme.",
+    path: "https://i.ibb.co/y8MjkrY/card3.jpg",
+    path2: "",
+    path3: "",
+  },
+  {
     id: "card46",
     title: "Love’s Journey",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Minimalist white card with gold foil lettering.",
     path: "https://i.ibb.co/T8X2c4w/card46.png",
@@ -727,7 +728,7 @@ export const cardDetails = [
   {
     id: "card47",
     title: "Happy Together",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Bohemian-inspired design with dreamcatcher and feathers.",
     path: "https://i.ibb.co/JRrXSTM/card47.png",
@@ -737,7 +738,7 @@ export const cardDetails = [
   {
     id: "card48",
     title: "Sweet Harmony",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Rustic woodgrain invitation with delicate lace details.",
     path: "https://i.ibb.co/6nsvb77/card48.png",
@@ -747,7 +748,7 @@ export const cardDetails = [
   {
     id: "card49",
     title: "Graceful Vows",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Modern typography-focused design with a monochrome palette.",
     path: "https://i.ibb.co/rpkLyVk/card49.png",
@@ -757,7 +758,7 @@ export const cardDetails = [
   {
     id: "card50",
     title: "Eternal Love",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Chic marble card with rose gold accents.",
     path: "https://i.ibb.co/XZxTsCQ/card50.png",
@@ -767,7 +768,7 @@ export const cardDetails = [
   {
     id: "card51",
     title: "Pure Union",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Vintage-inspired card with pastel florals and cursive script.",
     path: "https://i.ibb.co/3N9Bry6/card51.png",
@@ -777,7 +778,7 @@ export const cardDetails = [
   {
     id: "card52",
     title: "Joyful Moments",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Elegant pearl-finished invitation with embossed patterns.",
     path: "https://i.ibb.co/MncN3r1/card53.png",
@@ -787,7 +788,7 @@ export const cardDetails = [
   {
     id: "card53",
     title: "Lovely Together",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Nautical-themed card with stripes and rope details.",
     path: "https://i.ibb.co/xMHGQpR/card55.png",
@@ -797,7 +798,7 @@ export const cardDetails = [
   {
     id: "card54",
     title: "Heartfelt Vows",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Floral watercolor invitation with a soft, romantic feel.",
     path: "https://i.ibb.co/ySvS55L/card56.png",
@@ -807,7 +808,7 @@ export const cardDetails = [
   {
     id: "card55",
     title: "Sacred Hearts",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Luxurious velvet card with gold foil and satin ribbon.",
     path: "https://i.ibb.co/t3GJHt0/card57.png",
@@ -817,7 +818,7 @@ export const cardDetails = [
   {
     id: "card56",
     title: "Blissful Together",
-    cat: "Muslim",
+    cat: "Hindu",
     price: -1,
     des: "Rustic kraft paper card with hand-drawn illustrations.",
     path: "https://i.ibb.co/b15yjHm/card58.png",
@@ -827,7 +828,7 @@ export const cardDetails = [
   {
     id: "card57",
     title: "Elegant Union",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Modern acrylic invitation with sleek, transparent design.",
     path: "https://i.ibb.co/K5JJbsp/card59.png",
@@ -837,7 +838,7 @@ export const cardDetails = [
   {
     id: "card58",
     title: "True Joy",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Botanical-themed card with lush greenery and elegant script.",
     path: "https://i.ibb.co/VSL0hv7/card60.png",
@@ -847,7 +848,7 @@ export const cardDetails = [
   {
     id: "card59",
     title: "Radiant Union",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Chic black and gold invitation with a sophisticated feel.",
     path: "https://i.ibb.co/s2MQKNc/card61.png",
@@ -857,7 +858,7 @@ export const cardDetails = [
   {
     id: "card60",
     title: " Enchanted Hearts",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Whimsical garden party-themed card with colorful illustrations.",
     path: "https://i.ibb.co/t3N28hr/card62.png",
@@ -867,7 +868,7 @@ export const cardDetails = [
   {
     id: "card61",
     title: "Charming Love",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Classic cream and gold invitation with a timeless design.",
     path: "https://i.ibb.co/Kyp6R7R/card63.png",
@@ -877,7 +878,7 @@ export const cardDetails = [
   {
     id: "card62",
     title: "Lovely Moments",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Vintage lace overlay card with delicate details.",
     path: "https://i.ibb.co/7XNPwrd/card64.png",
@@ -887,7 +888,7 @@ export const cardDetails = [
   {
     id: "card63",
     title: "Joyous Union",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Minimalist kraft paper invitation with simple typography.",
     path: "https://i.ibb.co/JpF5T2r/card65.png",
@@ -897,7 +898,7 @@ export const cardDetails = [
   {
     id: "card64",
     title: " Pure Vows",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Elegant damask pattern card with silver foil accents.",
     path: "https://i.ibb.co/3dF23bY/card66.png",
@@ -907,7 +908,7 @@ export const cardDetails = [
   {
     id: "card65",
     title: "Sweet Moments",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Rustic burlap and lace invitation with twine bow.",
     path: "https://i.ibb.co/tJxt89f/card67.png",
@@ -917,7 +918,7 @@ export const cardDetails = [
   {
     id: "card66",
     title: "Heartfelt Love",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Glamorous glitter invitation with bold gold accents.",
     path: "https://i.ibb.co/4PD9Ynv/card68.png",
@@ -927,7 +928,7 @@ export const cardDetails = [
   {
     id: "card129",
     title: " Sacred Bliss",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Modern monochrome design with clean lines and sleek typography.",
     path: "https://i.ibb.co/5v9SJnv/card69.png",
@@ -937,7 +938,7 @@ export const cardDetails = [
   {
     id: "card67",
     title: "Elegant Together",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Floral watercolor card with soft, pastel hues.",
     path: "https://i.ibb.co/Gd3sx71/card70.png",
@@ -947,7 +948,7 @@ export const cardDetails = [
   {
     id: "card68",
     title: " Joyful Promise",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Sophisticated navy and silver invitation with a monogram.",
     path: "https://i.ibb.co/YtPb89T/card71.png",
@@ -957,7 +958,7 @@ export const cardDetails = [
   {
     id: "card69",
     title: "Dreamy Hearts",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Botanical-themed card with hand-drawn illustrations and earthy tones.",
     path: "https://i.ibb.co/Ws11mVm/card72.png",
@@ -967,7 +968,7 @@ export const cardDetails = [
   {
     id: "card70",
     title: ". Love’s Harmony",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Vintage-inspired postcard invitation with a nostalgic design.",
     path: "https://i.ibb.co/DwFfhYg/card73.png",
@@ -977,7 +978,7 @@ export const cardDetails = [
   {
     id: "card71",
     title: " Graceful Ceremony",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Chic marble card with gold foil and elegant script.",
     path: "https://i.ibb.co/kgjjHmr/card75.png",
@@ -987,7 +988,7 @@ export const cardDetails = [
   {
     id: "card72",
     title: "Pure Together",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Rustic wood veneer invitation with engraved details.",
     path: "https://i.ibb.co/6wnsRzD/card76.png",
@@ -997,7 +998,7 @@ export const cardDetails = [
   {
     id: "card73",
     title: "Happy Vows",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Modern acrylic card with a minimalist design",
     path: "https://i.ibb.co/5cJJTfg/card77.png",
@@ -1007,7 +1008,7 @@ export const cardDetails = [
   {
     id: "card74",
     title: ". Radiant Bliss",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Whimsical balloon-themed invitation with playful illustrations.",
     path: "https://i.ibb.co/Pzmt5T9/card78.png",
@@ -1017,7 +1018,7 @@ export const cardDetails = [
   {
     id: "card75",
     title: "Serene Hearts",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Elegant pearl-finished card with intricate lace patterns.",
     path: "https://i.ibb.co/w7b4ndh/card79.png",
@@ -1027,7 +1028,7 @@ export const cardDetails = [
   {
     id: "card76",
     title: "Charming Vows",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Nautical-themed invitation with navy stripes and anchor motifs.",
     path: "https://i.ibb.co/P4SsVjk/card80.png",
@@ -1037,7 +1038,7 @@ export const cardDetails = [
   {
     id: "card77",
     title: "Lovely Ceremony",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Floral watercolor card with a delicate border and cursive script.",
     path: "https://i.ibb.co/fphHPKm/card81.png",
@@ -1047,7 +1048,7 @@ export const cardDetails = [
   {
     id: "card78",
     title: "Joyous Promise",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Sophisticated black and white design with bold typography.",
     path: "https://i.ibb.co/Thqj7nF/card82.png",
@@ -1057,7 +1058,7 @@ export const cardDetails = [
   {
     id: "card79",
     title: "Heartfelt Union",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Vintage lace overlay card with pearl accents.",
     path: "https://i.ibb.co/kQdHgnG/card83.png",
@@ -1067,7 +1068,7 @@ export const cardDetails = [
   {
     id: "card80",
     title: "Blissful Love",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Rustic kraft paper invitation with botanical prints and twine.",
     path: "https://i.ibb.co/hHp9Qtm/card84.png",
@@ -1077,7 +1078,7 @@ export const cardDetails = [
   {
     id: "card81",
     title: "Elegant Moments",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Glamorous glitter invitation with elegant gold foil.",
     path: "https://i.ibb.co/74Kt4bN/card85.png",
@@ -1087,7 +1088,7 @@ export const cardDetails = [
   {
     id: "card82",
     title: "True Together",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Minimalist white card with sleek, modern typography",
     path: "https://i.ibb.co/hZF9psH/card86.png",
@@ -1097,7 +1098,7 @@ export const cardDetails = [
   {
     id: "card83",
     title: "Sacred Joy",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Bohemian-inspired invitation with dreamcatcher illustrations",
     path: "https://i.ibb.co/10ZbNQ2/card87.png",
@@ -1107,7 +1108,7 @@ export const cardDetails = [
   {
     id: "card84",
     title: "Enchanted Ceremony",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Chic marble design with rose gold foil accents.",
     path: "https://i.ibb.co/Np1RSLv/card88.png",
@@ -1117,7 +1118,7 @@ export const cardDetails = [
   {
     id: "card85",
     title: "Pure Hearts",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Rustic woodgrain card with lace and twine details.",
     path: "https://i.ibb.co/t4mkbbm/card89.png",
@@ -1127,7 +1128,7 @@ export const cardDetails = [
   {
     id: "card86",
     title: "Lovely Promise",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Modern geometric design with gold foil and bold fonts.",
     path: "https://i.ibb.co/LZCM67p/card90.png",
@@ -1137,7 +1138,7 @@ export const cardDetails = [
   {
     id: "card87",
     title: "Joyful Vows",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Floral laser-cut invitation with a blush pink ribbon.",
     path: "https://i.ibb.co/hdTSJ5P/card91.png",
@@ -1147,7 +1148,7 @@ export const cardDetails = [
   {
     id: "card88",
     title: "Radiant Love",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Elegant damask pattern card with silver foil accents.",
     path: "https://i.ibb.co/zbJ9xsX/card92.png",
@@ -1157,7 +1158,7 @@ export const cardDetails = [
   {
     id: "card89",
     title: "Sweet Together",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Whimsical garden-themed invitation with colorful illustrations.",
     path: "https://i.ibb.co/gTxDHKJ/card93.png",
@@ -1167,7 +1168,7 @@ export const cardDetails = [
   {
     id: "card90",
     title: "Graceful Union",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Sophisticated navy and gold card with a monogrammed seal.",
     path: "https://i.ibb.co/smsPsMP/card94.png",
@@ -1177,7 +1178,7 @@ export const cardDetails = [
   {
     id: "card91",
     title: "Dreamy Love",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Botanical-themed invitation with lush greenery illustrations.",
     path: "https://i.ibb.co/0fpLn6H/card95.png",
@@ -1187,7 +1188,7 @@ export const cardDetails = [
   {
     id: "card92",
     title: "Charming Hearts",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Vintage-inspired card with delicate floral patterns.",
     path: "https://i.ibb.co/jhpZ3qw/card96.png",
@@ -1197,7 +1198,7 @@ export const cardDetails = [
   {
     id: "card93",
     title: "Elegant Bliss",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Elegant pearl-finished invitation with embossed details.",
     path: "https://i.ibb.co/X2rCzNm/card97.png",
@@ -1207,7 +1208,7 @@ export const cardDetails = [
   {
     id: "card94",
     title: "Pure Promise",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Nautical-themed card with stripes and rope accents.",
     path: "https://i.ibb.co/zb9FQKv/card98.png",
@@ -1217,7 +1218,7 @@ export const cardDetails = [
   {
     id: "card95",
     title: "Joyous Together",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Floral watercolor invitation with a soft, romantic design.",
     path: "https://i.ibb.co/R6GXssj/card99.png",
@@ -1227,7 +1228,7 @@ export const cardDetails = [
   {
     id: "card96",
     title: "Heartfelt Ceremony",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Luxurious velvet card with gold foil and a satin ribbon.",
     path: "https://i.ibb.co/HBBS2wZ/card100.png",
@@ -1237,7 +1238,7 @@ export const cardDetails = [
   {
     id: "card97",
     title: "Sacred Moments",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Rustic kraft paper invitation with hand-drawn botanical prints.",
     path: "https://i.ibb.co/F7zwbV9/card102.png",
@@ -1247,7 +1248,7 @@ export const cardDetails = [
   {
     id: "card98",
     title: "Lovely Hearts",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Modern acrylic card with sleek, minimalist typography.",
     path: "https://i.ibb.co/KDgCgqK/card101.png",
@@ -1257,7 +1258,7 @@ export const cardDetails = [
   {
     id: "card99",
     title: " Blissful Vows",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Whimsical balloon-themed invitation with colorful, playful designs.",
     path: "https://i.ibb.co/JQh9Jnr/card103.png",
@@ -1267,7 +1268,7 @@ export const cardDetails = [
   {
     id: "card100",
     title: "Radiant Moments",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Vintage-inspired card with sepia tones and delicate lace",
     path: "https://i.ibb.co/fHLpPp1/card104.png",
@@ -1277,7 +1278,7 @@ export const cardDetails = [
   {
     id: "card101",
     title: "Enchanted Union",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Chic black and gold invitation with art deco patterns.",
     path: "https://i.ibb.co/VN3y4vr/card105.png",
@@ -1287,7 +1288,7 @@ export const cardDetails = [
   {
     id: "card102",
     title: "Sweet Vows",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Rustic woodgrain invitation with hand-painted flowers.",
     path: "https://i.ibb.co/g3qhqWN/card106.png",
@@ -1297,7 +1298,7 @@ export const cardDetails = [
   {
     id: "card103",
     title: "Joyful Together",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Elegant pearl-finished card with silver embossing.",
     path: "https://i.ibb.co/5B1xkTJ/card107.png",
@@ -1307,7 +1308,7 @@ export const cardDetails = [
   {
     id: "card104",
     title: "Serene Ceremony",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Modern geometric design with monochrome palette.",
     path: "https://i.ibb.co/D7D94C1/card108.png",
@@ -1317,7 +1318,7 @@ export const cardDetails = [
   {
     id: "card105",
     title: "Graceful Hearts",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Whimsical garden-themed invitation with fairy illustrations",
     path: "https://i.ibb.co/Cz59m2y/card109.png",
@@ -1327,7 +1328,7 @@ export const cardDetails = [
   {
     id: "card106",
     title: "Dreamy Together",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Sophisticated navy and gold card with classic script",
     path: "https://i.ibb.co/ssphVbk/card110.png",
@@ -1337,7 +1338,7 @@ export const cardDetails = [
   {
     id: "card107",
     title: "Charming Moments",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Floral watercolor invitation with delicate lavender blooms",
     path: "https://i.ibb.co/DbbBtt0/card112.png",
@@ -1347,7 +1348,7 @@ export const cardDetails = [
   {
     id: "card108",
     title: "Lovely Bliss",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Vintage postcard-style card with travel-themed illustrations",
     path: "https://i.ibb.co/F63bkMr/card113.png",
@@ -1357,7 +1358,7 @@ export const cardDetails = [
   {
     id: "card109",
     title: "Heartfelt Promise",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Elegant damask pattern invitation with gold foil.",
     path: "https://i.ibb.co/HpNDK5T/card114.png",
@@ -1367,7 +1368,7 @@ export const cardDetails = [
   {
     id: "card110",
     title: " Elegant Love",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Rustic kraft paper card with hand-drawn trees and twine",
     path: "https://i.ibb.co/s2z8HzD/card115.png",
@@ -1377,7 +1378,7 @@ export const cardDetails = [
   {
     id: "card111",
     title: "True Ceremony",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Glamorous glitter invitation with rose gold foil.",
     path: "https://i.ibb.co/5Fnq05F/card116.png",
@@ -1387,7 +1388,7 @@ export const cardDetails = [
   {
     id: "card112",
     title: "Radiant Hearts",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Minimalist white card with clean, elegant typography.",
     path: "https://i.ibb.co/v1YxqhD/card117.png",
@@ -1397,7 +1398,7 @@ export const cardDetails = [
   {
     id: "card113",
     title: ". Pure Moments",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Bohemian-style invitation with feather and floral motifs",
     path: "https://i.ibb.co/H2R3JjK/card118.png",
@@ -1407,7 +1408,7 @@ export const cardDetails = [
   {
     id: "card114",
     title: "Joyous Vows",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Chic marble design with sleek black accents.",
     path: "https://i.ibb.co/brLff7S/card119.png",
@@ -1417,7 +1418,7 @@ export const cardDetails = [
   {
     id: "card115",
     title: "Sacred Together",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Nautical-themed card with lighthouse and sea motifs.",
     path: "https://i.ibb.co/3MvHrZK/card120.png",
@@ -1427,7 +1428,7 @@ export const cardDetails = [
   {
     id: "card116",
     title: "Blissful Ceremony",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Floral watercolor invitation with bright peonies",
     path: "https://i.ibb.co/x1PcqSb/card121.png",
@@ -1437,7 +1438,7 @@ export const cardDetails = [
   {
     id: "card117",
     title: "Enchanted Vows",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Sophisticated black and silver card with intricate patterns.",
     path: "https://i.ibb.co/nrvhpzt/card122.png",
@@ -1447,7 +1448,7 @@ export const cardDetails = [
   {
     id: "card118",
     title: "Sweet Hearts",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Rustic burlap invitation with hand-drawn wreath",
     path: "https://i.ibb.co/DWbBmpT/card123.png",
@@ -1457,7 +1458,7 @@ export const cardDetails = [
   {
     id: "card119",
     title: "Lovely Union",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Modern acrylic card with bold, minimalist design",
     path: "https://i.ibb.co/R049kmZ/card124.png",
@@ -1468,7 +1469,7 @@ export const cardDetails = [
   {
     id: "card120",
     title: "Enchanted Forest",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Elegant card with fairy-tale illustrations and gold foil accents.",
     path: "https://i.ibb.co/hcMpnXc/card125.png",
@@ -1479,7 +1480,7 @@ export const cardDetails = [
   {
     id: "card121",
     title: "Celestial Night",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Midnight blue card with starry sky patterns and silver embossing.",
     path: "https://i.ibb.co/JpNjxcX/card126.png",
@@ -1490,7 +1491,7 @@ export const cardDetails = [
   {
     id: "card122",
     title: "Eternal Elegance",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Classic white card with lace details and a satin ribbon",
     path: "https://i.ibb.co/wNsB22R/card127.png",
@@ -1501,7 +1502,7 @@ export const cardDetails = [
   {
     id: "card123",
     title: "Golden Glamour",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Luxurious card with glittery gold and bold typography.",
     path: "https://i.ibb.co/hcgDz1p/card128.png",
@@ -1512,7 +1513,7 @@ export const cardDetails = [
   {
     id: "card124",
     title: "Rustic Romance",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: " Kraft paper invitation with hand-drawn hearts and twine.",
     path: "https://i.ibb.co/F0xBcLS/card129.png",
@@ -1523,7 +1524,7 @@ export const cardDetails = [
   {
     id: "card125",
     title: "Modern Chic",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Sleek monochrome card with minimalist typography.",
     path: "https://i.ibb.co/zfqSLsd/card130.png",
@@ -1535,7 +1536,7 @@ export const cardDetails = [
     id: "card126",
     title:
       "Boho BlissBohemian-style card with dreamcatcher illustrations and earthy tones.",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "",
     path: "https://i.ibb.co/sW3gPdj/card131.png",
@@ -1546,7 +1547,7 @@ export const cardDetails = [
   {
     id: "card127",
     title: "Vintage Charm",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: "Nostalgic postcard-style invitation with sepia floral patterns.",
     path: "https://i.ibb.co/4jbhNZv/card132.png",
@@ -1557,7 +1558,7 @@ export const cardDetails = [
   {
     id: "card128",
     title: "Botanical Beauty",
-    cat: "Muslim",
+    cat: "Hindu",
     price: 50,
     des: " Lush greenery illustrations on a sophisticated cream card.",
     path: "https://i.ibb.co/p3TnYGw/crad111.png",
@@ -1766,6 +1767,513 @@ export const videoDetails = [
   },
 ];
 
+export const video12 = [
+  {
+    id: "Type1",
+    title: "Traditional",
+    des: "Traditional photography captures timeless moments, preserving the elegance and beauty of your love story for a lifetime.",
+    star: "4.9 🌟",
+    rating: "(20 reviews)",
+    path: "https://i.pinimg.com/736x/95/a8/5f/95a85fafee35613322e38a15bbd7731a.jpg",
+    link:"/Photoinfo1"
+  },
+  {
+    id: "Type2",
+    title: "Cinematic & Candid",
+    des: "Cinematic photography captures the grandeur of a moment, while candid photography reveals its unfiltered truth",
+    star: "4.5 🌟",
+    rating: "(18 reviews)",
+    path: "https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2020/11/Inside-image-Wedding-Photographers6.jpg",
+    link:"/Photoinfo2"
+  },
+  {
+    id: "Type3",
+    title: "Cinematic",
+    des: "Cinematic videography transforms moments into visual stories with a film-like quality and artistic flair.",
+    star: "5 🌟",
+    rating: "(12 reviews)",
+    path: "https://content.jdmagicbox.com/comp/bilaspur-himachal_pradesh/f1/9999p1664.1664.200831150632.c5f1/catalogue/aasri-photography-meham-gate-bhiwani-wedding-photographers-rysb2qhz4b.jpg",
+    link:"/Photoinfo3"
+  },
+  {
+    id: "Type4",
+    title: "Pre-Wedding",
+    des: "Pre-wedding videography captures the joy and romance of your love story, creating cherished memories before the big day",
+    star: "4.7 🌟",
+    rating: "(10 reviews)",
+    path: "https://assets.vogue.in/photos/6360ee4b74016d3adc45f105/1:1/w_4534,h_4534,c_limit/JR.WP-244.jpg",
+    link:"/Photoinfo4"
+  },
+  {
+    id: "Type5",
+    title: "Classic",
+    des: "Classic photography captures timeless moments with exceptional quality and affordability",
+    star: "4.4 🌟",
+    rating: "(15 reviews)",
+    path: "https://mangeshfilms.in/wp-content/uploads/2024/01/M3M06485-copy-2.webp",
+    link:"/Photoinfo5"
+  },
+  {
+    id: "Type6",
+    title: "Chief & best",
+    des: "Premier photography captures unforgettable moments with outstanding quality and great value.",
+    star: "4.2 🌟",
+    rating: "(13 reviews)",
+    path: "https://www.pixelworks.in/wp-content/uploads/2017/05/Pre-Wedding-Shoot-2.jpg",
+    link:"/Photoinfo6",
+  },
+]
+
+export const Images1 = [
+  {
+    id: 1,
+    image: "https://i.pinimg.com/736x/74/94/d1/7494d17763649a020aa7d08967a0370d.jpg",
+    po: 1,
+  },
+  {
+    id: 2,
+    image: "https://fashionatestudio.com/wp-content/uploads/2024/05/DSC_3101-scaled.jpg",
+    po: 2,
+  },
+  {
+    id: 3,
+    image: "https://www.teribphotography.com/wp-content/uploads/2022/11/indian-wedding-photography-33-1202x1800.jpg",
+    po: 3,
+  },
+  {
+    id: 4,
+    image: "https://vishaldhupiaphotography.com/new-images/Candid-Wedding-Photography.jpeg",
+    po: 4,
+
+  },
+  {
+    id: 5,
+    image: "https://image.wedmegood.com/resized/800X/uploads/member/412177/1532739203_25488435_1983119855297124_6517770107131706388_o.jpg",
+    po: 5,
+
+  },
+  {
+    id: 6,
+    image: "https://josephkingphotography.in/wp-content/uploads/2022/08/Joseph-King-Photography-Wedding-Photography-Indore-63-300x200.jpg",
+    po: 6,
+
+  },
+  {
+    id: 7,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLyPt_pUPRDHMpmr2c7DZBOJrbaDO1u35pjA&s",
+    po: 7,
+
+  },
+  {
+    id: 8,
+    image: "https://live.staticflickr.com/4813/46402658441_6e44206064_b.jpg",
+    po: 8,
+
+  },
+  {
+    id: 9,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrvg_JajvmzCaA_3vzuk2X9yKKQ0yITeLYXg&s",
+    po: 9,
+
+  },
+  {
+    id: 10,
+    image: "https://i.pinimg.com/736x/a8/b5/60/a8b5603e596abaeb3a7ada2b908bf45b.jpg",
+    po: 10,
+
+  },
+  {
+    id: 11,
+    image: "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/13eb4c24745363.56339f559bf3e.jpg",
+    po: 11,
+
+  },
+  {
+    id: 12,
+    image: "https://oneeyevisionphotography.com/wp-content/uploads/2021/08/KAT1028.jpg",
+    po: 12,
+
+  },
+  {
+    id: 13,
+    image: "https://camrinfilms.com/photos/345605560_969198427439983_4776823517238102241_n.jpg",
+    po: 13,
+  },
+  {
+    id: 14,
+    image: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/1f573524745363.56339f5559a8e.jpg",
+    po: 14,
+
+  },
+  {
+    id: 15,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRotzMceJfmv9l2tThYFxVwgRKKee48-bjQA&s",
+    po: 15,
+
+  },
+  {
+    id: 16,
+    image: "https://miro.medium.com/v2/resize:fit:1080/1*yaQvcdIKjFwdh3m-t2Tx6w.jpeg",
+    po: 16,
+
+  },
+  {
+    id: 17,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaMGHgbNHv5Ny8SUP9CZaVrINWjs46mk6pEg&s",
+    po: 17,
+
+  },
+  {
+    id: 18,
+    image: "https://i.pinimg.com/736x/4f/c0/2e/4fc02ebabab3f7bc579e37ee51538c3e.jpg",
+    po: 18,
+
+  },
+  {
+    id: 19,
+    image: "https://cdn0.weddingwire.in/vendor/6101/3_2/960/jpg/red-studio-wedding-cinematography-3_15_216101-157181586853596.jpeg",
+    po: 19,
+
+  },
+  {
+    id: 20,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbgnxJz2gphYOUarhCyTXxCFfiWcMOZnlQIg&s",
+    po: 20,
+
+  },
+];
+
+export const Images2 = [
+  {
+    id: 1,
+    image: "https://i.ibb.co/cyB43rw/Screenshot-2024-08-21-210439.png",
+    po: 1,
+  },
+  {
+    id: 2,
+    image: "https://i.ibb.co/TqhxPPR/Screenshot-2024-08-21-210430.png",
+    po: 2,
+  },
+  {
+    id: 3,
+    image: "https://i.ibb.co/kcJXRC8/Screenshot-2024-08-21-210313.png",
+    po: 3,
+  },
+  {
+    id: 4,
+    image: "https://i.ibb.co/dmX2Q5B/Screenshot-2024-08-21-210244.png",
+    po: 4,
+
+  },
+  {
+    id: 5,
+    image: "https://i.ibb.co/MBWyqWL/Screenshot-2024-08-21-210236.png",
+    po: 5,
+
+  },
+  {
+    id: 6,
+    image: "https://i.ibb.co/tMvkRrF/Screenshot-2024-08-21-210121.png",
+    po: 6,
+
+  },
+  {
+    id: 7,
+    image: "https://i.ibb.co/HVFsGmv/Screenshot-2024-08-21-210344.png",
+    po: 7,
+
+  },
+  {
+    id: 8,
+    image: "https://i.ibb.co/nnvX1dK/Screenshot-2024-08-21-205940.png",
+    po: 8,
+
+  },
+  {
+    id: 9,
+    image: "https://i.ibb.co/yR2FH4g/Screenshot-2024-08-21-205922.png",
+    po: 9,
+
+  },
+  {
+    id: 10,
+    image: "https://i.ibb.co/bP1j4V2/Screenshot-2024-08-21-205837.png",
+    po: 10,
+
+  },
+  {
+    id: 11,
+    image: "https://i.ibb.co/nBWCbC9/4.jpg",
+    po: 11,
+  },
+  {
+    id: 12,
+    image: "https://i.ibb.co/9Twmb38/2.jpg",
+    po: 12,
+
+  },
+  {
+    id: 13,
+    image: "https://i.ibb.co/bJCVbtG/5.jpg",
+    po: 13,
+  },
+  {
+    id: 14,
+    image: "https://i.ibb.co/0cQtV4m/3.jpg",
+    po: 14,
+
+  },
+  {
+    id: 15,
+    image: "https://i.ibb.co/nBWCbC9/4.jpg",
+    po: 15,
+  },
+  {
+    id: 16,
+    image: "https://i.ibb.co/HDyPXc6/6.jpg",
+    po: 16,
+  },
+  {
+    id: 17,
+    image: "https://i.ibb.co/4ZXSfQp/Screenshot-2024-08-21-205327.png",
+    po: 17,
+
+  },
+  {
+    id: 18,
+    image: "https://i.ibb.co/LQBDDnW/Screenshot-2024-08-21-205308.png",
+    po: 18,
+
+  },
+  {
+    id: 19,
+    image: "https://i.ibb.co/K71T0jR/Screenshot-2024-08-21-210136.png",
+    po: 19,
+
+  },
+  {
+    id: 20,
+    image: "https://i.ibb.co/YNHb4SS/1.jpg",
+    po: 20,
+
+  },
+];
+
+export const albumData = [
+  {
+    id: "600",
+    link: "https://drive.google.com/file/d/168jwlp8FnGr032d812oFqegTy4k_RLiM/view?usp=drive_link",
+    imgsrc: "https://i.ytimg.com/vi/QxPujBO-VXg/hqdefault.jpg",
+  },
+  {
+    id: "601",
+    link: "https://drive.google.com/file/d/1XPzd-pLeJC7jmCz5mKiSL1P1Fr0lsjpV/view?usp=drive_link",
+    imgsrc: "https://i.pinimg.com/550x/39/16/03/3916034fdf1041b89b04be781701d854.jpg",
+  },
+];
+export const videosample = [
+  {
+    id: "sam1",
+    title: "Pre-Wedding ",
+    des: "A pre-wedding short is a heartfelt and intimate video showcasing the couple's love story, special moments, and relationship leading up to the big day.",
+    urlWithoutPlay: "https://www.youtube.com/embed/BQuclkte5rg",
+    urlWithPlay: "https://www.youtube.com/embed/BQuclkte5rg?autoplay=1&mute=0&cc_load_policy=1",
+    ytID: "si=cbzQ3XjIqLUBLSCM",
+    rating:"5",
+  },
+  {
+    id: "sam2",
+    title: "Wedding",
+    des: "Uniting two souls in love, laughter, and happiness, celebrating a lifetime of togetherness and cherished moments.",
+    urlWithoutPlay: "https://www.youtube.com/embed/w111G2kwFtQ",
+    urlWithPlay: "https://www.youtube.com/embed/w111G2kwFtQ?autoplay=1&mute=0&cc_load_policy=1",
+    ytID: "agSOz0DsJjo?si=wswSQ6bhvbOMwdmS",
+    rating:"4.9",
+
+  },
+  {
+    id: "sam3",
+    title: "Pre-Wedding",
+    des: "A pre-wedding short: a romantic glimpse into the couple's love story before the big day.",
+    urlWithoutPlay: "https://www.youtube.com/embed/dtQ23AhyKoQ",
+    urlWithPlay: "https://www.youtube.com/embed/dtQ23AhyKoQ?autoplay=1&mute=0&cc_load_policy=1 si=5WEHdOu6QP_5WWvN",
+    ytID: "si=5WEHdOu6QP_5WWvN",
+    rating:"4.8",
+
+  },
+  {
+    id: "sam4",
+    title: "Highlights",
+    des: "A romantic wedding video, with a captivating teaser and thrilling highlights.",
+    urlWithoutPlay: "https://www.youtube.com/embed/86AuHB-st4c",
+    urlWithPlay: "https://www.youtube.com/embed/86AuHB-st4c?autoplay=1&mute=0&cc_load_policy=1",
+    ytID: "si=gIYlpxbtjXP3a8xh",
+    rating:"5",
+
+  },
+  {
+    id: "sam5",
+    title: "Teaser",
+    des: "A glimpse of forever, love is coming soon, a heartwarming tale of two souls, a beautiful journey begins..",
+   urlWithoutPlay: "https://www.youtube.com/embed/3uXcfstOuZ4",
+    urlWithPlay: "https://www.youtube.com/embed/3uXcfstOuZ4?autoplay=1&mute=0&cc_load_policy=1",
+    ytID: "si=Nvw9NcfN51246G6d",
+    rating:"4.2",
+
+  },
+  {
+    id: "sam6",
+    title: " Forever Captured",
+    des: "Capturing the beauty of love, one frame at a time. A romantic journey of two hearts, forever in love",
+   urlWithoutPlay: "https://www.youtube.com/embed/PKPgoXkfaXc",
+    urlWithPlay: "https://www.youtube.com/embed/PKPgoXkfaXc?autoplay=1&mute=0&cc_load_policy=1",
+    ytID: "si=Rkv3GLGKEiZiJZpD",
+    rating:"4.8",
+  },
+
+];
+export const Slist = [
+{
+  id:"Service1",
+  imgsrc:"https://cf.bstatic.com/xdata/images/hotel/max1024x768/518332246.jpg?k=852d9e83009ac082a7bb8366d5e27fb1f21801ea9cb6dde9c14e1aa99c49ea63&o=&hp=1",
+  heading:"Hotels and Resorts",
+  des:"Find the perfect venue with our curated selection of hotels and resorts. Enjoy luxury and comfort at competitive prices, ensuring a memorable experience for you and your guests without stretching your budget",
+  Link:"/Hotel",
+
+},
+{
+  id:"Service2",
+  imgsrc:"https://www.carandbike.com/_next/image?url=https%3A%2F%2Fimages.carandbike.com%2Fcar-images%2Fbig%2Fhyundai%2Fcreta%2Fhyundai-creta.jpg%3Fv%3D92&w=3840&q=75",
+  heading:"Car Services:",
+  des:"Arrive in style with our premium car services, offering luxury and comfort at reasonable rates. Whether it’s a classic ride or a modern touch, we ensure a grand entrance for your special day" ,
+  Link:"/Cars",
+},
+{
+  id:"Service3",
+  imgsrc:"https://5.imimg.com/data5/SELLER/Default/2021/5/KF/YW/UG/50200512/whatsapp-image-2021-05-31-at-11-43-49.jpeg",
+  heading:"Decorations and Pandals",
+  des:"Enchant your guests with our beautiful decorations and grand pandals. From elegant setups to lavish themes, we create unforgettable experiences at prices that suit your budget, adding charm to your celebration",
+  Link:"/Decoratons",
+},
+{
+  id:"Service4",
+  imgsrc:"https://aaftonline.com/blog/wp-content/uploads/2024/01/What-are-the-Benefits-of-Photography-Complete-Overview.png",
+  heading:"Photography",
+  des:"Capture your magical moments with our expert photography services—every click tells your love story! We offer stunning photos at affordable prices, ensuring your memories are beautifully preserved without breaking the bank",
+  Link:"/Photography",
+},
+{
+  id:"Service5",
+  imgsrc:"https://media.istockphoto.com/id/1349344078/vector/qr-code-scanning-scan-me-read-bar-code-mobility-generating-app-coding-recognition-or-reading.jpg?s=612x612&w=0&k=20&c=kFDiH2yOEXsvsbMrbVwEJ-GIKZaahEi5tXGWFjyFkog=",
+  heading:"QR Code Designs:",
+  des:"Revolutionize your invitations with our interactive QR code designs. Affordable, modern, and memorable—our designs offer a unique experience for your guests and seamless navigation to all wedding details",
+  Link:"/qr",
+},
+{
+  id:"Service6",
+  imgsrc:"https://img.freepik.com/free-psd/wedding-invitation-greeting-cards-elegant-vintage-style_1340-49454.jpg",
+  heading:"Wedding Invitation Cards",
+  des:"Invite your guests in style with our elegant, customized wedding invitation cards. Designed to impress, our cards are both unique and budget-friendly, giving you quality without compromise",
+  Link:"/cards",
+},
+{
+  id:"Service7",
+  imgsrc:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPdDI9t7jX4b__BksCnLFWbpTRya8PFoUYrA&s",
+  heading:"Elegant Courier Solutions",
+  des:"Deliver your parcels with style using our elegant, customized courier packages. Designed to impress, our packaging solutions are both unique and budget-friendly, ensuring your items arrive safely without compromising on quality",
+  Link:"/Courier",
+},
+];
+export const cardat =  [
+  {
+      id: "Type1",
+      link:"",
+      title: "HONDA AMAZE",
+      des:"₹1500",
+      star: "4.8 🌟",
+      rating:"(15 reviews)",
+      path: "https://stimg.cardekho.com/images/carexteriorimages/930x620/Honda/Amaze/10519/1689589132736/front-left-side-47.jpg"
+  },
+  {
+      id: "Type2",
+      link:"",
+      title: "INNOVA CRYSTA ",
+      des:"₹1500",
+      star: "4.9 🌟",
+      rating:"(12 reviews)",
+      path: "https://stimg.cardekho.com/images/carexteriorimages/930x620/Toyota/Innova-Crysta/9612/1697698611076/front-left-side-47.jpg"
+  },
+  {
+      id: "Type3",
+      link:"",
+      title: "SWIFT DZIRE",
+      des:"₹1000",
+      star: "4.2 🌟",
+      rating:"(22 reviews)",
+      path: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Swift-Dzire-Tour/8863/1717397917382/front-left-side-47.jpg"
+  },
+  {
+      id: "Type4",
+      link:"",
+      title:"ERTIGA",
+      des:"₹1200",
+      star: "4.3 🌟",
+      rating:"(15 reviews)",
+      path: "https://content.carlelo.com/uploads/model/1668419592.webp"
+  },
+  {
+      id: "Type5",
+      link:"",
+      title: "SCORPIO",
+      des:"₹1400",
+      star: "5 🌟",
+      rating:"(30 reviews)",
+      path: "https://images.91wheels.com/assets/c_images/gallery/mahindra/scorpio-classic/mahindra-scorpio-classic-3-1698085076.jpg?w=480&q=60?w=1080&q=60"
+     
+  },
+  {
+      id: "Type6",
+      link:"",
+      title: "DZIRE",
+      des:"₹1100",
+      star: "4.5 🌟",
+      rating:"(13 reviews)",
+      path: "https://images.carandbike.com/car-images/large/maruti-suzuki/dzire/maruti-suzuki-dzire.jpg?v=28"
+  },
+];
+export default cardat;
+export const Hoteldet = [
+{
+  id:"Hotel1",
+  img1:"https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202009281848505371-5cf6d77e871e11eb8a5d0242ac110002.jpg",
+  img2:"https://cdn.venuemonk.com/assets/kanpur/the-wedding-bells-kidwai-nagar/images/full/the-wedding-bells-kidwai-nagar-3086.jpg",
+  img3:"https://i.ytimg.com/vi/hbjvuwIdfTs/maxresdefault.jpg",
+  img4:"https://cdn0.weddingwire.in/vendor/4181/3_2/960/jpeg/banquet-hall-the-wedding-bells-banquet-hall-7_15_354181-160129138478066.jpeg",
+  img5:"https://image.wedmegood.com/resized/800X/uploads/member/1242314/1620301781_20201122053402_IMG_2068.JPG",
+  img6:"https://cdn0.weddingwire.in/vendor/4181/3_2/960/jpeg/banquet-hall-the-wedding-bells-banquet-hall-1_15_354181-160129136058385.jpeg",
+  Hname:"THE WEDDING BELLS",
+  Hdes:"The Wedding Bells Hotels & Resorts, offers travelers a heightened level of comfort, accommodation and safety.    The hotel itself offers services that are designed to offer maximum comfort to its guests. Accommodation at the  hotel is available in the well-appointed rooms, that are tastefully decorated and fitted with right amenities to   make the guest comfortable.",
+  Rno:"250",
+  Sno:"800",
+  rate:"7.5",
+},
+{
+  id:"Hotel1",
+  img1:"https://gos3.ibcdn.com/e2f159ceb3d411ecbb520a58a9feac02.jpeg",
+  img2:"https://images.oyoroomscdn.com/uploads/hotel_image/96742/large/guyojdusdaen.jpg",
+  img3:"https://pix6.agoda.net/hotelImages/30434309/0/caf3fb3f98bef612b252dfe9e7700414.jpg",
+  img4:"https://images.oyoroomscdn.com/uploads/hotel_image/96742/large/ynajtrsptjon.jpg",
+  img5:"https://cf.bstatic.com/xdata/images/hotel/max1024x768/175975098.jpg?k=14b53681b2033749eab5e277883c3a4cdc413f67585647c446e92657a50bd4c1&o=&hp=1",
+  img6:"https://cf.bstatic.com/xdata/images/hotel/max1024x768/109261140.jpg?k=b2f9a6027b68bd9cb75d7700ae75b0796151f587553a3bc015497f301c3e2caa&o=&hp=1",
+  Hname:"THE YAMUNA HOTEL",
+  Hdes:"The Yamuna Hotel in Dhanbad is known for its comfortable accommodations and convenient location. It typically offers amenities such as well-furnished rooms, in-house dining, and modern facilities to cater to both business and leisure travelers. For specific details like pricing, services, and reviews, you might want to check recent customer feedback or the hotel's official website.",
+  Rno:"8",
+  Sno:"500",
+  rate:"1.5",
+},
+
+];
+
 export const faq = [
   {
     id: "q1",
@@ -1820,6 +2328,10 @@ export const menuOptions = [
     route: "/",
   },
   {
+    opt: "SERVICE",
+    route: "/Service",
+  },
+  {
     opt: "CARDS",
     route: "/cards",
   },
@@ -1840,7 +2352,6 @@ export const menuOptions = [
     route: "/contact",
   },
 ];
-
 
 export const hoverShadowColors = [
   " hover:shadow-purple-600",

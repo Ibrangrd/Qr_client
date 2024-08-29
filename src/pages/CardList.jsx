@@ -3,7 +3,6 @@ import {cardDetails} from "../utils"
 
 const CardList = ({showCategory , price , applyFilter}) => {
   // console.log(showCategory);
-  
   // console.log(applyFilter);
   if(price === "")
     price = 10000

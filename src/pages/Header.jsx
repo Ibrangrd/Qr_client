@@ -13,7 +13,7 @@ const Header = ({ setTheme }) => {
   if (isLoading) {
     return <p>Loading....</p>;
   }
-
+  
   return (
     <div className="mb-[4.3rem] ">
       <nav className="bg-[#ffe7e7] dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">

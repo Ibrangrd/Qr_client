@@ -1,0 +1,267 @@
+.xxx{
+  height: 1800px;
+  width: 100%;
+
+}
+
+
+.hea{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hea h1 {
+    color: #16697a;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.pri {
+    display: flex;
+    margin-top: 15px;
+    color: #ff477e;
+    font-size: 30px;
+    justify-content: flex-end;
+    margin-right: 400px;
+}
+
+.hh {
+    text-align: center;
+    margin-right: 60px;
+}
+
+.de {
+    display: flex;
+    margin-top: 60px;
+}
+
+.cont {
+    width: 600px;
+    height: 400px;
+    /* position: absolute; */
+    overflow: hidden;
+    border: 20px solid white;
+    border-radius: 50px;
+    margin-left: 50px;
+}
+
+.trad {
+    width: 600px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ma {
+    width: 100%;
+    display: flex;
+    animation: change 15s infinite;
+}
+
+@keyframes change {
+    0% {
+        transform: translateX(0);
+    }
+
+    15% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-100%);
+    }
+
+    30% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(-200%);
+    }
+
+    55% {
+        transform: translateX(-200%);
+    }
+
+    75% {
+        transform: translateX(-300%);
+    }
+
+    80% {
+        transform: translateX(-300%);
+    }
+
+    100% {
+        transform: translateX(-400%);
+    }
+}
+
+.det {
+    text-align: center;
+    margin-left: 150px;
+}
+
+.h {
+    font-size: 50px;
+}
+
+.ro {
+    /* width: 500px; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.co {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 5px;
+}
+
+.hh1 {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.fir {
+    margin-bottom: 10px;
+}
+
+.hhhh {
+    font-size: 20px;
+}
+
+.ppp {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.ex {
+    width: 550px;
+    margin-left: 800px;
+    margin-top: -100px;
+    border: 1px solid rosybrown;
+}
+
+
+.we {
+    margin-top: 150px;
+}
+
+.hh2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+
+.hhh {
+    font-size: 25px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+.ult{
+    width: 650px;
+    margin-left: 80px;
+    font-size: 18px;
+}
+.butt{
+    text-align: center;
+    opacity: 1;
+  }
+
+  .buttt{
+    margin-top: 5px;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ff0a54;
+    border: none;
+    border-radius: 20px;
+    background:linear-gradient(270deg,#e0fbfc,#ffcbf2);
+    cursor: pointer;
+    margin-left: 25px;
+    width: 300px;
+    transition: 1s all ease;
+    transition-duration: 0.8s;
+  }
+  .buttt:hover{
+    color:#136f63;
+    background:linear-gradient(270deg,#ffdab9 , #d7e3fc);
+     font-size: 22px;  
+  }
+  .album{
+    margin-top: 50px;
+    margin-left: 200px;
+    width: 600px;
+    height: 600px;
+    border-radius: 30px;
+
+  }
+   .album img{
+    width: 100%;
+    height: 500px;
+    border-radius: 30px;
+    transition: 1s all ease;
+    transition-duration: 0.8s;
+  }
+
+  .trad:hover{
+    box-shadow: 2px 2px 15px 2px #F08080;
+    transform: translateY(-15px);
+
+  }
+  .alp{
+    font-size: 30px;
+    margin-left: 220px;
+  }
+  .note{
+    margin-left: 850px;
+    margin-top: -500px;
+  }
+.h5{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+  .ter{
+ margin-left: 850px;
+ margin-top: -350px;
+ width: 650px;
+  }
+  .ter h1{
+   font-size: 35px;
+  margin-bottom: 20px;
+  }
+  .ter li{
+    margin-top: 15px;
+  }
+
+  .butt2{
+    text-align: center;
+    opacity: 1;
+  }
+
+  .buttt2{
+    text-align: center;
+    margin-top: 480px;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #f1bb0c;
+    border: none;
+    border-radius: 20px;
+    background:linear-gradient(270deg,#3f6061,#5d3352);
+    cursor: pointer;
+    margin-left: 600px;
+    width: 300px;
+    transition: 1s all ease;
+    transition-duration: 0.8s;
+  }
+  .buttt2:hover{
+    color:#0af1d3;
+    background:linear-gradient(270deg,#375965 , #9b88ae);
+    font-size: 34px;
+  }
+ 

@@ -9,5 +9,4 @@ const QRList = ({qrDetails}) => {
     </div>
   );
 };
-
 export default QRList;

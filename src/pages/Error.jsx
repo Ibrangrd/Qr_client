@@ -21,6 +21,7 @@ const Error = () => {
                   className="inline-block rounded-lg border border-white px-8 py-3 text-center text-base font-semibold bg-blue-600   text-white"
                 >
                   Go To Home
+                  
                 </Link>
               </div>
             </div>
