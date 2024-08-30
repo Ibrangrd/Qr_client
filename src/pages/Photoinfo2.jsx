@@ -7,20 +7,20 @@ const Photoinfo2 = () => {
     <>
       <div className='xxx'>
         <div className="hea">
-          <h1></h1>
+          <h1>CINEMATIC & CANDID</h1>
           <div className="pri">
-            <h2 className='hh'>TYPE A</h2>
-            <h2 className="pri1">₹31000</h2>
+            <h2 className='hh'>TYPE B</h2>
+            <h2 className="pri1">₹51000</h2>
           </div>
         </div>
         <div className="de">
           <div className="cont">
             <div className="ma">
-              <img className="trad" src="" alt=" Photography 1" />
-              <img className="trad" src="" alt=" Photography 2" />
-              <img className="trad" src="" alt=" Photography 3" />
-              <img className="trad" src="" alt=" Photography 4" />
-              <img className="trad" src="" alt=" Photography 5" />
+              <img className="trad" src="https://img.freepik.com/free-photo/closeup-groom-s-hand-taking-off-bracelet-from-wirst_8353-769.jpg?size=626&ext=jpg&ga=GA1.1.1687888767.1698418665&semt=ais_hybrid" alt=" Photography 1" />
+              <img className="trad" src="https://img.freepik.com/free-photo/red-shawl-connects-bride-s-parents-dressed-indian-wedding_8353-741.jpg?size=626&ext=jpg&ga=GA1.1.1687888767.1698418665&semt=ais_hybrid" alt=" Photography 2" />
+              <img className="trad" src="https://fashionatestudio.com/wp-content/uploads/2024/05/DSC_3101-scaled.jpg" alt=" Photography 3" />
+              <img className="trad" src="https://vishaldhupiaphotography.com/new-images/Candid-Wedding-Photography.jpeg" alt=" Photography 4" />
+              <img className="trad" src="https://image.wedmegood.com/resized/800X/uploads/member/412177/1532739203_25488435_1983119855297124_6517770107131706388_o.jpg" alt=" Photography 5" />
             </div>
           </div>
           <div className="det">
@@ -30,13 +30,13 @@ const Photoinfo2 = () => {
                 <h2 className='hh1'>TERMS DETAILS</h2>
                 <div className="fir">
                   <h4 className='hhhh'>Rituals</h4>
-                  <p className='ppp'>1 Photograpghy & 1 Video Camera Operator</p>
-                  <p className='ppp'>Camera Brand & Upgrade Lenes equivalent to Z 30 or Z 50</p>
+                  <p className='ppp'>1 Photograpghy & 1 Cinematic Videography</p>
+                  <p className='ppp'>Camera Brand & Upgrade Lenes equivalent to Z6 or D780</p>
                 </div>
                 <div className="fir">
                   <h4 className='hhhh'>Wedding</h4>
-                  <p className='ppp'>1 Photograpghy & 1 Video Camera Operator</p>
-                  <p className='ppp'>Camera Brand & Upgrade Lenes equivalent to Z 30 or Z 50</p>
+                  <p className='ppp'>1 Photograpghy & 1 Cinematic Videography</p>
+                  <p className='ppp'>Camera Brand & Upgrade Lenes equivalent to Z6 or D780</p>
                 </div>
 
               </div>
@@ -44,16 +44,16 @@ const Photoinfo2 = () => {
           </div>
         </div>
         <div className="co">
-          <p className="ex">Extra Rituals will be charged separatery Rs. 3000/- Per day And Drone,LED wall,LED TV and its accessories will be charged separately.</p>
+          <p className="ex">Extra Rituals will be charged separatery Rs. 5000/- Per day And Drone,LED wall,LED TV and its accessories will be charged separately.</p>
         </div>
         <div className="de" style={{ flexDirection: "row-reverse" }}>
           <div className="cont">
             <div className="ma">
-              <img className="trad" src="" alt=" Photography 6" />
-              <img className="trad" src="" alt=" Photography 7" />
-              <img className="trad" src="" alt=" Photography 8" />
-              <img className="trad" src="" alt=" Photography 9" />
-              <img className="trad" src="" alt=" Photography 10" />
+              <img className="trad" src="https://image.wedmegood.com/resized/800X/uploads/member/412177/1532739203_25488435_1983119855297124_6517770107131706388_o.jpg" alt=" Photography 6" />
+              <img className="trad" src="https://live.staticflickr.com/4813/46402658441_6e44206064_b.jpg" alt=" Photography 7" />
+              <img className="trad" src="https://i.pinimg.com/736x/a8/b5/60/a8b5603e596abaeb3a7ada2b908bf45b.jpg" alt=" Photography 8" />
+              <img className="trad" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/13eb4c24745363.56339f559bf3e.jpg" alt=" Photography 9" />
+              <img className="trad" src="https://oneeyevisionphotography.com/wp-content/uploads/2021/08/KAT1028.jpg" alt=" Photography 10" />
             </div>
           </div>
           <div className="we">
@@ -74,7 +74,7 @@ const Photoinfo2 = () => {
         </div>
         <div className="album">
           <div>
-            <a href="#">
+            <a href="https://drive.google.com/file/d/1XPzd-pLeJC7jmCz5mKiSL1P1Fr0lsjpV/view?usp=drive_link">
               <img
                 src=""
                 alt="Our Album"
@@ -83,7 +83,7 @@ const Photoinfo2 = () => {
           </div>
           <p className='alp'>OUR ALBUM</p>
           <div className="butt">
-            <a href="">
+            <a href="https://drive.google.com/file/d/1XPzd-pLeJC7jmCz5mKiSL1P1Fr0lsjpV/view?usp=drive_link">
               <button className='buttt'>View Album</button>
             </a>
           </div>
@@ -123,6 +123,7 @@ const Photoinfo2 = () => {
           <button className="butt2"> contact us </button>
         </Link>
         </div>
+        <div className='tea'><p>FOR TEASURE AND HIGHLIGHTS:- ₹1600</p></div>
 
       </div>
     

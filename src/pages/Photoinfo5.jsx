@@ -7,16 +7,16 @@ const Photoinfo5 = () => {
     <>
       <div className='xxx'>
         <div className="hea">
-          <h1></h1>
+          <h1>CLASSIC VIDEOGRAPHY</h1>
           <div className="pri">
-            <h2 className='hh'>TYPE A</h2>
-            <h2 className="pri1">₹31000</h2>
+            <h2 className='hh'>TYPE E</h2>
+            <h2 className="pri1">₹25000</h2>
           </div>
         </div>
         <div className="de">
           <div className="cont">
             <div className="ma">
-              <img className="trad" src="" alt=" Photography 1" />
+              <img className="trad" src="https://manhattanbride.com/wp-content/uploads/2019/04/Indian-Traditions39-563-Damion-Edwards-Photography.jpg" alt=" Photography 1" />
               <img className="trad" src="" alt=" Photography 2" />
               <img className="trad" src="" alt=" Photography 3" />
               <img className="trad" src="" alt=" Photography 4" />
@@ -44,7 +44,7 @@ const Photoinfo5 = () => {
           </div>
         </div>
         <div className="co">
-          <p className="ex">Extra Rituals will be charged separatery Rs. 3000/- Per day And Drone,LED wall,LED TV and its accessories will be charged separately.</p>
+          <p className="ex">Extra Rituals will be charged separatery Rs. 4000/- Per day And Drone,LED wall,LED TV and its accessories will be charged separately.</p>
         </div>
         <div className="de" style={{ flexDirection: "row-reverse" }}>
           <div className="cont">
@@ -74,7 +74,7 @@ const Photoinfo5 = () => {
         </div>
         <div className="album">
           <div>
-            <a href="#">
+            <a href="https://drive.google.com/file/d/168jwlp8FnGr032d812oFqegTy4k_RLiM/view?usp=drive_link">
               <img
                 src=""
                 alt="Our Album"
@@ -83,7 +83,7 @@ const Photoinfo5 = () => {
           </div>
           <p className='alp'>OUR ALBUM</p>
           <div className="butt">
-            <a href="">
+            <a href="https://drive.google.com/file/d/168jwlp8FnGr032d812oFqegTy4k_RLiM/view?usp=drive_link">
               <button className='buttt'>View Album</button>
             </a>
           </div>
@@ -123,6 +123,7 @@ const Photoinfo5 = () => {
           <button className="butt2"> contact us </button>
         </Link>
         </div>
+        <div className='tea'><p>FOR TEASURE AND HIGHLIGHTS:- ₹1600</p></div>
 
       </div>
     

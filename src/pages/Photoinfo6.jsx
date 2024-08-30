@@ -7,10 +7,10 @@ const Photoinfo6 = () => {
     <>
       <div className='xxx'>
         <div className="hea">
-          <h1></h1>
+          <h1>CHIEF AND BEST </h1>
           <div className="pri">
-            <h2 className='hh'>TYPE A</h2>
-            <h2 className="pri1">₹31000</h2>
+            <h2 className='hh'>TYPE F</h2>
+            <h2 className="pri1">₹14000</h2>
           </div>
         </div>
         <div className="de">
@@ -31,12 +31,12 @@ const Photoinfo6 = () => {
                 <div className="fir">
                   <h4 className='hhhh'>Rituals</h4>
                   <p className='ppp'>1 Photograpghy & 1 Video Camera Operator</p>
-                  <p className='ppp'>Camera Brand & Upgrade Lenes equivalent to Z 30 or Z 50</p>
+                  <p className='ppp'>Camera Brand & Upgrade Lenes equivalent to Sony NX(200) - Best 4K </p>
                 </div>
                 <div className="fir">
                   <h4 className='hhhh'>Wedding</h4>
                   <p className='ppp'>1 Photograpghy & 1 Video Camera Operator</p>
-                  <p className='ppp'>Camera Brand & Upgrade Lenes equivalent to Z 30 or Z 50</p>
+                  <p className='ppp'>Camera Brand & Upgrade Lenes equivalent to Sony NX(200) - Best 4K</p>
                 </div>
 
               </div>
@@ -44,7 +44,7 @@ const Photoinfo6 = () => {
           </div>
         </div>
         <div className="co">
-          <p className="ex">Extra Rituals will be charged separatery Rs. 3000/- Per day And Drone,LED wall,LED TV and its accessories will be charged separately.</p>
+          <p className="ex">Extra Rituals will be charged separatery Rs. 4000/- Per day And Drone,LED wall,LED TV and its accessories will be charged separately.</p>
         </div>
         <div className="de" style={{ flexDirection: "row-reverse" }}>
           <div className="cont">
@@ -60,10 +60,10 @@ const Photoinfo6 = () => {
             <h2 className='hh2'>PACKAGE & PRODUCT</h2>
             <h3 className='hhh'>Will be provided in this package</h3>
             <ul className='ult'>
-              <li>
+              {/* <li>
                 An album of 25 sheets of best design and quality will be given.
                 You will have to pay 300 extra per sheet.
-              </li>
+              </li> */}
               <li>Full video editing will be provided in 32 GB pen drive.</li>
               <li>
                 If the customer is satisfied, a big-size family photo along with a
@@ -74,7 +74,7 @@ const Photoinfo6 = () => {
         </div>
         <div className="album">
           <div>
-            <a href="#">
+            <a href="https://drive.google.com/file/d/1XPzd-pLeJC7jmCz5mKiSL1P1Fr0lsjpV/view?usp=drive_link">
               <img
                 src=""
                 alt="Our Album"
@@ -83,7 +83,7 @@ const Photoinfo6 = () => {
           </div>
           <p className='alp'>OUR ALBUM</p>
           <div className="butt">
-            <a href="">
+            <a href="https://drive.google.com/file/d/1XPzd-pLeJC7jmCz5mKiSL1P1Fr0lsjpV/view?usp=drive_link">
               <button className='buttt'>View Album</button>
             </a>
           </div>
@@ -117,13 +117,12 @@ const Photoinfo6 = () => {
         <div className="note">
           <h1 className='h5'>NOTE:- Special discount for members of the bride's side.</h1>
         </div>
-
         <div className='buttt2'>
         <Link to="/Contact">
           <button className="butt2"> contact us </button>
         </Link>
         </div>
-
+        <div className='tea'><p>FOR TEASURE AND HIGHLIGHTS:- ₹1600</p></div>
       </div>
     
 </>

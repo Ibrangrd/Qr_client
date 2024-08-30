@@ -1822,6 +1822,33 @@ export const video12 = [
     path: "https://www.pixelworks.in/wp-content/uploads/2017/05/Pre-Wedding-Shoot-2.jpg",
     link:"/Photoinfo6",
   },
+  {
+    id: "Type7",
+    title: "Trational",
+    des: "Premier photography captures unforgettable moments with outstanding quality and great value.",
+    star: "4.9 🌟",
+    rating: "(13 reviews)",
+    path: "https://www.pixelworks.in/wp-content/uploads/2017/05/Pre-Wedding-Shoot-2.jpg",
+    link:"/Photoinfo6",
+  },
+  {
+    id: "Type8",
+    title: "STANDARD",
+    des: "Premier photography captures unforgettable moments with outstanding quality and great value.",
+    star: "4.2 🌟",
+    rating: "(13 reviews)",
+    path: "https://www.pixelworks.in/wp-content/uploads/2017/05/Pre-Wedding-Shoot-2.jpg",
+    link:"/Photoinfo6",
+  },
+  {
+    id: "Type9",
+    title: "PREMIUM",
+    des: "Premier photography captures unforgettable moments with outstanding quality and great value.",
+    star: "4.2 🌟",
+    rating: "(13 reviews)",
+    path: "https://www.pixelworks.in/wp-content/uploads/2017/05/Pre-Wedding-Shoot-2.jpg",
+    link:"/Photoinfo6",
+  },
 ]
 
 export const Images1 = [
@@ -2241,7 +2268,6 @@ export const cardat =  [
       path: "https://images.carandbike.com/car-images/large/maruti-suzuki/dzire/maruti-suzuki-dzire.jpg?v=28"
   },
 ];
-export default cardat;
 export const Hoteldet = [
 {
   id:"Hotel1",
@@ -2372,3 +2398,5 @@ export const hoverShadowColors = [
   " hover:shadow-yellow-600",
   "hover:shadow-emerald-600",
 ];
+export default cardat;
+

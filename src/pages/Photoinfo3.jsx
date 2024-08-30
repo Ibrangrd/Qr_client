@@ -16,11 +16,11 @@ const Photoinfo3 = () => {
         <div className="de">
           <div className="cont">
             <div className="ma">
-              <img className="trad" src="https://plus.unsplash.com/premium_photo-1670524465634-93cf255ffa8b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGluZGlhbiUyMHdlZGRpbmclMjBwaG90b2dyYXBoeXxlbnwwfHwwfHx8MA%3D%3D" alt=" Photography 1" />
-              <img className="trad" src="https://plus.unsplash.com/premium_photo-1682090811844-e0a89fb2c780?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzd8fGluZGlhbiUyMHdlZGRpbmclMjBwaG90b2dyYXBoeXxlbnwwfHwwfHx8MA%3D%3D" alt=" Photography 2" />
-              <img className="trad" src="https://plus.unsplash.com/premium_photo-1682092597591-81f59c80d9ec?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fGluZGlhbiUyMHdlZGRpbmclMjBwaG90b2dyYXBoeXxlbnwwfHwwfHx8MA%3D%3D" alt=" Photography 3" />
-              <img className="trad" src="https://images.unsplash.com/photo-1665960211264-5e0a7112bacd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aW5kaWFuJTIwd2VkZGluZyUyMHBob3RvZ3JhcGh5fGVufDB8fDB8fHww" alt=" Photography 4" />
-              <img className="trad" src="https://images.unsplash.com/photo-1665960213530-3fb10da1f25e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aW5kaWFuJTIwd2VkZGluZyUyMHBob3RvZ3JhcGh5fGVufDB8fDB8fHww" alt=" Photography 5" />
+              <img className="trad" src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/1f573524745363.56339f5559a8e.jpg" alt=" Photography 1" />
+              <img className="trad" src="https://miro.medium.com/v2/resize:fit:1080/1*yaQvcdIKjFwdh3m-t2Tx6w.jpeg" alt=" Photography 2" />
+              <img className="trad" src="https://i.pinimg.com/736x/4f/c0/2e/4fc02ebabab3f7bc579e37ee51538c3e.jpg" alt=" Photography 3" />
+              <img className="trad" src="https://cdn0.weddingwire.in/vendor/6101/3_2/960/jpg/red-studio-wedding-cinematography-3_15_216101-157181586853596.jpeg" alt=" Photography 4" />
+              <img className="trad" src="https://cdn0.weddingwire.in/vendor/3824/3_2/960/jpg/wedding-photographers-view-cinematic-films-bride-9_15_383824-163729403581286.jpeg" alt=" Photography 5" />
             </div>
           </div>
           <div className="det">
@@ -49,11 +49,11 @@ const Photoinfo3 = () => {
         <div className="de" style={{ flexDirection: "row-reverse" }}>
           <div className="cont">
             <div className="ma">
-              <img className="trad" src="https://images.pexels.com/photos/725458/pexels-photo-725458.jpeg?auto=compress&cs=tinysrgb&w=600" alt=" Photography 6" />
-              <img className="trad" src="https://images.pexels.com/photos/1345352/pexels-photo-1345352.jpeg?auto=compress&cs=tinysrgb&w=600" alt=" Photography 7" />
-              <img className="trad" src="https://images.pexels.com/photos/27635494/pexels-photo-27635494/free-photo-of-a-bride-in-red-and-white-sitting-on-a-couch.jpeg?auto=compress&cs=tinysrgb&w=600" alt=" Photography 8" />
-              <img className="trad" src="https://images.pexels.com/photos/11146331/pexels-photo-11146331.jpeg?auto=compress&cs=tinysrgb&w=600" alt=" Photography 9" />
-              <img className="trad" src="https://images.pexels.com/photos/725458/pexels-photo-725458.jpeg?auto=compress&cs=tinysrgb&w=600" alt=" Photography 10" />
+              <img className="trad" src="https://images.squarespace-cdn.com/content/v1/52dbc2b2e4b049da570105f6/1593923649994-QECTZB3GPVO8X12HDGPU/138_1_P%26R_Highlights_www.samandekta.com-1017.jpg?format=2500w" alt=" Photography 6" />
+              <img className="trad" src="https://5.imimg.com/data5/NF/QD/HU/SELLER-24212287/cinematic-wedding-photography-cinematic-videography.jpg" alt=" Photography 7" />
+              <img className="trad" src="https://www.weddingsutra.com/images/Vendor_Images/Photographer/studio-right-click/studio-right-click-01.jpg" alt=" Photography 8" />
+              <img className="trad" src="https://www.atlhea.in/wp-content/uploads/2020/11/blog18.jpg" alt=" Photography 9" />
+              <img className="trad" src="https://i.pinimg.com/736x/7f/99/c9/7f99c91d57e5193146f6ab8f7a7b7967.jpg" alt=" Photography 10" />
             </div>
           </div>
           <div className="we">
@@ -74,7 +74,7 @@ const Photoinfo3 = () => {
         </div>
         <div className="album">
           <div>
-            <a href="#">
+            <a href="https://drive.google.com/file/d/168jwlp8FnGr032d812oFqegTy4k_RLiM/view?usp=drive_link">
               <img
                 src=""
                 alt="Our Album"
@@ -83,7 +83,7 @@ const Photoinfo3 = () => {
           </div>
           <p className='alp'>OUR ALBUM</p>
           <div className="butt">
-            <a href="">
+            <a href="https://drive.google.com/file/d/168jwlp8FnGr032d812oFqegTy4k_RLiM/view?usp=drive_link">
               <button className='buttt'>View Album</button>
             </a>
           </div>
@@ -123,6 +123,7 @@ const Photoinfo3 = () => {
           <button className="butt2"> contact us </button>
         </Link>
         </div>
+        <div className='tea'><p>FOR TEASURE AND HIGHLIGHTS:- ₹1600</p></div>
 
       </div>
     

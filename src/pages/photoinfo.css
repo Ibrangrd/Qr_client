@@ -1,10 +1,7 @@
 .xxx{
-  height: 1800px;
+  height: 1850px;
   width: 100%;
-
 }
-
-
 .hea{
     text-align: center;
     margin-top: 20px;
@@ -48,13 +45,18 @@
 .trad {
     width: 600px;
     height: 100%;
-    object-fit: cover;
+    object-fit: fill;
+}
+.trad img{
+    width: 600px;
+    height: 100%;
+    object-fit: cover;  
 }
 
 .ma {
     width: 100%;
     display: flex;
-    animation: change 15s infinite;
+    animation: change 5s infinite;
 }
 
 @keyframes change {
@@ -206,14 +208,13 @@
     transition-duration: 0.8s;
   }
 
-  .trad:hover{
+  .album img:hover{
     box-shadow: 2px 2px 15px 2px #F08080;
     transform: translateY(-15px);
-
   }
   .alp{
     font-size: 30px;
-    margin-left: 220px;
+    margin-left: 180px;
   }
   .note{
     margin-left: 850px;
@@ -244,7 +245,7 @@
 
   .buttt2{
     text-align: center;
-    margin-top: 480px;
+    margin-top: 550px;
     text-decoration: none;
     padding: 15px 30px;
     font-size: 32px;
@@ -264,4 +265,9 @@
     background:linear-gradient(270deg,#375965 , #9b88ae);
     font-size: 34px;
   }
- 
+ .tea{
+    margin-left: 300px;
+    margin-top: -150px;
+    font-size: 25px;
+    margin-bottom: 0px;
+ }

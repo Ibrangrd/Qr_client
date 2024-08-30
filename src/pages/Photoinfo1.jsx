@@ -10,17 +10,17 @@ const Photoinfo1 = () => {
           <h1>TRADITIONAL</h1>
           <div className="pri">
             <h2 className='hh'>TYPE A</h2>
-            <h2 className="pri1">₹31000</h2>
+            <h2 className="pri1">₹21000</h2>
           </div>
         </div>
         <div className="de">
           <div className="cont">
             <div className="ma">
-              <img className="trad" src="https://assets.vogue.in/photos/619354b7ea6acf01092aef93/1:1/w_1080,h_1080,c_limit/Rajkummar%20and%20Patralekhaa%20(2).jpg" alt="Traditional Photography 1" />
-              <img className="trad" src="https://assets.vogue.in/photos/619354b7ea6acf01092aef93/1:1/w_1080,h_1080,c_limit/Rajkummar%20and%20Patralekhaa%20(2).jpg" alt="Traditional Photography 2" />
-              <img className="trad" src="https://assets.vogue.in/photos/619354b7ea6acf01092aef93/1:1/w_1080,h_1080,c_limit/Rajkummar%20and%20Patralekhaa%20(2).jpg" alt="Traditional Photography 3" />
-              <img className="trad" src="https://assets.vogue.in/photos/619354b7ea6acf01092aef93/1:1/w_1080,h_1080,c_limit/Rajkummar%20and%20Patralekhaa%20(2).jpg" alt="Traditional Photography 4" />
-              <img className="trad" src="https://assets.vogue.in/photos/619354b7ea6acf01092aef93/1:1/w_1080,h_1080,c_limit/Rajkummar%20and%20Patralekhaa%20(2).jpg" alt="Traditional Photography 5" />
+              <img className="trad" src="https://fashionatestudio.com/wp-content/uploads/2024/05/DSC_3101-scaled.jpg" alt="Traditional Photography 1" />
+              <img className="trad" src="https://i.ibb.co/K71T0jR/Screenshot-2024-08-21-210136.png" alt="Traditional Photography 2" />
+              <img className="trad" src="https://i.ibb.co/LQBDDnW/Screenshot-2024-08-21-205308.png" alt="Traditional Photography 3" />
+              <img className="trad" src="https://i.ibb.co/bP1j4V2/Screenshot-2024-08-21-205837.png" alt="Traditional Photography 4" />
+              <img className="trad" src="https://i.ibb.co/yR2FH4g/Screenshot-2024-08-21-205922.png" alt="Traditional Photography 5" />
             </div>
           </div>
           <div className="det">
@@ -49,11 +49,11 @@ const Photoinfo1 = () => {
         <div className="de" style={{ flexDirection: "row-reverse" }}>
           <div className="cont">
             <div className="ma">
-              <img className="trad" src="https://assets.vogue.in/photos/619354b7ea6acf01092aef93/1:1/w_1080,h_1080,c_limit/Rajkummar%20and%20Patralekhaa%20(2).jpg" alt="Traditional Photography 6" />
-              <img className="trad" src="https://assets.vogue.in/photos/619354b7ea6acf01092aef93/1:1/w_1080,h_1080,c_limit/Rajkummar%20and%20Patralekhaa%20(2).jpg" alt="Traditional Photography 7" />
-              <img className="trad" src="https://assets.vogue.in/photos/619354b7ea6acf01092aef93/1:1/w_1080,h_1080,c_limit/Rajkummar%20and%20Patralekhaa%20(2).jpg" alt="Traditional Photography 8" />
-              <img className="trad" src="https://assets.vogue.in/photos/619354b7ea6acf01092aef93/1:1/w_1080,h_1080,c_limit/Rajkummar%20and%20Patralekhaa%20(2).jpg" alt="Traditional Photography 9" />
-              <img className="trad" src="https://assets.vogue.in/photos/619354b7ea6acf01092aef93/1:1/w_1080,h_1080,c_limit/Rajkummar%20and%20Patralekhaa%20(2).jpg" alt="Traditional Photography 10" />
+              <img className="trad" src="https://i.ibb.co/nnvX1dK/Screenshot-2024-08-21-205940.png" alt="Traditional Photography 6" />
+              <img className="trad" src="https://i.ibb.co/kcJXRC8/Screenshot-2024-08-21-210313.png" alt="Traditional Photography 7" />
+              <img className="trad" src="https://i.ibb.co/tMvkRrF/Screenshot-2024-08-21-210121.png" alt="Traditional Photography 8" />
+              <img className="trad" src="https://i.ibb.co/MBWyqWL/Screenshot-2024-08-21-210236.png" alt="Traditional Photography 9" />
+              <img className="trad" src="https://i.ibb.co/dmX2Q5B/Screenshot-2024-08-21-210244.png" alt="Traditional Photography 10" />
             </div>
           </div>
           <div className="we">
@@ -74,7 +74,7 @@ const Photoinfo1 = () => {
         </div>
         <div className="album">
           <div>
-            <a href="#">
+            <a href="https://drive.google.com/file/d/168jwlp8FnGr032d812oFqegTy4k_RLiM/view?usp=drive_link">
               <img
                 src="https://assets.vogue.in/photos/619354b7ea6acf01092aef93/1:1/w_1080,h_1080,c_limit/Rajkummar%20and%20Patralekhaa%20(2).jpg"
                 alt="Our Album"
@@ -83,7 +83,7 @@ const Photoinfo1 = () => {
           </div>
           <p className='alp'>OUR ALBUM</p>
           <div className="butt">
-            <a href="order.html">
+            <a href="https://drive.google.com/file/d/168jwlp8FnGr032d812oFqegTy4k_RLiM/view?usp=drive_link">
               <button className='buttt'>View Album</button>
             </a>
           </div>
@@ -123,6 +123,7 @@ const Photoinfo1 = () => {
           <button className="butt2"> contact us </button>
         </Link>
         </div>
+        <div className='tea'><p>FOR TEASURE AND HIGHLIGHTS:- ₹1600</p></div>
 
       </div>
     
