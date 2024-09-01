@@ -76,7 +76,7 @@ const Photoinfo2 = () => {
           <div>
             <a href="https://drive.google.com/file/d/1XPzd-pLeJC7jmCz5mKiSL1P1Fr0lsjpV/view?usp=drive_link">
               <img
-                src=""
+                src="https://cdn0.weddingwire.in/article/9763/original/1280/jpg/13679-indian-wedding-album-design-glorious-wedding-album-lead-image.jpeg"
                 alt="Our Album"
               />
             </a>

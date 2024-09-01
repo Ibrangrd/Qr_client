@@ -17,10 +17,10 @@ const Photoinfo5 = () => {
           <div className="cont">
             <div className="ma">
               <img className="trad" src="https://manhattanbride.com/wp-content/uploads/2019/04/Indian-Traditions39-563-Damion-Edwards-Photography.jpg" alt=" Photography 1" />
-              <img className="trad" src="" alt=" Photography 2" />
-              <img className="trad" src="" alt=" Photography 3" />
-              <img className="trad" src="" alt=" Photography 4" />
-              <img className="trad" src="" alt=" Photography 5" />
+              <img className="trad" src="https://www.brides.com/thmb/fFvUE8rwlncLDqY8BYi6KCagqpE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/indian-wedding-Blink-and-Co-Photography-abd9f18a06d84f42b76441f2ddba1434.jpg" alt=" Photography 2" />
+              <img className="trad" src="https://media-api.xogrp.com/images/f4570601-a1e6-4802-86fb-ad9e988066fe~rs_768.h" alt=" Photography 3" />
+              <img className="trad" src="https://cloudfront.slrlounge.com/wp-content/uploads/2022/12/Indian-wedding-photography-Hindu_Wedding_Ceremony-feature.jpg" alt=" Photography 4" />
+              <img className="trad" src="https://lirp.cdn-website.com/28cd0bb4/dms3rep/multi/opt/hindu+wedding+attire-1920w.jpeg" alt=" Photography 5" />
             </div>
           </div>
           <div className="det">
@@ -49,11 +49,11 @@ const Photoinfo5 = () => {
         <div className="de" style={{ flexDirection: "row-reverse" }}>
           <div className="cont">
             <div className="ma">
-              <img className="trad" src="" alt=" Photography 6" />
-              <img className="trad" src="" alt=" Photography 7" />
-              <img className="trad" src="" alt=" Photography 8" />
-              <img className="trad" src="" alt=" Photography 9" />
-              <img className="trad" src="" alt=" Photography 10" />
+              <img className="trad" src="https://cloudfront.slrlounge.com/wp-content/uploads/2022/12/Indian-wedding-photography-Hindu_Wedding_Ceremony-feature.jpg" alt=" Photography 6" />
+              <img className="trad" src="https://irp-cdn.multiscreensite.com/bd6f6ba9/dms3rep/multi/0052-ladywood-estate-fusion-wedding3.jpg" alt=" Photography 7" />
+              <img className="trad" src="https://www.carinaphotographics.com/wp-content/uploads/2021/08/vishnu-mandir-hindu-indian-wedding-photo-35.jpg" alt=" Photography 8" />
+              <img className="trad" src="https://www.brides.com/thmb/R_lday5-wisouqSwDoR88cdUW0U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/megan__rajal_wedding_0772-5728e1e2d7ff452aabfe9823b151ff0e.jpg" alt=" Photography 9" />
+              <img className="trad" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/13eb4c24745363.56339f559bf3e.jpg" alt=" Photography 10" />
             </div>
           </div>
           <div className="we">
@@ -76,7 +76,7 @@ const Photoinfo5 = () => {
           <div>
             <a href="https://drive.google.com/file/d/168jwlp8FnGr032d812oFqegTy4k_RLiM/view?usp=drive_link">
               <img
-                src=""
+                src="https://sdtwedding.com/wp-content/uploads/2024/02/01-Cover-page-1.png"
                 alt="Our Album"
               />
             </a>

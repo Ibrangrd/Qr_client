@@ -76,7 +76,7 @@ const Photoinfo1 = () => {
           <div>
             <a href="https://drive.google.com/file/d/168jwlp8FnGr032d812oFqegTy4k_RLiM/view?usp=drive_link">
               <img
-                src="https://assets.vogue.in/photos/619354b7ea6acf01092aef93/1:1/w_1080,h_1080,c_limit/Rajkummar%20and%20Patralekhaa%20(2).jpg"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyg4d2Mr8uQsjFLkpA2qS9hGWHA2pHXjK0AQ&s"
                 alt="Our Album"
               />
             </a>

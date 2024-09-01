@@ -92,17 +92,23 @@
     }
 }
 
+
+.info100{
+    display: flex;
+    margin-top: 80px;
+}
+.info10{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    width: 500px;
+}
 .ib2 {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     object-fit: cover;
     border-radius: 5px;
 }
-.info100{
-    display: flex;
-    margin-top: 100px;
-}
-
 .info5 {
     display: flex;
     margin-left: 30px;
@@ -129,30 +135,70 @@
     margin-bottom: 30px;
 }
 .ib3{
-    font-size: 20px;
-    font-weight: 900;
+    font-size: 18px;
+    font-weight: 700;
     margin-top: 8px;
-    margin-left: 20px;
+    margin-left: 10px;
 }
-
-.info10{
+.info10b{
     display: flex;
     flex-direction: column;
-    margin-left: 150px;
+    margin-left: 50px;
+}
+.ib2b {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.info5b {
+    display: flex;
+    margin-left: 230px;
+    margin-bottom: 30px;
+}
+.info6b {
+    display: flex;
+    margin-left: 180px;
+    margin-bottom: 30px;
+}
+.info7b {
+    display: flex;
+    margin-left: 130px;
+    margin-bottom: 30px;
+}
+.info8b {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+.info9b {
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.ib3b{
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.info11x{
+ width: 300px;
+ margin-top: 50px;
 }
 .p9{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 700;
-    margin-left: 350px;
+    margin-left: 150px;
 }
 .b9{
     margin-top: 30px;
-    font-size: 28px;
-    font-weight: 700;
+    font-size: 23px;
+    font-weight: 900;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 350px;
+    margin-left: 150px;
     margin-bottom: 0px;
-    width: 500px;
+    width: 300px;
 }
 .bu9{
     text-align: center;
@@ -164,20 +210,20 @@
     margin-top: 50px;
     text-decoration: none;
     padding: 15px 30px;
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 22px;
+    font-weight: 700;
     color: #f1bb0c;
     border: none;
     border-radius: 20px;
     background:linear-gradient(270deg,#3f6061,#5d3352);
     cursor: pointer;
-    margin-left: 400px;
-    width: 300px;
+    margin-left: 170px;
+    width: 200px;
     transition: 1s all ease;
     transition-duration: 0.8s;
   }
   .but9:hover{
     color:#0af1d3;
     background:linear-gradient(270deg,#375965 , #9b88ae);
-    font-size: 28px;
+    font-size: 25px;
   }

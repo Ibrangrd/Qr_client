@@ -76,7 +76,7 @@ const Photoinfo3 = () => {
           <div>
             <a href="https://drive.google.com/file/d/168jwlp8FnGr032d812oFqegTy4k_RLiM/view?usp=drive_link">
               <img
-                src=""
+                src="https://www.pikperfect.com/blog/wp-content/uploads/2020/06/Designing-indian-wedding-album-cover-e1592931796443.jpg"
                 alt="Our Album"
               />
             </a>

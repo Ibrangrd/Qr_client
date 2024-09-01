@@ -12,6 +12,9 @@ import Photoinfo3 from "./pages/Photoinfo3";
 import Photoinfo4 from "./pages/Photoinfo4";
 import Photoinfo5 from "./pages/Photoinfo5";
 import Photoinfo6 from "./pages/Photoinfo6";
+import Photoinfo7 from "./pages/Photoinfo7";
+import Photoinfo8 from "./pages/Photoinfo8";
+import Photoinfo9 from "./pages/Photoinfo9";
 import Photography from "./pages/Photography";
 import Hotel from "./pages/Hotel";
 import Courier from "./pages/Courier";
@@ -49,6 +52,9 @@ const App = () => {
           <Route path="/Photoinfo4" element={<Photoinfo4/>} />
           <Route path="/Photoinfo5" element={<Photoinfo5/>} />
           <Route path="/Photoinfo6" element={<Photoinfo6/>} />
+          <Route path="/Photoinfo7" element={<Photoinfo7/>} />
+          <Route path="/Photoinfo8" element={<Photoinfo8/>} />
+          <Route path="/Photoinfo9" element={<Photoinfo9/>} />
           <Route path="/Hotel" element={<Hotel/>} />       
           <Route path="/Courier" element={<Courier/>}/>
           <Route path="/Cars" element={<Cars/>}/>            
