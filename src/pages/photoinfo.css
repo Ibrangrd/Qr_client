@@ -56,7 +56,7 @@
 .ma {
     width: 100%;
     display: flex;
-    animation: change 5s infinite;
+    animation: change 15s infinite;
 }
 
 @keyframes change {
