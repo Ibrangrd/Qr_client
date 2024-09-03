@@ -13,7 +13,7 @@ const Photoinfo1 = () => {
             <h2 className="pri1">₹21000</h2>
           </div>
         </div>
-        <div className="de">
+        <div className="de1">
           <div className="cont">
             <div className="ma">
               <img className="trad" src="https://fashionatestudio.com/wp-content/uploads/2024/05/DSC_3101-scaled.jpg" alt="Traditional Photography 1" />
@@ -46,7 +46,7 @@ const Photoinfo1 = () => {
         <div className="co">
           <p className="ex">Extra Rituals will be charged separatery Rs. 3000/- Per day And Drone,LED wall,LED TV and its accessories will be charged separately.</p>
         </div>
-        <div className="de" style={{ flexDirection: "row-reverse" }}>
+        <div className="de2" >
           <div className="cont">
             <div className="ma">
               <img className="trad" src="https://i.ibb.co/nnvX1dK/Screenshot-2024-08-21-205940.png" alt="Traditional Photography 6" />

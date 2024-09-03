@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 import { useAuth } from "../auth";
 import { toast } from "react-toastify";
 import LOGIN_IMG from "/login.jpg";
@@ -9,6 +9,9 @@ const Login = () => {
     phone: "",
     password: "",
   });
+
+  if(user)
+    return <Navigate to="/"/>
 
   const { isLoggedIn,  isLoading } = useAuth();
 

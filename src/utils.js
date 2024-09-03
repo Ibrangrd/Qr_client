@@ -1,3 +1,7 @@
+export const LOGO_IMG = "https://i.ibb.co/LnRSdjt/logo.png";
+export const HOME_IMG = "https://i.ibb.co/s5ZNqK6/final.jpg";
+export const REG_IMG = "https://i.ibb.co/RDqP0rh/backg.png";
+export const LOGIN_IMG = "https://i.ibb.co/0jHj2q9/back2.png";
 export const QRDetails = [
   {
     id: 1001,
@@ -1785,7 +1789,7 @@ export const video12 = [
   {
     id: "Type4",
     title: "Pre-Wedding",
-    des: "Pre-wedding videography captures the joy and romance of your love story, creating cherished memories before the big day",
+    des: "Pre-wedding videography captures the joy and romance of your love story, creating memories before the big day",
     star: "4.7 🌟",
     rating: "(10 reviews)",
     path: "https://www.pixelworks.in/wp-content/uploads/2017/05/Pre-Wedding-Shoot-2.jpg",

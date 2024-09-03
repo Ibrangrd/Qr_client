@@ -1,9 +1,4 @@
-import { hoverShadowColors } from "../utils";
 const Card = ({ info }) => {
-
-
-  const randomColor =
-    hoverShadowColors[Math.floor(Math.random() * hoverShadowColors.length)];
 
   return (
     <div className="md:w-1/3 w-1/2">
@@ -17,10 +12,10 @@ const Card = ({ info }) => {
           ></img>
           <div className="flex justify-between p-2 w-full">
             <p className="text-3xl font-bold font-pacifico word-break  text-[#C75B7A]">
-              {info.title}
+              {info?.title}
             </p>
             <p className="text-lg font-bold text-green-500">
-              Rs {info.price || 20}
+              Rs {info?.price || 20}
             </p>
           </div>
           <p className="opacity-0 group-hover:opacity-100 duration-700 ease-in-out  font-mono text-gray-500">

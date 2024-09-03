@@ -2,13 +2,15 @@ import { NavLink, Outlet, Navigate } from "react-router-dom";
 import { FaUser, FaHome } from "react-icons/fa";
 import { FaMessage } from "react-icons/fa6";
 import { useAuth } from "../auth";
+import Loading from "./Loading";
 
 const AdminLayout = () => {
   const { user, isLoading } = useAuth();
   // console.log("admin layout", user);
+  
 
   if (isLoading) {
-    return <h1>Loading ...</h1>;
+    return <Loading/>;
   }
 
   if (!user.isAdmin) {

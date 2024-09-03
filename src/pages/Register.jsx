@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 import { useAuth } from "../auth";
 import { toast } from "react-toastify";
-import REG_IMG from "/register.jpg";
+import { REG_IMG } from "../utils";
 
 
 const Register = () => {
@@ -12,9 +12,12 @@ const Register = () => {
     password: "",
   });
 
+  // if(user)
+  //   return <Navigate  to="/"/>
+
   const navigate = useNavigate();
   const { storeTokenInLS, API } = useAuth();
-  const URL = `${API}/api/auth/register`;
+  const URL =` ${API}/api/auth/register`;
 
   // handling the input values
   const handleInput = (e) => {
@@ -76,7 +79,7 @@ const Register = () => {
               </div>
               {/* our main registration code  */}
               <div className="md:mx-10 md:pt-20 md:px-32 px-10 md:w-1/2">
-                <h1 className="text-5xl font-bold underline decoration-blue-600">
+                <h1 className="text-2xl md:text-4xl font-bold font-silter underline decoration-pink-600">
                   Register To Contact Us!
                 </h1>
                 <br />
@@ -89,7 +92,7 @@ const Register = () => {
                       value={user.username}
                       onChange={handleInput}
                       className="p-2 my-4 w-full border-2 border-black rounded-lg"
-                      placeholder="username"
+                      placeholder="Username"
                     />
                   </div>
                   <div>
@@ -100,6 +103,8 @@ const Register = () => {
                       value={user.phone}
                       onChange={handleInput}
                       className="p-2 my-4 w-full border-2 border-black rounded-lg"
+                      placeholder="Phone"
+
                     />
                   </div>
                   <div>
@@ -115,13 +120,13 @@ const Register = () => {
                   </div>
                   <br />
                   <div className="flex justify-between align-bottom">
-                    <button type="submit" className="btn btn-submit font-bold hover:bg-blue-600  hover:scale-110 duration-500  bg-blue-500 text-white">
+                    <button type="submit" className="btn btn-submit font-bold hover:bg-pink-700  hover:scale-105 duration-500  bg-pink-500 text-white">
                       Register
                     </button>
                     <div className="flex">
-                      <p className="font-bold">Already Account ?</p>
+                      <p className="font-bold">Already Account ? </p>
                       <Link to="/login">
-                        <p className="text-blue-500 font-bold">Login</p>
+                        <p className="text-pink-500 font-bold"> Login</p>
                       </Link>
                     </div>
                   </div>

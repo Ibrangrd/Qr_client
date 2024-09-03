@@ -13,7 +13,7 @@ const Service = () => {
       <div className='p3'><p>Elegant Cars: We offer stylish cars to make your arrival and departure memorable.</p></div>
       <div className='p2'><p>Google Maps Integration: Share your venue with a custom Google address for easy guest navigation.</p></div>
       <div className='p1'><p>Decor & Invitations: From stunning decorations to beautifully designed cards and cinematic invitation videos, we've got it covered.</p></div>
-      <div> <h2 className='ml-[100px] mt-[50px] text-5xl font-bold'> What we have:- </h2></div>
+      <div> <h2 className='what'> What we have:- </h2></div>
 
       <div className='mmm'>
       { Slist.map((val) =>{

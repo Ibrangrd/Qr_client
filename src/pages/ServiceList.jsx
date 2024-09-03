@@ -4,7 +4,7 @@ const Slist = (Slist) => {
    return (
       
           <div className='j'>
-          <div className='iii'><img className='ii' src={Slist.imgsrc} />
+          <div className='iii17'><img className='ii' src={Slist.imgsrc} />
           </div>
           <div>
           <div className='h9'> <h1>{Slist.heading}</h1></div>

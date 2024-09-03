@@ -1,8 +1,9 @@
-.xxx{
-  height: 1850px;
-  width: 100%;
+.xxx {
+    height: 1850px;
+    width: 100%;
 }
-.hea{
+
+.hea {
     text-align: center;
     margin-top: 20px;
 }
@@ -27,7 +28,7 @@
     margin-right: 60px;
 }
 
-.de {
+.de1 {
     display: flex;
     margin-top: 60px;
 }
@@ -47,10 +48,11 @@
     height: 100%;
     object-fit: fill;
 }
-.trad img{
+
+.trad img {
     width: 600px;
     height: 100%;
-    object-fit: cover;  
+    object-fit: cover;
 }
 
 .ma {
@@ -111,7 +113,10 @@
     display: flex;
     justify-content: space-evenly;
 }
-
+.de2{
+    display: flex;
+    flex-direction: row-reverse;
+}
 .co {
     display: flex;
     flex-direction: column;
@@ -161,17 +166,19 @@
     margin-left: 80px;
     margin-bottom: 10px;
 }
-.ult{
+
+.ult {
     width: 650px;
     margin-left: 80px;
     font-size: 18px;
 }
-.butt{
+
+.butt {
     text-align: center;
     opacity: 1;
-  }
+}
 
-  .buttt{
+.buttt {
     margin-top: 5px;
     text-decoration: none;
     padding: 15px 30px;
@@ -180,70 +187,78 @@
     color: #ff0a54;
     border: none;
     border-radius: 20px;
-    background:linear-gradient(270deg,#e0fbfc,#ffcbf2);
+    background: linear-gradient(270deg, #e0fbfc, #ffcbf2);
     cursor: pointer;
     margin-left: 25px;
     width: 300px;
     transition: 1s all ease;
     transition-duration: 0.8s;
-  }
-  .buttt:hover{
-    color:#136f63;
-    background:linear-gradient(270deg,#ffdab9 , #d7e3fc);
-     font-size: 22px;  
-  }
-  .album{
+}
+
+.buttt:hover {
+    color: #136f63;
+    background: linear-gradient(270deg, #ffdab9, #d7e3fc);
+    font-size: 22px;
+}
+
+.album {
     margin-top: 50px;
     margin-left: 200px;
     width: 600px;
     height: 600px;
     border-radius: 30px;
 
-  }
-   .album img{
+}
+
+.album img {
     width: 100%;
     height: 500px;
     border-radius: 30px;
     transition: 1s all ease;
     transition-duration: 0.8s;
-  }
+}
 
-  .album img:hover{
+.album img:hover {
     box-shadow: 2px 2px 15px 2px #F08080;
     transform: translateY(-15px);
-  }
-  .alp{
+}
+
+.alp {
     font-size: 30px;
     margin-left: 180px;
-  }
-  .note{
+}
+
+.note {
     margin-left: 850px;
     margin-top: -500px;
-  }
-.h5{
+}
+
+.h5 {
     font-size: 30px;
     font-weight: 500;
 }
 
-  .ter{
- margin-left: 850px;
- margin-top: -350px;
- width: 650px;
-  }
-  .ter h1{
-   font-size: 35px;
-  margin-bottom: 20px;
-  }
-  .ter li{
-    margin-top: 15px;
-  }
+.ter {
+    margin-left: 850px;
+    margin-top: -350px;
+    width: 650px;
+}
 
-  .butt2{
+.ter h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.ter li {
+    margin-top: 15px;
+}
+
+.butt2 {
     text-align: center;
     opacity: 1;
-  }
+}
 
-  .buttt2{
+.buttt2 {
     text-align: center;
     margin-top: 550px;
     text-decoration: none;
@@ -253,21 +268,188 @@
     color: #f1bb0c;
     border: none;
     border-radius: 20px;
-    background:linear-gradient(270deg,#3f6061,#5d3352);
+    background: linear-gradient(270deg, #3f6061, #5d3352);
     cursor: pointer;
     margin-left: 600px;
     width: 300px;
     transition: 1s all ease;
     transition-duration: 0.8s;
-  }
-  .buttt2:hover{
-    color:#0af1d3;
-    background:linear-gradient(270deg,#375965 , #9b88ae);
+}
+
+.buttt2:hover {
+    color: #0af1d3;
+    background: linear-gradient(270deg, #375965, #9b88ae);
     font-size: 34px;
-  }
- .tea{
+}
+
+.tea {
     margin-left: 300px;
     margin-top: -150px;
     font-size: 25px;
     margin-bottom: 0px;
- }
+}
+
+@media (max-width:480px) {
+    .xxx {
+        height: 3000px;
+        width: 100%;
+    }
+    
+    .hea h1 {
+        font-size: 50px;
+    }
+    .pri {
+        color:white;
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    .hh {
+        margin-right: 40px;
+    }
+    .de1 {
+        display: flex;
+        margin-top: 60px;
+        flex-direction: column;
+    }
+    .ex {
+        width: 350px;
+        margin-left:5px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+    .hhhh {
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .ppp {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .de2{
+        display: flex;
+        flex-direction:column;
+    }
+    .cont {
+        width: 300px;
+        height: 400px;
+        border-radius: 30px;
+        margin-left: 20px;
+    }
+
+    .trad {
+        width: 300px;
+    }
+
+    .trad img {
+        width: 300px; 
+    }
+    .det {
+        text-align: center;
+        margin-left: 50px;
+    }
+
+    .h {
+        font-size: 28px;
+    }
+    .co {
+        margin-left: 0px;
+    }
+
+    .hh1 {
+        font-size: 22px;
+    }
+
+    .fir {
+        margin-bottom: 10px;
+    }
+    .we {
+        margin-top: 50px;
+    }
+
+    .hh2 {
+        font-size: 25px;
+        margin-bottom: 8px;
+        font-weight: 700;
+    }
+
+    .hhh {
+        font-size: 18px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    .ult {
+        width: 250px;
+        margin-left: 40px;
+        font-size: 15px;
+    }
+    .buttt {
+        margin-top: 5px;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 20px;
+        margin-left: 15px;
+        width: 150px;
+    }
+
+    .album {
+        margin-top: 50px;
+        margin-left: 50px;
+        width: 200px;
+        height: 250px;
+    }
+
+    .album img {
+        width: 100%;
+        height: 150px;
+        border-radius: 30px;
+    }
+
+    .alp {
+        font-size: 20px;
+        margin-left: 80px;
+    }
+
+    .note {
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+
+    .h5 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .ter {
+        margin-left: 50px;
+        margin-top: 0px;
+        width: 250px;
+    }
+
+    .ter h1 {
+        font-size: 22px;
+        margin-left: -42px;
+        font-weight: 800;
+        margin-bottom: 15px;
+    }
+
+    .ter li {
+        margin-left: -30px;
+        margin-top: 15px;
+    }
+    .buttt2 {
+        margin-top: 100px;
+        padding: 10px 20px;
+        font-size: 22px;
+        margin-left: 130px;
+        width: 150px;
+    }
+
+    .tea {
+        margin-left: 15px;
+        margin-top: -130px;
+        font-size: 22px;
+        margin-bottom: 0px;
+    }
+}

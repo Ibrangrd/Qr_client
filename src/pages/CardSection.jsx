@@ -4,7 +4,8 @@ import CardList from "./CardList";
 const CardSection = () => {
   const [showCategory, setShowCategory] = useState("All");
   const [price, setPrice] = useState(10000);
-  const [applyFilter, setApplyFilter] = useState(false);
+  const [pageNumber, setPageNumber] = useState(1);
+  const cardPerPage = 9;
   return (
     <div className="p-2 ">
       <div className="text-center">
@@ -20,8 +21,8 @@ const CardSection = () => {
               className="select select-secondary w-full max-w-xs"
               onChange={(e) => setShowCategory(e.target.value)}
             >
-              <option disabled selected>
-                Choose a religion you're looking for
+              <option disabled defaultValue>
+                {"Choose a religion you're looking for"}
               </option>
               <option>All</option>
               <option>Hindu</option>
@@ -44,7 +45,9 @@ const CardSection = () => {
         <CardList
           showCategory={showCategory}
           price={price}
-          applyFilter={applyFilter}
+          pageNumber={pageNumber}
+          cardPerPage={cardPerPage}
+          setPageNumber={setPageNumber}
         />
       </div>
     </div>
