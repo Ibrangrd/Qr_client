@@ -260,7 +260,7 @@
 
 .buttt2 {
     text-align: center;
-    margin-top: 550px;
+    margin-top: 510px;
     text-decoration: none;
     padding: 15px 30px;
     font-size: 32px;
@@ -332,10 +332,10 @@
         flex-direction:column;
     }
     .cont {
-        width: 300px;
-        height: 400px;
+        width: 340px;
+        height: 236px;
         border-radius: 30px;
-        margin-left: 20px;
+        margin-left: 10px;
     }
 
     .trad {

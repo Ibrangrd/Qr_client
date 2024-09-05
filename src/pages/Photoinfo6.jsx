@@ -13,7 +13,7 @@ const Photoinfo6 = () => {
             <h2 className="pri1">₹14000</h2>
           </div>
         </div>
-        <div className="de">
+        <div className="de1">
           <div className="cont">
             <div className="ma">
               <img className="trad" src="https://kamatharjun.b-cdn.net/wp-content/uploads/2022/03/Indian-Wedding-Photography-Kunal-Chaitra-77.jpeg" alt=" Photography 1" />
@@ -46,7 +46,7 @@ const Photoinfo6 = () => {
         <div className="co">
           <p className="ex">Extra Rituals will be charged separatery Rs. 4000/- Per day And Drone,LED wall,LED TV and its accessories will be charged separately.</p>
         </div>
-        <div className="de" style={{ flexDirection: "row-reverse" }}>
+        <div className="de" >
           <div className="cont">
             <div className="ma">
               <img className="trad" src="https://image.wedmegood.com/resized/800X/uploads/member/412177/1532739203_25488435_1983119855297124_6517770107131706388_o.jpg" alt=" Photography 6" />

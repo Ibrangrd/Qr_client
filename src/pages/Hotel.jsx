@@ -24,11 +24,10 @@ const Hotel = () => {
             Sno={val.Sno}
             rate={val.rate}
             />
-            
             <div className="p-2 bg-inherit">
               <div className="bg-inherit">
                 <div className="text-center">
-                  <p className="mt-4 text-5xl font-bold bg-gradient-to-r from-pink-400 via-grey-500 to-red-400 inline-block text-transparent bg-clip-text">
+                  <p className="mt-4 text-3xl md:text-4xl lg:text-5xl  font-bold bg-gradient-to-r from-pink-400 via-grey-500 to-green-400 inline-block text-transparent bg-clip-text">
                     HOTEL SAMPLE VIDEOS
                   </p>
                 </div>

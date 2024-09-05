@@ -13,7 +13,7 @@ const Photoinfo3 = () => {
             <h2 className="pri1">₹31000</h2>
           </div>
         </div>
-        <div className="de">
+        <div className="de1">
           <div className="cont">
             <div className="ma">
               <img className="trad" src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/1f573524745363.56339f5559a8e.jpg" alt=" Photography 1" />
@@ -46,7 +46,7 @@ const Photoinfo3 = () => {
         <div className="co">
           <p className="ex">Extra Rituals will be charged separatery Rs. 5000/- Per day And Drone,LED wall,LED TV and its accessories will be charged separately.</p>
         </div>
-        <div className="de" style={{ flexDirection: "row-reverse" }}>
+        <div className="de2">
           <div className="cont">
             <div className="ma">
               <img className="trad" src="https://images.squarespace-cdn.com/content/v1/52dbc2b2e4b049da570105f6/1593923649994-QECTZB3GPVO8X12HDGPU/138_1_P%26R_Highlights_www.samandekta.com-1017.jpg?format=2500w" alt=" Photography 6" />

@@ -21,6 +21,7 @@ const HotelList = ({img1, img2, img3, img4, img5, img6, Hname, Hdes, Rno, Sno, r
     </div>
 
     <div className="info100">
+    <div className="resinfo">
     <div className="info10">
    <div className="info5"> 
    <div> <img className="ib2" src="https://www.pngitem.com/pimgs/m/543-5431496_hotel-room-icon-clipart-png-download-hotel-room.png" /> </div>
@@ -59,11 +60,12 @@ const HotelList = ({img1, img2, img3, img4, img5, img6, Hname, Hdes, Rno, Sno, r
    </div>
    <div className="info8b"> 
    <div> <img className="ib2b" src="https://cdn.icon-icons.com/icons2/865/PNG/512/Citycons_plate_icon-icons.com_67926.png" /> </div>
-  <div className="ib3b"> <p className="ac"> Plating system available </p> </div>
+  <div className="ib3b"> <p className="ac"> Plating system  </p> </div>
    </div>
    <div className="info9b">
    <div> <img className="ib2b" src="https://cdn-icons-png.flaticon.com/512/184/184133.png" /> </div>
   <div className="ib3b"> <p className="ac"> {Sno} Seating </p> </div>
+   </div>
    </div>
    </div>
      

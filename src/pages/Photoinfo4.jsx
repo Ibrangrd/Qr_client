@@ -13,7 +13,7 @@ const Photoinfo4 = () => {
             <h2 className="pri1">₹22000</h2>
           </div>
         </div>
-        <div className="de">
+        <div className="de1">
           <div className="cont">
             <div className="ma">
               <img className="trad" src="https://onehorizonproductions.com/wp-content/uploads/2021/10/Pre-wedding-photoshoot-by-one-horizon-productions-26.jpg" alt=" Photography 1" />
@@ -46,7 +46,7 @@ const Photoinfo4 = () => {
         <div className="co">
           <p className="ex">Extra Rituals will be charged separatery Rs. 5000/- Per day And Drone,LED wall,LED TV and its accessories will be charged separately.</p>
         </div>
-        <div className="de" style={{ flexDirection: "row-reverse" }}>
+        <div className="de2" >
           <div className="cont">
             <div className="ma">
               <img className="trad" src="https://onehorizonproductions.com/wp-content/uploads/2023/05/OHP-6728-scaled.webp" alt=" Photography 6" />
