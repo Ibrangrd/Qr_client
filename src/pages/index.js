@@ -27,6 +27,7 @@ import Photoinfo6 from "./Photoinfo6";
 import Photoinfo7 from "./Photoinfo7";
 import Photoinfo8 from "./Photoinfo8";
 import Photoinfo9 from "./Photoinfo9";
+import Scanvideo from "./Scan";
 import Hotel from "./Hotel";
 import Courier from "./Courier";
 import Cars from "./Cars";
@@ -46,7 +47,6 @@ export {
   AdminUpdate,
   AdminLayout,
   AdminUsers,
-  // Test,
   Register,
   Login,
   Logout,
@@ -62,6 +62,7 @@ export {
   Photoinfo7,
   Photoinfo8,
   Photoinfo9,
+  Scanvideo,
   Hotel,
   Courier,
   Cars,

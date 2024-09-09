@@ -32,7 +32,7 @@ const Photography = () => {
       <Slider images={Images2} />
     </div>
     <h1 className="he">ALBUM </h1>
-    <div className="albums">
+    <div className="albums2">
       {
         albumData.map((va) =>
         {

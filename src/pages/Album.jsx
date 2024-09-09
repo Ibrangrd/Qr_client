@@ -3,7 +3,7 @@ import React from "react";
 const Album = ({link , imgsrc }) => {
 
     return (
-        <div className="album">
+        <div className="album2">
             <div>
                 <a href={link}>
                     <img
