@@ -5,12 +5,12 @@ const VideoCard = ({ info }) => {
   const [play, setPlay] = useState(false);
 
   return (
-    <div className="md:mx-8  w-full md:w-fit my-10  ">
-      <div className="relative md:w-[560px] w-[100vw] h-[315px]">
+    <div className="md:mx-8  w-full md:w-fit my-10 px-8 ">
+      <div className="relative">
         <iframe
-          width="560"
-          height="315"
-          className="rounded-xl flex justify-center text-center  "
+          // width="560"
+          // height="315"
+          className="rounded-xl flex justify-center text-center md:w-[560px] md:h-[315px]  "
           onMouseEnter={() => setPlay(true)}
           onMouseLeave={() => setPlay(false)}
           src={play ? info?.urlWithPlay : info?.urlWithoutPlay}
@@ -23,7 +23,7 @@ const VideoCard = ({ info }) => {
           <FaPlayCircle className="text-red-500 md:block hidden absolute left-[50%] -translate-x-[50%]  top-[50%] -translate-y-[50%]  w-[15vw] h-[12vh]" />
         )}
       </div>
-      <div className="md:w-[560px] w-[100vw] bg">
+      <div className="md:w-[560px] w-[80vw] ">
         <div className="flex justify-between ">
           <p className="text-3xl  font-pacifico py-2 text-orange-700 ">{info.title}</p>
           <p className="flex align-baseline">
