@@ -28,6 +28,7 @@ const CardSection = () => {
               <option>Hindu</option>
               <option>Muslim</option>
               <option>Christian</option>
+              <option>Premium</option>
             </select>
           </div>
           <div className="flex mx-4">
