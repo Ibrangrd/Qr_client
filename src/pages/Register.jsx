@@ -79,8 +79,8 @@ const Register = () => {
               </div>
               {/* our main registration code  */}
               <div className="md:mx-10 md:pt-20 md:px-32 px-10 md:w-1/2">
-                <h1 className="text-2xl md:text-4xl font-bold font-silter underline decoration-pink-600">
-                  Register To Contact Us!
+                <h1 className="text-2xl text-center md:text-4xl font-bold font-silter underline decoration-pink-600">
+                  Register
                 </h1>
                 <br />
                 <form onSubmit={handleSubmit}>
