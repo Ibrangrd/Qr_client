@@ -5,6 +5,7 @@ import { Slist } from '../utils';
 const Service = () => {
   return (
     <>
+    <div className="bg-gradient-to-b from-[#984E4E] to-[#4646A4]">
       <div className='text-center text-5xl font-bold'> OUR SERVICES</div>
       <div className='xx'><h3>Our service is the best in both price and quality. We offer complete solutions for your wedding,
         ensuring every detail is taken care of, from the venue to the final touches.</h3></div>
@@ -29,6 +30,7 @@ const Service = () => {
 
         );
       })}
+     </div>
      </div>
     </>
   );

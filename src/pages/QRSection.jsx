@@ -3,6 +3,7 @@ import { QRDetails } from "../utils";
 
 const QRSection = () => {
   return (
+    <div className="bg-gradient-to-b from-[#3c6e71] to-[#bfd7ea]">
     <div className="p-2 bg-inherit">
       <div className="bg-inherit">
         <div className="text-center">
@@ -12,6 +13,7 @@ const QRSection = () => {
         </div>
         <QRList qrDetails={QRDetails} />
       </div>
+    </div>
     </div>
   );
 };

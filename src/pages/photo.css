@@ -2,7 +2,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* background: linear-gradient(rgb(152, 78, 78), rgb(70, 70, 164)); */
+   /* background: linear-gradient(rgb(152, 78, 78), rgb(70, 70, 164));  */
 
 }
 
@@ -47,6 +47,7 @@ body {
   margin-left: 25px;
   border: 2px solid #F08080;
   transform: translateY(-50px);
+  box-shadow: 2px 2px 15px 2px #226f54;
   transition: 1s all ease;
   transition-duration: 0.8s;
 }

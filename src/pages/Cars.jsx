@@ -6,6 +6,7 @@ import cardat from "../utils";
 const Cars =() =>{
     return(
     <>
+    
   <div className="bo">
   <h1 className="f">OUR CAR COLLECTION</h1>
   <div className="space11"></div>
@@ -24,7 +25,6 @@ const Cars =() =>{
   })}
   </div>
   </div>
-
   </>
     );
 };

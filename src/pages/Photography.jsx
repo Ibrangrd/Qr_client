@@ -10,6 +10,7 @@ const Photography = () => {
 
     return (
       <>
+      <div className="bg-gradient-to-b from-[#fffffc] via-[#e0b1cb] to-[#f5f9e9]">
     <h1 className="head">PHOTOGRAPHY</h1>
     <div className="space"></div>
     <div className="con">
@@ -56,6 +57,7 @@ const Photography = () => {
           <VideoList videoDetails={videosample} />
         </div>
       </div>
+    </div>
     </div>
     </>
     );

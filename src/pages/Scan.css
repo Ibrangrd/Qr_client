@@ -3,11 +3,13 @@
     width: 100%;
     display: flex;
 }
+
 iframe {
     border: 1px solid pink;
     border-radius: 15px;
     box-shadow: 0 4px 8px #e63946;
-  }
+}
+
 .f1 {
     display: flex;
     flex-direction: column;
@@ -21,7 +23,7 @@ iframe {
     /* background: no-repeat; */
     background-image: url('https://img.freepik.com/free-vector/pastel-pink-hand-painted-watercolour-background_1048-17931.jpg');
     background-size: 100% 100%;
-    background-repeat:no-repeat ;
+    background-repeat: no-repeat;
     width: 900px;
     width: 50%;
 
@@ -32,79 +34,102 @@ iframe {
     width: 25%;
     height: 100%;
 }
-.scanvi{
-    margin-top:100px; ;
-    margin-left:80px;
+
+.scanvi {
+    margin-top: 100px;
+    ;
+    margin-left: 80px;
 }
-.weds{
+
+.weds {
     font-weight: 700;
 }
-.couple{
+
+.couple1 {
     font-size: 45px;
     font-weight: 700;
     text-shadow: 2px 5px 5px rgba(247, 64, 177, 0.5);
-    animation: changecolor 10s linear infinite ;
+    animation: changecolor 10s linear infinite;
 }
+.couple2 {
+    font-size: 45px;
+    font-weight: 700;
+    text-shadow: 2px 5px 5px rgba(247, 64, 177, 0.5);
+    animation: changecolor 10s linear infinite;
+}
+
 @keyframes changecolor {
-    0%{
-    color: #fb8500;
+    0% {
+        color: #fb8500;
     }
-    25%{
-color: #219ebc;
+
+    25% {
+        color: #219ebc;
     }
-    50%{
+
+    50% {
         color: white;
     }
-75%{
-    color:#ef233c;
+
+    75% {
+        color: #ef233c;
+    }
+
+    100% {
+        color: #7209b7;
+    }
 }
-100%{
-    color:#7209b7;
-}
-}
-.fromcon{
+
+.fromcon {
     display: flex;
     flex-direction: column;
     margin-top: 200px;
     /* margin-left: 90px; */
 
 }
-.from{
+
+.from {
     text-align: center;
     font-size: 20px;
     font-weight: 600;
     color: #d81159;
 }
-.nameparent{
+
+.nameparent {
     text-align: center;
     font-size: 20px;
     font-weight: 600;
     color: #124559;
 }
-.shop{
+
+.shop {
     text-align: center;
     font-size: 20px;
     font-weight: 600;
-    color:#70a054;
+    color: #70a054;
 }
-.address{
+
+.address {
     text-align: center;
     font-size: 20px;
     font-weight: 600;
-    color:#890620;
+    color: #890620;
 }
-.mno{
+
+.mno {
     text-align: center;
     font-size: 20px;
     font-weight: 600;
     color: #2a4c8c;
 }
-.aftermar{
+
+.aftermar {
     margin-top: 120px;
     text-align: center;
     font-size: 26px;
     color: #64a6bd;
 }
+
 .love {
     border-radius: 10px;
     height: 80px;
@@ -112,21 +137,26 @@ color: #219ebc;
     object-fit: cover;
     animation: heart_size 10s linear infinite;
 }
+
 @keyframes heart_size {
-    0%{
-    scale:1;
+    0% {
+        scale: 1;
     }
-    25%{
-        scale:1.2;  
+
+    25% {
+        scale: 1.2;
     }
-    50%{
-        scale:1.4;   
+
+    50% {
+        scale: 1.4;
     }
-    75%{
-        scale:1.2;
+
+    75% {
+        scale: 1.2;
     }
-    100%{
-        scale:1;
+
+    100% {
+        scale: 1;
 
     }
 
@@ -137,73 +167,85 @@ color: #219ebc;
     margin-top: 40px;
     display: flex;
 }
-.location{
+
+.location {
     font-size: 25px;
     font-weight: 650;
     margin-top: 60px;
     color: #6c9a8b;
     text-align: center;
 }
-.lobut{
+
+.lobut {
     width: 150px;
     font-size: 25px;
     font-weight: 700;
     margin-top: 8px;
-    color:#1a659e;
+    color: #1a659e;
     margin-left: 320px;
     transition: all 1s ease;
     transition-duration: 0.8s;
 }
-.lobut:hover{
+
+.lobut:hover {
     font-size: 27px;
 }
-.flower{
+
+.flower {
     margin-top: 20%;
     margin-left: 50px;
     width: 80%;
     height: 40%;
     background-size: cover;
-    background-position: center; 
-   animation: changeima 20s linear infinite;
+    background-position: center;
+    animation: changeima 20s linear infinite;
 
 }
+
 @keyframes changeima {
-    0%{
+    0% {
         background-image: url('https://i.postimg.cc/T2LWxRYg/aster-attractive-flower-images-removebg-preview-1.png');
     }
-    25%{
+
+    25% {
         background-image: url('https://i.postimg.cc/MGVrgkfS/lotus-978659-640-removebg-preview.png');
-    }  
-    50%{
+    }
+
+    50% {
         background-image: url('https://i.postimg.cc/4yS5mwHP/pexels-jonaskakaroto-736230-removebg-preview.png');
     }
-    75%{
+
+    75% {
         background-image: url('https://i.postimg.cc/gjCZC76C/white-flowers-add-beauty-to-garden-summer-lead-getty-0723-cb502070569a404eb5825cfd21dd7169-removebg.png');
-    } 
-     100%{
+    }
+
+    100% {
         background-image: url('https://i.postimg.cc/7LjTc6JB/pexels-pixabay-39517-removebg-preview.png');
     }
 }
-.invitation{
+
+.invitation {
     margin-top: 10%;
     margin-left: 50px;
     width: 80%;
     height: 40%;
     background-size: cover;
-    background-position: center; 
-   animation: changeima2 4s steps(1) infinite;
+    background-position: center;
+    animation: changeima2 4s steps(1) infinite;
 }
 
 @keyframes changeima2 {
-    0%{
+    0% {
         background-image: url('https://i.postimg.cc/QCfNcW42/bunnyjdxtr-removebg-preview.png');
     }
-   50%{
-    background-image: url('https://i.postimg.cc/9MSJ0xVK/srthysrty-removebg-preview.png');
-   }
-   
+
+    50% {
+        background-image: url('https://i.postimg.cc/9MSJ0xVK/srthysrty-removebg-preview.png');
+    }
+
 }
-.bumar{
+
+.bumar {
     margin-top: 30px;
     text-align: center;
     width: 150px;
@@ -211,11 +253,138 @@ color: #219ebc;
     border-radius: 15px;
     margin-left: 120px;
 }
-.butx{
+
+.butx {
     font-size: 30px;
     font-weight: 700px;
     text-align: center;
-    color:#ff6b35;
+    color: #ff6b35;
     text-align: center;
-    
+}
+
+@media(max-width:480px) {
+    .scanbg {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .f1 {
+        width: 100%;
+        height: 30%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .f2 {
+        width: 100%;
+        height: 70%;
+    }
+
+    .f3 {
+        background-image: url('https://img.freepik.com/free-vector/pastel-pink-hand-painted-watercolour-background_1048-17931.jpg');
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+
+    iframe {
+        border: 1px solid pink;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px #e63946;
+        width: 90%;
+        height: 280px;
+        margin-left: 20px;
+    }
+
+    .scanvi {
+        margin-top: 0px;
+        ;
+        margin-left: 0px;
+    }
+
+    .weds {
+        font-weight: 700;
+    }
+
+    .couple1 {
+        font-size: 25px;
+        margin-top: -250px;
+        margin-left: 30px;
+    }
+    .couple2 {
+        font-size: 25px;
+        margin-top: -250px;
+        margin-left: 20px;
+    }
+    .aftermar {
+        font-size: 20px;
+    }
+
+    .love {
+        border-radius: 8px;
+        height: 60px;
+        width: 40px;
+        margin-top: -260px;
+        margin-left: 20px;
+    }
+
+    .weds {
+        margin-left: 20px;
+        margin-top: 40px;
+        display: flex;
+    }
+
+    .location {
+        font-size: 18px;
+        margin-top: 60px;
+        margin-left: -210px;
+    }
+
+    .lobut {
+        width: 100px;
+        font-size: 20px;
+        margin-left: 20px;
+        transition: all 1s ease;
+        transition-duration: 0.8s;
+    }
+
+    .lobut:hover {
+        font-size: 20px;
+    }
+
+    .flower {
+        margin-left: 0px;
+        margin-top: 10%;
+        margin-left: 5px;
+        width: 80%;
+        height: 80%;
+        background-size: cover;
+        background-position: center;
+        animation: changeima 20s linear infinite;
+    }
+
+    .invitation {
+        margin-left: 0px;
+        margin-top: 10%;
+        margin-left: 50px;
+        width: 80%;
+        height: 80%;
+    }
+
+    .bumar {
+        margin-top: 20px;
+        text-align: center;
+        width: 100px;
+        background-color: #e8d7ff;
+        border-radius: 15px;
+        margin-left: 10px;
+    }
+
+    .butx {
+        font-size: 25px;
+    }
+
+
 }

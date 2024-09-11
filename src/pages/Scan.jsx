@@ -11,12 +11,12 @@ const Scanvideo = () => {
         </div>
         <div className="f2">
           <div className="weds">
-            <h1 className="couple">ARYAN</h1>
+            <h1 className="couple1">ARYAN</h1>
             <img
               className="love"
               src="https://i.postimg.cc/0QNBbMSM/sdrehyerd.png'"
             />
-            <h1 className="couple">PAYAL</h1>
+            <h1 className="couple2">PAYAL</h1>
           </div>
           <div className="scanvi">
             <iframe
@@ -32,11 +32,9 @@ const Scanvideo = () => {
           </div>
           <div className="location"> Venue Location </div>
           <div className="lobut">
-            {" "}
             <a href="https://maps.app.goo.gl/nUAZkBhQmt7M2n7SA" target="_blank">
-              {" "}
               <button> Click Here </button>
-            </a>{" "}
+            </a>
           </div>
         </div>
         <div className="f3">
