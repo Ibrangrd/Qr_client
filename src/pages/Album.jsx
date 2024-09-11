@@ -12,9 +12,9 @@ const Album = ({link , imgsrc }) => {
                     />
                 </a>
             </div>
-            <div className="bu">
+            <div className="albu">
                 <a href={link}>
-                    <button className="but">View Album</button>
+                    <button className="albut">View Album</button>
                 </a>
             </div>
         </div>

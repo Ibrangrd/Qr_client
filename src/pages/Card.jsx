@@ -14,7 +14,7 @@ const Card = ({ info }) => {
             <p className="text-lg sm:text-3xl font-bold  text-[#C75B7A]">
               {info?.title}
             </p>
-            <p className="text-lg sm:text-lg font-bold text-green-500">
+            <p className="text-lg sm:text-xl font-bold text-green-500">
             ₹{info?.price || 20}
             </p>
           </div>

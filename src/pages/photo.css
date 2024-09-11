@@ -2,7 +2,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background: linear-gradient(rgb(152, 78, 78), rgb(70, 70, 164));
+  /* background: linear-gradient(rgb(152, 78, 78), rgb(70, 70, 164)); */
 
 }
 
@@ -11,7 +11,7 @@ body {
   font-size: 80px;
   color: #05668d;
   font-weight: 700;
-  text-shadow: 2px 5px 5px #f2b5d4;
+  text-shadow: 2px 5px 5px #fae0e4;
 }
 
 .space {
@@ -102,6 +102,36 @@ body {
   color: black;
 }
 
+.albu {
+  text-align: center;
+  opacity: 1;
+  transform: translateY(10px);
+}
+
+.albut {
+  text-align: center;
+  margin-top: 10px;
+  align-items: center;
+  text-decoration: none;
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #183446;
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(270deg, #97dffc, #613dc1);
+  cursor: pointer;
+  margin-left: 10px;
+  width: 200px;
+  transition: 1s all ease;
+  transition-duration: 0.8s;
+}
+
+.albut:hover {
+  color: #136f63;
+  background: linear-gradient(270deg, #ffdab9, #d7e3fc);
+  font-size: 22px;
+}
 .bu {
   text-align: center;
   opacity: 1;
@@ -116,10 +146,10 @@ body {
   padding: 15px 30px;
   font-size: 20px;
   font-weight: 600;
-  color: #ff0a54;
+  color: #29bf12;
   border: none;
   border-radius: 20px;
-  background: linear-gradient(270deg, #e0fbfc, #ffcbf2);
+  background: linear-gradient(180deg, #9ad1d4, #fff8d6);
   cursor: pointer;
   margin-left: 10px;
   width: 200px;
@@ -356,11 +386,11 @@ body {
       font-size: 43px;
     }
   
-    .albums {
+    .albums2 {
       display: flex;
       flex-direction: column;
     }
-    .album {
+    .album2 {
       margin-left: 25px;
       margin-top: 32px;
       width: 330px;
@@ -368,7 +398,7 @@ body {
       border-radius: 20px;
     }
     
-    .album img {
+    .album2 img {
       width: 300px;
       height: 275px;
       border-radius: 15px;
@@ -376,12 +406,12 @@ body {
       transition-duration: 0.8s;
     }
     
-    .album img:hover {
+    .album2 img:hover {
       height: 280px;
       width: 340px;
     }
     
-    .album .bu {
+    .album2 .bu {
       margin-top: 50px;
     }
 }
@@ -450,24 +480,27 @@ body {
     font-size: 15px;
     transform: translateY(-30px);
   }
-  
-  .bu {
+  .bu{
     transform: translateY(-30px);
+
+  }
+  .albu {
+    transform: translateY(10px);
   }
   
-  .but {
-    margin-top: 8px;
-    padding: 10px 20px;
-    font-size: 17px;
-    border-radius: 15px;
-    margin-left: 7px;
+  .albut {
+    font-size: 16px;
+    margin-left: -55px;
     width: 150px;
+    height: 50px;
+    background: linear-gradient(270deg, #89c2d9, #e0b1cb);
+    color: #7b2cbf;
     transition: 1s all ease;
     transition-duration: 0.8s;
   }
   
-  .but:hover {
-    font-size: 19px;
+  .albut:hover {
+    font-size: 16px;
   }
   
   
@@ -490,7 +523,7 @@ body {
   .banner .slider .item {
     position: absolute;
     inset: 0 0 0 0;
-    transform: rotateY(calc((var(--position) - 1) * 360deg / var(--quantity))) translateZ(180px);
+    transform: rotateY(calc((var(--position) - 1) * 360deg / var(--quantity))) translateZ(280px);
   }
   
   .banner .slider .item img {
@@ -505,32 +538,32 @@ body {
     font-size: 40px;
   }
 
-  .albums {
+  .albums2 {
     display: flex;
     flex-direction: column;
   }
-  .album {
-    margin-left: 20px;
+  .album2 {
+    margin-left: 52px;
     margin-top: 30px;
     width: 300px;
     height: 350px;
     border-radius: 20px;
   }
   
-  .album img {
-    width: 275px;
-    height: 250px;
+  .album2 img {
+    width: 250px;
+    height: 225px;
     border-radius: 15px;
     transition: 1s all ease;
     transition-duration: 0.8s;
   }
   
-  .album img:hover {
-    height: 275px;
-    width: 325px;
+  .album2 img:hover {
+    height: 250px;
+    width: 275px;
   }
   
-  .album .bu {
+  .album2 .bu {
     margin-top: 45px;
   }
 }

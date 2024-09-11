@@ -8,9 +8,8 @@ const VideoCard = ({ info }) => {
     <div className="md:mx-8  w-full md:w-fit my-10 px-8 ">
       <div className="relative">
         <iframe
-          // width="560"
-          // height="315"
-          className="rounded-xl flex justify-center text-center md:w-[560px] md:h-[315px]  "
+          
+          className="rounded-xl flex justify-center text-center md:w-[560px] md:h-[315px]"
           onMouseEnter={() => setPlay(true)}
           onMouseLeave={() => setPlay(false)}
           src={play ? info?.urlWithPlay : info?.urlWithoutPlay}
@@ -25,13 +24,13 @@ const VideoCard = ({ info }) => {
       </div>
       <div className="md:w-[560px] w-[80vw] ">
         <div className="flex justify-between ">
-          <p className="text-3xl  font-pacifico py-2 text-orange-700 ">{info.title}</p>
-          <p className="flex align-baseline">
+          <p className=" text-xl md:text-5xl py-2 text-orange-700 ">{info.title}</p>
+          <p className=" text-xl flex align-baseline">
             {info?.rating || 4.5}
             <MdOutlineStar className="top-[50%] text-2xl text-yellow-400" />
           </p>
         </div>
-        <p className="font-mono text-gray-500 px-2 w-[100%] font-semibold ">{info.des}</p>
+        <p className=" hidden md:inline font-mono text-gray-500 px-2 w-[100%] font-semibold ">{info.des}</p>
       </div>
     </div>
   );
