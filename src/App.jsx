@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { createContext, lazy, Suspense, useEffect, useState } from "react";
+import { createContext, lazy, Suspense, useState } from "react";
 import {
   Header,
   Footer,
@@ -29,7 +29,7 @@ import {
   Photoinfo7,
   Photoinfo8,
   Photoinfo9,
-  Scanvideo,
+  ScanVideo,
   Hotel,
   Courier,
   Cars,
@@ -93,7 +93,7 @@ const App = () => {
           <Route path="/Photoinfo7" element={<Photoinfo7 />} />
           <Route path="/Photoinfo8" element={<Photoinfo8 />} />
           <Route path="/Photoinfo9" element={<Photoinfo9 />} />
-          <Route path="/Scan" element={<Scanvideo />} />
+          <Route path="/Scan/:inviteId" element={<ScanVideo />} />
           <Route path="/Hotel" element={<Hotel />} />
           <Route path="/Courier" element={<Courier />} />
           <Route path="/Cars" element={<Cars />} />
