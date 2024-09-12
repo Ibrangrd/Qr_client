@@ -1765,7 +1765,7 @@ export const video12 = [
     star: "4.9 🌟",
     rating: "(20 reviews)",
     path: "https://i.pinimg.com/736x/95/a8/5f/95a85fafee35613322e38a15bbd7731a.jpg",
-    link: "/Scan"
+    link: "/Photoinfo1"
   },
   {
     id: "Type2",
