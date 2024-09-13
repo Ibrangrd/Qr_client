@@ -1,7 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import "./Scan.css";
-const Scanvideo = () => {
+import { scanVideoData } from "./data/scanVideoData";
+import Error from "./Error";
+
+const ScanVideo = () => {
+  const { inviteId } = useParams();
+  const data = scanVideoData.find((data) => data.id === inviteId);
+
+  if(data === undefined){
+    return <Error />
+  }
   return (
     <>
       <div className="scanbg">
@@ -11,23 +20,22 @@ const Scanvideo = () => {
         </div>
         <div className="f2">
           <div className="weds">
-            <h1 className="couple1">ARYAN</h1>
+            <h1 className="couple1">{data?.couple1}</h1>
             <img
               className="love"
-              src="https://i.postimg.cc/0QNBbMSM/sdrehyerd.png'"
+              src={data?.love}
             />
-            <h1 className="couple2">PAYAL</h1>
+            <h1 className="couple2">{data?.couple2}</h1>
           </div>
           <div className="scanvi">
             <iframe
               width="600"
               height="350"
-              src="https://www.youtube.com/embed/0y8-SnS6kzk?si=PtnCvAJA90zWvYBH&autoplay=1"
+              src={data?.iframe}
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
             ></iframe>
           </div>
           <div className="location"> Venue Location </div>
@@ -40,22 +48,19 @@ const Scanvideo = () => {
         <div className="f3">
           <div className="fromcon">
             <div className="from">
-              {" "}
               <p>FROM:</p>
             </div>
             <div className="nameparent">
-              {" "}
-              <p>M/s. DEEPAK</p>
+              <p>{ data?.nameparent} </p>
             </div>
             <div className="shop">
-              <p>VIMAL SHOWROOM</p>
+              <p>{ data?.shop}</p>
             </div>
             <div className="address">
-              <p>Benachity Durgapur</p>
+              <p>{ data?.address}</p>
             </div>
             <div className="mno">
-              {" "}
-              <p>9508853398</p>
+              <p>{data?.mno}</p>
             </div>
           </div>
           <p className="aftermar">Moments After Marriage</p>
@@ -70,4 +75,4 @@ const Scanvideo = () => {
   );
 };
 
-export default Scanvideo;
+export default ScanVideo;

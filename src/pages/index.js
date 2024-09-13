@@ -16,7 +16,6 @@ import AdminLayout from "./AdminLayout";
 import AdminUsers from "./AdminUsers";
 import AdminContacts from "./AdminContacts";
 import AdminUpdate from "./AdminUpdate";
-// import Test from "./Test";
 import Loading from "./Loading";
 import Photoinfo1 from "./Photoinfo1";
 import Photoinfo2 from "./Photoinfo2";
@@ -27,7 +26,7 @@ import Photoinfo6 from "./Photoinfo6";
 import Photoinfo7 from "./Photoinfo7";
 import Photoinfo8 from "./Photoinfo8";
 import Photoinfo9 from "./Photoinfo9";
-import Scanvideo from "./Scan";
+import ScanVideo from "./ScanVideo";
 import Hotel from "./Hotel";
 import Courier from "./Courier";
 import Cars from "./Cars";
@@ -62,7 +61,7 @@ export {
   Photoinfo7,
   Photoinfo8,
   Photoinfo9,
-  Scanvideo,
+  ScanVideo,
   Hotel,
   Courier,
   Cars,
