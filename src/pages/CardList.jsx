@@ -1,5 +1,5 @@
 import Card from "./Card";
-import { cardDetails } from "../utils";
+import { cardDetails } from "../pages/data/cardDetails";
 import { useEffect, useState } from "react";
 import Pagination from "./Pagination";
 

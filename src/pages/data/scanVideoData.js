@@ -14,9 +14,9 @@ export const scanVideoData = [
         aftermar: "Test Moments After Marriage",
     },
     {
-        id: "aryanpayal123",
-        couple1: "ARYAN",
-        couple2: "PAYAL",
+        id: "123",
+        couple1: "Vikran",
+        couple2: "Aditi",
         love: "https://i.postimg.cc/0QNBbMSM/sdrehyerd.png",
         location: "Venue Location",
         iframe: "https://www.youtube.com/embed/0y8-SnS6kzk?si=PtnCvAJA90zWvYBH&autoplay=1",

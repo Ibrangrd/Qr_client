@@ -295,7 +295,7 @@ iframe {
         box-shadow: 0 4px 8px #e63946;
         width: 90%;
         height: 280px;
-        margin-left: 20px;
+        margin-left: 5%;
     }
 
     .scanvi {
@@ -310,13 +310,13 @@ iframe {
 
     .couple1 {
         font-size: 25px;
-        margin-top: -250px;
-        margin-left: 30px;
+        margin-top: -75%;
+        margin-left: 18%;
     }
     .couple2 {
         font-size: 25px;
-        margin-top: -250px;
-        margin-left: 20px;
+        margin-top: -75%;
+        margin-left: 4%;
     }
     .aftermar {
         font-size: 20px;
@@ -326,7 +326,7 @@ iframe {
         border-radius: 8px;
         height: 60px;
         width: 40px;
-        margin-top: -260px;
+        margin-top: -78%;
         margin-left: 20px;
     }
 
