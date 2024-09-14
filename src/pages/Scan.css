@@ -182,7 +182,7 @@ iframe {
     font-weight: 700;
     margin-top: 8px;
     color: #1a659e;
-    margin-left: 320px;
+    margin-left:45px;
     transition: all 1s ease;
     transition-duration: 0.8s;
 }
@@ -261,8 +261,16 @@ iframe {
     color: #ff6b35;
     text-align: center;
 }
-
+.last_for_mobile{
+    display: flex;
+}
+.moments_mob{
+    display: none;
+}
 @media(max-width:480px) {
+    .moments_mob{
+      display: contents;
+    }
     .scanbg {
         height: 100vh;
         width: 100%;
@@ -339,13 +347,13 @@ iframe {
     .location {
         font-size: 18px;
         margin-top: 60px;
-        margin-left: -210px;
+        margin-left: -28%;
     }
 
     .lobut {
         width: 100px;
         font-size: 20px;
-        margin-left: 20px;
+        margin-left: 0%;
         transition: all 1s ease;
         transition-duration: 0.8s;
     }

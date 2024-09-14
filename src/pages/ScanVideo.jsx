@@ -8,8 +8,8 @@ const ScanVideo = () => {
   const { inviteId } = useParams();
   const data = scanVideoData.find((data) => data.id === inviteId);
 
-  if(data === undefined){
-    return <Error />
+  if (data === undefined) {
+    return <Error />;
   }
   return (
     <>
@@ -21,10 +21,7 @@ const ScanVideo = () => {
         <div className="f2">
           <div className="weds">
             <h1 className="couple1">{data?.couple1}</h1>
-            <img
-              className="love"
-              src={data?.love}
-            />
+            <img className="love" src={data?.love} />
             <h1 className="couple2">{data?.couple2}</h1>
           </div>
           <div className="scanvi">
@@ -38,26 +35,41 @@ const ScanVideo = () => {
               allowFullScreen
             ></iframe>
           </div>
-          <div className="location"> Venue Location </div>
-          <div className="lobut">
-            <a href="https://maps.app.goo.gl/nUAZkBhQmt7M2n7SA" target="_blank">
-              <button> Click Here </button>
-            </a>
+          <div className="flex justify-center">
+          <div>
+            <div className="location"> Venue Location </div>
+            <div className="lobut">
+              <a
+                href="https://maps.app.goo.gl/nUAZkBhQmt7M2n7SA"
+                target="_blank"
+              >
+                <button> Click Here </button>
+              </a>
+            </div>
+            </div>
+            <div className="md:hidden mt-16 w-[50%] ">
+              <p className="text-base font-bold text-[#390099]">Moments After Marriage</p>
+              <div className="text-xl font-extrabold text-[#ff1654] mt-2 text-center">
+                <Link to="/Courier">
+                  <button> View </button>
+                </Link>
+              </div>
+            </div>
           </div>
-        </div>
+          </div>
         <div className="f3">
           <div className="fromcon">
             <div className="from">
               <p>FROM:</p>
             </div>
             <div className="nameparent">
-              <p>{ data?.nameparent} </p>
+              <p>{data?.nameparent} </p>
             </div>
             <div className="shop">
-              <p>{ data?.shop}</p>
+              <p>{data?.shop}</p>
             </div>
             <div className="address">
-              <p>{ data?.address}</p>
+              <p>{data?.address}</p>
             </div>
             <div className="mno">
               <p>{data?.mno}</p>
