@@ -8,7 +8,7 @@ const VideoCard = ({ info }) => {
     <div className="mx-0 px-0 md:mx-8  w-full md:w-fit my-10 md:px-8 ">
       <div className="relative">
         <iframe
-          className="rounded-xl flex justify-center text-center mx-0 w-[380px] h-[280px] sm:w-[500px] sm:h-[300px] md:w-[560px] md:h-[315px]"
+          className="rounded-xl flex justify-center text-center mx-0 w-[99%] h-[280px] sm:w-[500px] sm:h-[300px] md:w-[560px] md:h-[315px]"
           onMouseEnter={() => setPlay(true)}
           onMouseLeave={() => setPlay(false)}
           src={play ? info?.urlWithPlay : info?.urlWithoutPlay}
