@@ -516,7 +516,7 @@ body {
   }
   
   .banner .slider {
-    width: 80px;
+    width: 75px;
     height: 80px;
     left: 120px;
   }
@@ -524,7 +524,7 @@ body {
   .banner .slider .item {
     position: absolute;
     inset: 0 0 0 0;
-    transform: rotateY(calc((var(--position) - 1) * 360deg / var(--quantity))) translateZ(280px);
+    transform: rotateY(calc((var(--position) - 1) * 360deg / var(--quantity))) translateZ(250px);
   }
   
   .banner .slider .item img {

@@ -7,15 +7,18 @@ const Service = () => {
     <>
     <div className="bg-gradient-to-b from-[#984E4E] to-[#4646A4]">
       <div className='text-center text-5xl font-bold'> OUR SERVICES</div>
-      <div className='xx'><h3>Our service is the best in both price and quality. We offer complete solutions for your wedding,
-        ensuring every detail is taken care of, from the venue to the final touches.</h3></div>
-      <div className='p1'><p>Professional Photography: Capture every moment with our expert photography services, providing high-quality images.</p></div>
-      <div className='p2'><p>Hotel Accommodations: We ensure your guests enjoy luxurious, comfortable hotels, all within your budget.</p></div>
-      <div className='p3'><p>Elegant Cars: We offer stylish cars to make your arrival and departure memorable.</p></div>
-      <div className='p2'><p>Google Maps Integration: Share your venue with a custom Google address for easy guest navigation.</p></div>
-      <div className='p1'><p>Decor & Invitations: From stunning decorations to beautifully designed cards and cinematic invitation videos, we've got it covered.</p></div>
+      <div className='heart'>
+      <div className='heart_main'> <img src='https://iili.io/d6MidEF.png' /></div>
+      <div className='heart_top'>
+      <div><img src='https://i.imghippo.com/files/m3g8f1726593715.png'/> </div>
+      <div><img src='https://i.imghippo.com/files/Sh8Rc1726593755.png'/></div>
+      </div>
+      <div className='heart_middle'>
+     <div><img src='https://i.imghippo.com/files/dlMUJ1726593655.png'/> </div>
+     <div><img src='https://i.imghippo.com/files/RWXr91726593790.png'/></div>
+     </div>
+      </div>
       <div> <h2 className='what'> What we have:- </h2></div>
-
       <div className='mmm'>
       { Slist.map((val) =>{
         return(

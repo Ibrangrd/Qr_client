@@ -6,7 +6,8 @@ import { Hoteldet} from "../utils";
 const Hotel = () => {
   return (
     <>
-      <div className='text-center text-8xl font-bold'><h1> HOTELS</h1></div>
+    <div className="bg-gradient-to-b from-[#d8f3dc] to-[#e0e1dd]">
+      <div className='text-center text-8xl font-bold text-[#118ab2]'><h1> HOTELS</h1></div>
       <div className="hole">
         {Hoteldet.map((val) => (
          <div key={val.id} className="Hotel_c-ntainer">
@@ -40,6 +41,7 @@ const Hotel = () => {
             </div>
             </div>
         ))}
+      </div>
       </div>
     </>
   );

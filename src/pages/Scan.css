@@ -171,7 +171,7 @@ iframe {
 .location {
     font-size: 25px;
     font-weight: 650;
-    margin-top: 60px;
+    margin-top: 20%;
     color: #6c9a8b;
     text-align: center;
 }
@@ -180,7 +180,7 @@ iframe {
     width: 150px;
     font-size: 25px;
     font-weight: 700;
-    margin-top: 8px;
+    margin-top: 6%;
     color: #1a659e;
     margin-left:45px;
     transition: all 1s ease;
