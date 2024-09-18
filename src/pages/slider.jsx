@@ -4,7 +4,7 @@ import Sample from './Sample';
 const Slider = ({ images }) =>{
   return (
     <div className="banner">
-      <div className="slider" style={{ "--quantity": 18 }}>
+      <div className="slider" style={{ "--quantity": 16 }}>
         {images.map((val) => (
           <Sample key={val.id} image={val.image} po={val.po} />
         ))}

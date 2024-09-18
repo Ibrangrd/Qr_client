@@ -650,18 +650,6 @@ export const Images1 = [
     po: 16,
 
   },
-  {
-    id: 17,
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaMGHgbNHv5Ny8SUP9CZaVrINWjs46mk6pEg&s",
-    po: 17,
-
-  },
-  {
-    id: 18,
-    image: "https://i.pinimg.com/736x/4f/c0/2e/4fc02ebabab3f7bc579e37ee51538c3e.jpg",
-    po: 18,
-
-  },
 ];
 
 export const Images2 = [
@@ -680,12 +668,13 @@ export const Images2 = [
   },
   {
     id: 3,
-    image: "https://i.ibb.co/kcJXRC8/Screenshot-2024-08-21-210313.png",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaMGHgbNHv5Ny8SUP9CZaVrINWjs46mk6pEg&s",
     po: 3,
+
   },
   {
     id: 4,
-    image: "https://i.ibb.co/dmX2Q5B/Screenshot-2024-08-21-210244.png",
+    image: "https://i.pinimg.com/736x/4f/c0/2e/4fc02ebabab3f7bc579e37ee51538c3e.jpg",
     po: 4,
 
   },
@@ -757,30 +746,7 @@ export const Images2 = [
     image: "https://i.ibb.co/HDyPXc6/6.jpg",
     po: 16,
   },
-  {
-    id: 17,
-    image: "https://i.ibb.co/4ZXSfQp/Screenshot-2024-08-21-205327.png",
-    po: 17,
 
-  },
-  {
-    id: 18,
-    image: "https://i.ibb.co/LQBDDnW/Screenshot-2024-08-21-205308.png",
-    po: 18,
-
-  },
-  // {
-  //   id: 19,
-  //   image: "https://i.ibb.co/K71T0jR/Screenshot-2024-08-21-210136.png",
-  //   po: 19,
-
-  // },
-  // {
-  //   id: 20,
-  //   image: "https://i.ibb.co/YNHb4SS/1.jpg",
-  //   po: 20,
-
-  // },
 ];
 
 export const albumData = [
