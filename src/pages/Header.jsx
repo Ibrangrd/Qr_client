@@ -23,7 +23,7 @@ const Header = ({ setTheme }) => {
           >
            <NavLogo/>
           </Link>
-          <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+          <div className="flex md:order-2 space-x-1 mr-[10%] md:mr-[0] md:space-x-0 rtl:space-x-reverse">
             <div></div>
             {isLoggedIn ? (
               <Link to="/logout">
