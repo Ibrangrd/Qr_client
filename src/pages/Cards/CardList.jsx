@@ -1,8 +1,7 @@
 import Card from "./Card";
-import { cardDetails } from "../pages/data/cardDetails";
+import { cardDetails } from "../data/cardDetails";
 import { useEffect, useState } from "react";
-import Pagination from "./Pagination";
-
+import Pagination from '../Pagination'
 const CardList = ({ showCategory, price , pageNumber, cardPerPage,setPageNumber }) => {
   console.log(price);
   

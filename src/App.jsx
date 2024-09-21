@@ -34,7 +34,7 @@ import {
   Courier,
   Cars,
 } from "./pages/index.js";
-const CardSection = lazy((e) => import("./pages/CardSection"));
+const CardSection = lazy((e) => import("./pages/Cards/CardSection.jsx"));
 
 export const ThemeContext = createContext("light");
 const App = () => {
