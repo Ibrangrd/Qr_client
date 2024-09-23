@@ -1,5 +1,5 @@
 import QRList from "./QRList";
-import { QRDetails } from "../pages/data/qr-Details"
+import { QRDetails } from "../data/qr-Details"
 
 const QRSection = () => {
   return (

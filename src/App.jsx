@@ -6,8 +6,6 @@ import {
   About,
   Contact,
   FAQ,
-  VideoSection,
-  QRSection,
   Photography,
   Loading,
   AdminContacts,
@@ -17,7 +15,6 @@ import {
   Register,
   Login,
   Logout,
-  Home,
   Service,
   Error,
   Photoinfo1,
@@ -34,6 +31,9 @@ import {
   Courier,
   Cars,
 } from "./pages/index.js";
+import VideoSection from "./pages/Videos/VideoSection.jsx";
+import  QRSection from "./pages/Qrs/QRSection.jsx";
+import Home from "./pages/Home.jsx";
 const CardSection = lazy((e) => import("./pages/Cards/CardSection.jsx"));
 
 export const ThemeContext = createContext("light");

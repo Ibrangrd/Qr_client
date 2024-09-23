@@ -2,7 +2,7 @@ import React from "react";
 import Videography from "./Mainphotography";
 import Slider from "./slider";
 import "./photo.css";
-import VideoList from "./VideoList";
+import VideoList from "./Videos/VideoList";
 import Album from "./Album";
 import { Images1, Images2, albumData, video12, videosample} from "../utils";
 

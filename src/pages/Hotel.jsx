@@ -1,6 +1,6 @@
 import React from "react";
 import './hotel.css'
-import VideoList from "./VideoList";
+import VideoList from "./Videos/VideoList";
 import HotelList from "./HotelList";
 import { Hoteldet} from "../utils";
 const Hotel = () => {
