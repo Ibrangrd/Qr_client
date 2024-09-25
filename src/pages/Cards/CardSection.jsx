@@ -13,6 +13,15 @@ const CardSection = () => {
         <p className="mt-4  text-5xl font-bold bg-gradient-to-r from-red-400 via-blue-500 to-red-400 inline-block text-transparent bg-clip-text">
           WEDDING CARDS
         </p>
+        <div className=" flex flex-col text-right">
+        <div><p className=" text-purple-600 font-bold"> CARD MAHAL </p> </div>
+       <div className=" ml-[80%] sm:ml-[95%]">
+        <a href="https://maps.app.goo.gl/8v9CmUsB5avWYP1v9" target="_blank">
+          <img className="w-10" src="https://iili.io/dL52914.png"/>
+        </a>
+        </div>
+        </div>
+
         <div className="flex md:px-20 px-2 justify-between md:w-3/4 py-2">
           <div className="flex mx-2">
             <label className="font-bold md:block hidden text-black text-lg md:text-2xl  my-auto mr-4">

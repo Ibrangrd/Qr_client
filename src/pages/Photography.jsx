@@ -28,7 +28,7 @@ const Photography = () => {
         );
       })}
       <h1 className="head"> SAMPLE'S </h1>
-     
+      
       <Slider images={Images1} />
       <Slider images={Images2} />
     </div>

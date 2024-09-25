@@ -60,9 +60,15 @@ const Contact = () => {
         <span className="mb-2 block text-base font-semibold text-[#C75B7A]">
           Contact Us
         </span>
-        <h2 className="mb-2 text-[32px] font-bold uppercase text-dark dark:text-white sm:text-[40px] lg:text-[36px] xl:text-[40px]">
+        <h2 className=" hidden sm:block md:block mb-2 text-[32px] font-bold uppercase text-dark dark:text-white sm:text-[40px] lg:text-[36px] xl:text-[40px]">
           GET IN TOUCH WITH US
         </h2>
+        <div className=" ml-[50%]" >
+        <h2 className="-ml-[20%] text-red-200"> Mobile no. :- </h2>
+        <p className="text-white" >9832704206</p>
+        <p className="text-white">6200339631</p>
+        <p className="text-white">9508853398</p>
+        </div>
       </div>
       <section className="relative z-10 overflow-hidden bg-white dark:bg-dark  lg:py-[40px] mx-auto">
         <div className="container ">

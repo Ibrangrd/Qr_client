@@ -83,6 +83,38 @@ export const videoThumbnailDetails = [
     cat: "Nature",
   },
 ];
+export const ServiceTop = [
+  {
+    id: "service1",
+    img: "https://iili.io/d6MidEF.png",
+    name: "Photogrpahy",
+    link: "/Photography",
+  },
+  {
+    id: "service2",
+    img: "https://i.imghippo.com/files/m3g8f1726593715.png",
+    name: "Hotel",
+    link: "/Hotel",
+  },
+  {
+    id: "service3",
+    img: "https://i.imghippo.com/files/Sh8Rc1726593755.png",
+    name: "Photogrpahy",
+    link: "/Cars",
+  },
+  {
+    id: "service4",
+    img: "https://i.imghippo.com/files/dlMUJ1726593655.png",
+    name: "Decorations",
+    link: "/",
+  },
+  {
+    id: "service5",
+    img: "https://i.imghippo.com/files/RWXr91726593790.png",
+    name: "Photogrpahy",
+    link: "/Photography",
+  },
+];
 export const video12 = [
   {
     id: "Type1",
@@ -91,7 +123,7 @@ export const video12 = [
     star: "4.9 🌟",
     rating: "(20 reviews)",
     path: "https://i.pinimg.com/736x/95/a8/5f/95a85fafee35613322e38a15bbd7731a.jpg",
-    link: "/Photoinfo1"
+    link: "/Photoinfo1",
   },
   {
     id: "Type2",
@@ -100,7 +132,7 @@ export const video12 = [
     star: "4.5 🌟",
     rating: "(18 reviews)",
     path: "https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2020/11/Inside-image-Wedding-Photographers6.jpg",
-    link: "/Photoinfo2"
+    link: "/Photoinfo2",
   },
   {
     id: "Type3",
@@ -109,7 +141,7 @@ export const video12 = [
     star: "5 🌟",
     rating: "(12 reviews)",
     path: "https://5.imimg.com/data5/SELLER/Default/2020/12/NW/VN/PO/114792623/wedding-photography-500x500.jpg",
-    link: "/Photoinfo3"
+    link: "/Photoinfo3",
   },
   {
     id: "Type4",
@@ -118,7 +150,7 @@ export const video12 = [
     star: "4.7 🌟",
     rating: "(10 reviews)",
     path: "https://www.pixelworks.in/wp-content/uploads/2017/05/Pre-Wedding-Shoot-2.jpg",
-    link: "/Photoinfo4"
+    link: "/Photoinfo4",
   },
   {
     id: "Type5",
@@ -127,7 +159,7 @@ export const video12 = [
     star: "4.4 🌟",
     rating: "(15 reviews)",
     path: "https://assets.vogue.in/photos/6360ee4b74016d3adc45f105/1:1/w_4534,h_4534,c_limit/JR.WP-244.jpg",
-    link: "/Photoinfo5"
+    link: "/Photoinfo5",
   },
   {
     id: "Type6",
@@ -169,159 +201,154 @@ export const video12 = [
 export const Images1 = [
   {
     id: 1,
-    image: "https://i.pinimg.com/736x/74/94/d1/7494d17763649a020aa7d08967a0370d.jpg",
+    image:
+      "https://i.pinimg.com/736x/74/94/d1/7494d17763649a020aa7d08967a0370d.jpg",
     po: 1,
   },
   {
     id: 2,
-    image: "https://fashionatestudio.com/wp-content/uploads/2024/05/DSC_3101-scaled.jpg",
+    image:
+      "https://fashionatestudio.com/wp-content/uploads/2024/05/DSC_3101-scaled.jpg",
     po: 2,
   },
   {
     id: 3,
-    image: "https://www.teribphotography.com/wp-content/uploads/2022/11/indian-wedding-photography-33-1202x1800.jpg",
+    image:
+      "https://www.teribphotography.com/wp-content/uploads/2022/11/indian-wedding-photography-33-1202x1800.jpg",
     po: 3,
   },
   {
     id: 4,
-    image: "https://vishaldhupiaphotography.com/new-images/Candid-Wedding-Photography.jpeg",
+    image:
+      "https://vishaldhupiaphotography.com/new-images/Candid-Wedding-Photography.jpeg",
     po: 4,
-
   },
   {
     id: 5,
-    image: "https://image.wedmegood.com/resized/800X/uploads/member/412177/1532739203_25488435_1983119855297124_6517770107131706388_o.jpg",
+    image:
+      "https://image.wedmegood.com/resized/800X/uploads/member/412177/1532739203_25488435_1983119855297124_6517770107131706388_o.jpg",
     po: 5,
-
   },
   {
     id: 6,
-    image: "https://josephkingphotography.in/wp-content/uploads/2022/08/Joseph-King-Photography-Wedding-Photography-Indore-63-300x200.jpg",
+    image:
+      "https://josephkingphotography.in/wp-content/uploads/2022/08/Joseph-King-Photography-Wedding-Photography-Indore-63-300x200.jpg",
     po: 6,
-
   },
   {
     id: 7,
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLyPt_pUPRDHMpmr2c7DZBOJrbaDO1u35pjA&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLyPt_pUPRDHMpmr2c7DZBOJrbaDO1u35pjA&s",
     po: 7,
-
   },
   {
     id: 8,
     image: "https://live.staticflickr.com/4813/46402658441_6e44206064_b.jpg",
     po: 8,
-
   },
   {
     id: 9,
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrvg_JajvmzCaA_3vzuk2X9yKKQ0yITeLYXg&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrvg_JajvmzCaA_3vzuk2X9yKKQ0yITeLYXg&s",
     po: 9,
-
   },
   {
     id: 10,
-    image: "https://i.pinimg.com/736x/a8/b5/60/a8b5603e596abaeb3a7ada2b908bf45b.jpg",
+    image:
+      "https://i.pinimg.com/736x/a8/b5/60/a8b5603e596abaeb3a7ada2b908bf45b.jpg",
     po: 10,
-
   },
   {
     id: 11,
-    image: "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/13eb4c24745363.56339f559bf3e.jpg",
+    image:
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/13eb4c24745363.56339f559bf3e.jpg",
     po: 11,
-
   },
   {
     id: 12,
-    image: "https://oneeyevisionphotography.com/wp-content/uploads/2021/08/KAT1028.jpg",
+    image:
+      "https://oneeyevisionphotography.com/wp-content/uploads/2021/08/KAT1028.jpg",
     po: 12,
-
   },
   {
     id: 13,
-    image: "https://camrinfilms.com/photos/345605560_969198427439983_4776823517238102241_n.jpg",
+    image:
+      "https://camrinfilms.com/photos/345605560_969198427439983_4776823517238102241_n.jpg",
     po: 13,
   },
   {
     id: 14,
-    image: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/1f573524745363.56339f5559a8e.jpg",
+    image:
+      "https://mir-s3-cdn-cf.behance.net/project_modules/fs/1f573524745363.56339f5559a8e.jpg",
     po: 14,
-
   },
   {
     id: 15,
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRotzMceJfmv9l2tThYFxVwgRKKee48-bjQA&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRotzMceJfmv9l2tThYFxVwgRKKee48-bjQA&s",
     po: 15,
-
   },
   {
     id: 16,
-    image: "https://miro.medium.com/v2/resize:fit:1080/1*yaQvcdIKjFwdh3m-t2Tx6w.jpeg",
+    image:
+      "https://miro.medium.com/v2/resize:fit:1080/1*yaQvcdIKjFwdh3m-t2Tx6w.jpeg",
     po: 16,
-
   },
 ];
-
 export const Images2 = [
- 
   {
     id: 1,
-    image: "https://cdn0.weddingwire.in/vendor/6101/3_2/960/jpg/red-studio-wedding-cinematography-3_15_216101-157181586853596.jpeg",
+    image:
+      "https://cdn0.weddingwire.in/vendor/6101/3_2/960/jpg/red-studio-wedding-cinematography-3_15_216101-157181586853596.jpeg",
     po: 1,
-
   },
   {
     id: 2,
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbgnxJz2gphYOUarhCyTXxCFfiWcMOZnlQIg&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbgnxJz2gphYOUarhCyTXxCFfiWcMOZnlQIg&s",
     po: 2,
-
   },
   {
     id: 3,
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaMGHgbNHv5Ny8SUP9CZaVrINWjs46mk6pEg&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaMGHgbNHv5Ny8SUP9CZaVrINWjs46mk6pEg&s",
     po: 3,
-
   },
   {
     id: 4,
-    image: "https://i.pinimg.com/736x/4f/c0/2e/4fc02ebabab3f7bc579e37ee51538c3e.jpg",
+    image:
+      "https://i.pinimg.com/736x/4f/c0/2e/4fc02ebabab3f7bc579e37ee51538c3e.jpg",
     po: 4,
-
   },
   {
     id: 5,
     image: "https://i.ibb.co/MBWyqWL/Screenshot-2024-08-21-210236.png",
     po: 5,
-
   },
   {
     id: 6,
     image: "https://i.ibb.co/tMvkRrF/Screenshot-2024-08-21-210121.png",
     po: 6,
-
   },
   {
     id: 7,
     image: "https://i.ibb.co/HVFsGmv/Screenshot-2024-08-21-210344.png",
     po: 7,
-
   },
   {
     id: 8,
     image: "https://i.ibb.co/nnvX1dK/Screenshot-2024-08-21-205940.png",
     po: 8,
-
   },
   {
     id: 9,
     image: "https://i.ibb.co/yR2FH4g/Screenshot-2024-08-21-205922.png",
     po: 9,
-
   },
   {
     id: 10,
     image: "https://i.ibb.co/bP1j4V2/Screenshot-2024-08-21-205837.png",
     po: 10,
-
   },
   {
     id: 11,
@@ -332,7 +359,6 @@ export const Images2 = [
     id: 12,
     image: "https://i.ibb.co/9Twmb38/2.jpg",
     po: 12,
-
   },
   {
     id: 13,
@@ -343,7 +369,6 @@ export const Images2 = [
     id: 14,
     image: "https://i.ibb.co/0cQtV4m/3.jpg",
     po: 14,
-
   },
   {
     id: 15,
@@ -355,9 +380,7 @@ export const Images2 = [
     image: "https://i.ibb.co/HDyPXc6/6.jpg",
     po: 16,
   },
-
 ];
-
 export const albumData = [
   {
     id: "600",
@@ -367,7 +390,8 @@ export const albumData = [
   {
     id: "601",
     link: "https://drive.google.com/file/d/1XPzd-pLeJC7jmCz5mKiSL1P1Fr0lsjpV/view?usp=drive_link",
-    imgsrc: "https://i.pinimg.com/550x/39/16/03/3916034fdf1041b89b04be781701d854.jpg",
+    imgsrc:
+      "https://i.pinimg.com/550x/39/16/03/3916034fdf1041b89b04be781701d854.jpg",
   },
 ];
 export const videosample = [
@@ -376,7 +400,8 @@ export const videosample = [
     title: "Pre-Wedding ",
     des: "A pre-wedding short is a heartfelt and intimate video showcasing the couple's love story, special moments, and relationship leading up to the big day.",
     urlWithoutPlay: "https://www.youtube.com/embed/BQuclkte5rg",
-    urlWithPlay: "https://www.youtube.com/embed/BQuclkte5rg?autoplay=1&mute=0&cc_load_policy=1",
+    urlWithPlay:
+      "https://www.youtube.com/embed/BQuclkte5rg?autoplay=1&mute=0&cc_load_policy=1",
     ytID: "si=cbzQ3XjIqLUBLSCM",
     rating: "5",
   },
@@ -385,99 +410,105 @@ export const videosample = [
     title: "Wedding",
     des: "Uniting two souls in love, laughter, and happiness, celebrating a lifetime of togetherness and cherished moments.",
     urlWithoutPlay: "https://www.youtube.com/embed/w111G2kwFtQ",
-    urlWithPlay: "https://www.youtube.com/embed/w111G2kwFtQ?autoplay=1&mute=0&cc_load_policy=1",
+    urlWithPlay:
+      "https://www.youtube.com/embed/w111G2kwFtQ?autoplay=1&mute=0&cc_load_policy=1",
     ytID: "agSOz0DsJjo?si=wswSQ6bhvbOMwdmS",
     rating: "4.9",
-
   },
   {
     id: "sam3",
     title: "Pre-Wedding",
     des: "A pre-wedding short: a romantic glimpse into the couple's love story before the big day.",
     urlWithoutPlay: "https://www.youtube.com/embed/dtQ23AhyKoQ",
-    urlWithPlay: "https://www.youtube.com/embed/dtQ23AhyKoQ?autoplay=1&mute=0&cc_load_policy=1 si=5WEHdOu6QP_5WWvN",
+    urlWithPlay:
+      "https://www.youtube.com/embed/dtQ23AhyKoQ?autoplay=1&mute=0&cc_load_policy=1 si=5WEHdOu6QP_5WWvN",
     ytID: "si=5WEHdOu6QP_5WWvN",
     rating: "4.8",
-
   },
   {
     id: "sam4",
     title: "Highlights",
     des: "A romantic wedding video, with a captivating teaser and thrilling highlights.",
     urlWithoutPlay: "https://www.youtube.com/embed/86AuHB-st4c",
-    urlWithPlay: "https://www.youtube.com/embed/86AuHB-st4c?autoplay=1&mute=0&cc_load_policy=1",
+    urlWithPlay:
+      "https://www.youtube.com/embed/86AuHB-st4c?autoplay=1&mute=0&cc_load_policy=1",
     ytID: "si=gIYlpxbtjXP3a8xh",
     rating: "5",
-
   },
   {
     id: "sam5",
     title: "Teaser",
     des: "A glimpse of forever, love is coming soon, a heartwarming tale of two souls, a beautiful journey begins..",
     urlWithoutPlay: "https://www.youtube.com/embed/3uXcfstOuZ4",
-    urlWithPlay: "https://www.youtube.com/embed/3uXcfstOuZ4?autoplay=1&mute=0&cc_load_policy=1",
+    urlWithPlay:
+      "https://www.youtube.com/embed/3uXcfstOuZ4?autoplay=1&mute=0&cc_load_policy=1",
     ytID: "si=Nvw9NcfN51246G6d",
     rating: "4.2",
-
   },
   {
     id: "sam6",
     title: " Forever Captured",
     des: "Capturing the beauty of love, one frame at a time. A romantic journey of two hearts, forever in love",
     urlWithoutPlay: "https://www.youtube.com/embed/PKPgoXkfaXc",
-    urlWithPlay: "https://www.youtube.com/embed/PKPgoXkfaXc?autoplay=1&mute=0&cc_load_policy=1",
+    urlWithPlay:
+      "https://www.youtube.com/embed/PKPgoXkfaXc?autoplay=1&mute=0&cc_load_policy=1",
     ytID: "si=Rkv3GLGKEiZiJZpD",
     rating: "4.8",
   },
-
 ];
 export const Slist = [
   {
     id: "Service1",
-    imgsrc: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/518332246.jpg?k=852d9e83009ac082a7bb8366d5e27fb1f21801ea9cb6dde9c14e1aa99c49ea63&o=&hp=1",
+    imgsrc:
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/518332246.jpg?k=852d9e83009ac082a7bb8366d5e27fb1f21801ea9cb6dde9c14e1aa99c49ea63&o=&hp=1",
     heading: "Hotels and Resorts",
     des: "Find the perfect venue with our curated selection of hotels and resorts. Enjoy luxury and comfort at competitive prices, ensuring a memorable experience for you and your guests without stretching your budget",
     Link: "/Hotel",
-
   },
   {
     id: "Service2",
-    imgsrc: "https://www.carandbike.com/_next/image?url=https%3A%2F%2Fimages.carandbike.com%2Fcar-images%2Fbig%2Fhyundai%2Fcreta%2Fhyundai-creta.jpg%3Fv%3D92&w=3840&q=75",
+    imgsrc:
+      "https://www.carandbike.com/_next/image?url=https%3A%2F%2Fimages.carandbike.com%2Fcar-images%2Fbig%2Fhyundai%2Fcreta%2Fhyundai-creta.jpg%3Fv%3D92&w=3840&q=75",
     heading: "Car Services:",
     des: "Arrive in style with our premium car services, offering luxury and comfort at reasonable rates. Whether it’s a classic ride or a modern touch, we ensure a grand entrance for your special day",
     Link: "/Cars",
   },
   {
     id: "Service3",
-    imgsrc: "https://5.imimg.com/data5/SELLER/Default/2021/5/KF/YW/UG/50200512/whatsapp-image-2021-05-31-at-11-43-49.jpeg",
+    imgsrc:
+      "https://5.imimg.com/data5/SELLER/Default/2021/5/KF/YW/UG/50200512/whatsapp-image-2021-05-31-at-11-43-49.jpeg",
     heading: "Decorations and Pandals",
     des: "Enchant your guests with our beautiful decorations and grand pandals. From elegant setups to lavish themes, we create unforgettable experiences at prices that suit your budget, adding charm to your celebration",
     Link: "/Decoratons",
   },
   {
     id: "Service4",
-    imgsrc: "https://aaftonline.com/blog/wp-content/uploads/2024/01/What-are-the-Benefits-of-Photography-Complete-Overview.png",
+    imgsrc:
+      "https://aaftonline.com/blog/wp-content/uploads/2024/01/What-are-the-Benefits-of-Photography-Complete-Overview.png",
     heading: "Photography",
     des: "Capture your magical moments with our expert photography services—every click tells your love story! We offer stunning photos at affordable prices, ensuring your memories are beautifully preserved without breaking the bank",
     Link: "/Photography",
   },
   {
     id: "Service5",
-    imgsrc: "https://media.istockphoto.com/id/1349344078/vector/qr-code-scanning-scan-me-read-bar-code-mobility-generating-app-coding-recognition-or-reading.jpg?s=612x612&w=0&k=20&c=kFDiH2yOEXsvsbMrbVwEJ-GIKZaahEi5tXGWFjyFkog=",
+    imgsrc:
+      "https://media.istockphoto.com/id/1349344078/vector/qr-code-scanning-scan-me-read-bar-code-mobility-generating-app-coding-recognition-or-reading.jpg?s=612x612&w=0&k=20&c=kFDiH2yOEXsvsbMrbVwEJ-GIKZaahEi5tXGWFjyFkog=",
     heading: "QR Code Designs:",
     des: "Revolutionize your invitations with our interactive QR code designs. Affordable, modern, and memorable—our designs offer a unique experience for your guests and seamless navigation to all wedding details",
     Link: "/qr",
   },
   {
     id: "Service6",
-    imgsrc: "https://img.freepik.com/free-psd/wedding-invitation-greeting-cards-elegant-vintage-style_1340-49454.jpg",
+    imgsrc:
+      "https://img.freepik.com/free-psd/wedding-invitation-greeting-cards-elegant-vintage-style_1340-49454.jpg",
     heading: "Wedding Invitation Cards",
     des: "Invite your guests in style with our elegant, customized wedding invitation cards. Designed to impress, our cards are both unique and budget-friendly, giving you quality without compromise",
     Link: "/cards",
   },
   {
     id: "Service7",
-    imgsrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPdDI9t7jX4b__BksCnLFWbpTRya8PFoUYrA&s",
+    imgsrc:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPdDI9t7jX4b__BksCnLFWbpTRya8PFoUYrA&s",
     heading: "Elegant Courier Solutions",
     des: "Deliver your parcels with style using our elegant, customized courier packages. Designed to impress, our packaging solutions are both unique and budget-friendly, ensuring your items arrive safely without compromising on quality",
     Link: "/Courier",
@@ -491,7 +522,7 @@ export const cardat = [
     des: "₹1500",
     star: "4.8 🌟",
     rating: "(15 reviews)",
-    path: "https://stimg.cardekho.com/images/carexteriorimages/930x620/Honda/Amaze/10519/1689589132736/front-left-side-47.jpg"
+    path: "https://stimg.cardekho.com/images/carexteriorimages/930x620/Honda/Amaze/10519/1689589132736/front-left-side-47.jpg",
   },
   {
     id: "Type2",
@@ -500,7 +531,7 @@ export const cardat = [
     des: "₹1500",
     star: "4.9 🌟",
     rating: "(12 reviews)",
-    path: "https://stimg.cardekho.com/images/carexteriorimages/930x620/Toyota/Innova-Crysta/9612/1697698611076/front-left-side-47.jpg"
+    path: "https://stimg.cardekho.com/images/carexteriorimages/930x620/Toyota/Innova-Crysta/9612/1697698611076/front-left-side-47.jpg",
   },
   {
     id: "Type3",
@@ -509,7 +540,7 @@ export const cardat = [
     des: "₹1000",
     star: "4.2 🌟",
     rating: "(22 reviews)",
-    path: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Swift-Dzire-Tour/8863/1717397917382/front-left-side-47.jpg"
+    path: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Swift-Dzire-Tour/8863/1717397917382/front-left-side-47.jpg",
   },
   {
     id: "Type4",
@@ -518,17 +549,16 @@ export const cardat = [
     des: "₹1200",
     star: "4.3 🌟",
     rating: "(15 reviews)",
-    path: "https://content.carlelo.com/uploads/model/1668419592.webp"
+    path: "https://content.carlelo.com/uploads/model/1668419592.webp",
   },
   {
     id: "Type5",
     link: "",
     title: "SCORPIO",
-    des: "₹1400",
+    des: "₹1200",
     star: "5 🌟",
     rating: "(30 reviews)",
-    path: "https://images.91wheels.com/assets/c_images/gallery/mahindra/scorpio-classic/mahindra-scorpio-classic-3-1698085076.jpg?w=480&q=60?w=1080&q=60"
-
+    path: "https://images.91wheels.com/assets/c_images/gallery/mahindra/scorpio-classic/mahindra-scorpio-classic-3-1698085076.jpg?w=480&q=60?w=1080&q=60",
   },
   {
     id: "Type6",
@@ -537,7 +567,7 @@ export const cardat = [
     des: "₹1100",
     star: "4.5 🌟",
     rating: "(13 reviews)",
-    path: "https://images.carandbike.com/car-images/large/maruti-suzuki/dzire/maruti-suzuki-dzire.jpg?v=28"
+    path: "https://images.carandbike.com/car-images/large/maruti-suzuki/dzire/maruti-suzuki-dzire.jpg?v=28",
   },
 ];
 export const Hoteldet = [
@@ -563,7 +593,8 @@ export const Hoteldet = [
         title: "Night View",
         des: "",
         urlWithoutPlay: "https://www.youtube.com/embed/OKSHx8_ufiw",
-        urlWithPlay: "https://www.youtube.com/embed/OKSHx8_ufiw?autoplay=1&mute=0&cc_load_policy=1",
+        urlWithPlay:
+          "https://www.youtube.com/embed/OKSHx8_ufiw?autoplay=1&mute=0&cc_load_policy=1",
         ytID: "si=sEiYUm31NkwC7K_p",
         rating: "5",
       },
@@ -572,11 +603,12 @@ export const Hoteldet = [
         title: "Over View of the Hotel",
         des: "",
         urlWithoutPlay: "https://www.youtube.com/embed/U7HRdd_cmm4",
-        urlWithPlay: "https://www.youtube.com/embed/U7HRdd_cmm4?autoplay=1&mute=0&cc_load_policy=1",
+        urlWithPlay:
+          "https://www.youtube.com/embed/U7HRdd_cmm4?autoplay=1&mute=0&cc_load_policy=1",
         ytID: "si=iauf0YCptXQ1pwWK",
         rating: "4.9",
       },
-    ]
+    ],
   },
   {
     id: "Hotel2",
@@ -600,7 +632,8 @@ export const Hoteldet = [
         title: "Night view",
         des: "Uniting two souls in love, laughter, and happiness, celebrating a lifetime of togetherness and cherished moments.",
         urlWithoutPlay: "https://www.youtube.com/embed/zy8gYoYyTiM",
-        urlWithPlay: "https://www.youtube.com/embed/zy8gYoYyTiM?autoplay=1&mute=0&cc_load_policy=1",
+        urlWithPlay:
+          "https://www.youtube.com/embed/zy8gYoYyTiM?autoplay=1&mute=0&cc_load_policy=1",
         ytID: "si=fjLDvPAoWT2bcOo6",
         rating: "4.9",
       },
@@ -609,11 +642,12 @@ export const Hoteldet = [
         title: "Over View of the Hotel",
         des: "Uniting two souls in love, laughter, and happiness, celebrating a lifetime of togetherness and cherished moments.",
         urlWithoutPlay: "https://www.youtube.com/embed/shH4Lb7Opmk",
-        urlWithPlay: "https://www.youtube.com/embed/shH4Lb7Opmk?autoplay=1&mute=0&cc_load_policy=1",
+        urlWithPlay:
+          "https://www.youtube.com/embed/shH4Lb7Opmk?autoplay=1&mute=0&cc_load_policy=1",
         ytID: "si=qBGm4s9p82FY_zdn",
         rating: "4.9",
       },
-    ]
+    ],
   },
   {
     id: "Hotel3",
@@ -637,7 +671,8 @@ export const Hoteldet = [
         title: "Wedding",
         des: "Uniting two souls in love, laughter, and happiness, celebrating a lifetime of togetherness and cherished moments.",
         urlWithoutPlay: "https://www.youtube.com/embed/shH4Lb7Opmk",
-        urlWithPlay: "https://www.youtube.com/embed/shH4Lb7Opmk?autoplay=1&mute=0&cc_load_policy=1",
+        urlWithPlay:
+          "https://www.youtube.com/embed/shH4Lb7Opmk?autoplay=1&mute=0&cc_load_policy=1",
         ytID: "si=qBGm4s9p82FY_zdn",
         rating: "4.9",
       },
@@ -646,13 +681,13 @@ export const Hoteldet = [
         title: "Wedding",
         des: "Uniting two souls in love, laughter, and happiness, celebrating a lifetime of togetherness and cherished moments.",
         urlWithoutPlay: "https://www.youtube.com/embed/X2-o8bjuigc",
-        urlWithPlay: "https://www.youtube.com/embed/X2-o8bjuigc?autoplay=1&mute=0&cc_load_policy=1",
+        urlWithPlay:
+          "https://www.youtube.com/embed/X2-o8bjuigc?autoplay=1&mute=0&cc_load_policy=1",
         ytID: "si=HQNobK0G09ZwwwhK",
         rating: "4.9",
       },
-    ]
+    ],
   },
-
 ];
 export const faq = [
   {
@@ -701,7 +736,6 @@ export const faq = [
     ans: "? Digital QR cards are delivered instantly via email. If you opt for physical cards, delivery times vary based on your location.",
   },
 ];
-
 export const menuOptions = [
   {
     opt: "HOME",
@@ -732,7 +766,6 @@ export const menuOptions = [
     route: "/contact",
   },
 ];
-
 export const hoverShadowColors = [
   " hover:shadow-purple-600",
   " hover:shadow-fuchsia-600",
@@ -753,4 +786,3 @@ export const hoverShadowColors = [
   "hover:shadow-emerald-600",
 ];
 export default cardat;
-
