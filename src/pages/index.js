@@ -30,6 +30,7 @@ import ScanVideo from "./ScanVideo";
 import Hotel from "./Hotel";
 import Courier from "./Courier";
 import Cars from "./Cars";
+import Memories from "./AfterMarriage";
 
 
 export {
@@ -65,4 +66,5 @@ export {
   Hotel,
   Courier,
   Cars,
+  Memories,
 };

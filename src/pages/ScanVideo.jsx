@@ -36,27 +36,29 @@ const ScanVideo = () => {
             ></iframe>
           </div>
           <div className="flex justify-center">
-          <div>
-            <div className="location"> Venue Location </div>
-            <div className="lobut">
-              <a
-                href="https://maps.app.goo.gl/nUAZkBhQmt7M2n7SA"
-                target="_blank"
-              >
-                <button> Click Here </button>
-              </a>
-            </div>
+            <div>
+              <div className="location"> Venue Location </div>
+              <div className=" ml-[10%] sm:ml-[95%]">
+                <a
+                  href="https://maps.app.goo.gl/8v9CmUsB5avWYP1v9"
+                  target="_blank"
+                >
+                  <img className="w-10 md:w-[45px] md:h-11 " src="https://iili.io/dL52914.png" />
+                </a>
+              </div>
             </div>
             <div className="md:hidden mt-16 w-[50%] ">
-              <p className="text-base font-bold text-[#390099]">Moments After Marriage</p>
-              <div className="text-xl font-extrabold text-[#ff1654] mt-2 text-center">
-                <Link to="/Courier">
+              <p className="text-base ml-[25%] sm:ml-[0] md:ml[0] font-bold text-[#390099]">
+                Moments After Marriage
+              </p>
+              <div className="text-xl font-extrabold text-[#ff1654] mt-2  ml-[35%] sd:text-center md:text-center">
+                <Link to="/Memories">
                   <button> View </button>
                 </Link>
               </div>
             </div>
           </div>
-          </div>
+        </div>
         <div className="f3">
           <div className="fromcon">
             <div className="from">
@@ -77,7 +79,7 @@ const ScanVideo = () => {
           </div>
           <p className="aftermar">Moments After Marriage</p>
           <div className="bumar">
-            <Link to="/Courier">
+            <Link to="/Memories">
               <button className="butx"> View </button>
             </Link>
           </div>

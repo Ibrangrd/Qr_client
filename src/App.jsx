@@ -30,6 +30,7 @@ import {
   Hotel,
   Courier,
   Cars,
+  Memories,
 } from "./pages/index.js";
 import VideoSection from "./pages/Videos/VideoSection.jsx";
 import  QRSection from "./pages/Qrs/QRSection.jsx";
@@ -97,6 +98,7 @@ const App = () => {
           <Route path="/Hotel" element={<Hotel />} />
           <Route path="/Courier" element={<Courier />} />
           <Route path="/Cars" element={<Cars />} />
+          <Route path="/memories" element ={<Memories/>} />
           <Route path="*" element={<Error />} />
           <Route path="/admin" element={<AdminLayout />}>
             <Route path="users" element={<AdminUsers />} />
