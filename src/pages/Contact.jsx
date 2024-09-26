@@ -65,9 +65,9 @@ const Contact = () => {
         </h2>
         <div className="  ml-[6%] md:ml-[60%] flex gap-6" >
         <h2 className="-ml-[20%] text-red-200 hidden sm:block"> Mobile no. :- </h2>
-        <p className="text-white" >9832704206</p>
-        <p className="text-white">6200339631</p>
-        <p className="text-white">9508853398</p>
+        <p className="text-[#ef233c]" >9832704206</p>
+        <p className="text-[#ef233c]">6200339631</p>
+        <p className="text-[#ef233c]">9508853398</p>
         </div>
       </div>
       <section className="relative z-10 overflow-hidden bg-white dark:bg-dark  lg:py-[40px] mx-auto">
