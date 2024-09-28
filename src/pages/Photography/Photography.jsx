@@ -1,11 +1,15 @@
 import React from "react";
+import { Suspense, lazy } from "react";
 import Videography from "./Mainphotography";
-import Slider from "./slider";
 import "./photo.css";
-import VideoList from "./Videos/VideoList";
+import VideoList from "../Videos/VideoList";
 import Album from "./Album";
-import { Images1, Images2, albumData, video12, videosample} from "../utils";
-
+import { albumData } from "../data/albumdata";
+import { videosample } from "../data/VideoSample";
+import { Images1 } from "../data/Images1";
+import { Images2 } from "../data/Images2";
+import { video12 } from "../data/Video12";
+const Slider = lazy(() => import("./slider"));
 const Photography = () => {
 
     return (
@@ -28,9 +32,10 @@ const Photography = () => {
         );
       })}
       <h1 className="head"> SAMPLE'S </h1>
-      
-      <Slider images={Images1} />
-      <Slider images={Images2} />
+         <Suspense fallback={<div>Loading Images...</div>}>
+            <Slider images={Images1} />
+            <Slider images={Images2} />
+          </Suspense>
     </div>
     <h1 className="he">ALBUM </h1>
     <div className="albums2">

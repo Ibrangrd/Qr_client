@@ -1,8 +1,7 @@
 import React from "react";
 import "./service.css";
 import ServiceList from "./ServiceList";
-import { Slist,ServiceTop } from "../utils";
-import Servicetop from "./ServiceTop";
+import { Servicelist } from "../data/Servicelist";
 const Service = () => {
   return (
     <>
@@ -23,7 +22,7 @@ const Service = () => {
           <h2 className="what"> What we have:- </h2>
         </div>
         <div className="mmm">
-          {Slist.map((val) => {
+          {Servicelist.map((val) => {
             return (
               <ServiceList
                 key={val.id}

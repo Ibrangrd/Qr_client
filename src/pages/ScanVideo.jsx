@@ -28,9 +28,9 @@ const ScanVideo = () => {
             <iframe
               width="600"
               height="350"
-              src={data?.iframe}
+              src={`${data?.iframe}&autoplay=1`}
               title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerPolicy="strict-origin-when-cross-origin"
               allowFullScreen
             ></iframe>
@@ -38,12 +38,12 @@ const ScanVideo = () => {
           <div className="flex justify-center">
             <div>
               <div className="location"> Venue Location </div>
-              <div className=" ml-[10%] sm:ml-[95%]">
+              <div className=" ml-[10%] sm:ml-[45%]">
                 <a
-                  href="https://maps.app.goo.gl/8v9CmUsB5avWYP1v9"
+                  href="https://maps.app.goo.gl/HdAj5DHDo2myz6qe9"
                   target="_blank"
                 >
-                  <img className="w-10 md:w-[45px] md:h-11 " src="https://iili.io/dL52914.png" />
+                  <img className="w-10 object-cover sm:w-10 md:w-10 sm:h-10 md:h-10" src="https://iili.io/dL52914.png" />
                 </a>
               </div>
             </div>
