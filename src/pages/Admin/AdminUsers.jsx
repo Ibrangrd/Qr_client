@@ -1,44 +1,41 @@
-import { useEffect, useState } from "react";
-import { useAuth } from "../auth";
-import { toast } from "react-toastify";
+import { useEffect } from "react";
+import { useState } from "react";
+import { useAuth } from "../../auth";
+import { Link } from "react-router-dom";
 
-const AdminContacts = () => {
-  const [contactData, setContactData] = useState([]);
+const AdminUsers = () => {
+  const [users, setUsers] = useState([]);
+
   const { authorizationToken, API } = useAuth();
 
-  const getContactsData = async () => {
+  const getAllUsersData = async () => {
     try {
-      const response = await fetch(`${API}/api/admin/contacts`, {
+      const response = await fetch(`${API}/api/admin/users`, {
         method: "GET",
         headers: {
           Authorization: authorizationToken,
         },
       });
       const data = await response.json();
-      // console.log("contact data: ", data);
-      if (response.ok) {
-        setContactData(data);
-      }
+      // console.log(users ${data});
+      setUsers(data);
     } catch (error) {
       console.log(error);
     }
   };
 
-  // defining the function deleteContactById
-
-  const deleteContactById = async (id) => {
+  // delete the user on delete button
+  const deleteUser = async (id) => {
     try {
-      const response = await fetch(`${API}/api/admin/contacts/delete/${id}`, {
+      const response = await fetch(`${API}/api/admin/users/delete/${id}`, {
         method: "DELETE",
         headers: {
           Authorization: authorizationToken,
         },
       });
+      // const data = await response.json();
       if (response.ok) {
-        getContactsData();
-        toast.success("deleted successfully");
-      } else {
-        toast.error("Not Deleted");
+        getAllUsersData();
       }
     } catch (error) {
       console.log(error);
@@ -46,14 +43,13 @@ const AdminContacts = () => {
   };
 
   useEffect(() => {
-    getContactsData();
+    getAllUsersData();
   }, []);
-
   return (
-    <div className="w-full">
-      <div className="relative overflow-x-auto shadow-md sm:rounded-lg  ">
+    <div>
+      <div className="relative overflow-x-scroll shadow-md sm:rounded-lg">
         <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-          <thead className="text-lg text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+          <thead className="text-lg w-full text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
             <tr>
               <th scope="col" className="px-6 py-3">
                 NAME
@@ -62,7 +58,7 @@ const AdminContacts = () => {
                 MOBILE NO.
               </th>
               <th scope="col" className="px-6 py-3">
-                MESSAGE
+                EDIT
               </th>
               <th scope="col" className="px-6 py-3">
                 DELETE
@@ -70,7 +66,7 @@ const AdminContacts = () => {
             </tr>
           </thead>
           <tbody>
-            {contactData.map((curContactData, index) => {
+            {users.map((curUser, index) => {
               return (
                 <tr
                   key={index}
@@ -80,13 +76,20 @@ const AdminContacts = () => {
                     scope="row"
                     className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                   >
-                    {curContactData?.username}
+                    {curUser?.username}
                   </th>
-                  <td className="px-6 py-4">{curContactData?.phone}</td>
-                  <td className="px-6 py-4">{curContactData?.message}</td>
+                  <td className="px-6 py-4">{curUser?.phone}</td>
+                  <td className="px-6 py-4 ">
+                    <Link
+                      to={`/admin/users/${curUser._id}/edit`}
+                      className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                    >
+                      Edit
+                    </Link>
+                  </td>
                   <td className="px-6 py-4">
                     <button
-                      onClick={() => deleteContactById(curContactData?._id)}
+                      onClick={() => deleteUser(curUser._id)}
                       className="font-medium  text-red-600 dark:text-red-500 hover:underline"
                     >
                       Delete
@@ -102,4 +105,4 @@ const AdminContacts = () => {
   );
 };
 
-export default AdminContacts;
+export default AdminUsers;

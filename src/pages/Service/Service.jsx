@@ -2,6 +2,7 @@ import React from "react";
 import "./service.css";
 import ServiceList from "./ServiceList";
 import { Servicelist } from "../data/Servicelist";
+import { ServiceTop } from "../../utils";
 const Service = () => {
   return (
     <>
@@ -10,7 +11,7 @@ const Service = () => {
          
          {/* <div className="flex" >
          {ServiceTop.map((service) => (
-          <Servicetop 
+          <ServiceTop 
             key={service.id}
             link={service.link}
             img={service.img}

@@ -29,12 +29,14 @@ import {
   Photoinfo8,
   Photoinfo9, 
   ScanVideo,
+  Hscan,
   Hotel,
+  Home,
   Courier,
   Cars,
   Memories,
 } from "./pages/index.js";
-import Home from "./pages/Home.jsx";
+// import Home from "./pages/Home.jsx";
 const CardSection = lazy((e) => import("./pages/Cards/CardSection.jsx"));
 
 export const ThemeContext = createContext("light");
@@ -95,6 +97,7 @@ const App = () => {
           <Route path="/Photoinfo8" element={<Photoinfo8 />} />
           <Route path="/Photoinfo9" element={<Photoinfo9 />} />
           <Route path="/Scan/:inviteId" element={<ScanVideo />} />
+          <Route path="/Hscan" element={<Hscan/>} />
           <Route path="/Hotel" element={<Hotel />} />
           <Route path="/Courier" element={<Courier />} />
           <Route path="/Cars" element={<Cars />} />

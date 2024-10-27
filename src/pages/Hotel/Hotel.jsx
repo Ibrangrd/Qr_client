@@ -1,8 +1,8 @@
 import React from "react";
 import './hotel.css'
-import VideoList from "./Videos/VideoList";
+import VideoList from "../Videos/VideoList";
 import HotelList from "./HotelList";
-import { Hoteldet} from "../utils";
+import { Hoteldet } from "../data/HotelDetails";
 const Hotel = () => {
   return (
     <>

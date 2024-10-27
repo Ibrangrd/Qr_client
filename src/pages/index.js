@@ -12,10 +12,10 @@ import Register from "./Register";
 import Logout from "./Logout";
 import Service from "./Service/Service";
 import Error from "./Error";
-import AdminLayout from "./AdminLayout";
-import AdminUsers from "./AdminUsers";
-import AdminContacts from "./AdminContacts";
-import AdminUpdate from "./AdminUpdate";
+import AdminLayout from "./Admin/AdminLayout";
+import AdminUsers from "./Admin/AdminUsers";
+import AdminContacts from "./Admin/AdminContacts";
+import AdminUpdate from "./Admin/AdminUpdate";
 import Loading from "./Loading";
 import Photoinfo1 from "./Photography/Photoinfo1";
 import Photoinfo2 from "./Photography/Photoinfo2";
@@ -27,10 +27,12 @@ import Photoinfo7 from "./Photography/Photoinfo7";
 import Photoinfo8 from "./Photography/Photoinfo8";
 import Photoinfo9 from "./Photography/Photoinfo9";
 import ScanVideo from "./ScanVideo";
-import Hotel from "./Hotel";
+import Hscan from "./Hscan";
+import Hotel from "./Hotel/Hotel";
 import Courier from "./Courier";
-import Cars from "./Cars";
+import Cars from "./Car/Cars";
 import Memories from "./AfterMarriage";
+import { ImOpt } from "react-icons/im";
 
 
 export {
@@ -63,6 +65,7 @@ export {
   Photoinfo8,
   Photoinfo9,
   ScanVideo,
+  Hscan,
   Hotel,
   Courier,
   Cars,

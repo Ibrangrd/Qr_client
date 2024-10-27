@@ -267,6 +267,7 @@ iframe {
 .moments_mob{
     display: none;
 }
+
 @media(max-width:480px) {
     .moments_mob{
       display: contents;
