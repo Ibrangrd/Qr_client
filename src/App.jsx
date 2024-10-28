@@ -30,6 +30,7 @@ import {
   Photoinfo9, 
   ScanVideo,
   Hscan,
+  Scan2,
   Hotel,
   Home,
   Courier,
@@ -98,6 +99,7 @@ const App = () => {
           <Route path="/Photoinfo9" element={<Photoinfo9 />} />
           <Route path="/Scan/:inviteId" element={<ScanVideo />} />
           <Route path="/Hscan" element={<Hscan/>} />
+          <Route path="/Scan2" element={<Scan2/>} />
           <Route path="/Hotel" element={<Hotel />} />
           <Route path="/Courier" element={<Courier />} />
           <Route path="/Cars" element={<Cars />} />
