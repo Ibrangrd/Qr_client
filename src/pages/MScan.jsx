@@ -11,41 +11,41 @@ const Mscan = () => {
           bgImage: "https://i.ibb.co/2NrPFcW/I1.webp",
           videoStyle: { width: "80%", height: "240px" },
           position: "mt-[45%] ml-[8%]",
-          he:" h-[720px] w-full bg-contain bg-no-repeat"
+          he:" h-auto w-auto bg-cover bg-no-repeat"
       },
       {
           bgImage: "https://i.ibb.co/5LFY9yV/i2.webp",
           videoStyle: { width: "80%", height: "240px" },
           position: "mt-[45%] ml-[8%]",   
-          he:" h-[720px] w-full bg-contain bg-no-repeat"
+          he:" h-auto w-auto bg-cover bg-no-repeat"
    
       },
       {
           bgImage: "https://i.ibb.co/GndPymF/i3.webp",
           videoStyle: { width: "80%", height: "240px" },
           position: "mt-[45%] ml-[8%]", 
-          he:" h-[720px] w-full bg-contain bg-no-repeat"
+          he:"h-auto w-auto bg-cover bg-no-repeat"
        
       },
       {
           bgImage: "https://i.ibb.co/cNrgfBr/i4.webp",
           videoStyle: { width: "80%", height: "240px" },
           position: "mt-[45%] ml-[8%]",  
-          he:" h-[720px] w-full bg-contain bg-no-repeat"
+          he:" h-auto w-auto bg-cover bg-no-repeat"
       
       },
       {
           bgImage: "https://i.ibb.co/Rv4j0ZS/i5.webp",
           videoStyle: { width: "80%", height: "240px" },
           position: "mt-[45%] ml-[8%]",  
-          he:" h-[720px] w-full bg-contain bg-no-repeat"
+          he:"h-auto w-auto bg-cover bg-no-repeat"
       
       },
       {
           bgImage: "https://i.ibb.co/ZfPgKYh/i6.webp",
           videoStyle: { width: "80%", height: "240px" },
           position: "mt-[45%] ml-[8%]",    
-          he:" h-[720px] w-full bg-contain bg-no-repeat"
+          he:"h-auto w-auto bg-cover bg-no-repeat"
     
       },
 
@@ -53,20 +53,20 @@ const Mscan = () => {
         bgImage: "https://i.ibb.co/j5cQ05d/m7.jpg",
         videoStyle: { width: "90%", height: "280px" },
         position: " mt-[7%]",
-        he:" h-[530px] w-full bg-contain bg-no-repeat"
+        he:"h-auto w-auto bg-cover bg-no-repeat"
     },
    {
         bgImage: "https://i.ibb.co/vmHnRNL/m8.jpg",
         videoStyle: { width: "90%", height: "280px" },
         position: "mt-[7%]",
-        he:" h-[530px] w-full bg-contain bg-no-repeat"
+        he:"h-auto w-auto bg-cover bg-no-repeat"
 
     },
     {
         bgImage: "https://i.ibb.co/0sdMQTb/m9.jpg",
         videoStyle: { width: "90%", height: "280px" },
         position: " mt-[7%]",
-        he:" h-[530px] w-full bg-contain bg-no-repeat"
+        he:"h-auto w-auto bg-cover bg-no-repeat"
 
     },
 
@@ -74,28 +74,28 @@ const Mscan = () => {
           bgImage: "https://i.ibb.co/0tNb3s1/m1.jpg",
           videoStyle: { width: "90%", height: "280px" },
           position: "mt-[7%]",
-          he:" h-[530px] w-full bg-contain bg-no-repeat"
+          he:" h-auto w-auto bg-cover bg-no-repeat"
 
     },
     {
           bgImage: "https://i.ibb.co/KhNXNV6/m2.jpg",
           videoStyle: { width: "90%", height: "280px" },
           position: "mt-[7%]",
-          he:" h-[530px] w-full bg-contain bg-no-repeat"
+          he:"h-auto w-auto bg-cover bg-no-repeat"
 
     },
     {
           bgImage: "https://i.ibb.co/q9rft5L/m3.jpg",
           videoStyle: { width: "90%", height: "280px" },
           position: "mt-[7%]",
-          he:" h-[530px] w-full bg-contain bg-no-repeat"
+          he:" h-auto w-auto bg-cover bg-no-repeat"
 
     },
     {
           bgImage: "https://i.ibb.co/xKbwk4d/m6.jpg",
           videoStyle: { width: "90%", height: "280px" },
           position: " mt-[7%]",
-          he:" h-[530px] w-full bg-contain bg-no-repeat"
+          he:"h-auto w-auto bg-cover bg-no-repeat"
 
     },
       
@@ -124,9 +124,9 @@ const Mscan = () => {
           <div className=" flex flex-col">
 
             <div className=" flex ml-[10%] gap-5">
-              <h1 className=" text-3xl font-bold mt-[40px] italic animate-change-color">ARYAN   </h1>
+              <h1 className=" text-2xl font-bold mt-[40px] italic animate-change-color">ARYAN   </h1>
               <img className=" w-20 h-20 mt-5 animate-heart-size" src="https://i.postimg.cc/0QNBbMSM/testimage.png"/>
-              <h1 className=" text-3xl font-bold poppins mt-[40px] italic animate-change-color"> PAYAL  </h1>
+              <h1 className=" text-2xl font-bold poppins mt-[40px] italic animate-change-color"> PAYAL  </h1>
             </div>
  
           <div className={position}>
