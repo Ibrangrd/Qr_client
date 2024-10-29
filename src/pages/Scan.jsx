@@ -1,23 +1,10 @@
 import React from "react";
 import { Link} from "react-router-dom";
 import { useState } from "react"
-import { useEffect } from 'react';
 
 
 const Scan2 = () => {
   
-  useEffect(() => {
-    const audio = new Audio(""); // Replace with your audio file URL
-    audio.play();
-
-    const timer = setTimeout(() => {
-      audio.pause();
-      audio.currentTime = 0; // Reset audio to the beginning
-    }, 5000); // 5000 milliseconds = 5 seconds
-
-    return () => clearTimeout(timer);
-  }, []);
-
   const designs = [
     {
       bgImage: "https://i.ibb.co/WHkQw5G/1.jpg",
@@ -166,6 +153,9 @@ const Scan2 = () => {
 
 
         </div>
+      {/* <audio controls autoplay loop >
+      <source src="./public/Audio.mp3" type="audio/mp3"></source>
+       </audio> */}
       </div>
     </>
   );
