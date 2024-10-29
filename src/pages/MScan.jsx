@@ -6,42 +6,97 @@ import { useState } from "react"
 const Mscan = () => {
   
   const designs = [
-        
+    
+      {
+          bgImage: "https://i.ibb.co/2NrPFcW/I1.webp",
+          videoStyle: { width: "80%", height: "240px" },
+          position: "mt-[45%] ml-[8%]",
+          he:" h-[720px] w-full bg-contain bg-no-repeat"
+      },
+      {
+          bgImage: "https://i.ibb.co/5LFY9yV/i2.webp",
+          videoStyle: { width: "80%", height: "240px" },
+          position: "mt-[45%] ml-[8%]",   
+          he:" h-[720px] w-full bg-contain bg-no-repeat"
+   
+      },
+      {
+          bgImage: "https://i.ibb.co/GndPymF/i3.webp",
+          videoStyle: { width: "80%", height: "240px" },
+          position: "mt-[45%] ml-[8%]", 
+          he:" h-[720px] w-full bg-contain bg-no-repeat"
+       
+      },
+      {
+          bgImage: "https://i.ibb.co/cNrgfBr/i4.webp",
+          videoStyle: { width: "80%", height: "240px" },
+          position: "mt-[45%] ml-[8%]",  
+          he:" h-[720px] w-full bg-contain bg-no-repeat"
+      
+      },
+      {
+          bgImage: "https://i.ibb.co/Rv4j0ZS/i5.webp",
+          videoStyle: { width: "80%", height: "240px" },
+          position: "mt-[45%] ml-[8%]",  
+          he:" h-[720px] w-full bg-contain bg-no-repeat"
+      
+      },
+      {
+          bgImage: "https://i.ibb.co/ZfPgKYh/i6.webp",
+          videoStyle: { width: "80%", height: "240px" },
+          position: "mt-[45%] ml-[8%]",    
+          he:" h-[720px] w-full bg-contain bg-no-repeat"
+    
+      },
+
     {
         bgImage: "https://i.ibb.co/j5cQ05d/m7.jpg",
         videoStyle: { width: "90%", height: "280px" },
         position: " mt-[7%]",
+        he:" h-[530px] w-full bg-contain bg-no-repeat"
     },
    {
         bgImage: "https://i.ibb.co/vmHnRNL/m8.jpg",
         videoStyle: { width: "90%", height: "280px" },
         position: "mt-[7%]",
+        he:" h-[530px] w-full bg-contain bg-no-repeat"
+
     },
     {
         bgImage: "https://i.ibb.co/0sdMQTb/m9.jpg",
         videoStyle: { width: "90%", height: "280px" },
         position: " mt-[7%]",
+        he:" h-[530px] w-full bg-contain bg-no-repeat"
+
     },
 
     {
           bgImage: "https://i.ibb.co/0tNb3s1/m1.jpg",
           videoStyle: { width: "90%", height: "280px" },
           position: "mt-[7%]",
+          he:" h-[530px] w-full bg-contain bg-no-repeat"
+
     },
     {
           bgImage: "https://i.ibb.co/KhNXNV6/m2.jpg",
           videoStyle: { width: "90%", height: "280px" },
           position: "mt-[7%]",
+          he:" h-[530px] w-full bg-contain bg-no-repeat"
+
     },
     {
           bgImage: "https://i.ibb.co/q9rft5L/m3.jpg",
           videoStyle: { width: "90%", height: "280px" },
           position: "mt-[7%]",
+          he:" h-[530px] w-full bg-contain bg-no-repeat"
+
     },
     {
           bgImage: "https://i.ibb.co/xKbwk4d/m6.jpg",
           videoStyle: { width: "90%", height: "280px" },
           position: " mt-[7%]",
+          he:" h-[530px] w-full bg-contain bg-no-repeat"
+
     },
       
 
@@ -57,18 +112,18 @@ const Mscan = () => {
     setCurrentDesignIndex((prevIndex) => (prevIndex - 1 + designs.length) % designs.length);
   };
 
-  const { bgImage, videoStyle , position } = designs[currentDesignIndex];
+  const { bgImage, videoStyle , position , he } = designs[currentDesignIndex];
 
 
 
   return (
     <>
-      <div class=" w-full">
-        <div className="w-[100%] h-[550px] bg-cover"style={{ backgroundImage: `url(${bgImage})` }} >
+      <div class="">
+        <div className={he} style={{ backgroundImage: `url(${bgImage})` }} >
 
           <div className=" flex flex-col">
 
-            <div className=" flex ml-[10%] gap-5 ">
+            <div className=" flex ml-[10%] gap-5">
               <h1 className=" text-3xl font-bold mt-[40px] italic animate-change-color">ARYAN   </h1>
               <img className=" w-20 h-20 mt-5 animate-heart-size" src="https://i.postimg.cc/0QNBbMSM/testimage.png"/>
               <h1 className=" text-3xl font-bold poppins mt-[40px] italic animate-change-color"> PAYAL  </h1>
@@ -86,7 +141,7 @@ const Mscan = () => {
            ></iframe>
         </div>
 
-        <div className="flex ml-[9%] mt-4 gap-[70%]"> 
+        <div className="flex ml-[9%] mt-4 gap-[70%] "> 
         <div className="">  <button onClick={handlePrevious}><img className="w-6 bg-red-900 rounded-lg " src="https://iili.io/2BGzBxj.png" /> </button></div>
         <div className=""> <button onClick={handleNext}> <img className="w-6 bg-red-900 rounded-lg" src="https://cdn-icons-png.flaticon.com/512/7604/7604747.png" /></button> </div>
         </div>
