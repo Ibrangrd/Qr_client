@@ -13,9 +13,9 @@ export default {
       keyframes: {
         heartSize: {
           '0%': { transform: 'scale(1)' },
-          '25%': { transform: 'scale(1.2)' },
-          '50%': { transform: 'scale(1.4)' },
-          '75%': { transform: 'scale(1.2)' },
+          '25%': { transform: 'scale(1.1)' },
+          '50%': { transform: 'scale(1.2)' },
+          '75%': { transform: 'scale(1.1)' },
           '100%': { transform: 'scale(1)' },
         },
         changeColor: {

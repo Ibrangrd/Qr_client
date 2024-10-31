@@ -29,6 +29,7 @@ import Photoinfo9 from "./Photography/Photoinfo9";
 import ScanVideo from "./ScanVideo";
 import Hscan from "./Hscan";
 // import Scan2 from "./Scan";
+import Hoscan from "./Hoscan";
 import Mscan from "./MScan";
 import Hotel from "./Hotel/Hotel";
 import Courier from "./Courier";
@@ -69,6 +70,7 @@ export {
   ScanVideo,
   Hscan,
   Mscan,
+  Hoscan,
   // Scan2,
   Hotel,
   Courier,
