@@ -31,7 +31,7 @@ import {
   ScanVideo,
   Hscan,
   Mscan,
-  Hoscan,
+  // Hoscan,
   // Scan2,
   Hotel,
   Home,
@@ -101,7 +101,7 @@ const App = () => {
           <Route path="/Photoinfo9" element={<Photoinfo9 />} />
           <Route path="/Scan/:inviteId" element={<ScanVideo />} />
           <Route path="/Hscan" element={<Hscan/>} />
-          <Route path="/Hoscan" element={<Hoscan/>} />
+          {/* <Route path="/Hoscan" element={<Hoscan/>} /> */}
           {/* <Route path="/Scan2" element={<Scan2/>} /> */}
           <Route path="/Mscan" element={<Mscan/>} />
           <Route path="/Hotel" element={<Hotel />} />

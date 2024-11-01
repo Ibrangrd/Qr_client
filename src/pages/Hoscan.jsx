@@ -9,22 +9,22 @@ const Hoscan = () => {
       {
         bgImage: "https://i.ibb.co/ZfcmQtW/q1.jpg",
         videoStyle: { width:"300px", height: "230px" },
-        position: "mt-[37%] mb-[3%] rotate-90",
+        position: "mt-[33%] mb-[3%] rotate-90",
       },
       {
         bgImage: "https://i.ibb.co/swSgmfJ/q2.jpg",
         videoStyle: { width:"300px", height: "230px" },
-        position: "mt-[37%] mb-[3%] rotate-90",
+        position: "mt-[33%] mb-[3%] rotate-90",
       },
       {
         bgImage: "https://i.ibb.co/pKVwg9B/q3.jpg",
         videoStyle: { width:"300px", height: "230px" },
-        position: "mt-[37%] mb-[3%] rotate-90",
+        position: "mt-[33%] mb-[3%] rotate-90",
       },
       {
         bgImage: "https://i.ibb.co/SRHFQD7/q4.jpg",
         videoStyle: { width:"300px", height: "230px" },
-        position: "mt-[37%] mb-[3%] rotate-90",
+        position: "mt-[33%] mb-[3%] rotate-90",
       },
   ];
 
@@ -45,7 +45,7 @@ const Hoscan = () => {
   return (
     <>
       <div class="">
-        <div className="h-screen w-full bg-cover bg-no-repeat" style={{ backgroundImage: `url(${bgImage})` }} >
+        <div className="h-[80vh] w-full bg-cover bg-no-repeat" style={{ backgroundImage: `url(${bgImage})` }} >
            
            <div className="flex ml-[25%] pt-10  gap-[70%] "> 
         <div className="">  <button onClick={handlePrevious}><img className="w-6 bg-red-900 rounded-lg " src="https://iili.io/2BGzBxj.png" /> </button></div>

@@ -6,100 +6,121 @@ import { useState } from "react"
 const Mscan = () => {
   
   const designs = [
-    
+      
       {
-          bgImage: "https://i.ibb.co/2NrPFcW/I1.webp",
+      bgImage: "https://i.ibb.co/HHgF694/freepik.jpg",
+      videoStyle: { width: "80%", height: "240px", },
+      position: "mt-[45%] ml-[8%]",
+      he:" h-auto w-auto bg-cover bg-no-repeat"
+      },
+      {
+          bgImage: "https://i.ibb.co/4SX0TZt/freepik.jpg",
           videoStyle: { width: "80%", height: "240px" },
           position: "mt-[45%] ml-[8%]",
-          he:" h-auto w-auto bg-cover bg-no-repeat"
+         he:" h-auto w-auto bg-cover bg-no-repeat"
       },
-      {
-          bgImage: "https://i.ibb.co/5LFY9yV/i2.webp",
+        {
+          bgImage: "https://i.ibb.co/rZpFt73/z17.jpg",
           videoStyle: { width: "80%", height: "240px" },
-          position: "mt-[45%] ml-[8%]",   
-          he:" h-auto w-auto bg-cover bg-no-repeat"
-   
-      },
-      {
-          bgImage: "https://i.ibb.co/GndPymF/i3.webp",
+          position: "mt-[45%] ml-[8%]",
+          he: "h-auto w-auto bg-cover bg-no-repeat"
+        },
+        {
+          bgImage: "https://i.ibb.co/dcnLC60/z16.jpg",
           videoStyle: { width: "80%", height: "240px" },
-          position: "mt-[45%] ml-[8%]", 
-          he:"h-auto w-auto bg-cover bg-no-repeat"
-       
-      },
-      {
-          bgImage: "https://i.ibb.co/cNrgfBr/i4.webp",
+          position: "mt-[45%] ml-[8%]",
+          he: "h-auto w-auto bg-cover bg-no-repeat"
+        },
+        {
+          bgImage: "https://i.ibb.co/MSZQ7GF/z15.jpg",
           videoStyle: { width: "80%", height: "240px" },
-          position: "mt-[45%] ml-[8%]",  
-          he:" h-auto w-auto bg-cover bg-no-repeat"
-      
-      },
-      {
-          bgImage: "https://i.ibb.co/Rv4j0ZS/i5.webp",
+          position: "mt-[45%] ml-[8%]",
+          he: "h-auto w-auto bg-cover bg-no-repeat"
+        },
+        {
+          bgImage: "https://i.ibb.co/kXJfDhz/z14.jpg",
           videoStyle: { width: "80%", height: "240px" },
-          position: "mt-[45%] ml-[8%]",  
-          he:"h-auto w-auto bg-cover bg-no-repeat"
-      
-      },
-      {
-          bgImage: "https://i.ibb.co/ZfPgKYh/i6.webp",
+          position: "mt-[45%] ml-[8%]",
+          he: "h-auto w-auto bg-cover bg-no-repeat"
+        },
+        {
+          bgImage: "https://i.ibb.co/v16kfqc/z10.jpg",
           videoStyle: { width: "80%", height: "240px" },
-          position: "mt-[45%] ml-[8%]",    
-          he:"h-auto w-auto bg-cover bg-no-repeat"
-    
-      },
-
-    {
-        bgImage: "https://i.ibb.co/j5cQ05d/m7.jpg",
-        videoStyle: { width: "90%", height: "280px" },
-        position: " mt-[7%]",
-        he:"h-auto w-auto bg-cover bg-no-repeat"
-    },
-   {
-        bgImage: "https://i.ibb.co/vmHnRNL/m8.jpg",
-        videoStyle: { width: "90%", height: "280px" },
-        position: "mt-[7%]",
-        he:"h-auto w-auto bg-cover bg-no-repeat"
-
-    },
-    {
-        bgImage: "https://i.ibb.co/0sdMQTb/m9.jpg",
-        videoStyle: { width: "90%", height: "280px" },
-        position: " mt-[7%]",
-        he:"h-auto w-auto bg-cover bg-no-repeat"
-
-    },
-
-    {
-          bgImage: "https://i.ibb.co/0tNb3s1/m1.jpg",
-          videoStyle: { width: "90%", height: "280px" },
-          position: "mt-[7%]",
-          he:" h-auto w-auto bg-cover bg-no-repeat"
-
-    },
-    {
-          bgImage: "https://i.ibb.co/KhNXNV6/m2.jpg",
-          videoStyle: { width: "90%", height: "280px" },
-          position: "mt-[7%]",
-          he:"h-auto w-auto bg-cover bg-no-repeat"
-
-    },
-    {
-          bgImage: "https://i.ibb.co/q9rft5L/m3.jpg",
-          videoStyle: { width: "90%", height: "280px" },
-          position: "mt-[7%]",
-          he:" h-auto w-auto bg-cover bg-no-repeat"
-
-    },
-    {
-          bgImage: "https://i.ibb.co/xKbwk4d/m6.jpg",
-          videoStyle: { width: "90%", height: "280px" },
-          position: " mt-[7%]",
-          he:"h-auto w-auto bg-cover bg-no-repeat"
-
-    },
-      
-
+          position: "mt-[45%] ml-[8%]",
+          he: "h-auto w-auto bg-cover bg-no-repeat"
+        },
+        {
+          bgImage: "https://i.ibb.co/9wZx3Jj/z11.jpg",
+          videoStyle: { width: "80%", height: "240px" },
+          position: "mt-[45%] ml-[8%]",
+          he: "h-auto w-auto bg-cover bg-no-repeat"
+        },
+        {
+          bgImage: "https://i.ibb.co/82nWpR6/z12.jpg",
+          videoStyle: { width: "80%", height: "240px" },
+          position: "mt-[45%] ml-[8%]",
+          he: "h-auto w-auto bg-cover bg-no-repeat"
+        },
+        {
+          bgImage: "https://i.ibb.co/1K40wJ3/z13.jpg",
+          videoStyle: { width: "80%", height: "240px" },
+          position: "mt-[45%] ml-[8%]",
+          he: "h-auto w-auto bg-cover bg-no-repeat"
+        },
+        {
+          bgImage: "https://i.ibb.co/0r7SCNd/z3.jpg",
+          videoStyle: { width: "80%", height: "240px" },
+          position: "mt-[45%] ml-[8%]",
+          he: "h-auto w-auto bg-cover bg-no-repeat"
+        },
+        {
+          bgImage: "https://i.ibb.co/pw7jYbL/z9.jpg",
+          videoStyle: { width: "80%", height: "240px" },
+          position: "mt-[45%] ml-[8%]",
+          he: "h-auto w-auto bg-cover bg-no-repeat"
+        },
+        {
+          bgImage: "https://i.ibb.co/dKRg2Kt/z8.jpg",
+          videoStyle: { width: "80%", height: "240px" },
+          position: "mt-[45%] ml-[8%]",
+          he: "h-auto w-auto bg-cover bg-no-repeat"
+        },
+        {
+          bgImage: "https://i.ibb.co/rxMqpZ8/z7.jpg",
+          videoStyle: { width: "80%", height: "240px" },
+          position: "mt-[45%] ml-[8%]",
+          he: "h-auto w-auto bg-cover bg-no-repeat"
+        },
+        {
+          bgImage: "https://i.ibb.co/2gnsQQs/z2.jpg",
+          videoStyle: { width: "80%", height: "240px" },
+          position: "mt-[45%] ml-[8%]",
+          he: "h-auto w-auto bg-cover bg-no-repeat"
+        },
+        {
+          bgImage: "https://i.ibb.co/qNDgQnZ/z4.jpg",
+          videoStyle: { width: "80%", height: "240px" },
+          position: "mt-[45%] ml-[8%]",
+          he: "h-auto w-auto bg-cover bg-no-repeat"
+        },
+        {
+          bgImage: "https://i.ibb.co/VVYv7ds/z5.jpg",
+          videoStyle: { width: "80%", height: "240px" },
+          position: "mt-[45%] ml-[8%]",
+          he: "h-auto w-auto bg-cover bg-no-repeat"
+        },
+        {
+          bgImage: "https://i.ibb.co/vcxykxq/z6.jpg",
+          videoStyle: { width: "80%", height: "240px" },
+          position: "mt-[45%] ml-[8%]",
+          he: "h-auto w-auto bg-cover bg-no-repeat"
+        },
+        {
+          bgImage: "https://i.ibb.co/KLwvK3L/z1.jpg",
+          videoStyle: { width: "80%", height: "240px" },
+          position: "mt-[45%] ml-[8%]",
+          he: "h-auto w-auto bg-cover bg-no-repeat"
+        } 
   ];
 
   const [currentDesignIndex, setCurrentDesignIndex] = useState(0);
