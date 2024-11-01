@@ -19,11 +19,11 @@ export default {
           '100%': { transform: 'scale(1)' },
         },
         changeColor: {
-          '0%': { color: '#fb8500' },
+          '0%': { color: '#0466c8' },
           '25%': { color: '#219ebc' },
           '50%': { color: '#ffffff' },
-          '75%': { color: '#ef233c' },
-          '100%': { color: '#7209b7' },
+          '75%': { color: '#ffc300' },
+          '100%': { color: '#e9ff70' },
         },
       },
       animation: {
