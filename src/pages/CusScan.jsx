@@ -40,7 +40,7 @@ const CusScan = () => {
                 allowFullScreen
               ></iframe>
                </div>
-              <div className="w-12 h-8">
+              <div className="w-16 h-8">
                 <img
                   src="https://i.ibb.co/NjzsPSh/Sankh.png"
                   onClick={() => {
@@ -50,7 +50,7 @@ const CusScan = () => {
                   />
               </div>
 
-              <div className="w-5 h-5 ml-[18px] -mt-2">
+              <div className="w-5 h-5 ml-[28px] -mt-0">
                 <img
                   src="https://i.ibb.co/SX7Vtfg/Sound.png"
                   onClick={() => { document.getElementById("audio").src= "https://www.youtube.com/embed/Pdrcr7MeXiU?autoplay=1";
@@ -73,7 +73,7 @@ const CusScan = () => {
               ></iframe>
             </div>
 
-            <div className="flex justify-center gap-10 ml-[10%] mb-[10%]">
+            <div className="flex justify-center gap-10 ml-[10%] mb-[10%] ">
               <div className="">
                 <div className="text-[16px] font-bold  text-black text-center">
                   Venue Location{" "}
