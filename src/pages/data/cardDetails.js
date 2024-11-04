@@ -35,7 +35,7 @@ export const cardDetails = [
     cat: "Hindu",
     price: 40,
     des: "Glamorous glitter invitation with bold gold accents.",
-    path: "https://i.ibb.co/DCqW4Rr/card-65.png",
+    path: "https://iili.io/2xEX2n9.md.jpg",
     path2: "",
     path3: "",
   },
