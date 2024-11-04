@@ -17,7 +17,7 @@ const CusScan = () => {
         <div className="h-auto w-auto bg-cover bg-no-repeat" style={{ backgroundImage: `url(${data?.bgImage})` }}>
           <div className=" flex flex-col">
             <div className=" flex justify-center gap-5">
-              <h1 className=" text-2xl font-bold mt-[60px] font-mofeital animate-change-color">
+              <h1 className=" text-2xl font-bold mt-[60px]  animate-change-color">
                 {data?.couple1}
               </h1>
               <img
@@ -73,7 +73,7 @@ const CusScan = () => {
               ></iframe>
             </div>
 
-            <div className="flex justify-center gap-10 ml-[8%] mb-[10%]">
+            <div className="flex justify-center gap-10 ml-[10%] mb-[10%]">
               <div className="">
                 <div className="text-[16px] font-bold  text-black text-center">
                   Venue Location{" "}
