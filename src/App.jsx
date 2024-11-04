@@ -29,10 +29,9 @@ import {
   Photoinfo8,
   Photoinfo9, 
   ScanVideo,
-  Hscan,
   Mscan,
-  // Hoscan,
-  // Scan2,
+  CusScan,
+  CusAfter,
   Hotel,
   Home,
   Courier,
@@ -100,14 +99,13 @@ const App = () => {
           <Route path="/Photoinfo8" element={<Photoinfo8 />} />
           <Route path="/Photoinfo9" element={<Photoinfo9 />} />
           <Route path="/Scan/:inviteId" element={<ScanVideo />} />
-          <Route path="/Hscan" element={<Hscan/>} />
-          {/* <Route path="/Hoscan" element={<Hoscan/>} /> */}
-          {/* <Route path="/Scan2" element={<Scan2/>} /> */}
           <Route path="/Mscan" element={<Mscan/>} />
+          <Route path="/:inviteId" element={<CusScan />} /> 
           <Route path="/Hotel" element={<Hotel />} />
           <Route path="/Courier" element={<Courier />} />
           <Route path="/Cars" element={<Cars />} />
           <Route path="/memories" element ={<Memories/>} />
+          <Route path="/CusAfter"  element={<CusAfter/>} />
           <Route path="*" element={<Error />} />
           <Route path="/admin" element={<AdminLayout />}>
             <Route path="users" element={<AdminUsers />} />

@@ -19,7 +19,7 @@ export default {
           '100%': { transform: 'scale(1)' },
         },
         changeColor: {
-          '0%': { color: '#0466c8' },
+          '0%': { color: '#e07a5f' },
           '25%': { color: '#219ebc' },
           '50%': { color: '#ffffff' },
           '75%': { color: '#ffc300' },

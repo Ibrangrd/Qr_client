@@ -27,13 +27,12 @@ import Photoinfo7 from "./Photography/Photoinfo7";
 import Photoinfo8 from "./Photography/Photoinfo8";
 import Photoinfo9 from "./Photography/Photoinfo9";
 import ScanVideo from "./ScanVideo";
-import Hscan from "./Hscan";
-// import Scan2 from "./Scan";
-// import Hoscan from "./Hoscan";
 import Mscan from "./MScan";
+import CusScan from "./CusScan";
 import Hotel from "./Hotel/Hotel";
 import Courier from "./Courier";
 import Cars from "./Car/Cars";
+import CusAfter from "./CusAfter";
 import Memories from "./AfterMarriage";
 import { ImOpt } from "react-icons/im";
 
@@ -68,10 +67,9 @@ export {
   Photoinfo8,
   Photoinfo9,
   ScanVideo,
-  Hscan,
   Mscan,
-  // Hoscan,
-  // Scan2,
+  CusScan,
+  CusAfter,
   Hotel,
   Courier,
   Cars,
