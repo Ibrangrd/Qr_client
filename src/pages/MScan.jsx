@@ -6,7 +6,7 @@ const Mscan = () => {
   const designs = [
     {
       bgImage: "https://i.ibb.co/HHgF694/freepik.jpg",
-      videoStyle: { width: "85%", height: "220px" },
+      videoStyle: { width: "85%", height: "220px"  },
       position: "mt-[28%] ml-[5%]",
       he: " h-auto w-auto bg-cover bg-no-repeat",
     },
@@ -139,15 +139,15 @@ const Mscan = () => {
       <div className="">
         <div className={he} style={{ backgroundImage: `url(${bgImage})` }}>
           <div className=" flex flex-col">
-            <div className=" flex ml-[20%] gap-5">
-              <h1 className=" text-2xl font-bold mt-[60px] italic animate-change-color">
+            <div className=" flex justify-center text-center gap-5">
+              <h1 className=" text-2xl sm:text-[35px] font-bold mt-[60px] italic animate-change-color">
                 RAM
               </h1>
               <img
                 className=" w-20 h-20 mt-10 animate-heart-size"
                 src="https://i.postimg.cc/0QNBbMSM/testimage.png"
               />
-              <h1 className=" text-2xl font-bold poppins mt-[60px] italic animate-change-color">
+              <h1 className=" text-2xl  sm:text-[35px] font-bold poppins mt-[60px] italic animate-change-color">
                 SITA
               </h1>
             </div>
@@ -163,7 +163,7 @@ const Mscan = () => {
                 allowFullScreen
               ></iframe>
                </div>
-              <div className="w-12 h-8">
+              <div className="w-12 h-8 sm:ml-[95px]">
                 <img
                   src="https://i.ibb.co/NjzsPSh/Sankh.png"
                   onClick={() => {
@@ -173,7 +173,7 @@ const Mscan = () => {
                   />
               </div>
 
-              <div className="w-5 h-5 ml-[18px] -mt-2">
+              <div className="w-5 h-5 ml-[18px] sm:ml-[115px] -mt-2">
                 <img
                   src="https://i.ibb.co/SX7Vtfg/Sound.png"
                   onClick={() => { document.getElementById("audio").src= "https://www.youtube.com/embed/Pdrcr7MeXiU?autoplay=1";
