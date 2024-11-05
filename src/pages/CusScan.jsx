@@ -17,14 +17,14 @@ const CusScan = () => {
         <div className="h-auto w-auto bg-cover bg-no-repeat" style={{ backgroundImage: `url(${data?.bgImage})` }}>
           <div className=" flex flex-col">
             <div className=" flex justify-center gap-5">
-              <h1 className=" text-2xl font-bold mt-[60px]  animate-change-color">
+              <h1 className=" text-2xl font-bold mt-[60px] sm:text-[35px] animate-change-color">
                 {data?.couple1}
               </h1>
               <img
                 className=" w-20 h-20 mt-10 animate-heart-size"
                 src="https://i.postimg.cc/0QNBbMSM/testimage.png"
               />
-              <h1 className=" text-2xl font-bold poppins mt-[60px] animate-change-color">
+              <h1 className=" text-2xl sm:text-[35px] font-bold poppins mt-[60px] animate-change-color">
                 {data?.couple2}
               </h1>
             </div>
@@ -40,7 +40,7 @@ const CusScan = () => {
                 allowFullScreen
               ></iframe>
                </div>
-              <div className="w-16 h-8">
+              <div className="w-16 h-8 sm:ml-[95px]">
                 <img
                   src="https://i.ibb.co/NjzsPSh/Sankh.png"
                   onClick={() => {
@@ -50,7 +50,7 @@ const CusScan = () => {
                   />
               </div>
 
-              <div className="w-5 h-5 ml-[28px] -mt-0">
+              <div className="w-5 h-5 ml-[28px] sm:ml-[125px] -mt-0">
                 <img
                   src="https://i.ibb.co/SX7Vtfg/Sound.png"
                   onClick={() => { document.getElementById("audio").src= "https://www.youtube.com/embed/Pdrcr7MeXiU?autoplay=1";
@@ -62,8 +62,8 @@ const CusScan = () => {
 
             <div className={data?.position}>
               <iframe
-                className="border-double border-[#00afb9] border-8"
-                style={data?.videoStyle}
+                className={data?.videoStyle}
+                // style={data?.videoStyle}
                 src={data?.video}
                 title="YouTube video player"
                 frameBorder="0"
@@ -73,7 +73,7 @@ const CusScan = () => {
               ></iframe>
             </div>
 
-            <div className="flex justify-center gap-10 ml-[10%] mb-[10%] ">
+            <div className="flex justify-center gap-10 ml-[10%] mb-[10%] sm:mb-10 sm:mt-[7%] sm:gap-60 sm:ml-[30%] ">
               <div className="">
                 <div className="text-[16px] font-bold  text-black text-center">
                   Venue Location{" "}
@@ -95,7 +95,7 @@ const CusScan = () => {
                 <p className=" font-bold text-[#06d6a0] text-[16px]">
                   After Marriage
                 </p>
-                <div className="text-xl font-extrabold text-pink-900 text-center -ml-[60%]">
+                <div className="text-xl font-extrabold text-pink-900 text-center -ml-[60%] sm:-ml-[75%]">
                   <Link to="/Cusafter">
                     <button> View </button>
                   </Link>
