@@ -1,0 +1,15 @@
+/* Style for square radio buttons */
+.square-radio {
+    width: 20px;         
+    height: 20px;     
+    appearance: none;  
+    background-color: #ffffff;
+    border: 2px solid red;
+    border-radius: 4px; 
+    cursor: pointer;
+  }
+  
+  .square-radio:checked {
+    background-color: #aaf683; 
+  }
+  

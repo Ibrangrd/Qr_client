@@ -24,6 +24,14 @@ export const Servicelist = [
       Link: "/Decoratons",
     },
     {
+      id: "Service8",
+      imgsrc:
+        "https://www.ajivasanhall.com/images/event/02.jpg",
+      heading: "Catering",
+      des: "Savor your special moments with our expert catering services—every dish tells your love story! We offer delicious meals at affordable prices, ensuring your celebrations are beautifully catered without breaking the bank.",
+      Link: "/Catering",
+    },
+    {
       id: "Service4",
       imgsrc:
         "https://aaftonline.com/blog/wp-content/uploads/2024/01/What-are-the-Benefits-of-Photography-Complete-Overview.png",

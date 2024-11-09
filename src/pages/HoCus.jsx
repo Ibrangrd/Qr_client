@@ -1,15 +1,14 @@
 import React from "react";
 import { Link,useParams } from "react-router-dom";
-import { CusData } from "./data/CusData";
+import { Hodata } from "./data/Hodata";
 import Error from "./Error";
-const CusScan = () => {
+const HoCus = () => {
 
-    const { inviteId } = useParams();
-  const data = CusData.find((data) => data.id === inviteId);
-
-  if (data === undefined) {
-    return <Error />;
-  }
+    const { Id } = useParams();
+  const data = Hodata.find((data) => data.id === Id);
+  // if (data === undefined) {
+  //   return <Error />;
+  // }
 
      return (
     <>
@@ -17,14 +16,14 @@ const CusScan = () => {
         <div className="h-auto w-auto bg-cover bg-no-repeat" style={{ backgroundImage: `url(${data?.bgImage})` }}>
           <div className=" flex flex-col">
             <div className=" flex justify-center gap-5">
-              <h1 className={data?.namepo1}>
+              <h1 className=" text-2xl font-bold mt-[60px] sm:text-[35px] animate-change-color">
                 {data?.couple1}
               </h1>
               <img
-                className={data?.hepos}
+                className=" w-20 h-20 mt-10 animate-heart-size"
                 src="https://i.postimg.cc/0QNBbMSM/testimage.png"
               />
-              <h1 className={data?.namepo2}>
+              <h1 className=" text-2xl sm:text-[35px] font-bold poppins mt-[60px] animate-change-color">
                 {data?.couple2}
               </h1>
             </div>
@@ -109,4 +108,4 @@ const CusScan = () => {
      );
 };
 
-export default CusScan;
+export default HoCus;

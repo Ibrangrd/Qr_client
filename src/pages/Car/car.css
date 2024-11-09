@@ -19,8 +19,8 @@
 .container11 {
   margin-top: 80px;
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  justify-content: space-around; 
+  flex-wrap: wrap; 
   gap: 90px;
 }
 
