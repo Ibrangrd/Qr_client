@@ -19,8 +19,8 @@ export const CusData = [
       namepo1:"text-2xl font-bold mt-[90px] sm:text-[35px] animate-change-color",
       namepo2:"text-2xl sm:text-[35px] font-bold mt-[90px] animate-change-color",
       hepos:" w-20 h-20 mt-[70px] animate-heart-size",
-      couple1:"𝓢𝓐𝓜𝓜𝓘",
-      couple2:"𝓡𝓐𝓗𝓤𝓛",
+      couple1:"𝒮𝒜𝑀𝑀𝐼",
+      couple2:"𝑅𝒜𝐻𝒰𝐿",
       bgImage:"https://i.ibb.co/vcxykxq/z6.jpg",
       video:"https://www.youtube.com/embed/PPQ2-K0_gK8?si=RoaQ42lsxd1N81nQ",
       position: "mt-[28%] ml-[5%] sm:flex sm:flex sm:justify-center sm:items-center sm:mt-[10%]",
@@ -28,4 +28,5 @@ export const CusData = [
       address:"https://maps.app.goo.gl/6yDeRzLb1JRVB2saA",
       // Memories:"",
      },
-]
+     
+];

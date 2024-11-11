@@ -30,7 +30,7 @@ import Catering from "./Catering";
 import ScanVideo from "./ScanVideo";
 import Mscan from "./MScan";
 import CusScan from "./CusScan";
-// import HoCus from "./HoCus";
+import CusScan2 from "./CusScan2";
 import Hotel from "./Hotel/Hotel";
 import Courier from "./Courier";
 import Cars from "./Car/Cars";
@@ -75,10 +75,10 @@ export {
   ScanVideo,
   Mscan,
   CusScan,
+  CusScan2,
   CusAfter,
   Hotel,
   Courier,
-  // HoCus,
   Cars,
   Memories,
 };
