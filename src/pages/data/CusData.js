@@ -22,10 +22,10 @@ export const CusData = [
       couple1:"𝒮𝒜𝑀𝑀𝐼",
       couple2:"𝑅𝒜𝐻𝒰𝐿",
       bgImage:"https://i.ibb.co/vcxykxq/z6.jpg",
-      video:"https://www.youtube.com/embed/PPQ2-K0_gK8?si=RoaQ42lsxd1N81nQ",
+      video:"https://www.youtube.com/embed/uwvZNQ93uCg?si=TLuZSZEGzW_fXJHm",
       position: "mt-[28%] ml-[5%] sm:flex sm:flex sm:justify-center sm:items-center sm:mt-[10%]",
       videoStyle:"border-double border-[#ff99c8] border-8 w-[85%] mt-6 mb-8 h-[220px] sm:w-[50%] sm:h-[500px]",
-      address:"https://maps.app.goo.gl/6yDeRzLb1JRVB2saA",
+      address:"https://maps.app.goo.gl/8iKqi1RZts8zdHwe8",
       // Memories:"",
      },
      
