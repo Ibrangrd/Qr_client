@@ -14,8 +14,8 @@ const CusScan2 = () => {
      return (
     <>
      <div className="">
-      <div className="h-[100vh] w-auto flex items-center justify-center bg-cover bg-no-repeat" style={{ backgroundImage: `url(${item?.bgImage2})` }}>
-     
+      <div className="h-[80vh] w-full  flex items-center justify-center bg-cover bg-no-repeat" style={{ backgroundImage: `url(${item?.bgImage2})` }}>
+                     
       <div className="flex justify-center items-center mr-[6%]">
 
 
@@ -82,19 +82,19 @@ const CusScan2 = () => {
               allowFullScreen
             ></iframe>
           </div>
-{/* 
-          <div className=" flex flex-col -mr-6 ml-2 gap-8">
-            <h1 className=" text-2xl font-bold sm:text-[35px] animate-change-color rotate-90">
+          
+          <div className=" flex flex-col -ml-8 gap-8 opacity-0">
+            <h1 className=" text-xl font-bold sm:text-[35px] animate-change-color rotate-90">
               {item?.couple12}
             </h1>
             <img
-              className=" w-20 h-20 animate-heart-size "
+              className=" w-20 h-20 animate-heart-size  "
               src="https://i.postimg.cc/0QNBbMSM/testimage.png"
             />
             <h1 className=" text-2xl sm:text-[35px] font-bold poppins animate-change-color rotate-90">
               {item?.couple22}
             </h1>
-          </div> */}
+          </div>
 
          </div> 
         </div>
