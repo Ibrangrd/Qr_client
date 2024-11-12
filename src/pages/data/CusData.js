@@ -28,5 +28,17 @@ export const CusData = [
       address:"https://maps.app.goo.gl/8iKqi1RZts8zdHwe8",
       // Memories:"",
      },
-     
+    
+     // Horizontal 
+     {
+      id:"sammi",
+      bgImage2:"https://i.ibb.co/cx9vHSm/ca.jpg",
+      address2:"https://maps.app.goo.gl/8iKqi1RZts8zdHwe8",
+      position2:"mr-auto",
+      videoStyle2:"border-solid border-[#00afb9] border-4 w-[34vh] h-[26vh] rotate-90 sm:w-[50%] sm:h-[500px]",
+      video2:"https://www.youtube.com/embed/uwvZNQ93uCg?si=TLuZSZEGzW_fXJHm",
+      couple12:"𝒮𝒜𝑀𝑀𝐼",
+      couple22:"𝑅𝒜𝐻𝒰𝐿",
+     },
 ];
+export default CusData;

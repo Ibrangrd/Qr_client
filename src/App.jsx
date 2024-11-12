@@ -104,7 +104,7 @@ const App = () => {
           <Route path="/Scan/:inviteId" element={<ScanVideo />} />
           <Route path="/Mscan" element={<Mscan/>} />
           <Route path="/:inviteId" element={<CusScan />} /> 
-          <Route path="/CusScan2" element={<CusScan2 />} />
+          <Route path="w/:inviteId" element={<CusScan2 />} />
           <Route path="/Hotel" element={<Hotel />} />
           <Route path="/Courier" element={<Courier />} />
           <Route path="/Cars" element={<Cars />} />
