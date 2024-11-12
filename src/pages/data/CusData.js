@@ -35,7 +35,7 @@ export const CusData = [
       bgImage2:"https://i.ibb.co/cx9vHSm/ca.jpg",
       address2:"https://maps.app.goo.gl/8iKqi1RZts8zdHwe8",
       position2:"flex items-center justify-center",
-      videoStyle2:"border-solid border-[#00afb9] border-4 w-[30vh] h-[25vh] rotate-90 sm:w-[50%] sm:h-[500px]",
+      videoStyle2:"border-solid border-[#ff99c8] border-4 w-[30vh] h-[25vh] rotate-90 sm:w-[50%] sm:h-[500px]",
       video2:"https://www.youtube.com/embed/uwvZNQ93uCg?si=TLuZSZEGzW_fXJHm",
       couple12:"𝒮𝒜𝑀𝑀𝐼",
       couple22:"𝑅𝒜𝐻𝒰𝐿",
