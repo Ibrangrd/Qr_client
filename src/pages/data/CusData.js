@@ -31,7 +31,7 @@ export const CusData = [
     
      // Horizontal 
      {
-      id:"sammi",
+      id:"sammi_weds_rahul",
       bgImage2:"https://i.ibb.co/cx9vHSm/ca.jpg",
       address2:"https://maps.app.goo.gl/8iKqi1RZts8zdHwe8",
       position2:"flex items-center justify-center",

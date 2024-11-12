@@ -14,7 +14,7 @@ const CusScan2 = () => {
      return (
     <>
      <div className="">
-      <div className="h-[80vh] w-full  flex items-center justify-center bg-cover bg-no-repeat" style={{ backgroundImage: `url(${item?.bgImage2})` }}>
+      <div className="h-[85vh] w-full  flex items-center justify-center bg-cover bg-no-repeat" style={{ backgroundImage: `url(${item?.bgImage2})` }}>
                      
       <div className="flex justify-center items-center mr-[6%]">
 
