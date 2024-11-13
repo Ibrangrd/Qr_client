@@ -39,37 +39,7 @@ const CusScan2 = () => {
             </div>
           </div>
 
-          {/* <div className="flex flex-col text-center ml-[40%] pt-4 gap-0">
-          <div className="hidden">
-          <iframe
-              id="audio"
-              width="560"
-              height="315"
-             title="YouTube video player"
-             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-            ></iframe>
-             </div>
-            <div className="w-16 h-8 sm:ml-[95px]">
-              <img
-                src="https://i.ibb.co/NjzsPSh/Sankh.png"
-                onClick={() => {
-                document.getElementById("audio").src = "https://www.youtube.com/embed/Pdrcr7MeXiU?autoplay=1";
-                  }}
-               alt="Sound"
-                />
-            </div>
-
-            <div className="w-5 h-5 ml-[28px] sm:ml-[125px] -mt-0">
-              <img
-                src="https://i.ibb.co/SX7Vtfg/Sound.png"
-                onClick={() => { document.getElementById("audio").src= "https://www.youtube.com/embed/Pdrcr7MeXiU?autoplay=1";
-                }}
-                alt="Sound"
-              />
-            </div>
-          </div> */}
-
+          
           <div className={item?.position2}>
             <iframe
               className={item?.videoStyle2}
