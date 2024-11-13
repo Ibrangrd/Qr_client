@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 import daisyui from "daisyui";
+import plugin from 'tailwindcss/plugin';
 export default {
   content: ["./src/**/*.{html,js,jsx}"],
   darkMode: 'class',
@@ -32,7 +33,24 @@ export default {
       },
     },
   },
-  plugins: [daisyui],
+  
+  plugins: [
+    daisyui,
+    plugin(function ({ addUtilities }) {
+      addUtilities({
+        '.text-shadow': {
+          'text-shadow': '2px 2px 4px #c9184a',
+        },
+        '.text-shadow-lg': {
+          'text-shadow': '2px 2px 4px #f26a8d',
+        },
+       
+        '.text-shadow-light': {
+          'text-shadow': '2px 2px 4px rgba(240, 128, 128, 0.7)', // Light Coral color
+        },
+      });
+    }),
+  ],
   daisyui: {
     themes: ["light", "dark"],
   },
