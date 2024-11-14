@@ -11,7 +11,7 @@ const CateringList =({Item,img1,It1,img2,It2,img3,It3,he})=>{
 
   </div>
   <div className=" flex flex-col gap-7 justify-center ml-4">
-  <div className="flex items-center gap-2"zz>
+  <div className="flex items-center gap-2">
     <img
       className="w-14 h-14 rounded-xl"
       src={img1}

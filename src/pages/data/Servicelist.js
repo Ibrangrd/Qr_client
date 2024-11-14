@@ -18,26 +18,18 @@ export const Servicelist = [
     {
       id: "Service3",
       imgsrc:
-        "https://5.imimg.com/data5/SELLER/Default/2021/5/KF/YW/UG/50200512/whatsapp-image-2021-05-31-at-11-43-49.jpeg",
-      heading: "Decorations and Pandals",
-      des: "Enchant your guests with our beautiful decorations and grand pandals. From elegant setups to lavish themes, we create unforgettable experiences at prices that suit your budget, adding charm to your celebration",
-      Link: "/Decoratons",
-    },
-    {
-      id: "Service8",
-      imgsrc:
-        "https://www.ajivasanhall.com/images/event/02.jpg",
-      heading: "Catering",
-      des: "Savor your special moments with our expert catering services—every dish tells your love story! We offer delicious meals at affordable prices, ensuring your celebrations are beautifully catered without breaking the bank.",
-      Link: "/Catering",
-    },
-    {
-      id: "Service4",
-      imgsrc:
         "https://aaftonline.com/blog/wp-content/uploads/2024/01/What-are-the-Benefits-of-Photography-Complete-Overview.png",
       heading: "Photography",
       des: "Capture your magical moments with our expert photography services—every click tells your love story! We offer stunning photos at affordable prices, ensuring your memories are beautifully preserved without breaking the bank",
       Link: "/Photography",
+    },
+    {
+      id: "Service4",
+      imgsrc:
+        "https://i.ibb.co/vvFMZV4/Screenshot-2024-11-14-155134.png",
+      heading: "FirCrakers",
+      des: "Light up your celebration with our stunning fireworks! From vibrant bursts to mesmerizing patterns, we add excitement to your special occasion within your budget.",
+      Link: "/FireCrackers",
     },
     {
       id: "Service5",
@@ -57,6 +49,14 @@ export const Servicelist = [
     },
     {
       id: "Service7",
+      imgsrc:
+        "https://www.ajivasanhall.com/images/event/02.jpg",
+      heading: "Catering",
+      des: "Savor your special moments with our expert catering services—every dish tells your love story! We offer delicious meals at affordable prices, ensuring your celebrations are beautifully catered without breaking the bank.",
+      Link: "/Catering",
+    },
+    {
+      id: "Service8",
       imgsrc:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPdDI9t7jX4b__BksCnLFWbpTRya8PFoUYrA&s",
       heading: "Elegant Courier Solutions",

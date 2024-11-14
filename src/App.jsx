@@ -36,6 +36,7 @@ import {
   Hotel,
   Home,
   Courier,
+  FireCrakers,
   Cars,
   Memories,
   Catering,
@@ -101,6 +102,7 @@ const App = () => {
           <Route path="/Photoinfo8" element={<Photoinfo8 />} />
           <Route path="/Photoinfo9" element={<Photoinfo9 />} />
           <Route path="/Catering" element={<Catering/>} />
+          <Route path="/FireCrackers" element={<FireCrakers/>} />
           <Route path="/Scan/:inviteId" element={<ScanVideo />} />
           <Route path="/Mscan" element={<Mscan/>} />
           <Route path="/:inviteId" element={<CusScan />} /> 

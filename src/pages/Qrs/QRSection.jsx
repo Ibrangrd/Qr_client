@@ -2,8 +2,8 @@ import QRList from "./QRList";
 import { QRDetails } from "../data/qr-Details"
 import { QrWork } from "../data/qr-Details";
 import VideoList from "../Videos/VideoList";
-
 const QRSection = () => {
+
   return (
     <div className="bg-gradient-to-b from-[#3c6e71] to-[#bfd7ea]">
     <div className="p-2 bg-inherit">

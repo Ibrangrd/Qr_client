@@ -27,6 +27,7 @@ import Photoinfo7 from "./Photography/Photoinfo7";
 import Photoinfo8 from "./Photography/Photoinfo8";
 import Photoinfo9 from "./Photography/Photoinfo9";
 import Catering from "./Catering";
+import FireCrakers from "./FireCrackers";
 import ScanVideo from "./ScanVideo";
 import Mscan from "./MScan";
 import CusScan from "./CusScan";
@@ -72,6 +73,7 @@ export {
   Photoinfo8,
   Photoinfo9,
   Catering,
+  FireCrakers,
   ScanVideo,
   Mscan,
   CusScan,
