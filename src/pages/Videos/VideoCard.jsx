@@ -9,15 +9,15 @@ const VideoCard = ({ info }) => {
       <div className="relative">
         <iframe
           className="rounded-xl flex justify-center text-center mx-0 w-[99%] h-[280px] sm:w-[500px] sm:h-[300px] md:w-[560px] md:h-[315px]"
-          onMouseEnter={() => setPlay(true)}
-          onMouseLeave={() => setPlay(false)}
+          // onMouseEnter={() => setPlay(true)}
+          // onMouseLeave={() => setPlay(false)}
           src={play ? info?.urlWithPlay : info?.urlWithoutPlay}
           title={info?.title}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
         ></iframe>
-        {play === false && (
+        {play === true && (
           <FaPlayCircle className="text-red-500 md:block hidden absolute left-[50%] -translate-x-[50%]  top-[50%] -translate-y-[50%]  w-[15vw] h-[12vh]" />
         )}
       </div>
