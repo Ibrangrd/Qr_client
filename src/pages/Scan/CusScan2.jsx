@@ -1,7 +1,7 @@
 import React from "react";
 import { Link,useParams } from "react-router-dom";
-import CusData from "./data/CusData";
-import Error from "./Error";
+import {CusData} from "../data/CusData";
+import Error from "../Error";
 const CusScan2 = () => {
 
     const { inviteId } = useParams();
@@ -20,8 +20,8 @@ const CusScan2 = () => {
 
 
         <div className=" flex flex-col -mr-10 gap-10">
-              <div className="text-[22px] font-bold  text-black rotate-90 mb-10 text-shadow">
-              <a 
+              <div className="text-[22px] font-bold rotate-90 mb-10 text-shadow">
+              <a className={item?.venue_col}
                   href={item?.address2}
                   target="_blank"
                 >
@@ -29,9 +29,9 @@ const CusScan2 = () => {
                 </a>
             </div>
 
-            <div className="">
+            <div className={item?.after_col}>
             <Link to="/Cusafter">
-              <p className=" font-bold text-[#f8f7ff] text-[22px]  rotate-90 text-shadow-lg">
+              <p className=" font-bold text-[22px]  rotate-90 text-shadow-lg">
                 After Marriage
               </p>
               </Link>
@@ -53,7 +53,7 @@ const CusScan2 = () => {
             ></iframe>
           </div>
           
-          <div className=" flex flex-col -ml-8 gap-8 opacity-0">
+          <div className={item?.namepos}>
             <h1 className=" text-xl font-bold sm:text-[35px] animate-change-color rotate-90">
               {item?.couple12}
             </h1>

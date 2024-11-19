@@ -29,7 +29,7 @@ import {
   Photoinfo8,
   Photoinfo9, 
   ScanVideo,
-  Mscan,
+  MScan,
   CusScan,
   CusScan2,
   CusAfter,
@@ -104,7 +104,7 @@ const App = () => {
           <Route path="/Catering" element={<Catering/>} />
           <Route path="/FireCrackers" element={<FireCrakers/>} />
           <Route path="/Scan/:inviteId" element={<ScanVideo />} />
-          <Route path="/Mscan" element={<Mscan/>} />
+          <Route path="/MScan" element={<MScan/>} />
           <Route path="/:inviteId" element={<CusScan />} /> 
           <Route path="/i/:inviteId" element={<CusScan2 />} />
           <Route path="/Hotel" element={<Hotel />} />

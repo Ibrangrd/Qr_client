@@ -28,14 +28,14 @@ import Photoinfo8 from "./Photography/Photoinfo8";
 import Photoinfo9 from "./Photography/Photoinfo9";
 import Catering from "./Catering";
 import FireCrakers from "./FireCrackers";
-import ScanVideo from "./ScanVideo";
-import Mscan from "./MScan";
-import CusScan from "./CusScan";
-import CusScan2 from "./CusScan2";
+import MScan from "./Scan/MScan"
+import ScanVideo from "./Scan/ScanVideo"
+import CusScan from "./Scan/CusScan"
+import CusScan2 from "./Scan/CusScan2";
 import Hotel from "./Hotel/Hotel";
 import Courier from "./Courier";
 import Cars from "./Car/Cars";
-import CusAfter from "./CusAfter";
+import CusAfter from "./Scan/CusAfter";
 import Memories from "./AfterMarriage";
 import { ImOpt } from "react-icons/im";
 import AOS from 'aos';
@@ -75,7 +75,7 @@ export {
   Catering,
   FireCrakers,
   ScanVideo,
-  Mscan,
+  MScan,
   CusScan,
   CusScan2,
   CusAfter,
