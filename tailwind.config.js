@@ -46,7 +46,7 @@ export default {
         },
        
         '.text-shadow-light': {
-          'text-shadow': '2px 2px 4px rgba(240, 128, 128, 0.7)', // Light Coral color
+          'text-shadow': '2px 2px 4px #0077e6', // Light Coral color
         },
       });
     }),

@@ -20,19 +20,19 @@ const CusScan2 = () => {
 
 
         <div className=" flex flex-col -mr-10 gap-10">
-              <div className="text-[22px] font-bold rotate-90 mb-10 text-shadow">
-              <a className={item?.venue_col}
+              <div  className={item?.venue_col}>
+              <a 
                   href={item?.address2}
                   target="_blank"
                 >
-                Venue Location
+                𝙑𝙚𝙣𝙪𝙚 𝙇𝙤𝙘𝙖𝙩𝙞𝙤𝙣
                 </a>
             </div>
 
-            <div className={item?.after_col}>
+            <div className="">
             <Link to="/Cusafter">
-              <p className=" font-bold text-[22px]  rotate-90 text-shadow-lg">
-                After Marriage
+              <p className={item?.after_col}>
+              𝘼𝙛𝙩𝙚𝙧 𝙈𝙖𝙧𝙧𝙞𝙖𝙜𝙚
               </p>
               </Link>
               
