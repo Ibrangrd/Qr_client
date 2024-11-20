@@ -48,7 +48,7 @@ export const CusData = [
       bgImage2:"https://i.ibb.co/d5z1HSb/cus1.jpg",
       address2:"https://maps.app.goo.gl/TNcZYbvQiSb3Py916",
       position2:"flex items-center justify-center",
-      namepos:"flex flex-col -ml-16 gap-8 opacity-0",
+      namepos:"flex flex-col -ml-14 gap-8 opacity-0",
       videoStyle2:"border-solid border-[#ff99c8] border-4 w-[35vh] h-[25vh] rotate-90 sm:w-[50%] sm:h-[500px]",
       video2:"https://www.youtube.com/embed/N8SM-HKLsXE?si=UtYNsRbXTtBti3sA",
       couple12:"𝒮𝒜𝑀𝑀𝐼",

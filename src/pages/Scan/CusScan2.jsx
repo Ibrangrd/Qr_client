@@ -25,14 +25,14 @@ const CusScan2 = () => {
                   href={item?.address2}
                   target="_blank"
                 >
-                𝙑𝙚𝙣𝙪𝙚 𝙇𝙤𝙘𝙖𝙩𝙞𝙤𝙣
+                𝘝𝘦𝘯𝘶𝘦 𝘓𝘰𝘤𝘢𝘵𝘪𝘰𝘯
                 </a>
             </div>
 
             <div className="">
             <Link to="/Cusafter">
               <p className={item?.after_col}>
-              𝘼𝙛𝙩𝙚𝙧 𝙈𝙖𝙧𝙧𝙞𝙖𝙜𝙚
+              𝘈𝘧𝘵𝘦𝘳 𝘔𝘢𝘳𝘳𝘪𝘢𝘨𝘦
               </p>
               </Link>
               
