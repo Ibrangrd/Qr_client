@@ -7,7 +7,7 @@ const CardSection = () => {
   const [pageNumber, setPageNumber] = useState(1);
   const cardPerPage = 9;
   return (
-    <div className="bg-gradient-to-b from-[#bde0fe] to-[#b0c4b1]">
+    <div className="bg-gradient-to-b from-[#d6f1f6] to-[#b0c4b1]">
     <div className="p-2 ">
       <div className="text-center">
         <p className="mt-4  text-5xl font-bold bg-gradient-to-r from-red-400 via-blue-500 to-red-400 inline-block text-transparent bg-clip-text">
