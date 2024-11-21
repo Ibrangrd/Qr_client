@@ -15,7 +15,7 @@ const Photography = () => {
     return (
       <>
       <div className="bg-gradient-to-b from-[#fffffc] via-[#e0b1cb] to-[#f5f9e9]">
-    <h1 className="head">PHOTOGRAPHY</h1>
+    <div className="text-center"><h1 className="text-center text-4xl sm:text-7xl font-bold  pt-6 bg-gradient-to-r from-[#ee6c4d] via-[#89c2d9] to-[#758bfd]  inline-block text-transparent bg-clip-text">PHOTOGRAPHY</h1></div>
     <div className="space"></div>
     <div className="con">
       {video12.map((value) => {
@@ -37,7 +37,7 @@ const Photography = () => {
             <Slider images={Images2} />
           </Suspense>
     </div>
-    <h1 className="he">ALBUM </h1>
+    <h1 className="mt-[-30px] text-center text-[40px] sm:text-[70px] text-[#a53860] font-serif font-extrabold text-shadow-light mb-[10px]">ALBUM </h1>
     <div className="albums2">
       {
         albumData.map((va) =>

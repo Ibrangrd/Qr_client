@@ -7,7 +7,7 @@ const Service = () => {
   return (
     <>
       <div className="bg-gradient-to-b from-[#984E4E] to-[#4646A4]">
-        <div className="text-center text-5xl font-bold"> OUR SERVICES</div>
+        <div className="text-center" > <p className="text-center text-4xl sm:text-5xl font-bold pt-6 bg-gradient-to-r from-[#fdf0d5] via-[#00b4d8] to-[#fdf0d5] inline-block text-transparent bg-clip-text"> OUR SERVICES </p></div>
          
          {/* <div className="flex" >
          {ServiceTop.map((service) => (

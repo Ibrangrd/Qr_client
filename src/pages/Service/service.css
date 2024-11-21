@@ -1,36 +1,4 @@
-/* .xx {
-   font-size: 30px;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   font-weight: 600;
-   width: 80%;
-   margin-left: 100px;
-   margin-top: 50px;
-} */
-/* 
-.p1 {
-   font-size: 20px;
-   font-weight: 700;
-   margin-top: 30px;
-   margin-left: 150px;
-   position: relative;
-}
 
-.p2 {
-   font-size: 20px;
-   font-weight: 700;
-   margin-top: 30px;
-   margin-left: 400px;
-   position: relative;
-
-}
-
-.p3 {
-   font-size: 20px;
-   font-weight: 700;
-   margin-top: 30px;
-   margin-left: 700px;
-   position: relative;
-} */
 .heart{
    display: flex;
    flex-direction: column;
@@ -66,8 +34,9 @@ margin-top: 100px;
 .what {
    margin-left: 100px;
    margin-top: 50px;
-   font-size: 60px;
+   font-size: 50px;
    font-weight: bold;
+   color: #aeb8fe;
 }
 
 .iii17 {
