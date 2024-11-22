@@ -1,9 +1,9 @@
 import React from "react";
-
+import "aos/dist/aos.css"
 const Album = ({link , imgsrc }) => {
 
     return (
-        <div className="album2">
+        <div className="album2" data-aos="flip-right">
             <div>
                 <a href={link}>
                     <img

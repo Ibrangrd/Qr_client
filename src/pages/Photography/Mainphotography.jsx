@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from 'react-router-dom';
+import "aos/dist/aos.css";
 const Videography = (props) =>{
     return (
         
-            <div className="mai">
+            <div className="mai" data-aos="zoom-in-up">
                 <a href={props.link}>
                     <img className="imga" src={props.imgsrc} alt="He" />
                 </a>

@@ -9,6 +9,7 @@ import { videosample } from "../data/VideoSample";
 import { Images1 } from "../data/Images1";
 import { Images2 } from "../data/Images2";
 import { video12 } from "../data/Video12";
+import "aos/dist/aos.css";
 const Slider = lazy(() => import("./slider"));
 const Photography = () => {
 
@@ -17,7 +18,7 @@ const Photography = () => {
       <div className="bg-gradient-to-b from-[#fffffc] via-[#e0b1cb] to-[#f5f9e9]">
     <div className="text-center"><h1 className="text-center text-4xl sm:text-7xl font-bold  pt-6 bg-gradient-to-r from-[#ee6c4d] via-[#89c2d9] to-[#758bfd]  inline-block text-transparent bg-clip-text">PHOTOGRAPHY</h1></div>
     <div className="space"></div>
-    <div className="con">
+    <div className="con"  >
       {video12.map((value) => {
         return (
           < Videography
