@@ -41,6 +41,7 @@ import Memories from "./AfterMarriage";
 import { ImOpt } from "react-icons/im";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import ParCards from "./Cards/ParCards";
 AOS.init();
 
 
@@ -85,4 +86,5 @@ export {
   Courier,
   Cars,
   Memories,
+  ParCards,
 };

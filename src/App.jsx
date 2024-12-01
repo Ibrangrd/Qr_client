@@ -41,6 +41,7 @@ import {
   Cars,
   Memories,
   Catering,
+  ParCards,
 } from "./pages/index.js";
 
 import Mscan from "./pages/Scan/MScan.jsx";
@@ -109,6 +110,7 @@ const App = () => {
           <Route path="/Scan/:inviteId" element={<ScanVideo />} />
           <Route path="/MScan" element={<MScan/>} />
           {/* <Route path="/Photo/:1" element={<Photo/>} /> */}
+          <Route path="/ParCards" element={<ParCards/>} />
           <Route path="/:inviteId" element={<CusScan />} /> 
           <Route path="/i/:inviteId" element={<CusScan2 />} />
           <Route path="/Hotel" element={<Hotel />} />
