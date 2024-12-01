@@ -2,9 +2,6 @@ import { useState } from "react";
 import { Link, Navigate, useNavigate } from "react-router-dom";
 import { useAuth } from "../auth";
 import { toast } from "react-toastify";
-import { REG_IMG } from "../utils";
-
-
 const Register = () => {
   const [user, setUser] = useState({
     username: "",
@@ -71,7 +68,7 @@ const Register = () => {
             <div className="flex">
               <div className="m-4 md:block hidden">
                 <img
-                  src={REG_IMG}
+                  src="https://i.ibb.co/TR4TqQr/backg.jpg"
                   alt="a nurse with a cute look"
                   width="600"
                   height="700"

@@ -36,6 +36,7 @@ import Hotel from "./Hotel/Hotel";
 import Courier from "./Courier";
 import Cars from "./Car/Cars";
 import CusAfter from "./Scan/CusAfter";
+import Photo from "./Photography/Photo";
 import Memories from "./AfterMarriage";
 import { ImOpt } from "react-icons/im";
 import AOS from 'aos';
@@ -72,6 +73,7 @@ export {
   Photoinfo7,
   Photoinfo8,
   Photoinfo9,
+  Photo,
   Catering,
   FireCrakers,
   ScanVideo,

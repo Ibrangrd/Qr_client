@@ -34,6 +34,7 @@ import {
   CusScan2,
   CusAfter,
   Hotel,
+  Photo,
   Home,
   Courier,
   FireCrakers,
@@ -41,6 +42,8 @@ import {
   Memories,
   Catering,
 } from "./pages/index.js";
+
+import Mscan from "./pages/Scan/MScan.jsx";
 // import Home from "./pages/Home.jsx";
 const CardSection = lazy((e) => import("./pages/Cards/CardSection.jsx"));
 
@@ -105,6 +108,7 @@ const App = () => {
           <Route path="/FireCrackers" element={<FireCrakers/>} />
           <Route path="/Scan/:inviteId" element={<ScanVideo />} />
           <Route path="/MScan" element={<MScan/>} />
+          {/* <Route path="/Photo/:1" element={<Photo/>} /> */}
           <Route path="/:inviteId" element={<CusScan />} /> 
           <Route path="/i/:inviteId" element={<CusScan2 />} />
           <Route path="/Hotel" element={<Hotel />} />
