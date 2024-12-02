@@ -215,7 +215,7 @@ export const menuOptions = [
   },
   {
     opt: "CARDS",
-    route: "/cards",
+    route: "/ParCards",
   },
   {
     opt: "VIDEO",
@@ -253,17 +253,17 @@ export const hoverShadowColors = [
   " hover:shadow-yellow-600",
   "hover:shadow-emerald-600",
 ];
-export const Home2Data = [
+export const ParCardsData = [
   {
     id: "1",
     img: "https://i.ibb.co/H4BcmPz/freepik-candid-image-photography-natural-textures-highly-r-64898.jpg",
     fun: "Qr Weds Special cards",
-    lin: "",
+    lin: "/qrcards",
   },
   {
     id: "2",
     img: "https://i.ibb.co/qdbtB7f/freepik-create-a-luxurious-card-design-with-a-pastel-turqu-14739.jpg",
     fun: "Card Mahal",
-    lin: "",
+    lin: "/cards",
   },
 ];

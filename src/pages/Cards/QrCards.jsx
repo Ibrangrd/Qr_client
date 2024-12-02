@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "./Card";
+import { lazy, Suspense } from "react";
 import { QrCardsData } from "../data/QrCardsData";
 const QrCards = () => {
   return (

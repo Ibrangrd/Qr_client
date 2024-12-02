@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Home2Data } from "../../utils";
+import { ParCardsData } from "../../utils";
 import Button from '@mui/material/Button';
 const ParCards = () => {
   return (
@@ -15,7 +15,7 @@ const ParCards = () => {
       {/* </div> */}
  <div className="pt-16 flex flex-wrap justify-center gap-16 pb-16">
      {
-     Home2Data.map((ibr) => (
+     ParCardsData.map((ibr) => (
      <div className="sm:w-[25%] w-[85%] h-auto  rounded-3xl bg-[#f2e0cc] border-4 border-[#ffb7c3]"> 
         <div>
           <img className=" w-[100%] h-64 rounded-3xl p-4 " src={ibr.img} />
