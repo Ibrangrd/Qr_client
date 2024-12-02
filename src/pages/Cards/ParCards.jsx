@@ -10,17 +10,17 @@ const ParCards = () => {
         <p className="mt-4 text-4xl sm:text-5xl font-bold bg-gradient-to-r from-red-400 via-blue-500 to-red-400 inline-block text-transparent bg-clip-text">
           WEDDING CARDS
         </p>
-      <p className="mt-4  text-3xl font-bold text-[#dda15e]"> Our Partners
+      <p className="mt-4  text-3xl font-bold text-[#dda15e] text-shadow-ib"> Our Partners
       </p>
       {/* </div> */}
  <div className="pt-16 flex flex-wrap justify-center gap-16 pb-16">
      {
      Home2Data.map((ibr) => (
-     <div className=" group sm:w-[25%] w-[85%] h-auto  rounded-3xl bg-[#fff0f3]"> 
+     <div className="sm:w-[25%] w-[85%] h-auto  rounded-3xl bg-[#f2e0cc] border-4 border-[#ffb7c3]"> 
         <div>
-          <img className=" w-[100%] h-64 rounded-3xl p-4" src={ibr.img} />
+          <img className=" w-[100%] h-64 rounded-3xl p-4 " src={ibr.img} />
           <div className="" >
-            <h1 className="text-center font-bold text-black text-xl pb-5 pt-5">
+            <h1 className="text-center font-bold text-[#c52233] text-xl pb-5 pt-2 text-shadow-cards">
               {ibr.fun}
             </h1>
             <div className="flex justify-center mb-4">

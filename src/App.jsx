@@ -42,6 +42,7 @@ import {
   Memories,
   Catering,
   ParCards,
+  QrCards,
 } from "./pages/index.js";
 
 import Mscan from "./pages/Scan/MScan.jsx";
@@ -118,6 +119,7 @@ const App = () => {
           <Route path="/Cars" element={<Cars />} />
           <Route path="/memories" element ={<Memories/>} />
           <Route path="/CusAfter"  element={<CusAfter/>} />
+          <Route path="/qrcards" element={<QrCards/>}/>
           <Route path="*" element={<Error />} />
           <Route path="/admin" element={<AdminLayout />}>
             <Route path="users" element={<AdminUsers />} />

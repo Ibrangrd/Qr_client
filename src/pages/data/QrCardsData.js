@@ -1,0 +1,66 @@
+export const QrCardsData = [
+        {
+          id: "1",
+          path: "https://i.ibb.co/QFRnR6m/qrcards1-1.jpg",
+          title: "Golden Elegance",
+          price: 20,
+          des: "Luxurious gold foiled design for timeless celebrations.",
+        },
+        {
+            id: "5",
+            title: "Blush Blooms",
+            price:12,
+            des: "Soft pink flowers for a dreamy, romantic feel.",
+            path: "https://i.ibb.co/Yfccnkd/qrcards1-5.jpg",
+          },
+          {
+            id: "6",
+            title: "Royal Sapphire",
+            price:12,
+            des: "Deep blue hues fit for a royal celebration.",
+            path: "https://i.ibb.co/4dsxvPJ/qrcards1-6.jpg",
+          },
+        {
+          id: "2",
+          title: "Rustic Charm",
+          price:15,
+          des: "Earthy tones with a touch of greenery, perfect for rustic weddings.",
+          path: "https://i.ibb.co/5sNbJvT/qrcards1-2.jpg",
+        },
+        {
+          id: "3",
+          title: "Modern Grace",
+          price: 10,
+          des: "Minimalist black and white design for contemporary elegance.",
+          path: "https://i.ibb.co/jG60r6r/qrcards1-3.jpg",
+        },
+        {
+          id: "4",
+          title: "Vintage Romance",
+          price:10,
+          des: "Elegant floral patterns with a vintage touch.",
+          path: "https://i.ibb.co/sH0LN71/qrcards1-4.jpg",
+        },
+       
+        {
+          id: "7",
+          title: "Classic Ivory",
+          price: 15,
+          des: "Simple yet sophisticated ivory tones for timeless beauty.",
+          path: "https://i.ibb.co/mCp2Vhf/qrcards1-7.jpg",
+        },
+        {
+          id: "8",
+          title: "Ethereal Whites",
+          price:27,
+          des: "Pure white with intricate lace designs for a heavenly touch.",
+          path: "https://i.ibb.co/09gPkxH/qrcards1-8.jpg",
+        },
+        {
+          id: "9",
+          title: "Tropical Bliss",
+          price:28,
+          des: "Bright and vibrant tropical patterns for a lively celebration.",
+          path: "https://i.ibb.co/30NgZ74/qrcards1-9.jpg",
+        },
+      ];

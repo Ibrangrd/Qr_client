@@ -42,6 +42,7 @@ import { ImOpt } from "react-icons/im";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import ParCards from "./Cards/ParCards";
+import QrCards from "./Cards/QrCards";
 AOS.init();
 
 
@@ -87,4 +88,5 @@ export {
   Cars,
   Memories,
   ParCards,
+  QrCards,
 };
