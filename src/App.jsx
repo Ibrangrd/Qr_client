@@ -101,31 +101,32 @@ const App = () => {
               </Suspense>
             }
           />
+          <Route path="/Photoinfo1" element={<Suspense fallback={<Loading />}> <Photoinfo1 /></Suspense>} />
+          <Route path="/Photoinfo2" element={<Suspense fallback={<Loading />}> <Photoinfo2 /></Suspense>} />
+          <Route path="/Photoinfo3" element={<Suspense fallback={<Loading />}> <Photoinfo3 /></Suspense>} />
+          <Route path="/Photoinfo4" element={<Suspense fallback={<Loading />}> <Photoinfo4 /></Suspense>} />
+          <Route path="/Photoinfo5" element={<Suspense fallback={<Loading />}> <Photoinfo5 /></Suspense>} />
+          <Route path="/Photoinfo6" element={<Suspense fallback={<Loading />}> <Photoinfo6 /></Suspense>} />
+          <Route path="/Photoinfo7" element={<Suspense fallback={<Loading />}> <Photoinfo7 /></Suspense>} />
+          <Route path="/Photoinfo8" element={<Suspense fallback={<Loading />}> <Photoinfo8 /></Suspense>} />
+          <Route path="/Photoinfo9" element={<Suspense fallback={<Loading />}> <Photoinfo9 /></Suspense>} />
+          <Route path="/Catering" element={<Suspense fallback={<Loading />}> <Catering /></Suspense>} />
+          <Route path="/FireCrackers" element={<Suspense fallback={<Loading />}> <FireCrakers /></Suspense>} />
+          <Route path="/memories" element={<Suspense fallback={<Loading />}> <Memories /></Suspense>} />
+          <Route path="/Hotel" element={<Suspense fallback={<Loading />}> <Hotel /></Suspense>} />
+          <Route path="/MScan" element={<Suspense fallback={<Loading />}> <MScan /></Suspense>} />
+          <Route path="/Scan/:inviteId" element={<Suspense fallback={<Loading />}> <ScanVideo /></Suspense>} />
+
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
           <Route path="/logout" element={<Logout />} />
           <Route path="/service" element={<Service />} />
-          <Route path="/Photoinfo1" element={<Photoinfo1 />} />
-          <Route path="/Photoinfo2" element={<Photoinfo2 />} />
-          <Route path="/Photoinfo3" element={<Photoinfo3 />} />
-          <Route path="/Photoinfo4" element={<Photoinfo4 />} />
-          <Route path="/Photoinfo5" element={<Photoinfo5 />} />
-          <Route path="/Photoinfo6" element={<Photoinfo6 />} />
-          <Route path="/Photoinfo7" element={<Photoinfo7 />} />
-          <Route path="/Photoinfo8" element={<Photoinfo8 />} />
-          <Route path="/Photoinfo9" element={<Photoinfo9 />} />
-          <Route path="/Catering" element={<Catering/>} />
-          <Route path="/FireCrackers" element={<FireCrakers/>} />
-          <Route path="/Scan/:inviteId" element={<ScanVideo />} />
-          <Route path="/MScan" element={<MScan/>} />
           {/* <Route path="/Photo/:1" element={<Photo/>} /> */}
           <Route path="/ParCards" element={<ParCards/>} />
           <Route path="/:inviteId" element={<CusScan />} /> 
           <Route path="/i/:inviteId" element={<CusScan2 />} />
-          <Route path="/Hotel" element={<Hotel />} />
           <Route path="/Courier" element={<Courier />} />
           <Route path="/Cars" element={<Cars />} />
-          <Route path="/memories" element ={<Memories/>} />
           <Route path="/CusAfter"  element={<CusAfter/>} />
           <Route path="*" element={<Error />} />
           <Route path="/admin" element={<AdminLayout />}>
