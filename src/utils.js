@@ -6,34 +6,34 @@ export const LOGIN_IMG = "https://i.ibb.co/0jHj2q9/back2.png";
 export const serviceDetails = [
   {
     id: 2000,
-    path: "https://i.imghippo.com/files/2861O1725218566.png",
-    // dir:"/Photography"
+    path: "https://i.ibb.co/ZGTpjtj/car.jpg",
   },
   {
     id: 2001,
-    path: "https://i.imghippo.com/files/7gwI61725218620.png",
+    path: "https://i.ibb.co/Sv5dHbh/cards.jpg",
   },
   {
     id: 2002,
-    path: "https://i.imghippo.com/files/sKCMd1725218682.png",
+    path: "https://i.ibb.co/3FCVSYz/catering.jpg",
   },
   {
     id: 2003,
-    path: "https://i.imghippo.com/files/i1XQL1725218783.png",
+    path: "https://i.ibb.co/jgDLzyC/courier.jpg",
   },
   {
     id: 2004,
-    path: "https://i.imghippo.com/files/odA5v1725218786.png",
+    path: "https://i.ibb.co/RbLvwVN/decoration.jpg",
   },
   {
     id: 2005,
-    path: "https://i.imghippo.com/files/EKlVs1725218821.png",
+    path: "https://i.ibb.co/L8t12Vj/pandal.jpg",
   },
   {
     id: 2006,
-    path: "https://i.imghippo.com/files/0DaAF1725218841.png",
+    path: "https://i.ibb.co/4NtmcWs/photography.jpg",
   },
 ];
+
 export const videoThumbnailDetails = [
   {
     id: 1000,
