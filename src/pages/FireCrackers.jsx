@@ -26,7 +26,7 @@ const FireCrakers = () => {
 
           </div>
           <img
-            className="bg-cover sm:w-[60%] sm:rounded-2xl" src={val.img}/>
+            className="bg-cover sm:w-[60%] sm:h-auto h-64 sm:rounded-2xl" src={val.img}/>
              <div className="sm:flex sm:flex-col justify-center hidden gap-10">
             <img className="bg-cover  sm:w-28 sm:h-28 rounded-3xl" src={val.img4} />
             <img className="bg-cover sm:w-28 sm:h-28 rounded-3xl" src={val.img5} />
@@ -39,10 +39,10 @@ const FireCrakers = () => {
         
 
         <div className="sm:w-full"><img className="w-full sm:h-8 h-4" src="https://i.ibb.co/wJbwS3h/ds.jpg" /></div>
-        <div className="sm:mt-20 mt-4 text-center text-[#f08080] text-2xl sm:text-5xl" > <p>ℂ𝕖𝕝𝕖𝕤𝕥𝕚𝕒𝕝 ℂ𝕖𝕝𝕖𝕓𝕣𝕒𝕥𝕚𝕠𝕟𝕤: ℙ𝕖𝕣𝕤𝕠𝕟𝕒𝕝𝕚𝕫𝕖𝕕 𝔽𝕚𝕣𝕖𝕨𝕠𝕣𝕜𝕤 𝕄𝕒𝕘𝕚𝕔! </p></div>
+        <div className="sm:mt-20 mt-4 text-center p-2 text-[#f08080] text-3xl sm:text-5xl" > <p>ℂ𝕖𝕝𝕖𝕤𝕥𝕚𝕒𝕝 ℂ𝕖𝕝𝕖𝕓𝕣𝕒𝕥𝕚𝕠𝕟𝕤: ℙ𝕖𝕣𝕤𝕠𝕟𝕒𝕝𝕚𝕫𝕖𝕕 𝔽𝕚𝕣𝕖𝕨𝕠𝕣𝕜𝕤 𝕄𝕒𝕘𝕚𝕔! </p></div>
         <div className=" text-center hidden sm:block text-[#f17d72] text-xl mt-1 sm:text-3xl"> <p>𝓔𝓷𝓬𝓱𝓪𝓷𝓽 𝔂𝓸𝓾𝓻 𝔀𝓮𝓭𝓭𝓲𝓷𝓰 𝓷𝓲𝓰𝓱𝓽. </p></div>
         
-      <div className="flex flex-col sm:flex-row justify-center p-2 sm:p-10 h-auto gap-10 pt-20">
+      <div className="flex flex-col sm:flex-row justify-center p-2 sm:p-10 h-auto gap-10 pt-24">
       {
       FirePar.map((val,index) =>
       <div key={index} className="flex flex-col w-[100%] sm:w-[30%] h-auto justify-center text-center text-box3 rounded-2xl bg-black gap-4 pt-4 pb-4">
@@ -63,15 +63,15 @@ const FireCrakers = () => {
         <div className="flex flex-col sm:gap-0 gap-20 sm:flex-row sm:p-32">
 
         <div className=" flex flex-col sm:w-[50%] gap-2 text-balance text-center">
-        <p className="text-black text-xl sm:-ml-96   font-bold" data-aos="zoom-out">Key Highlights</p>
-        <p className="sm:text-3xl text-2xl sm:w-[70%] text-[#ff5d8f]" > Memorable Wedding Fireworks by QR Weds</p>
-        <p className="text-black mt-2 sm:w-[70%]"> We offer tailored packages, selecting elements from your vision to create an unforgettable experience that marks the beginning of a beautiful journey.</p>
+        <p className="text-black text-xl sm:-ml-96 hidden sm:block text-center font-bold" data-aos="zoom-out">Key Highlights</p>
+        <p className="sm:text-3xl text-2xl sm:w-[70%] sm:pt-0 pt-16  text-[#ff5d8f]" > Memorable Wedding Fireworks by QR Weds</p>
+        <p className="text-black mt-2 sm:w-[70%] " > We offer tailored packages, selecting elements from your vision to create an unforgettable experience that marks the beginning of a beautiful journey.</p>
         <p className="font-semibold text-xl sm:text-left mt-2 hidden sm:block text-black ml-6" data-aos="zoom-in">Spectacular Fireworks Show</p>
         <p className="text-black w-[65%] ml-6 hidden sm:block mt-1">Dazzling, synchronized displays designed to awe guests and capture breathtaking moments. Perfect for every couple’s big day.</p>
         </div>
 
 
-       <div className="flex flex-col sm:w-[50%] gap-10">  
+        <div className="flex flex-col sm:w-[50%] gap-10 ">  
        {
        FireData.map((val,index) =>
        <div key={index} className="bg-[#f2cfc4] flex rounded-lg sm:gap-10 gap-2" data-aos="fade-down">
@@ -83,8 +83,7 @@ const FireCrakers = () => {
        </div>
        )
        }
-       </div>
-
+       </div> 
       </div>
 
 

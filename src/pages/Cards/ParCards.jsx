@@ -11,11 +11,11 @@ const ParCards = () => {
         <p className="mt-4 text-4xl sm:text-5xl font-bold bg-gradient-to-r from-red-400 via-blue-500 to-red-400 inline-block text-transparent bg-clip-text text-shadow-ib2">
           WEDDING CARDS
         </p>
-      <p className="mt-4  text-3xl font-bold text-[#dda15e] text-shadow-ib5"> Our Partners
+      <p className="mt-4  text-3xl font-bold text-[#dda15e] text-shadow-ib5 pb-16"> Our Partners
       </p>
       {/* </div> */}
      
-      <div className="flex flex-col sm:flex-row justify-center p-2 sm:p-10 h-auto gap-10">
+      <div className="flex flex-col sm:flex-row justify-center p-2 sm:p-10 h-auto gap-10 pb-16">
       {
       ParCardsData.map((val,index) =>
       <div key={index} className="flex flex-col w-[100%] sm:w-[30%] h-auto justify-center text-center text-box2 rounded-2xl bg-white gap-4 pt-4 pb-4">
