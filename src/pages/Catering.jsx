@@ -8,25 +8,6 @@ import CateringPrice from "./data/CateringPrice";
 import { RiTestTubeFill } from "react-icons/ri";
  
 const Catering = () => {
-  // const [totalAmount, setTotalAmount] = useState(0);
-  // const [selectedPrices, setSelectedPrices] = useState({}); // Track selected prices by item ID
-
-  // const handleSelectPrice = (itemId, price) => {
-  //   setSelectedPrices((prevSelectedPrices) => {
-  //     const previousPrice = prevSelectedPrices[itemId] || 0; // Previous price or 0 if not set
-  //     const newTotal = totalAmount - previousPrice + price;
-  //     setTotalAmount(newTotal);
-
-  //     return {
-  //       ...prevSelectedPrices,
-  //       [itemId]: price,
-  //     };
-  //   });
-  // };
-
-  // const handleSubmit = () => {
-  //   alert(`The total amount is ₹${totalAmount}`);
-  // };
 return (
 <>
 <div className="bg-white">

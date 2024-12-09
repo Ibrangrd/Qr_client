@@ -43,6 +43,7 @@ import {
   Catering,
   ParCards,
   QrCards,
+  CateringMain,
 } from "./pages/index.js";
 
 import Mscan from "./pages/Scan/MScan.jsx";
@@ -116,11 +117,11 @@ const App = () => {
           <Route path="/Hotel" element={<Suspense fallback={<Loading />}> <Hotel /></Suspense>} />
           <Route path="/MScan" element={<Suspense fallback={<Loading />}> <MScan /></Suspense>} />
           <Route path="/Scan/:inviteId" element={<Suspense fallback={<Loading />}> <ScanVideo /></Suspense>} />
-
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
           <Route path="/logout" element={<Logout />} />
           <Route path="/service" element={<Service />} />
+          <Route path="/CateringMain" element={<CateringMain/>}/>
           {/* <Route path="/Photo/:1" element={<Photo/>} /> */}
           <Route path="/ParCards" element={<ParCards/>} />
           <Route path="/:inviteId" element={<CusScan />} /> 

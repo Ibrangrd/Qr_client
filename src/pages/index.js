@@ -43,6 +43,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import ParCards from "./Cards/ParCards";
 import QrCards from "./Cards/QrCards";
+import CateringMain from "./CateringMain";
 AOS.init();
 
 
@@ -89,4 +90,5 @@ export {
   Memories,
   ParCards,
   QrCards,
+  CateringMain,
 };

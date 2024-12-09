@@ -33,4 +33,20 @@ export const FireData = [
           image: "https://i.ibb.co/ZxvV5kT/star-removebg-preview.png",
         },
 ];
+export const FirePar = [
+  {
+    id: "1",
+    img: "https://t4.ftcdn.net/jpg/05/57/64/85/360_F_557648557_hyn34muXj7kwad5cOAoOjP2lRxMZOYBl.jpg",
+    shop: "ABC SHOP",
+    dis:"Vibrant firecrackers lighting every celebration",
+    link: "",
+  },
+  {
+    id: "2",
+    img: "https://ddnews.gov.in/wp-content/uploads/2024/03/fireworks-1953253_640.jpg",
+    shop: "ABC SHOP",
+    dis:"Bright firecrackers for every festive moment",
+    link: "",
+  },
+];
 

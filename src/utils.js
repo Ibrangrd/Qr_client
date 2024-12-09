@@ -256,14 +256,16 @@ export const hoverShadowColors = [
 export const ParCardsData = [
   {
     id: "1",
-    img: "https://i.ibb.co/H4BcmPz/freepik-candid-image-photography-natural-textures-highly-r-64898.jpg",
-    fun: "Qr Weds Special cards",
-    lin: "/qrcards",
+    img: "https://i.ibb.co/cNxcYYy/Screenshot-2024-12-09-024131.png",
+    shop: "Qr Weds Special cards",
+    dis:"Premium QR cards for memorable moments.",
+    link: "/qrcards",
   },
   {
     id: "2",
     img: "https://i.ibb.co/qdbtB7f/freepik-create-a-luxurious-card-design-with-a-pastel-turqu-14739.jpg",
-    fun: "Card Mahal",
-    lin: "/cards",
+    shop: "Card Mahal",
+    dis:"Unique cards for every occasion in Dhanbad.",
+    link: "/cards",
   },
 ];

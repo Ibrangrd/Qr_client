@@ -32,6 +32,14 @@ export const Servicelist = [
       Link: "/FireCrackers",
     },
     {
+      id: "Service7",
+      imgsrc:
+      "https://www.ajivasanhall.com/images/event/02.jpg",
+      heading: "Catering",
+      des: "Savor your special moments with our expert catering services—every dish tells your love story! We offer delicious meals at affordable prices, ensuring your celebrations are beautifully catered without breaking the bank.",
+      Link: "/CateringMain",
+    },
+    {
       id: "Service5",
       imgsrc:
         "https://media.istockphoto.com/id/1349344078/vector/qr-code-scanning-scan-me-read-bar-code-mobility-generating-app-coding-recognition-or-reading.jpg?s=612x612&w=0&k=20&c=kFDiH2yOEXsvsbMrbVwEJ-GIKZaahEi5tXGWFjyFkog=",
@@ -47,14 +55,7 @@ export const Servicelist = [
       des: "Invite your guests in style with our elegant, customized wedding invitation cards. Designed to impress, our cards are both unique and budget-friendly, giving you quality without compromise",
       Link: "/cards",
     },
-    {
-      id: "Service7",
-      imgsrc:
-        "https://www.ajivasanhall.com/images/event/02.jpg",
-      heading: "Catering",
-      des: "Savor your special moments with our expert catering services—every dish tells your love story! We offer delicious meals at affordable prices, ensuring your celebrations are beautifully catered without breaking the bank.",
-      Link: "/Catering",
-    },
+
     {
       id: "Service8",
       imgsrc:
