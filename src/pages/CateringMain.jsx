@@ -23,7 +23,7 @@ return (
  <p className="text-xl font-normal text-black">{val.dis}</p>
  <Tooltip className="text-5xl" title="CLICK">
  <Link to={val.link}>
- <Button className="w-52 pb-10 h-12 hover:bg-[#caf0f8] hover:text-red-700 text-box5" variant="outlined">VIEW</Button>
+ <Button className="w-52 pb-10 h-12 hover:bg-[#caf0f8] hover:text-red-700 text-box6" variant="outlined">VIEW</Button>
  </Link> 
  </Tooltip>
  </div> 

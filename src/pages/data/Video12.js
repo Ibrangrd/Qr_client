@@ -56,7 +56,7 @@ export const video12 = [
     {
       id: "Type7",
       title: "Trational(pre)",
-      des: "Traditional premium photography preserves cherished moments with timeless quality and expert craftsmanship, delivering exceptional value.",
+      des: "Traditional premium photography preserves cherished moments with timeless quality, delivering exceptional value.",
       star: "5 🌟",
       rating: "(30 reviews)",
       path: "https://www.weddingsutra.com/images/neelutsav.jpg",

@@ -69,14 +69,14 @@ export default {
         '.text-box3':{
           'box-shadow': 'rgba(202, 240, 248, 0.7) 0px 30px 60px -12px inset, rgba(202, 240, 248, 1) 0px 18px 36px -18px inset;',
         },
-        '.text-box5':{
-          'box-shadow': '#b7efc5 0px 30px 60px -12px inset, #92e6a7 0px 18px 36px -18px inset;',
-        },
         '.text-box4':{
           'box-shadow': '#e9c46a 0px 30px 60px -12px inset, #ffb703 0px 18px 36px -18px inset;',
         },
         '.text-box5':{
           'box-shadow': '#ffffff 0px 30px 60px -12px inset, #ffffff 0px 18px 36px -18px inset;',
+        },
+        '.text-box6':{
+          'box-shadow': '#e9edc9 0px 30px 60px -12px inset, #ccd5ae 0px 18px 36px -18px inset;',
         },
        '.text-shadow-ib1': {
           'text-shadow': ' 0px 15px 5px rgba(0,0,0,0.1),10px 20px 5px rgba(0,0,0,0.05),-10px 20px 5px rgba(0,0,0,0.05)',
