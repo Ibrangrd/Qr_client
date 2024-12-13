@@ -78,6 +78,18 @@ export default {
         '.text-box6':{
           'box-shadow': '#e9edc9 0px 30px 60px -12px inset, #ccd5ae 0px 18px 36px -18px inset;',
         },
+        '.text-box7':{
+          'box-shadow': '#ef233c 0px 30px 60px -12px inset, #d90429 0px 18px 36px -18px inset;',
+        },
+        '.text-box8':{
+          'box-shadow': '#ef233c 0px 25px 20px -20px',
+        },
+        '.text-box10':{
+          'box-shadow': '#748cab 0px 30px 60px -12px inset, #3e5c76 0px 18px 36px -18px inset;',
+        },
+        '.text-box11':{
+          'box-shadow': '#246a73 0px 25px 20px -20px',
+        },
        '.text-shadow-ib1': {
           'text-shadow': ' 0px 15px 5px rgba(0,0,0,0.1),10px 20px 5px rgba(0,0,0,0.05),-10px 20px 5px rgba(0,0,0,0.05)',
         },

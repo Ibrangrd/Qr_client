@@ -55,7 +55,6 @@ export const Servicelist = [
       des: "Invite your guests in style with our elegant, customized wedding invitation cards. Designed to impress, our cards are both unique and budget-friendly, giving you quality without compromise",
       Link: "/cards",
     },
-
     {
       id: "Service8",
       imgsrc:
@@ -65,3 +64,62 @@ export const Servicelist = [
       Link: "/Courier",
     },
   ];
+
+export const Service2List = [
+  {
+    id: "Service1",
+    imgsrc:
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/ed/95/07/limak-eurasia-luxury.jpg?w=700&h=-1&s=1",
+    heading: "Hotels and Resorts",
+    Link: "/Hotel",
+  },
+  {
+    id: "Service2",
+    imgsrc:
+      "https://www.carandbike.com/_next/image?url=https%3A%2F%2Fimages.carandbike.com%2Fcar-images%2Fbig%2Fhyundai%2Fcreta%2Fhyundai-creta.jpg%3Fv%3D92&w=3840&q=75",
+    heading: "Car Services:",
+    Link: "/Cars",
+  },
+  {
+    id: "Service3",
+    imgsrc:
+      "https://aaftonline.com/blog/wp-content/uploads/2024/01/What-are-the-Benefits-of-Photography-Complete-Overview.png",
+    heading: "Photography",
+    Link: "/Photography",
+  },
+  {
+    id: "Service4",
+    imgsrc:
+      "https://t4.ftcdn.net/jpg/05/57/64/85/360_F_557648557_hyn34muXj7kwad5cOAoOjP2lRxMZOYBl.jpg",
+    heading: "FirCrakers",
+    Link: "/FireCrackers",
+  },
+  {
+    id: "Service7",
+    imgsrc:
+    "https://www.ajivasanhall.com/images/event/02.jpg",
+    heading: "Catering",
+    Link: "/CateringMain",
+  },
+  {
+    id: "Service6",
+    imgsrc:
+      "https://graphicsfamily.com/wp-content/uploads/edd/2020/11/Free-Golden-Wedding-Invitation-Photoshop-Template-1180x664.jpg",
+    heading: "Invitation Cards",
+    Link: "/ParCards",
+  },
+  {
+    id: "Service5",
+    imgsrc:
+      "https://i.ytimg.com/vi/01FXIOZyAk0/maxresdefault.jpg",
+    heading: "QR Designs:",
+    Link: "/qr",
+  },
+  {
+    id: "Service8",
+    imgsrc:
+      "https://thumbs.dreamstime.com/b/portrait-courier-service-card-machine-pizza-door-order-food-ecommerce-delivery-man-package-284597406.jpg",
+    heading: "Courier Solutions",
+    Link: "/Courier",
+  },
+]
