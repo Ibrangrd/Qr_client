@@ -1,10 +1,10 @@
 import React from "react";
 import "./Catering.css"
 import { useState } from "react";
-import { Cateringdata } from "./data/Cateringdata";
-import { Cateringpricedata } from "./data/Cateringdata";
-import CateringList from "./CateringList";
-import CateringPrice from "./data/CateringPrice";
+import { Cateringdata } from "../data/Cateringdata";
+import { Cateringpricedata } from "../data/Cateringdata";
+import CateringList from "./TestCateringList";
+import CateringPrice from "./CateringPrice";
 import { RiTestTubeFill } from "react-icons/ri";
  
 const Catering = () => {

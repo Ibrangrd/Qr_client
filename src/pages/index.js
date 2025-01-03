@@ -26,7 +26,6 @@ import Photoinfo6 from "./Photography/Photoinfo6";
 import Photoinfo7 from "./Photography/Photoinfo7";
 import Photoinfo8 from "./Photography/Photoinfo8";
 import Photoinfo9 from "./Photography/Photoinfo9";
-import Catering from "./Catering";
 import FireCrakers from "./FireCrackers";
 import MScan from "./Scan/MScan"
 import ScanVideo from "./Scan/ScanVideo"
@@ -43,8 +42,12 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import ParCards from "./Cards/ParCards";
 import QrCards from "./Cards/QrCards";
-import CateringMain from "./CateringMain";
+// import Catering from "./Catering/Catering";
+import CateringMain from "./Catering/CateringMain";
+import NewCatering from "./Catering/NewCatering";
+import Catering2 from "./Catering/Catering2";
 import Service2 from "./Service/Service2";
+import YourMenu from "./Catering/YourMenu";
 AOS.init();
 
 
@@ -78,7 +81,7 @@ export {
   Photoinfo8,
   Photoinfo9,
   Photo,
-  Catering,
+  // Catering,
   FireCrakers,
   ScanVideo,
   MScan,
@@ -93,4 +96,7 @@ export {
   QrCards,
   CateringMain,
   Service2,
+  NewCatering,
+  Catering2,
+  YourMenu,
 };

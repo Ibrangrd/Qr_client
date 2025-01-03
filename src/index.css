@@ -13,7 +13,9 @@
         scrollbar-width: none;  /* Firefox */
   }
 }
-
+.slick-slide > div{
+    margin:0 10px;
+  }
 @font-face {
     font-family: "Mofeital";
     src: url("./Fonts/Mofeital.ttf");

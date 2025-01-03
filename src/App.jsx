@@ -40,11 +40,14 @@ import {
   FireCrakers,
   Cars,
   Memories,
-  Catering,
+  // Catering,
   ParCards,
   QrCards,
   CateringMain,
   Service2,
+  Catering2,
+  NewCatering,
+  YourMenu,
 } from "./pages/index.js";
 
 import Mscan from "./pages/Scan/MScan.jsx";
@@ -112,7 +115,7 @@ const App = () => {
           <Route path="/Photoinfo7" element={<Suspense fallback={<Loading />}> <Photoinfo7 /></Suspense>} />
           <Route path="/Photoinfo8" element={<Suspense fallback={<Loading />}> <Photoinfo8 /></Suspense>} />
           <Route path="/Photoinfo9" element={<Suspense fallback={<Loading />}> <Photoinfo9 /></Suspense>} />
-          <Route path="/Catering" element={<Suspense fallback={<Loading />}> <Catering /></Suspense>} />
+          <Route path="/Catering" element={<Suspense fallback={<Loading />}> <NewCatering /></Suspense>} />
           <Route path="/FireCrackers" element={<Suspense fallback={<Loading />}> <FireCrakers /></Suspense>} />
           <Route path="/memories" element={<Suspense fallback={<Loading />}> <Memories /></Suspense>} />
           <Route path="/Hotel" element={<Suspense fallback={<Loading />}> <Hotel /></Suspense>} />
@@ -123,11 +126,14 @@ const App = () => {
           <Route path="/logout" element={<Logout />} />
           {/* <Route path="/service" element={<Service />} /> */}
           <Route path="/CateringMain" element={<CateringMain/>}/>
+          <Route path="/yourmenu" element={<YourMenu/>}/>
           {/* <Route path="/Photo/:1" element={<Photo/>} /> */}
           <Route path="/Service" element={<Service2/>}/>
           <Route path="/ParCards" element={<ParCards/>} />
           <Route path="/:inviteId" element={<CusScan />} /> 
           <Route path="/i/:inviteId" element={<CusScan2 />} />
+          <Route path="/Catering2" element={<Catering2/>} />
+          <Route path="/Catering" element={<NewCatering/>} />
           <Route path="/Courier" element={<Courier />} />
           <Route path="/Cars" element={<Cars />} />
           <Route path="/CusAfter"  element={<CusAfter/>} />
