@@ -12,7 +12,7 @@ const Catering2 = () => {
       <h1> our menu </h1>
       {AllData.map((val) => {
         {
-          console.log("All Data " + val.ItemName);
+          {/* console.log("All Data " + val.ItemName); */}
         }
         return (
           <NewCatering

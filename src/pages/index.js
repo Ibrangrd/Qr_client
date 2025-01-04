@@ -41,7 +41,7 @@ import { ImOpt } from "react-icons/im";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import ParCards from "./Cards/ParCards";
-import QrCards from "./Cards/QrCards";
+import QrCardSection from "./Cards/QrCardSection";
 // import Catering from "./Catering/Catering";
 import CateringMain from "./Catering/CateringMain";
 import NewCatering from "./Catering/NewCatering";
@@ -93,7 +93,7 @@ export {
   Cars,
   Memories,
   ParCards,
-  QrCards,
+  QrCardSection,
   CateringMain,
   Service2,
   NewCatering,

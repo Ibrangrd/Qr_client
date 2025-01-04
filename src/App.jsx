@@ -42,7 +42,7 @@ import {
   Memories,
   // Catering,
   ParCards,
-  QrCards,
+  QrCardSection,
   CateringMain,
   Service2,
   Catering2,
@@ -102,7 +102,7 @@ const App = () => {
             path="/qrcards"
             element={
               <Suspense fallback={<div>Loading QR Special Cards...</div>}> 
-              <QrCards />
+              <QrCardSection />
               </Suspense>
             }
           />
