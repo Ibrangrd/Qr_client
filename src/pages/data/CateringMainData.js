@@ -15,6 +15,7 @@ export const CateringMainData = [
   },
 ];
 
+
 export const AllData = [
   {
     id: "1",
@@ -72,7 +73,7 @@ export const AllData = [
     ItemData: [
       {
         id: "1",
-        Item: "PANEER",
+        Item: "PANEER 2",
         img1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx7obO58mwR6VU7QAxk2wPPGAHWk0oQNNU1A&s",
         It1: "Paneer Butter Masala",
         img2: "https://i.ytimg.com/vi/n4HSTnpVzHg/maxresdefault.jpg",
@@ -83,7 +84,7 @@ export const AllData = [
       },
       {
         id: "2",
-        Item: "RICE",
+        Item: "RICE 2",
         img1: "https://www.thespruceeats.com/thmb/kUoSjpktuKuTQpxkm-OFgOxl8s4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/how-to-make-basic-white-rice-2355883-10-5b0da96eba6177003622896e.jpg",
         It1: "Plain Rice",
         img2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm4iDppBPI2ga6oxhWNIoEjgcjkcOjl0epXg&s",
@@ -94,7 +95,7 @@ export const AllData = [
       },
       {
         id: "3",
-        Item: "DAL",
+        Item: "DAL 2",
         img1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOaQ84W8xGyX3cPnSQ1I9IkIfVFAx7-trM9A&s",
         It1: "Dal Fry",
         img2: "https://rainbowplantlife.com/wp-content/uploads/2021/06/Dal-Makhani-edited-photos-5-of-6.jpg",
@@ -112,6 +113,56 @@ export const AllData = [
         It2: "Paneer Do Pyaza",
         img3: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqf0Wr0z5NEmeJbpQHQRXXTT_FIz3Pec6HrQ&s",
         It3: "Mater Paneer",
+        he: "flex items-center gap-2",
+      },
+    ],
+  },
+  {
+    id: "3",
+    ItemName: "Non-Veg",
+    ItemData: [
+      {
+        id: "1",
+        Item: "CHICKEN",
+        img1: "https://example.com/chicken1.jpg",
+        It1: "Chicken Curry",
+        img2: "https://example.com/chicken2.jpg",
+        It2: "Chicken Biryani",
+        img3: "https://example.com/chicken3.jpg",
+        It3: "Grilled Chicken",
+        he: "flex items-center gap-2",
+      },
+      {
+        id: "2",
+        Item: "MUTTON",
+        img1: "https://example.com/mutton1.jpg",
+        It1: "Mutton Curry",
+        img2: "https://example.com/mutton2.jpg",
+        It2: "Mutton Biryani",
+        img3: "https://example.com/mutton3.jpg",
+        It3: "Grilled Mutton",
+        he: "flex items-center gap-2",
+      },
+      {
+        id: "3",
+        Item: "FISH",
+        img1: "https://example.com/fish1.jpg",
+        It1: "Fish Curry",
+        img2: "https://example.com/fish2.jpg",
+        It2: "Fish Fry",
+        img3: "https://example.com/fish3.jpg",
+        It3: "Grilled Fish",
+        he: "flex items-center gap-2",
+      },
+      {
+        id: "4",
+        Item: "EGG",
+        img1: "https://example.com/egg1.jpg",
+        It1: "Egg Curry",
+        img2: "https://example.com/egg2.jpg",
+        It2: "Egg Biryani",
+        img3: "https://example.com/egg3.jpg",
+        It3: "Grilled Egg",
         he: "flex items-center gap-2",
       },
     ],
