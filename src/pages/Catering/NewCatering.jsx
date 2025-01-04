@@ -6,11 +6,7 @@ import { Cateringdata } from "../data/Cateringdata";
 import NewCateringList from "./NewCateringList";
 
 const NewCatering = ({ ItemName, ItemData }) => {
-  console.log("Item Name " + ItemName);
-  const foodItemData = JSON.stringify(ItemData)
-  console.log("Item Data " + foodItemData.length);
-  
-  // console.log("Item Dta " + );
+  console.log("Item Name  cat " + ItemName);
 
   var settings = {
     dots: true,
@@ -50,44 +46,31 @@ const NewCatering = ({ ItemName, ItemData }) => {
       },
     ],
   };
+
   return (
     <>
-      {/* <div className="bg-white "> */}
       <div className="sm:text-5xl text-2xl text-black text-center font-extrabold">
         {ItemName}
       </div>
       <div className="bg-red-200 ">
         <div className="flex flex-col m-auto w-[86%] pt-10 pb-10 justify-center gap-10">
           <Slider {...settings}>
-            {/* {Cateringdata.map((ItemData) => (
+            {ItemData.map((item) => (
               <NewCateringList
-                key={ItemData.id}
-                Item={ItemData.Item}
-                img1={ItemData.img1}
-                It1={ItemData.It1}
-                img2={ItemData.img2}
-                It2={ItemData.It2}
-                img3={ItemData.img3}
-                It3={ItemData.It3}
-                he={ItemData.he}
-              /> */}
-            {/* ))} */}
-            {/* <NewCateringList
-              key={ItemData.id}
-              Item={ItemData.Item}
-              img1={ItemData.img1}
-              It1={ItemData.It1}
-              img2={ItemData.img2}
-              It2={ItemData.It2}
-              img3={ItemData.img3}
-              It3={ItemData.It3}
-              he={ItemData.he}
-            /> */}
+                key={item.id}
+                Item={item.Item}
+                img1={item.img1}
+                It1={item.It1}
+                img2={item.img2}
+                It2={item.It2}
+                img3={item.img3}
+                It3={item.It3}
+                he={item.he}
+              />
+            ))}
           </Slider>
         </div>
       </div>
-
-      {/* </div> */}
     </>
   );
 };
