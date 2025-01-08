@@ -17,7 +17,7 @@ const Card = ({ info }) => {
               {info?.title}
             </p>
             <p className="text-lg sm:text-xl font-bold text-green-500">
-            ₹{info?.price || 20}
+            ₹{info?.price || 0}
             </p>
           </div>
           <p className=" hidden sm:block opacity-0 group-hover:opacity-100 duration-700 ease-in-out  font-mono text-gray-500">
