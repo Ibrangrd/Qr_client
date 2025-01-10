@@ -19,7 +19,7 @@ return (
  CateringMainData.map((val,index) =>
  <div key={index} className="flex flex-col w-[100%] sm:w-[30%] h-auto justify-center text-center text-box2 rounded-2xl bg-white gap-4 pt-4 pb-4">
  <img className="m-auto h-[70%] w-[90%] rounded-xl boxShadow text-image" src={val.img} />
- <h1 className="text-3xl pt-6 font-bold text-black text-shadow-ib2">{val.shop}</h1>
+ <h1 className="text-3xl pt-6 font-bold text-black">{val.shop}</h1>
  <p className="text-xl font-normal text-black">{val.dis}</p>
  <Tooltip className="text-5xl" title="CLICK">
  <Link to={val.link}>

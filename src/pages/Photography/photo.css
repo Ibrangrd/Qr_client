@@ -72,17 +72,17 @@ body {
   font-weight: 700;
   transform: translateY(-50px);
   color: black;
-  text-shadow: 2px 5px 5px rgba(231, 128, 128, 0.5);
+  /* text-shadow: 2px 5px 5px rgba(231, 128, 128, 0.5); */
 }
 
 .pr {
   margin-top: 0;
   margin-left: -10px;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
   transform: translateY(-50px);
   color: black;
-  text-shadow: 2px 3px 3px rgba(0, 180, 216, 0.5);
+  /* text-shadow: 2px 3px 3px rgba(0, 180, 216, 0.5); */
 }
 
 .ra {
@@ -96,10 +96,10 @@ body {
   margin-left: 10px;
   width: 380px;
   font-size: 18px;
-  font-weight: 900;
+  font-weight: 700;
   text-align: center;
   transform: translateY(-50px);
-  text-shadow: 2px 3px 3px rgba(157, 78, 221, 0.5);
+  /* text-shadow: 2px 3px 3px rgba(157, 78, 221, 0.5); */
   color: black;
 }
 

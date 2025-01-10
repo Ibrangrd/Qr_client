@@ -2,7 +2,7 @@ export const video12 = [
     {
       id: "Type1",
       title: "Traditional",
-      des: "Traditional photography captures timeless moments, preserving the elegance and beauty of your love story for a lifetime.",
+      des: "Traditional photography captures timeless moments, preserving the elegance",
       star: "4.9 🌟",
       rating: "(20 reviews)",
       path: "https://i.pinimg.com/736x/95/a8/5f/95a85fafee35613322e38a15bbd7731a.jpg",
@@ -11,7 +11,7 @@ export const video12 = [
     {
       id: "Type2",
       title: "Cinematic & Candid",
-      des: "Cinematic photography captures the grandeur of a moment, while candid photography reveals its unfiltered truth",
+      des: "Cinematic and candid photography reveals its unfiltered truth",
       star: "4.5 🌟",
       rating: "(18 reviews)",
       path: "https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2020/11/Inside-image-Wedding-Photographers6.jpg",
@@ -20,7 +20,7 @@ export const video12 = [
     {
       id: "Type3",
       title: "Cinematic",
-      des: "Cinematic videography transforms moments into visual stories with a film-like quality and artistic flair.",
+      des: "Cinematic videography transforms moments into visual stories with a film-like quality",
       star: "5 🌟",
       rating: "(12 reviews)",
       path: "https://5.imimg.com/data5/SELLER/Default/2020/12/NW/VN/PO/114792623/wedding-photography-500x500.jpg",
@@ -29,7 +29,7 @@ export const video12 = [
     {
       id: "Type4",
       title: "Pre-Wedding",
-      des: "Pre-wedding videography captures the joy and romance of your love story, creating memories before the big day",
+      des: "Pre-wedding videography captures the joy and romance of your love story",
       star: "4.7 🌟",
       rating: "(10 reviews)",
       path: "https://www.pixelworks.in/wp-content/uploads/2017/05/Pre-Wedding-Shoot-2.jpg",
@@ -38,7 +38,7 @@ export const video12 = [
     {
       id: "Type5",
       title: "Classic",
-      des: "Classic photography captures timeless moments with exceptional quality and affordability",
+      des: "Classic captures timeless moments with exceptional quality and affordability",
       star: "4.4 🌟",
       rating: "(15 reviews)",
       path: "https://assets.vogue.in/photos/6360ee4b74016d3adc45f105/1:1/w_4534,h_4534,c_limit/JR.WP-244.jpg",
@@ -47,7 +47,7 @@ export const video12 = [
     {
       id: "Type6",
       title: "Cheap & best",
-      des: "Premier photography captures unforgettable moments with outstanding quality and great value.",
+      des: "Captures unforgettable moments with outstanding quality and great value.",
       star: "4.2 🌟",
       rating: "(13 reviews)",
       path: "https://www.thewedcafe.com/wp-content/uploads/2020/05/09-PRD_0113-Edit.jpg",
@@ -56,7 +56,7 @@ export const video12 = [
     {
       id: "Type7",
       title: "Trational(pre)",
-      des: "Traditional premium photography preserves cherished moments with timeless quality, delivering exceptional value.",
+      des: "Traditional premium photography preserves cherished moments with timeless quality",
       star: "5 🌟",
       rating: "(30 reviews)",
       path: "https://www.weddingsutra.com/images/neelutsav.jpg",
@@ -65,7 +65,7 @@ export const video12 = [
     {
       id: "Type8",
       title: "Standard",
-      des: "Standard photography captures special moments with reliable quality and attention, offering good value.",
+      des: "Standard photography captures special moments with reliable quality and attention.",
       star: "5 🌟",
       rating: "(23 reviews)",
       path: "https://www.shaadibaraati.com/vendors-profile/2731767e69b62b9a415e6365377d2475.jpeg",
@@ -74,7 +74,7 @@ export const video12 = [
     {
       id: "Type9",
       title: "Premiun",
-      des: "Premium photography captures memories with top quality and expert detail, offering great value.",
+      des: "Premium photography captures memories with top quality and expert detail.",
       star: "5 🌟",
       rating: "(25 reviews)",
       path: "https://i.pinimg.com/736x/36/e7/d3/36e7d37bdd521f8dba3f464317433b15.jpg",

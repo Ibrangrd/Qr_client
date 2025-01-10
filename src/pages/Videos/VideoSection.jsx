@@ -6,7 +6,7 @@ const VideoSection = () => {
     <div className="md:p-2 p-1">
       <div className="bg-inherit">
         <div className="text-center">
-          <p className="mt-4 text-5xl font-bold bg-gradient-to-r from-red-400 via-blue-500 to-red-400 inline-block text-transparent bg-clip-text">
+          <p className="mt-4 text-5xl font-bold text-[#1a759f]">
             VIDEOS
           </p>
         </div>

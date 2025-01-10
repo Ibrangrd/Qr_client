@@ -46,7 +46,6 @@ import QrCardSection from "./Cards/QrCardSection";
 import CateringMain from "./Catering/CateringMain";
 import NewCatering from "./Catering/NewCatering";
 import Catering2 from "./Catering/Catering2";
-import Service2 from "./Service/Service2";
 import YourMenu from "./Catering/YourMenu";
 AOS.init();
 
@@ -95,7 +94,6 @@ export {
   ParCards,
   QrCardSection,
   CateringMain,
-  Service2,
   NewCatering,
   Catering2,
   YourMenu,

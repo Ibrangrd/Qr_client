@@ -4,7 +4,7 @@ const HomeService = () => {
   return (
     <div className="mb-8">
       <div className="text-center">
-        <p className="my-4 text-3xl md:text-5xl font-bold bg-gradient-to-r from-red-400 via-blue-500 to-red-400 inline-block text-transparent bg-clip-text ">
+        <p className="my-4 text-3xl md:text-5xl font-bold text-[#457b9d]">
           OUR SERVICES
         </p>
       </div>

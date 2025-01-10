@@ -4,7 +4,7 @@ const HomeVideo = () => {
   return (
     <div className="mb-8">
       <div className="text-center">
-        <p className="my-4 text-3xl md:text-5xl font-bold bg-gradient-to-r from-green-400 via-zinc-500 to-blue-400 inline-block text-transparent bg-clip-text ">
+        <p className="my-4 text-3xl md:text-5xl font-bold text-[#457b9d]">
           VIDEO
         </p>
       </div>

@@ -1,43 +1,41 @@
-import React from "react";
-import "./service.css";
-import ServiceList from "./ServiceList";
-import { Servicelist } from "../data/Servicelist";
-import { ServiceTop } from "../../utils";
-const Service = () => {
-  return (
+import React from "react"
+import Button from '@mui/material/Button';
+import { Link } from "react-router-dom";
+import Tooltip from '@mui/material/Tooltip';
+import { Service2List } from "../data/Servicelist";
+const Service = () =>{
+return (
     <>
-      <div className="bg-gradient-to-b from-[#debdd1] to-[#5a5aa7]">
-        <div className="text-center" > <p className="text-center text-4xl sm:text-5xl font-bold pt-6 bg-gradient-to-r from-[#ff0a54] via-[#00b4d8] to-[#ff0a54] inline-block text-transparent bg-clip-text"> OUR SERVICES </p></div>
-         
-         {/* <div className="flex" >
-         {ServiceTop.map((service) => (
-          <ServiceTop 
-            key={service.id}
-            link={service.link}
-            img={service.img}
-            name={service.name}
-          />
-        ))}
-          </div> */}
-        <div>
-          <h2 className="what"> What we have:- </h2>
-        </div>
-        <div className="mmm">
-          {Servicelist.map((val) => {
-            return (
-              <ServiceList
-                key={val.id}
-                imgsrc={val.imgsrc}
-                heading={val.heading}
-                des={val.des}
-                Link={val.Link}
-              />
-            );
-          })}
-        </div>
+    <div className="text-center bg-[#ffff]">
+       {/* <div className="flex flex-col"> */}
+        <p className="mt-4 text-4xl sm:text-5xl pb-10 font-bold pt-4 text-[#00b4d8] text-shadow-ib5">
+        OUR SERVICES
+        </p>
+      {/* </div> */}
+     
+      <div className="flex flex-col flex-wrap sm:flex-row justify-center p-2 sm:p-10 h-auto gap-10 pb-16 ">
+      {
+      Service2List.map((val,index) =>
+      <div key={index} className="mb-10 flex flex-col w-[100%] sm:w-[30%] h-[450px] justify-center text-center text-image rounded-2xl bg-[#ffff] gap-4 pt-4 pb-4 ">
+      <img className="m-auto h-[70%] w-[90%] rounded-xl boxShadow text-box11" src={val.imgsrc} />
+      <h1 className="text-3xl pt-6 font-bold text-[#4f772d]">{val.heading}</h1>
+      <Tooltip className="text-5xl" title="VIEW">
+      <Link to={val.Link}>
+      <Button className="w-52 pb-10 h-12 hover:bg-blue-100 hover:text-red-700" variant="outlined">VIEW</Button>
+      </Link> 
+      </Tooltip>
+      </div> 
+      )
+      }
       </div>
-    </>
-  );
-};
 
+     
+     </div>
+    </>
+)
+
+
+
+
+}
 export default Service;

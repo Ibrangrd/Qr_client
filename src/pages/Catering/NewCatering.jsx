@@ -49,10 +49,10 @@ const NewCatering = ({ ItemName, ItemData }) => {
 
   return (
     <>
-      <div className="sm:text-5xl text-2xl text-black text-center font-extrabold">
+      <div className="sm:text-6xl text-2xl text-black text-center font-extrabold">
         {ItemName}
       </div>
-      <div className="bg-red-200 ">
+      <div className="bg-[#fffcf2]">
         <div className="flex flex-col m-auto w-[86%] pt-10 pb-10 justify-center gap-10">
           <Slider {...settings}>
             {ItemData.map((item) => (
