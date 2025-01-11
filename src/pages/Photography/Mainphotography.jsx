@@ -11,7 +11,7 @@ const Videography = (props) =>{
                 <div className="info">
                     <div className="na">{props.title}</div>
                     <div className="pr">{props.star}
-                        <div className="ra">{props.rating}</div>
+                    <div className="ra">{props.rating}</div>
                     </div>
                 </div>
                 <div className="par">{props.des}</div>
