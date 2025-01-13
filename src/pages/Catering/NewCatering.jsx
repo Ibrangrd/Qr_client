@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { Cateringdata } from "../data/Cateringdata";
+// import { Cateringdata } from "../data/Cateringdata";
 import NewCateringList from "./NewCateringList";
 
 const NewCatering = ({ ItemName, ItemData }) => {
@@ -49,10 +49,10 @@ const NewCatering = ({ ItemName, ItemData }) => {
 
   return (
     <>
-      <div className="sm:text-6xl text-2xl text-black text-center font-extrabold">
+      <div className="sm:text-6xl text-4xl text-black text-center font-extrabold">
         {ItemName}
       </div>
-      <div className="bg-[#fffcf2]">
+      <div className="bg-[#ffffff]">
         <div className="flex flex-col m-auto w-[86%] pt-10 pb-10 justify-center gap-10">
           <Slider {...settings}>
             {ItemData.map((item) => (
@@ -66,6 +66,8 @@ const NewCatering = ({ ItemName, ItemData }) => {
                 img3={item.img3}
                 It3={item.It3}
                 he={item.he}
+                img4={item.img4}
+                It4={item.It4}
               />
             ))}
           </Slider>

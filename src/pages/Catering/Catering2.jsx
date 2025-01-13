@@ -10,7 +10,7 @@ const Catering2 = () => {
   return (
     <>
     <div className="bg-white">
-    <h1 className="text-center sm:text-6xl text-3xl font-bold mb-10 text-[#a7c957] text-shadow-light pt-4"> OUR MENU </h1>
+    <h1 className="text-center sm:text-6xl text-5xl font-bold mb-10 text-[#a7c957] text-shadow-light pt-4"> OUR MENU </h1>
       {AllData.map((val) => {
         {
           {/* console.log("All Data " + val.ItemName); */}

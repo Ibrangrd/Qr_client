@@ -16,6 +16,9 @@
 .slick-slide > div{
     margin:0 10px;
   }
+.slick-prev:before, .slick-next:before {
+    color: black;
+}
 @font-face {
     font-family: "Mofeital";
     src: url("./Fonts/Mofeital.ttf");
