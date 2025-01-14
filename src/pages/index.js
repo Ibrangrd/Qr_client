@@ -42,11 +42,10 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import ParCards from "./Cards/ParCards";
 import QrCardSection from "./Cards/QrCardSection";
-// import Catering from "./Catering/Catering";
 import CateringMain from "./Catering/CateringMain";
-import NewCatering from "./Catering/NewCatering";
-import Catering2 from "./Catering/Catering2";
+import Catering from "./Catering/Catering";
 import YourMenu from "./Catering/YourMenu";
+import CateringSection from "./Catering/CateringSection";
 AOS.init();
 
 
@@ -80,7 +79,7 @@ export {
   Photoinfo8,
   Photoinfo9,
   Photo,
-  // Catering,
+  Catering,
   FireCrakers,
   ScanVideo,
   MScan,
@@ -94,7 +93,6 @@ export {
   ParCards,
   QrCardSection,
   CateringMain,
-  NewCatering,
-  Catering2,
   YourMenu,
+  CateringSection,
 };

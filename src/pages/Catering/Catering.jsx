@@ -4,7 +4,7 @@ import NewCatering from "./NewCatering";
 import { Cateringdata } from "../data/Cateringdata";
 import { CateringMainData } from "../data/CateringMainData";
 
-const Catering2 = () => {
+const Catering = () => {
   // console.log("All Data " + AllData);
 
   return (
@@ -28,4 +28,4 @@ const Catering2 = () => {
   );
 };
 
-export default Catering2;
+export default Catering;
