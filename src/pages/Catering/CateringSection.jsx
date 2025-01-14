@@ -29,10 +29,10 @@ return (
  )
  }
  </div>
- <div className="flex flex-col flex-wrap sm:flex-row justify-center p-2 sm:p-10 h-auto gap-10 pb-16">
+ <div className="flex flex-col flex-wrap sm:flex-row text-center justify-center p-2 sm:p-10 h-auto gap-10 pb-16">
  {
  CateringSectionData.map((val,index) =>
- <div key={index} className="flex flex-col w-[80%] sm:w-[25%] h-auto justify-center text-center text-box2 rounded-2xl bg-white gap-2 pt-4 pb-4">
+ <div key={index} className="flex flex-col w-[80%] m-auto sm:w-[25%] h-auto justify-center text-center text-box2 rounded-2xl bg-white gap-2 pt-4 pb-4">
  <img className="m-auto h-[70%] w-[90%] rounded-xl boxShadow text-image" src={val.img} />
  <h1 className="text-2xl pt-5 font-bold text-black">{val.shop}</h1>
  <Tooltip className="text-5xl" title="CLICK">
