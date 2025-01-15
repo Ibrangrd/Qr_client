@@ -128,8 +128,8 @@ const App = () => {
           <Route path="/yourmenu" element={<YourMenu/>}/>
           {/* <Route path="/Photo/:1" element={<Photo/>} /> */}
           <Route path="/ParCards" element={<ParCards/>} />
-          <Route path="/:inviteId" element={<CusScan />} /> 
-          <Route path="/i/:inviteId" element={<CusScan2 />} />
+          {/* <Route path="/:inviteId" element={<CusScan />} />  */}
+          <Route path="/:inviteId" element={<CusScan2 />} />
           <Route path="/Courier" element={<Courier />} />
           <Route path="/Cars" element={<Cars />} />
           <Route path="/CusAfter"  element={<CusAfter/>} />

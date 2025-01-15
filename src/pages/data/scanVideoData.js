@@ -27,5 +27,4 @@ export const scanVideoData = [
         mno: "9508853398",
         aftermar: "Moments After Marriage",
     },
-   
 ]
