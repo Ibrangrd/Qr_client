@@ -59,7 +59,7 @@ export const CusData = [
      {
       id:"shahid_weds_nazia",
       // bgImage2:"https://i.ibb.co/d5z1HSb/cus1.jpg",
-      bgImage2:"https://i.ibb.co/cx9vHSm/ca.jpg",
+      bgImage2:"https://i.ibb.co/TPHFB3P/ibran.jpg",
       address2:"https://maps.app.goo.gl/JU9ePZpCPUWSkSAx9",
       position2:"flex items-center justify-center",
       namepos:"flex flex-col -ml-14 gap-8 opacity-0",
