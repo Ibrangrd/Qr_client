@@ -14,7 +14,7 @@ const QRSection = () => {
         </p>
         </div>
         <div className=" mt-10">
-        <p className="text-4xl font-semibold text-center -mb-16 text-black"> How Qr Works! </p>
+        <p className="text-3xl sm:text-4xl font-semibold text-center -mb-16 text-black"> How Qr Works! </p>
         <div>
         <VideoList videoDetails={QrWork} />
         </div>

@@ -1,9 +1,6 @@
 import React from "react";
 import { AllData } from "../data/CateringMainData";
 import NewCatering from "./NewCatering";
-import { Cateringdata } from "../data/Cateringdata";
-import { CateringMainData } from "../data/CateringMainData";
-
 const Catering = () => {
   // console.log("All Data " + AllData);
 
@@ -20,6 +17,7 @@ const Catering = () => {
             key={val.id}
             ItemName={val.ItemName}
             ItemData={val.ItemData}
+            Display={val.Display}
           />
         );
       })}

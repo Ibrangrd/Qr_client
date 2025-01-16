@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
-const CarList = ({imgsrc ,title,star,rating,des,link}) => {
+const CarList = ({imgsrc ,title,star,des,link}) => {
     return (
         <div className="ma11">
             <a href={link}>

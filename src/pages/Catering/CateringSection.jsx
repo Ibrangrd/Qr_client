@@ -10,7 +10,7 @@ return (
 <div className="bg-[#FCF7F8]">
 <div className="flex justify-center text-center">
 <div className=" pt-4 sm:p-4"><img className="sm:w-44 w-44" src="https://i.ibb.co/pWYZw3m/c8.png"/> </div>
-<div className="sm:text-8xl text-4xl text-center text-[#4E8098] font-extrabold pt-4 sm:p-4 text-shadow-ib2"> ℂ𝔸𝕋𝔼ℝ𝕀ℕ𝔾 </div>
+<div className="sm:text-8xl text-4xl text-center text-[#4E8098] font-extrabold pt-4 sm:p-4 text-shadow-ib2"> CATERING </div>
 <div className=" pt-4 sm:p-4 "> <img className="sm:w-44 w-44" src="https://i.ibb.co/t8qK9jf/c7.png"/></div>
 </div>
 <div className="flex flex-col flex-wrap sm:flex-row justify-center p-2 sm:p-10 h-auto gap-10 pb-16">

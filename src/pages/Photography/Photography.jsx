@@ -15,7 +15,7 @@ const Photography = () => {
 
     return (
       <>
-      <div className="bg-gradient-to-b from-[#fffffc] via-[#e0b1cb] to-[#f5f9e9]">
+      <div className="bg-gradient-to-b bg-[#dbecef]">
     <div className="text-center"><h1 className="text-center text-4xl sm:text-6xl text-[#0077b6] font-bold pt-6">PHOTOGRAPHY</h1></div>
     <div className="space"></div>
     <div className="con"  >
