@@ -48,6 +48,9 @@ export default {
         '.text-shadow-light': {
           'text-shadow': '2px 2px 4px #0077e6', // Light Coral color
         },
+        '.text-shadow-light2': {
+          'text-shadow': '2px 2px 4px #95d5b2', // Light Coral color
+        },
         '.text-shadow-cards': {
           'text-shadow': '2px 2px 4px #73ba9b',
         },

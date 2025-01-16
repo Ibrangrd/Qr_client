@@ -25,14 +25,14 @@ const CusScan2 = () => {
                   href={item?.address2}
                   target="_blank"
                 >
-                𝘝𝘦𝘯𝘶𝘦 𝘓𝘰𝘤𝘢𝘵𝘪𝘰𝘯
+                <img className="w-14" src="https://iili.io/dL52914.png"/>
                 </a>
             </div>
 
             <div className="">
             <Link to="/Cusafter">
               <p className={item?.after_col}>
-              𝘈𝘧𝘵𝘦𝘳 𝘔𝘢𝘳𝘳𝘪𝘢𝘨𝘦
+              <img className="w-20" src="https://i.ibb.co/C8D2s1s/galary.png"/>
               </p>
               </Link>
               

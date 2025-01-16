@@ -44,8 +44,8 @@ export const CusData = [
      },
    //   {
    //    id:"rahul-weds-sammi",
-   //    // bgImage2:"https://i.ibb.co/d5z1HSb/cus1.jpg",
-   //    bgImage2:"https://i.ibb.co/cx9vHSm/ca.jpg",
+   //    // bgImage2::"https://i.ibb.co/d5z1HSb/cus1.jpg",
+   //    bgImage2::"https://i.ibb.co/cx9vHSm/ca.jpg",
    //    address2:"https://maps.app.goo.gl/JU9ePZpCPUWSkSAx9",
    //    position2:"flex items-center justify-center",
    //    namepos:"flex flex-col -ml-14 gap-8 opacity-0",
@@ -58,17 +58,16 @@ export const CusData = [
    //   },
      {
       id:"shahid_weds_nazia",
-      // bgImage2:"https://i.ibb.co/d5z1HSb/cus1.jpg",
+     
       bgImage2:"https://i.ibb.co/TPHFB3P/ibran.jpg",
-      address2:"https://maps.app.goo.gl/JU9ePZpCPUWSkSAx9",
-      position2:"flex items-center justify-center",
+      //  bgImage2:"https://i.ibb.co/tbsRPNx/shahid-2.jpg",
+      bgImage1address2:"https://maps.app.goo.gl/JU9ePZpCPUWSkSAx9",
+      position2:"flex items-center justify-center text-shadow-light2",
       namepos:"flex flex-col -ml-14 gap-8 opacity-0",
-      videoStyle2:"border-solid border-[#d6bf97] border-2 w-[35vh] h-[25vh] rotate-90 sm:w-[50%] sm:h-[500px]",
+      videoStyle2:"border-double border-[#00afb9] border-8 w-[35vh] h-[25vh] rotate-90 sm:w-[50%] sm:h-[500px]",
       video2:"https://www.youtube.com/embed/0y8-SnS6kzk?si=cAAbl9zeMB7WuccP",
-      couple12:"𝒮𝒜𝑀𝑀𝐼",
-      couple22:"𝑅𝒜𝐻𝒰𝐿",
-      after_col:" font-bold text-[22px]  rotate-90 text-shadow-light text-[#9fffcb]",
-      venue_col:" text-[22px] font-bold rotate-90 mb-10 text-shadow-light text-[#ffffff] ",
+      after_col:" font-bold text-[22px]  rotate-90 text-[#9fffcb]",
+      venue_col:" text-[22px] font-bold rotate-90 mb-10 text-[#ffffff] ",
      },
   
   
