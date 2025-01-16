@@ -58,10 +58,9 @@ export const CusData = [
    //   },
      {
       id:"shahid_weds_nazia",
-     
       bgImage2:"https://i.ibb.co/TPHFB3P/ibran.jpg",
       //  bgImage2:"https://i.ibb.co/tbsRPNx/shahid-2.jpg",
-      bgImage1address2:"https://maps.app.goo.gl/JU9ePZpCPUWSkSAx9",
+      address2:"https://maps.app.goo.gl/JU9ePZpCPUWSkSAx9",
       position2:"flex items-center justify-center text-shadow-light2",
       namepos:"flex flex-col -ml-14 gap-8 opacity-0",
       videoStyle2:"border-double border-[#00afb9] border-8 w-[35vh] h-[25vh] rotate-90 sm:w-[50%] sm:h-[500px]",
