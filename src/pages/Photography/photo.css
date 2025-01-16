@@ -59,10 +59,6 @@ body {
 
 .imga:hover {
   box-shadow: 2px 2px 15px 2px #F08080;
-  width: 360px;
-  height: 335px;
-  margin-left: 20px;
-  transform: translateY(-45px);
 }
 
 .na {

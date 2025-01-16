@@ -9,8 +9,8 @@ const QRCard = ({ info }) => {
         src={info?.path}
       ></img>
       <div className="flex justify-between p-2 w-full">
-        <p className="text-lg font-bold text-[#FF4E88]">{info.title}</p>
-        <p className="text-lg font-bold text-green-500"> Rs {info.price}</p>
+        <p className="text-lg font-bold text-black">{info.title}</p>
+        <p className="text-lg font-bold text-[#457b9d]"> Rs {info.price}</p>
       </div>
     </div>
   );

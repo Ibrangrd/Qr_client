@@ -1,5 +1,5 @@
 import Card from "./Card";
-import { cardDetails } from "../data/cardDetails";
+import { cardMahalDetails } from "../data/cardMahalDetails";
 import { useEffect, useState } from "react";
 import Pagination from '../Pagination'
 const CardList = ({ showCategory, price , pageNumber, cardPerPage,setPageNumber }) => {
@@ -9,7 +9,7 @@ const CardList = ({ showCategory, price , pageNumber, cardPerPage,setPageNumber 
   const [cardToShow, setCardToShow] = useState([]);
 
   useEffect(() => {
-    const filteredCards = cardDetails.filter(
+    const filteredCards = cardMahalDetails.filter(
       (card) =>
         (showCategory === "All" || card?.cat === showCategory) &&
         card?.price <= price

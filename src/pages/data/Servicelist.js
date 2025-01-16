@@ -106,7 +106,7 @@ export const Service2List = [
     imgsrc:
       "https://graphicsfamily.com/wp-content/uploads/edd/2020/11/Free-Golden-Wedding-Invitation-Photoshop-Template-1180x664.jpg",
     heading: "Invitation Cards",
-    Link: "/ParCards",
+    Link: "/Cards",
   },
   {
     id: "Service5",

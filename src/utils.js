@@ -215,7 +215,7 @@ export const menuOptions = [
   },
   {
     opt: "CARDS",
-    route: "/ParCards",
+    route: "/Cards",
   },
   {
     opt: "VIDEO",
@@ -266,6 +266,6 @@ export const ParCardsData = [
     img: "https://i.ibb.co/qdbtB7f/freepik-create-a-luxurious-card-design-with-a-pastel-turqu-14739.jpg",
     shop: "Card Mahal",
     dis:"Unique cards for every occasion in Dhanbad.",
-    link: "/cards",
+    link: "/cardmahal",
   },
 ];

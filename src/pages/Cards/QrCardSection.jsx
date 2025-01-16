@@ -10,7 +10,7 @@ const CardSection = () => {
     <div className="bg-gradient-to-b from-[#d6f1f6] to-[#b0c4b1]">
     <div className="p-2 ">
       <div className="text-center">
-      <p className="mt-4 pb-10 sm:text-5xl text-4xl font-bold bg-gradient-to-r from-[#fcbf49] via-blue-500 to-[#f6bd60] inline-block text-transparent bg-clip-text">
+      <p className="mt-4 pb-10 sm:text-5xl text-4xl font-bold text-[#457b9d]">
               QR SPECIAL CARDS
             </p>
 

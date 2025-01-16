@@ -41,8 +41,9 @@ import {
   Cars,
   Memories,
   Catering,
-  ParCards,
+  Cards,
   QrCardSection,
+  CardMahalSection,
   CateringMain,
   YourMenu,
   CateringSection
@@ -50,7 +51,7 @@ import {
 
 import Mscan from "./pages/Scan/MScan.jsx";
 // import Home from "./pages/Home.jsx";
-const CardSection = lazy((e) => import("./pages/Cards/CardSection.jsx"));
+const CardSection = lazy((e) => import("./pages/Cards/CardMahalSection.jsx"));
 
 export const ThemeContext = createContext("light");
 const App = () => {
@@ -81,10 +82,10 @@ const App = () => {
             }
           />
           <Route
-            path="/cards"
+            path="/cardmahal"
             element={
               <Suspense fallback={<Loading />}>
-                <CardSection />
+                <CardMahalSection />
               </Suspense>
             }
           />
@@ -127,7 +128,7 @@ const App = () => {
           <Route path="/CateringSection" element={<CateringSection/>}/>
           <Route path="/yourmenu" element={<YourMenu/>}/>
           {/* <Route path="/Photo/:1" element={<Photo/>} /> */}
-          <Route path="/ParCards" element={<ParCards/>} />
+          <Route path="/Cards" element={<Cards/>} />
           {/* <Route path="/:inviteId" element={<CusScan />} />  */}
           <Route path="/:inviteId" element={<CusScan2 />} />
           <Route path="/Courier" element={<Courier />} />

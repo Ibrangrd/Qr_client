@@ -8,7 +8,7 @@ const Cars =() =>{
     <>
     
   <div className="bo">
-  <h1 className="f">OUR CAR COLLECTION</h1>
+  <h1 className="f">OUR CAR'S</h1>
   <div className="space11"></div>
   <div className="container11">
   {cardat.map((value) =>{

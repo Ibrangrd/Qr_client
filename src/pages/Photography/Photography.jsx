@@ -38,7 +38,7 @@ const Photography = () => {
             <Slider images={Images2} />
           </Suspense>
     </div>
-    <h1 className="mt-[-30px] text-center text-[40px] sm:text-[70px] text-[#a53860] font-serif font-extrabold mb-[10px]">ALBUM </h1>
+    {/* <h1 className="mt-[-30px] text-center text-[40px] sm:text-[70px] text-[#a53860] font-serif font-extrabold mb-[10px]">ALBUM </h1>
     <div className="albums2">
       {
         albumData.map((va) =>
@@ -51,7 +51,7 @@ const Photography = () => {
            />
           )
         })}
-    </div>
+    </div> */}
     <div className="p-2 bg-inherit ">
       <div className="bg-inherit">
         <div className="text-center">
