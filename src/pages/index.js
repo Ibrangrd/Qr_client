@@ -47,6 +47,7 @@ import CateringMain from "./Catering/CateringMain";
 import Catering from "./Catering/Catering";
 import YourMenu from "./Catering/YourMenu";
 import CateringSection from "./Catering/CateringSection";
+import LoginForImage from "./LoginForImage";
 AOS.init();
 
 
@@ -97,4 +98,5 @@ export {
   CateringMain,
   YourMenu,
   CateringSection,
+  LoginForImage
 };

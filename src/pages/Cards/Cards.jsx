@@ -6,7 +6,7 @@ import Tooltip from '@mui/material/Tooltip';
 const Cards = () => {
   return (
  <>  
- <div className="text-center bg-[#dbecef]">
+ <div className="text-center bg-[#e2eaec]">
        {/* <div className="flex flex-col"> */}
         <p className="mt-4 text-4xl sm:text-5xl font-bold text-[#457b9d] pt-2">
           WEDDING CARDS

@@ -2,21 +2,13 @@ export const Servicelist = [
     {
       id: "Service1",
       imgsrc:
-        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/518332246.jpg?k=852d9e83009ac082a7bb8366d5e27fb1f21801ea9cb6dde9c14e1aa99c49ea63&o=&hp=1",
-      heading: "Hotels and Resorts",
-      des: "Find the perfect venue with our curated selection of hotels and resorts. Enjoy luxury and comfort at competitive prices, ensuring a memorable experience for you and your guests without stretching your budget",
-      Link: "/Hotel",
-    },
-    {
-      id: "Service2",
-      imgsrc:
         "https://www.carandbike.com/_next/image?url=https%3A%2F%2Fimages.carandbike.com%2Fcar-images%2Fbig%2Fhyundai%2Fcreta%2Fhyundai-creta.jpg%3Fv%3D92&w=3840&q=75",
       heading: "Car Services:",
       des: "Arrive in style with our premium car services, offering luxury and comfort at reasonable rates. Whether it’s a classic ride or a modern touch, we ensure a grand entrance for your special day",
       Link: "/Cars",
     },
     {
-      id: "Service3",
+      id: "Service2",
       imgsrc:
         "https://aaftonline.com/blog/wp-content/uploads/2024/01/What-are-the-Benefits-of-Photography-Complete-Overview.png",
       heading: "Photography",
@@ -24,7 +16,7 @@ export const Servicelist = [
       Link: "/Photography",
     },
     {
-      id: "Service4",
+      id: "Service3",
       imgsrc:
         "https://i.ibb.co/vvFMZV4/Screenshot-2024-11-14-155134.png",
       heading: "FirCrakers",
@@ -32,7 +24,7 @@ export const Servicelist = [
       Link: "/FireCrackers",
     },
     {
-      id: "Service7",
+      id: "Service4",
       imgsrc:
       "https://www.ajivasanhall.com/images/event/02.jpg",
       heading: "Catering",
@@ -56,23 +48,24 @@ export const Servicelist = [
       Link: "/cards",
     },
     {
-      id: "Service8",
+      id: "Service7",
       imgsrc:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPdDI9t7jX4b__BksCnLFWbpTRya8PFoUYrA&s",
       heading: "Elegant Courier Solutions",
       des: "Deliver your parcels with style using our elegant, customized courier packages. Designed to impress, our packaging solutions are both unique and budget-friendly, ensuring your items arrive safely without compromising on quality",
       Link: "/Courier",
     },
+    {
+      id: "Service8",
+      imgsrc:
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/518332246.jpg?k=852d9e83009ac082a7bb8366d5e27fb1f21801ea9cb6dde9c14e1aa99c49ea63&o=&hp=1",
+      heading: "Hotels and Resorts",
+      des: "Find the perfect venue with our curated selection of hotels and resorts. Enjoy luxury and comfort at competitive prices, ensuring a memorable experience for you and your guests without stretching your budget",
+      Link: "/Hotel",
+    }
   ];
 
 export const Service2List = [
-  {
-    id: "Service1",
-    imgsrc:
-      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/ed/95/07/limak-eurasia-luxury.jpg?w=700&h=-1&s=1",
-    heading: "Hotels and Resorts",
-    Link: "/Hotel",
-  },
   {
     id: "Service2",
     imgsrc:
@@ -121,5 +114,12 @@ export const Service2List = [
       "https://thumbs.dreamstime.com/b/portrait-courier-service-card-machine-pizza-door-order-food-ecommerce-delivery-man-package-284597406.jpg",
     heading: "Courier Solutions",
     Link: "/Courier",
+  },
+  {
+    id: "Service1",
+    imgsrc:
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/ed/95/07/limak-eurasia-luxury.jpg?w=700&h=-1&s=1",
+    heading: "Hotels and Resorts",
+    Link: "/Hotel",
   },
 ]

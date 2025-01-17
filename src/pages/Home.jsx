@@ -1,5 +1,6 @@
 import { useContext } from "react"
 import HomeQR from "./HomeQR"
+import HomeAboutUs from "./HomeAboutUs"
 import HomeService from "./HomeService"
 import HomeTop from "./HomeTop"
 import HomeVideo from "./HomeVideo"
@@ -11,6 +12,7 @@ const Home = () => {
   return (
     <div className={`${theme === "dark"? "bg-black" : "bg-white" }`}>
       <HomeTop/>
+      <HomeAboutUs/>
       <HomeService/>
       <HomeVideo/>
       <HomeQR/>

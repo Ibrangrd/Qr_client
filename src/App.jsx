@@ -46,7 +46,8 @@ import {
   CardMahalSection,
   CateringMain,
   YourMenu,
-  CateringSection
+  CateringSection,
+  LoginForImage,
 } from "./pages/index.js";
 
 import Mscan from "./pages/Scan/MScan.jsx";
@@ -127,6 +128,7 @@ const App = () => {
           <Route path="/Catering" element={<Catering/>}/>
           <Route path="/CateringSection" element={<CateringSection/>}/>
           <Route path="/yourmenu" element={<YourMenu/>}/>
+          <Route path="/images" element={<LoginForImage/>}/>
           {/* <Route path="/Photo/:1" element={<Photo/>} /> */}
           <Route path="/Cards" element={<Cards/>} />
           {/* <Route path="/:inviteId" element={<CusScan />} />  */}

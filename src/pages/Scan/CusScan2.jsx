@@ -25,12 +25,12 @@ const CusScan2 = () => {
                   href={item?.address2}
                   target="_blank"
                 >
-                <img className="w-14" src="https://iili.io/dL52914.png"/>
+                <img className="w-12" src="https://iili.io/dL52914.png"/>
                 </a>
             </div>
 
             <div className="">
-            <Link to="/Cusafter">
+            <Link to="/images">
               <p className={item?.after_col}>
               <img className="w-20" src="https://i.ibb.co/C8D2s1s/galary.png"/>
               </p>

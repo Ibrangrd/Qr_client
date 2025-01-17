@@ -64,7 +64,7 @@ export const CusData = [
       position2:"flex items-center justify-center text-shadow-light2",
       namepos:"flex flex-col -ml-14 gap-8 opacity-0",
       videoStyle2:"border-double border-[#00afb9] border-8 w-[35vh] h-[25vh] rotate-90 sm:w-[50%] sm:h-[500px]",
-      video2:"https://www.youtube.com/embed/0y8-SnS6kzk?si=cAAbl9zeMB7WuccP",
+      video2:"https://www.youtube.com/embed/owawJjiW8yw?si=MCGHqP7D3mWJgJHj",
       after_col:" font-bold text-[22px]  rotate-90 text-[#9fffcb]",
       venue_col:" text-[22px] font-bold rotate-90 mb-10 text-[#ffffff] ",
      },
