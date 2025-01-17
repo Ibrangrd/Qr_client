@@ -5,7 +5,7 @@ import Tooltip from "@mui/material/Tooltip";
 const HomeAboutUs = () => {
   return (
     <>
-      <div class="w-full lg:h-screen h-full m-auto flex items-center justify-cetner py-20 bg-gray-50 dark:bg-gray-900">
+      <div class="w-full lg:h-screen h-full m-auto flex items-center justify-cetner py-10 sm:py-20 bg-gray-50 dark:bg-gray-900">
         <div class="w-full h-full flex flex-col justify-center items-center sm:px-4 px-2">
           {/* <!--  --> */}
           <div class="lg:w-[90%] w-full mx-auto flex flex-col lg:gap-6 lg:flex-row items-center justify-center ">
@@ -55,16 +55,11 @@ const HomeAboutUs = () => {
 
               {/* <!-- button --> */}
               {/* <button class="lg:mt-10 mt-6 lg:px-6 px-4 lg:py-4 py-2 bg-green-600 rounded-sm lg:text-xl text-lg text-white font-semibold">Read More</button> */}
-              <Tooltip className="text-5xl" title="VIEW">
+              {/* <Tooltip className="text-5xl" title="VIEW"> */}
                 <Link to="/service">
-                  <Button
-                    className="w-52 pb-6 h-12 hover:bg-blue-100 hover:text-red-700"
-                    variant="outlined"
-                  >
-                    VIEW
-                  </Button>
+                <button className="mt-2 bg-red-30 border-2 py-2 text-red-600 border-red-200 rounded-lg hover:text-red-800 shadow-inner hover:bg-red-200 hover:scale-110 duration-300  h-[3rem] w-[18rem]">VIEW</button>
                 </Link>
-              </Tooltip>
+              {/* </Tooltip> */}
             </div>
           </div>
         </div>
