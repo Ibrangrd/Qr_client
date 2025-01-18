@@ -1,7 +1,7 @@
 .xxx {
     height: 1850px;
     width: 100%;
-    background: linear-gradient(#e9f5db,#64a6bd);
+    background:#d0dce0;
 }
 
 .hea {
@@ -10,7 +10,7 @@
 }
 
 .hea h1 {
-    color: #16697a;
+    color: #457b9d;
     font-size: 60px;
     font-weight: 800;
 }
@@ -18,7 +18,7 @@
 .pri {
     display: flex;
     margin-top: 15px;
-    color: #ff477e;
+    color: black;
     font-size: 30px;
     justify-content: flex-end;
     margin-right: 400px;
@@ -107,7 +107,7 @@
 
 .h {
     font-size: 50px;
-    color: #548c2f;
+    color: black;
 }
 
 .ro {
@@ -130,7 +130,7 @@
     font-size: 30px;
     margin-top: 0;
     margin-bottom: 0;
-    color: #006494;
+    color: black;
 }
 
 .fir {
@@ -139,13 +139,13 @@
 
 .hhhh {
     font-size: 20px;
-    color: #5e548e;
+    color: black;
 }
 
 .ppp {
     font-size: 18px;
     font-weight: 800;
-    color: #0496ff;
+    color: black;
 }
 
 .ex {
@@ -153,7 +153,7 @@
     margin-left: 800px;
     margin-top: -100px;
     border: 1px solid rosybrown;
-    color: #343232;
+    color:black;
 }
 
 
@@ -165,21 +165,21 @@
     font-size: 40px;
     margin-bottom: 10px;
     font-weight: 900;
-    color: #e01e37;
+    color: black;
 }
 
 .hhh {
     font-size: 25px;
     margin-left: 80px;
     margin-bottom: 10px;
-    color: #e59500;
+    color: black;
 }
 
 .ult {
     width: 650px;
     margin-left: 80px;
     font-size: 18px;
-    color:#6f2dbd;
+    color: black;
 }
 
 .butt {
@@ -235,13 +235,13 @@
 .alp {
     font-size: 30px;
     margin-left: 180px;
-    color: #1282a2;
+    color: black;
 }
 
 .note {
     margin-left: 850px;
     margin-top: -500px;
-    color:#2a9d8f ;
+    color:black;
 }
 
 .h5 {
@@ -258,12 +258,12 @@
 .ter h1 {
     font-size: 35px;
     margin-bottom: 20px;
-    color: #bc4b51;
+    color:black;
 }
 
 .ter li {
     margin-top: 15px;
-    color: #003554;
+    color:black;
 }
 
 .butt2 {
@@ -313,7 +313,7 @@
         font-size: 45px;
     }
     .pri {
-        color: #ff477e;
+        color: black;
         font-size: 30px;
         margin-right: 10px;
     }
@@ -395,7 +395,7 @@
         font-size: 18px;
         margin-left: 60px;
         margin-bottom: 10px;
-        color: #fca311;
+        color: black;
     }
 
     .ult {
@@ -427,7 +427,7 @@
     .note {
         margin-left: 30px;
         margin-top: 15px;
-        color:#2a9d8f ;
+        color:black;
     }
 
     .h5 {
@@ -478,6 +478,6 @@
         margin-top: -130px;
         font-size: 21px;
         margin-bottom: 0px;
-        color:#d5bdaf;
+        color:black;
     }
 }
