@@ -20,7 +20,7 @@ const HomeVideo = () => {
       <div className="text-center">
         <Link to="/videos" >
           <button
-           className="mt-2 bg-red-30 border-2 py-2 text-red-600 border-red-200 rounded-lg hover:text-red-800 shadow-inner hover:bg-red-200 hover:scale-110 duration-300  h-[3rem] w-[18rem]"
+           className="mt-2 bg-red-30 border-2 py-2 text-red-600 border-red-200 rounded-lg hover:text-red-800 shadow-inner hover:bg-red-200 hover:scale-110 duration-300  h-[3rem] w-[14rem] sm:w-[18rem]"
            >VIEW ALL</button>
         </Link>
       </div>

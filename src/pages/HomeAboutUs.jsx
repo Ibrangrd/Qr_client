@@ -39,11 +39,11 @@ const HomeAboutUs = () => {
               />
             </div>
             {/* <!--  --> */}
-            <div className="lg:w-[60%] p-4 w-full h-full shadow-xl flex flex-col justify-center items-center sm:px-6 px-4 rounded-xl">
-              <h2 className="text-4xl text-center text-[#457b9d] font-bold px-4 py-1 md:mt-0 mt-10">
+            <div className="lg:w-[60%] p-0 sm:p-4 lg:p-4 w-full h-full shadow-xl flex flex-col justify-center items-center sm:px-6 px-4 rounded-xl">
+              <h2 className="text-4xl text-center text-[#457b9d] font-bold px-4 py-0 sm:py-1 lg:py-1 md:mt-0 mt-7 lg:mt-10 sm:mt-10">
                 About Us
               </h2>
-              <p className="md:text-3xl text-2xl text-center text-black dark:text-gray-200 font-bold my-5">
+              <p className="md:text-3xl text-2xl text-center text-black dark:text-gray-200 font-bold my-2 lg:my-5 sm:my-5">
                 Modern Weddings, Simplified
               </p>
               <p className="md:text-xl sm:text-lg text-base text-justify sm:px-2 text-black">
@@ -56,8 +56,8 @@ const HomeAboutUs = () => {
               {/* <!-- button --> */}
               {/* <button className="lg:mt-10 mt-6 lg:px-6 px-4 lg:py-4 py-2 bg-green-600 rounded-sm lg:text-xl text-lg text-white font-semibold">Read More</button> */}
               {/* <Tooltip className="text-5xl" title="VIEW"> */}
-                <Link to="/service">
-                <button className="mt-2 bg-red-30 border-2 py-2 text-red-600 border-red-200 rounded-lg hover:text-red-800 shadow-inner hover:bg-red-200 hover:scale-110 duration-300  h-[3rem] w-[18rem]">VIEW</button>
+                <Link className="pb-3" to="/service">
+                <button className="mt-2 bg-red-30 border-2 py-2 text-red-600 border-red-200 rounded-lg hover:text-red-800 shadow-inner hover:bg-red-200 hover:scale-110 duration-300 h-[3rem]  w-[14rem] sm:w-[18rem]">VIEW</button>
                 </Link>
               {/* </Tooltip> */}
             </div>
