@@ -16,7 +16,7 @@ return (
       <div className="flex flex-row flex-wrap justify-center p-2 sm:p-10 h-auto gap-10 pb-16 ">
       {
       Service2List.map((val,index) =>
-      <div key={index} className="mb-10 flex flex-col w-[90%] sm:w-[30%] h-auto justify-center text-center text-image rounded-2xl bg-[#ffff] gap-2 pt-4 pb-4 ">
+      <div key={index} className="mb-10 flex flex-col w-[90%] sm:w-[30%] h-auto justify-center text-center shadow-xl rounded-2xl bg-[#ffff] gap-2 pt-4 pb-4 ">
       <img className="m-auto h-[70%] w-[90%] rounded-xl boxShadow " src={val.imgsrc} />
       <h1 className="text-3xl pt-2 font-bold text-[#4f772d]">{val.heading}</h1>
       <Tooltip className="text-5xl" title="VIEW">

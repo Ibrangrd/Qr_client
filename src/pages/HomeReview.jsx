@@ -61,16 +61,16 @@ const HomeReview = () => {
 
   return (
     <div className="bg-white">
-      <h1 className="text-3xl font-bold text-[#457b9d] mt-8 text-center">Our Customers & Reviews</h1>
+      <h1 className="sm:text-5xl text-3xl font-bold text-[#457b9d] mt-8 text-center">Our Customers & Reviews</h1>
       <div className="m-auto w-[86%] sm:w-[90%] pt-10 pb-10">
         <Slider {...settings}>
           {sliderData.map((item, index) => (
             <div key={index} className="">
-              <div className="flex flex-col items-center text-center bg-[#] shadow-lg rounded-lg p-4">
+              <div className="flex flex-col items-center text-center shadow-xl rounded-lg p-4 ">
                 <img
                   src={item.image}
                   alt={item.alt}
-                  className="w-full h-40 sm:h-56 object-cover rounded-lg"
+                  className="w-full h-40 sm:h-56 object-cover rounded-lg "
                 />
                 <div className="text-left">
                 <h3 className=" text-xl font-semibold text-gray-800">{item.title}</h3>

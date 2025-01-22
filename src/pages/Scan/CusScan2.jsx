@@ -69,7 +69,6 @@ const CusScan2 = () => {
          </div> 
         </div>
       </div>
-      
     </>
      );
 };
