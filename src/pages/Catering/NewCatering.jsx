@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import NewCateringList from "./NewCateringList";
 
 const NewCatering = ({ ItemName, ItemData }) => {
-  console.log("Item Name  cat " + ItemName);
+  // console.log("Item Name  cat " + ItemName);
 
   var settings = {
     dots: true,
