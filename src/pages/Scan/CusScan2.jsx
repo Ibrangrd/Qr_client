@@ -16,10 +16,10 @@ const CusScan2 = () => {
      <div className="">
       <div className="h-[85vh] w-full  flex items-center justify-center bg-cover bg-no-repeat" style={{ backgroundImage: `url(${item?.bgImage2})` }}>
                      
-      <div className="flex justify-center items-center mr-[6%]">
+      <div className="flex justify-center items-center -mr-[4%]">
 
 
-        <div className=" flex flex-col -mr-10 gap-10">
+        <div className=" flex flex-col -mr-14 gap-24">
               <div  className={item?.venue_col}>
               <a 
                   href={item?.address2}
