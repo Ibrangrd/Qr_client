@@ -67,7 +67,7 @@ export const Images1 = [
     {
       id: 12,
       image:
-        "https://oneeyevisionphotography.com/wp-content/uploads/2021/08/KAT1028.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRkEjSrh6Mnm8_fIU6tJtFBrJBhhWAkt5mqg&s",
       po: 12,
     },
     {
