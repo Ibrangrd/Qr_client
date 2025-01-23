@@ -60,7 +60,7 @@ const HomeReview = () => {
   };
 
   return (
-    <div className="bg-white">
+    <div className="bg-[#FCF7F8]">
       <h1 className="sm:text-5xl text-3xl font-bold text-[#457b9d] mt-8 text-center">Our Customers & Reviews</h1>
       <div className="m-auto w-[86%] sm:w-[90%] pt-10 pb-10">
         <Slider {...settings}>

@@ -40,7 +40,7 @@ import Memories from "./AfterMarriage";
 import { ImOpt } from "react-icons/im";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Cards from "./Cards/Cards";
+import CardsPartners from "./Cards/CardsPartners";
 import QrCardSection from "./Cards/QrCardSection";
 import CardMahalSection from "./Cards/CardMahalSection";
 import CateringMain from "./Catering/CateringMain";
@@ -92,7 +92,7 @@ export {
   Courier,
   Cars,
   Memories,
-  Cards,
+  CardsPartners,
   QrCardSection,
   CardMahalSection,
   CateringMain,

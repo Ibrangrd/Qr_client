@@ -5,7 +5,7 @@ import VideoList from "../Videos/VideoList";
 const QRSection = () => {
 
   return (
-    <div className="bg-gradient-to-b bg-[#e2eaec]">
+    <div className="bg-gradient-to-b bg-[#FCF7F8]">
     <div className="p-2 bg-inherit">
       <div className="bg-inherit">
         <div className="text-center">

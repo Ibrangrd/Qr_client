@@ -41,7 +41,7 @@ import {
   Cars,
   Memories,
   Catering,
-  Cards,
+  CardsPartners,
   QrCardSection,
   CardMahalSection,
   CateringMain,
@@ -130,7 +130,7 @@ const App = () => {
           <Route path="/yourmenu" element={<YourMenu/>}/>
           <Route path="/images" element={<LoginForImage/>}/>
           {/* <Route path="/Photo/:1" element={<Photo/>} /> */}
-          <Route path="/Cards" element={<Cards/>} />
+          <Route path="/Cards" element={<CardsPartners/>} />
           {/* <Route path="/:inviteId" element={<CusScan />} />  */}
           <Route path="/:inviteId" element={<CusScan2 />} />
           <Route path="/Courier" element={<Courier />} />

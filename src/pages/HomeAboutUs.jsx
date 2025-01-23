@@ -5,7 +5,7 @@ import Tooltip from "@mui/material/Tooltip";
 const HomeAboutUs = () => {
   return (
     <>
-      <div className="w-full lg:h-screen h-full m-auto flex items-center justify-cetner py-10 sm:py-20 bg-gray-50 dark:bg-gray-900">
+      <div className="w-full lg:h-screen h-full m-auto flex items-center justify-cetner py-10 sm:py-20 bg-[#FCF7F8] dark:bg-gray-900">
         <div className="w-full h-full flex flex-col justify-center items-center sm:px-4 px-2">
           {/* <!--  --> */}
           <div className="lg:w-[90%] w-full mx-auto flex flex-col lg:gap-6 lg:flex-row items-center justify-center ">

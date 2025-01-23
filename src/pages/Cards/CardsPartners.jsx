@@ -3,10 +3,10 @@ import { ParCardsData } from "../../utils";
 import Button from '@mui/material/Button';
 import { Link } from "react-router-dom";
 import Tooltip from '@mui/material/Tooltip';
-const Cards = () => {
+const CardsPartners = () => {
   return (
  <>  
- <div className="text-center bg-[#e2eaec]">
+ <div className="text-center bg-[#FCF7F8]">
        {/* <div className="flex flex-col"> */}
         <p className="mt-4 text-4xl sm:text-5xl font-bold text-[#457b9d] pt-2">
           WEDDING CARDS
@@ -37,5 +37,5 @@ const Cards = () => {
  </>
   )
 }
-export default Cards;
+export default CardsPartners;
 

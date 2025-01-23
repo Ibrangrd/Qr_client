@@ -11,7 +11,7 @@ import HomeReview from "./HomeReview"
 const Home = () => {
   const theme = useContext(ThemeContext)
   return (
-    <div className={`${theme === "dark"? "bg-black" : "bg-white" }`}>
+    <div className={`${theme === "dark"? "bg-black" : "bg-[#FCF7F8]" }`}>
       <HomeTop/>
       <HomeAboutUs/>
       <HomeService/>

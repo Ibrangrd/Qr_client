@@ -6,7 +6,7 @@ import { Service2List } from "../data/Servicelist";
 const Service = () =>{
 return (
     <>
-    <div className="text-center bg-[#ffff]">
+    <div className="text-center bg-[#FCF7F8]">
        {/* <div className="flex flex-col"> */}
         <p className="mt-4 text-4xl sm:text-5xl pb-10 font-bold pt-4 text-[#457b9d]">
         OUR SERVICES

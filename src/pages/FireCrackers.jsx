@@ -39,8 +39,8 @@ const FireCrakers = () => {
         
 
         <div className="sm:w-full"><img className="w-full sm:h-8 h-4" src="https://i.ibb.co/wJbwS3h/ds.jpg" /></div>
-        <div className="sm:mt-20 mt-4 text-center p-2 text-[#f08080] text-3xl sm:text-5xl" > <p>ℂ𝕖𝕝𝕖𝕤𝕥𝕚𝕒𝕝 ℂ𝕖𝕝𝕖𝕓𝕣𝕒𝕥𝕚𝕠𝕟𝕤: ℙ𝕖𝕣𝕤𝕠𝕟𝕒𝕝𝕚𝕫𝕖𝕕 𝔽𝕚𝕣𝕖𝕨𝕠𝕣𝕜𝕤 𝕄𝕒𝕘𝕚𝕔! </p></div>
-        <div className=" text-center hidden sm:block text-[#f17d72] text-xl mt-1 sm:text-3xl"> <p>𝓔𝓷𝓬𝓱𝓪𝓷𝓽 𝔂𝓸𝓾𝓻 𝔀𝓮𝓭𝓭𝓲𝓷𝓰 𝓷𝓲𝓰𝓱𝓽. </p></div>
+        <div className="sm:mt-20 mt-4 text-center p-2 text-[#457b9d] text-3xl sm:text-5xl" > <p>ℂ𝕖𝕝𝕖𝕤𝕥𝕚𝕒𝕝 ℂ𝕖𝕝𝕖𝕓𝕣𝕒𝕥𝕚𝕠𝕟𝕤: ℙ𝕖𝕣𝕤𝕠𝕟𝕒𝕝𝕚𝕫𝕖𝕕 𝔽𝕚𝕣𝕖𝕨𝕠𝕣𝕜𝕤 𝕄𝕒𝕘𝕚𝕔! </p></div>
+        <div className=" text-center hidden sm:block text-[#457b9d] text-xl mt-1 sm:text-3xl"> <p>𝓔𝓷𝓬𝓱𝓪𝓷𝓽 𝔂𝓸𝓾𝓻 𝔀𝓮𝓭𝓭𝓲𝓷𝓰 𝓷𝓲𝓰𝓱𝓽. </p></div>
         
       <div className="flex flex-col sm:flex-row justify-center p-2 sm:p-10 h-auto gap-10 pt-24">
       {

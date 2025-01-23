@@ -2,7 +2,7 @@ import VideoList from "./VideoList";
 import { videoDetails } from "../data/VideoDetails";
 const VideoSection = () => {
   return (
-    <div className="bg-gradient-to-b bg-white">
+    <div className="bg-gradient-to-b bg-[#FCF7F8]">
     <div className="md:p-2 p-1">
       <div className="bg-inherit">
         <div className="text-center">
