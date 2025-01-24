@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { serviceDetails } from "../utils";
+
 const HomeService = () => {
   return (
     <div className="mb-8">
@@ -8,21 +9,33 @@ const HomeService = () => {
           OUR SERVICES
         </p>
       </div>
-      <div className="shadow-inner rounded-lg w-10/12 h-[20rem] mx-auto flex overflow-x-scroll no-scrollbar">
+
+      {/* Restoring horizontal scroll with flexbox, adjusting for responsiveness */}
+      <div className="shadow-inner rounded-lg w-10/12 h-[20rem] mx-auto flex space-x-4 overflow-x-scroll no-scrollbar">
         {serviceDetails.map((ser) => (
-          <img
-            className="h-[18rem] w-[20rem] my-auto rounded-lg shadow-lg mx-2 hover:scale-105 duration-700"
-            key={ser.id}
-            src={ser.path}
-          ></img>
+          <div key={ser.id} className="flex-none w-[18rem]">
+            {/* Adjusting image width and height to fit the flex layout */}
+            <img
+              className="h-[18rem] w-full object-cover rounded-lg shadow-lg hover:scale-105 duration-700"
+              src={ser.path}
+              alt={ser.title}
+            />
+            <Link to={ser.link}>
+              <p className="text-center text-lg font-bold text-black mt-2">
+                {ser.title}
+              </p>
+            </Link>
+          </div>
         ))}
       </div>
-      <div className="text-center">
-        <Link to="/service" >
+
+      <div className="text-center mt-8">
+        <Link to="/service">
           <button
-           className="mt-2 bg-red-30 border-2 py-2 text-red-600 border-red-200 rounded-lg hover:text-red-800 shadow-inner hover:bg-red-200 hover:scale-110 duration-300  h-[3rem]  w-[14rem] sm:w-[18rem]"
-           >
-           VIEW ALL</button>
+            className="bg-red-30 border-2 py-2 text-red-600 border-red-200 rounded-lg hover:text-red-800 shadow-inner hover:bg-red-200 hover:scale-110 duration-300 h-[3rem] w-[14rem] sm:w-[18rem]"
+          >
+            VIEW ALL
+          </button>
         </Link>
       </div>
     </div>

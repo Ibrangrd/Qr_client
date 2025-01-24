@@ -5,32 +5,58 @@ export const LOGIN_IMG = "https://i.ibb.co/0jHj2q9/back2.png";
 
 export const serviceDetails = [
   {
-    id: 2000,
-    path: "https://i.ibb.co/ZGTpjtj/car.jpg",
-  },
-  {
     id: 2001,
-    path: "https://i.ibb.co/Sv5dHbh/cards.jpg",
+    path: "https://nutcaseshop.com/cdn/shop/files/17_3eb7f78f-5d95-4a01-9bc3-e9b55638e73e.jpg?v=1707394537",
+    title: "Cards",
+    link: "/cards",
   },
   {
-    id: 2002,
-    path: "https://i.ibb.co/3FCVSYz/catering.jpg",
+    id: 2006,
+    path: "https://www.eternalweddingz.in/storage/vendor_images/mBq2QkeXCn5tZ81VNpkpNbfExv7JDH1eGBXAKJMz.webp",
+    title: "Photography",
+    link: "/photography",
   },
   {
     id: 2003,
     path: "https://i.ibb.co/jgDLzyC/courier.jpg",
+    title: "Courier Service",
+    link: "/courier",
   },
   {
-    id: 2004,
-    path: "https://i.ibb.co/RbLvwVN/decoration.jpg",
+    id: 2007,
+    path:"https://t4.ftcdn.net/jpg/05/57/64/85/360_F_557648557_hyn34muXj7kwad5cOAoOjP2lRxMZOYBl.jpg",
+    title:"FireCrackers",
+    link:"/firecrackers",
+  },
+  {
+    id: 2008,
+    path:"https://i.etsystatic.com/27859749/r/il/396b58/3685747198/il_570xN.3685747198_d150.jpg",
+    title:"Qr Design",
+    link:"/qr",
+  },
+  {
+    id: 2002,
+    path: "https://5.imimg.com/data5/SELLER/Default/2020/11/VD/FE/HU/3755768/event-food-catering-services.jpg",
+    title: "Catering",
+    link: "/catering",
+  },
+  {
+    id: 2000,
+    path: "https://www.carandbike.com/_next/image?url=https%3A%2F%2Fimages.carandbike.com%2Fcar-images%2Fbig%2Fhyundai%2Fcreta%2Fhyundai-creta.jpg%3Fv%3D92&w=640&q=75",
+    title: "Car Rental",
+    link: "/Cars",
   },
   {
     id: 2005,
-    path: "https://i.ibb.co/L8t12Vj/pandal.jpg",
+    path: "https://5.imimg.com/data5/XF/DB/MY-46699044/decoration-services.jpg",
+    title: "Pandal",
+    link: "/decoration",
   },
   {
-    id: 2006,
-    path: "https://i.ibb.co/4NtmcWs/photography.jpg",
+    id: 2004,
+    path: "https://anilevents.in/wp-content/uploads/2020/03/Stylish-Floral-Wedding-Decoration.jpg",
+    title: "Decoration",
+    link: "/decoration",
   },
 ];
 
@@ -124,38 +150,6 @@ export const videoThumbnailDetails = [
     cat: "Nature",
   },
 
-];
-export const ServiceTop = [
-  {
-    id: "service1",
-    img: "https://iili.io/d6MidEF.png",
-    name: "Photogrpahy",
-    link: "/Photography",
-  },
-  {
-    id: "service2",
-    img: "https://i.imghippo.com/files/m3g8f1726593715.png",
-    name: "Hotel",
-    link: "/Hotel",
-  },
-  {
-    id: "service3",
-    img: "https://i.imghippo.com/files/Sh8Rc1726593755.png",
-    name: "Photogrpahy",
-    link: "/Cars",
-  },
-  {
-    id: "service4",
-    img: "https://i.imghippo.com/files/dlMUJ1726593655.png",
-    name: "Decorations",
-    link: "/",
-  },
-  {
-    id: "service5",
-    img: "https://i.imghippo.com/files/RWXr91726593790.png",
-    name: "Photogrpahy",
-    link: "/Photography",
-  },
 ];
 export const faq = [
   {
