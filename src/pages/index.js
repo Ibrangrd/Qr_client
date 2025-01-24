@@ -26,7 +26,7 @@ import Photoinfo6 from "./Photography/Photoinfo6";
 import Photoinfo7 from "./Photography/Photoinfo7";
 import Photoinfo8 from "./Photography/Photoinfo8";
 import Photoinfo9 from "./Photography/Photoinfo9";
-import FireCrakers from "./FireCrackers";
+import FireCrakers from "./FireCrakers/FireCrackers";
 import MScan from "./Scan/MScan"
 import ScanVideo from "./Scan/ScanVideo"
 import CusScan from "./Scan/CusScan"

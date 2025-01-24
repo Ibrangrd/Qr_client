@@ -38,7 +38,7 @@ export const serviceDetails = [
     id: 2002,
     path: "https://5.imimg.com/data5/SELLER/Default/2020/11/VD/FE/HU/3755768/event-food-catering-services.jpg",
     title: "Catering",
-    link: "/catering",
+    link: "/cateringMain",
   },
   {
     id: 2000,

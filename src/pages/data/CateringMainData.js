@@ -285,6 +285,84 @@ export const AllData = [
       },
     ]
   },
+ {
+    id: "2",
+    ItemName: "Paneer Dishes",
+    ItemData: [
+      {
+        id: "1",
+        img1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaNqbGD1t6YEgCRzNWy7DpDoT7OSYjDDNLaQ&s",
+        It1: "Paneer Makhani",
+        img2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdzkvB6-sgyoHaYmyMC3ZPFAh276O-zTkcog&s",
+        It2: "Paneer Diwani Handi",
+        img3: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw_6vMWlXzhljBY1a06413i6E9kS5z7gS4FQ&s",
+        It3: "Paneer Saagwala",
+        he: "flex items-center gap-2",
+        img4: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVo3P6_PvR0xjutQcNGfRetEKqyeGhASoVaw&s",
+        It4: "Paneer Lazeez"
+      },
+      {
+        id: "2",
+        img1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQojXLZX5nYWghAkLJosSSkaFh8_fzXrkoZqA&s",
+        It1: "Paneer Masala",
+        img2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuyQZxoTey_8HDTfCH86KxPmmOTno7NbYRmg&s",
+        It2: "Paneer Korma",
+        img3: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1EIT-sCbw-0zWmHWLYeOF9oWjRwojZYpZMA&s",
+        It3: "Paneer Methi",
+        he: "flex items-center gap-2",
+        img4: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLHn4IYcbirV9_EEa2IF-h7rMW-mDGoSiXjQ&s",
+        It4: "Paneer Kalimirch"
+      },
+      {
+        id: "3",
+        img1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTYrJw6Nsd_x17045EtqoHPqlITYTI6KFUlg&s",
+        It1: "Paneer Hara Pyaz",
+        img2: "https://static.toiimg.com/thumb/61517296.cms?imgsize=462184&width=800&height=800",
+        It2: "Paneer Khurchan",
+        img3: "https://i.pinimg.com/736x/28/51/23/28512312d6d04c140f3e8826f7f2fa76.jpg",
+        It3: "Paneer Dhingri Dolma",
+        he: "flex items-center gap-2",
+        img4: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuyKr6A_nC9if8is88H1WN-LMsk6-m-iEm3Q&s",
+        It4: "Makhani Wala Saag Paneer"
+      },
+      {
+        id: "4",
+        img1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyEnj0QxW9SjItPf-Ng9t1o9IPkzEkaSaY3A&s",
+        It1: "Paneer Do Pyaza",
+        img2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYwFtJX61cPSRs7o0XeibmJR7ln29MVMkifA&s",
+        It2: "Kadhai Paneer",
+        img3: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbmH6lJ8-X39Ph3qUZlrndzpgz3oNxtdKMiw&s",
+        It3: "Paneer Kheema Masala",
+        he: "flex items-center gap-2",
+        img4: "https://www.indianveggiedelight.com/wp-content/uploads/2020/11/paneer-jalfrezi-featured.jpg",
+        It4: "Paneer Jalfrezi"
+      },
+      {
+        id: "5",
+        img1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR87p4knpi5iqwHu3dTdz5fgDtR1mXFNYPBqw&s",
+        It1: "Paneer Hyderabadi",
+        img2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqBeTaCPyTKpxsMu5xfqi777APaGyOU7WJww&s",
+        It2: "Paneer Kofta Curry",
+        img3: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOC9U13mWsaxI07NEd7aL_agGHXt-1kg-ZVg&s",
+        It3: "Paneer Mutter",
+        he: "flex items-center gap-2",
+        img4: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCykeGoz-nzx5yd1XFT1Vi1GYXas_WFLPyqA&s",
+        It4: "Paneer Tikka Masala"
+      },
+      {
+        id: "6",
+        img1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQizGRMFkCdAy9fxZZwa-3pInqEoTxxz-TKTw&s",
+        It1: "Paneer Lasooni",
+        img2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPeuSwnd5Im207a7z4QbRHCK_vaech2QMeJg&s",
+        It2: "Paneer Achari Masala",
+        img3: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHd7LNsjrentoVBdCN2CtAd-BtrMpi1BOD-w&s",
+        It3: "Paneer Hara Masala",
+        he: "flex items-center gap-2",
+        img4: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCykeGoz-nzx5yd1XFT1Vi1GYXas_WFLPyqA&s",
+        It4: "Paneer Tikka Masala"
+      }
+    ]
+  },
 
   {
     id: "47",
