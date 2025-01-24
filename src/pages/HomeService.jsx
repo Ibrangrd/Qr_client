@@ -29,7 +29,7 @@ const HomeService = () => {
         ))}
       </div>
 
-      <div className="text-center mt-8">
+      <div className="text-center mt-2 sm:mt-4">
         <Link to="/service">
           <button
             className="bg-red-30 border-2 py-2 text-red-600 border-red-200 rounded-lg hover:text-red-800 shadow-inner hover:bg-red-200 hover:scale-110 duration-300 h-[3rem] w-[14rem] sm:w-[18rem]"
