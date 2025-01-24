@@ -36,28 +36,28 @@ export const CateringSectionData = [
     img: "https://cdn.britannica.com/17/196817-050-6A15DAC3/vegetables.jpg?w=400&h=300&c=crop",
     shop: "OUR VEG MENU #1",
     dis: "Tasty dishes catering every occasion in Dhanbad",
-    link: "/Catering",
+    link: "/yourmenu",
   },
   {
     id: "4",
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUAb_ie-GJG-pYUSbP3bzKI6AbeAMspfsGxQ&s",
     shop: "OUR VEG MENU #2",
     dis: "Tasty dishes catering every occasion in Dhanbad",
-    link: "/Catering",
+    link: "/yourmenu",
   },
   {
     id: "5",
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc-2EM6-bGjdcqQnM-vfd80Hfb5zOtmLf6Gw&s",
     shop: "OUR NON-VEG MENU #1",
     dis: "Tasty dishes catering every occasion in Dhanbad",
-    link: "/Catering",
+    link: "/yourmenu",
   },
   {
     id: "6",
     img: "https://sulthansbiriyani.in/wp-content/uploads/2022/11/Tandoori-chicken-1.jpg",
     shop: "OUR NON-VEG MENU #2",
     dis: "Tasty dishes catering every occasion in Dhanbad",
-    link: "/Catering",
+    link: "/yourmenu",
   },
 
 ]
@@ -286,7 +286,7 @@ export const AllData = [
     ]
   },
  {
-    id: "2",
+    id: "4",
     ItemName: "Paneer Dishes",
     ItemData: [
       {
@@ -363,176 +363,124 @@ export const AllData = [
       }
     ]
   },
-
   {
-    id: "47",
-    ItemName: "Paneer",// ItemName
-    // First Slider Data
+    id: "5",
+    ItemName: "Rice Dishes",
     ItemData: [
       {
         id: "1",
-        img1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx7obO58mwR6VU7QAxk2wPPGAHWk0oQNNU1A&s",// First Item image`
-        It1: "Paneer Butter Masala",// First Item name
-        img2: "https://i.ytimg.com/vi/n4HSTnpVzHg/maxresdefault.jpg",// Second Item image
-        It2: "Paneer Do Pyaza", // Second Item name
-        img3: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqf0Wr0z5NEmeJbpQHQRXXTT_FIz3Pec6HrQ&s",// Third Item image
-        It3: "Mater Paneer",// Third Item name
+        img1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCeHGw12t0byZpTi4IcPCxPiDTy_dmgyz3mw&s",
+        It1: "Kashmiri Pulao",
+        img2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcQkt80PLvG0gdpKSjruTCQMvqjZa146FKsg&s",
+        It2: "Masala Bhaat",
+        img3: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKlIRTNWmOdkQj2guGH6w-yvp3pgXpPc6-xA&s",
+        It3: "Jeera Rice",
         he: "flex items-center gap-2",
-        img4: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqf0Wr0z5NEmeJbpQHQRXXTT_FIz3Pec6HrQ&s",// Fourth Item image
-        It4: "Mater Paneer",  // Fourth Item name
+        img4: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjL6tcKqv89Oxl0exYq608MXzV5gltYUEwDA&s",
+        It4: "Ram Khichdi"
       },
-      // Second Slider Data
       {
         id: "2",
-        img1: "https://www.thespruceeats.com/thmb/kUoSjpktuKuTQpxkm-OFgOxl8s4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/how-to-make-basic-white-rice-2355883-10-5b0da96eba6177003622896e.jpg",
-        It1: "Plain Rice",
-        img2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm4iDppBPI2ga6oxhWNIoEjgcjkcOjl0epXg&s",
-        It2: "Jeera Rice",
+        img1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl6HgRVScYa5FcYAoLCdWgngYMZmglM1z7Aw&s",
+        It1: "Subz Handi Biryani",
+        img2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMURhyRygWXuT8YE5Ua4jNkjN4Ji4uoCqY6A&s",
+        It2: "Bajre ki Khichdi",
+        img3: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7-bHC36x9f6qlqE3N9Pfmh3o-yKBP26pQgg&s",
+        It3: "Vagharela Bhaat",
+        he: "flex items-center gap-2",
+        img4: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN5Vt4UM3oiUcAPDV31vAbQdR1FcAbliokFQ&s",
+        It4: "Gatte ka Pulao"
+      },
+      {
+        id: "3",
+        img1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPVNzZvYETxpfL3q4mvI3IVz_G14_ltfVFAw&s",
+        It1: "Coconut Rice",
+        img2: "https://static.toiimg.com/thumb/53870704.cms?width=1200&height=900",
+        It2: "Lemon Rice",
         img3: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbraC8Df30lsQ2enQm8Hl0yyMmOR37fWGn-Q&s",
         It3: "Vegetable Pulao",
         he: "flex items-center gap-2",
-        img4: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbraC8Df30lsQ2enQm8Hl0yyMmOR37fWGn-Q&s",
-        It4: "Vegetable Pulao",
+        img4: "https://img-global.cpcdn.com/recipes/05cfb290b5ae6187/680x482cq70/moti-pulao-recipe-main-photo.jpg",
+        It4: "Moti Pulao",
       },
-      // Third Slider Data
-      {
-        id: "3",
-        img1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOaQ84W8xGyX3cPnSQ1I9IkIfVFAx7-trM9A&s",
-        It1: "Dal Fry",
-        img2: "https://rainbowplantlife.com/wp-content/uploads/2021/06/Dal-Makhani-edited-photos-5-of-6.jpg",
-        It2: "Dal Makhani",
-        img3: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGhXTQej6AJGbWVFETufaKlgvvncPdLIs9hA&s",
-        It3: "Dal Tarka",
-        he: "flex items-center gap-2",
-        img4: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGhXTQej6AJGbWVFETufaKlgvvncPdLIs9hA&s",
-        It4: "Dal Tarka",
-      },
-      // Fourth Slider Data
       {
         id: "4",
-        Item: "PANEER",
-        img1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx7obO58mwR6VU7QAxk2wPPGAHWk0oQNNU1A&s",
-        It1: "Paneer Butter Masala",
-        img2: "https://i.ytimg.com/vi/n4HSTnpVzHg/maxresdefault.jpg",
-        It2: "Paneer Do Pyaza",
-        img3: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqf0Wr0z5NEmeJbpQHQRXXTT_FIz3Pec6HrQ&s",
-        It3: "Mater Paneer",
+        img1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREccjT5tpKArj2AOMXPDSBGG-PK7YD_R4tDg&s",
+        It1: "Green Peas Pulao",
+        img2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW4KutwOdotfbis9Y0mKPGlRJhfhR_ALr3rw&s",
+        It2: "Barista Pulao",
+        img3: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8SKe5N-ccV1bhvKD0IE5C8_8hHzK1JqPoUg&s",
+        It3: "Jeera Pulao",
         he: "flex items-center gap-2",
-        img4: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqf0Wr0z5NEmeJbpQHQRXXTT_FIz3Pec6HrQ&s",
-        It4: "Mater Paneer",
+        img4: "https://sixhungryfeet.com/wp-content/uploads/2023/02/Tawa-Pulao-Mumbai-Style-5.jpg",
+        It4: "Tawa Pulao",
+      },
+    ]
+  },
+ {
+    id: "6",
+    ItemName: "Indian Desserts",
+    ItemData: [
+      {
+        id: "1",
+        img1: "https://www.vegrecipesofindia.com/wp-content/uploads/2022/10/gulab-jamun-recipe-01.jpg",
+        It1: "Hot Gulab Jamun",
+        img2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTM2dMBhS7lf4rM7MFUav2vxx61AulkUF_Gw&s",
+        It2: "Dry Fruits Rice Kheer",
+        img3: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2hN7sU3n6SCe7HcIe5tzNcKb80APtMMlYA&s",
+        It3: "Kala Jamun",
+        he: "flex items-center gap-2",
+        img4: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpXzKQUlwB2dMxDvAAC0Q6jOXc-NMAOn3ymA&s",
+        It4: "Gajar Halwa (Seasonal)"
+      },
+      {
+        id: "2",
+        img1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVqgW2Rl75bsySkQHdYv-tCeDu9HoTVbuADw&s",
+        It1: "Kesar Phirni",
+        img2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhg4lB1lY7tsno0QA5kJm-La6lBd8ZCy8ILA&s",
+        It2: "Flavoured Rabdi",
+        img3: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbmIM-MZ9VAm3VvwjUf6_XOx5CMDkvSemrMg&s",
+        It3: "Malpua",
+        he: "flex items-center gap-2",
+        img4: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfOj6Rpm5YbrrlgwcGvbHcmR-mfo0z4If-BA&s",
+        It4: "Flavoured Basundi"
+      },
+      {
+        id: "3",
+        img1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhoaB-x6XcKEWR69K5Ua6Zn5k3OHJOnC9phQ&s",
+        It1: "Jalebi",
+        img2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBul7CsmB4Jilz0dzD8hQCXwAoGaI3oFRDJQ&s",
+        It2: "Shahi Tukda",
+        img3: "https://static.toiimg.com/thumb/54653634.cms?imgsize=293444&width=800&height=800",
+        It3: "Doodhi Halwa",
+        he: "flex items-center gap-2",
+        img4: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_VhMBdUj77NgdFybukOA01QvHRjMxYMlzlA&s",
+        It4: "Chandrakala"
+      },
+      {
+        id: "4",
+        img1: "https://images.getrecipekit.com/20221019114738-moong-20dal-20halwa.jpg?aspect_ratio=16:9&quality=90&",
+        It1: "Moong Dal Halwa",
+        img2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB9Iv1zVp46HHdEc-lyBA6Lvzt_IkUk0qTJQ&s",
+        It2: "Madhur Milan",
+        img3: "https://images.getrecipekit.com/20221019114738-moong-20dal-20halwa.jpg?aspect_ratio=16:9&quality=90&",
+        It3: "Moong Dal Anjeer Halwa",
+        he: "flex items-center gap-2",
+        img4: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZEqUVGV5g8Vshq-AT-6BLhm_jJK_LV77hJA&s",
+        It4: "Baked Gulab Jamun"
       },
       {
         id: "5",
-        Item: "PANEER",
-        img1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx7obO58mwR6VU7QAxk2wPPGAHWk0oQNNU1A&s",
-        It1: "Paneer Butter Masala",
-        img2: "https://i.ytimg.com/vi/n4HSTnpVzHg/maxresdefault.jpg",
-        It2: "Paneer Do Pyaza",
-        img3: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqf0Wr0z5NEmeJbpQHQRXXTT_FIz3Pec6HrQ&s",
-        It3: "Mater Paneer",
+        img1: "https://www.awesomecuisine.com/wp-content/uploads/2013/09/dry-fruits-semiya-payasam.jpg",
+        It1: "Seviyan Dry Fruits Payasam",
+        img2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrtXTRz5Tqj7GL4za1DeBx_JawHYJAvmwVLQ&s",
+        It2: "Baked Moong Dal Halwa & Boondi",
+        img3: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyXrFFsttGLwSQ7CfL5hVubk9Sd56YUKJkTw&s",
+        It3: "Medawar Kheer",
         he: "flex items-center gap-2",
-        img4: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqf0Wr0z5NEmeJbpQHQRXXTT_FIz3Pec6HrQ&s",
-        It4: "Mater Paneer",
-      },
-    ],
-  },
-  {
-    id: "45",
-    ItemName: "Paneer 2",
-    ItemData: [
-      {
-        id: "1",
-        img1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx7obO58mwR6VU7QAxk2wPPGAHWk0oQNNU1A&s",
-        It1: "Paneer Butter Masala",
-        img2: "https://i.ytimg.com/vi/n4HSTnpVzHg/maxresdefault.jpg",
-        It2: "Paneer Do Pyaza",
-        img3: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqf0Wr0z5NEmeJbpQHQRXXTT_FIz3Pec6HrQ&s",
-        It3: "Mater Paneer",
-        he: "flex items-center gap-2",
-      },
-      {
-        id: "2",
-        Item: "RICE 2",
-        img1: "https://www.thespruceeats.com/thmb/kUoSjpktuKuTQpxkm-OFgOxl8s4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/how-to-make-basic-white-rice-2355883-10-5b0da96eba6177003622896e.jpg",
-        It1: "Plain Rice",
-        img2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm4iDppBPI2ga6oxhWNIoEjgcjkcOjl0epXg&s",
-        It2: "Jeera Rice",
-        img3: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbraC8Df30lsQ2enQm8Hl0yyMmOR37fWGn-Q&s",
-        It3: "Vegetable Pulao",
-        he: "flex items-center gap-2",
-      },
-      {
-        id: "3",
-        Item: "DAL 2",
-        img1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOaQ84W8xGyX3cPnSQ1I9IkIfVFAx7-trM9A&s",
-        It1: "Dal Fry",
-        img2: "https://rainbowplantlife.com/wp-content/uploads/2021/06/Dal-Makhani-edited-photos-5-of-6.jpg",
-        It2: "Dal Makhani",
-        img3: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGhXTQej6AJGbWVFETufaKlgvvncPdLIs9hA&s",
-        It3: "Dal Tarka",
-        he: "flex items-center gap-2",
-      },
-      {
-        id: "4",
-        Item: "PANEER",
-        img1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx7obO58mwR6VU7QAxk2wPPGAHWk0oQNNU1A&s",
-        It1: "Paneer Butter Masala",
-        img2: "https://i.ytimg.com/vi/n4HSTnpVzHg/maxresdefault.jpg",
-        It2: "Paneer Do Pyaza",
-        img3: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqf0Wr0z5NEmeJbpQHQRXXTT_FIz3Pec6HrQ&s",
-        It3: "Mater Paneer",
-        he: "flex items-center gap-2",
-      },
-    ],
-  },
-  {
-    id: "31",
-    ItemName: "Non-Veg",
-    ItemData: [
-      {
-        id: "1",
-        Item: "CHICKEN",
-        img1: "https://blog.swiggy.com/wp-content/uploads/2024/06/Image-2_Tandoori-Chicken-1024x538.png",
-        It1: "Chicken Curry",
-        img2: "https://blog.swiggy.com/wp-content/uploads/2024/06/Image-2_Tandoori-Chicken-1024x538.png",
-        It2: "Chicken Biryani",
-        img3: "https://blog.swiggy.com/wp-content/uploads/2024/06/Image-2_Tandoori-Chicken-1024x538.png",
-        It3: "Grilled Chicken",
-        he: "flex items-center gap-2",
-      },
-      {
-        id: "2",
-        Item: "MUTTON",
-        img1: "https://blog.swiggy.com/wp-content/uploads/2024/06/Image-2_Tandoori-Chicken-1024x538.png",
-        It1: "Mutton Curry",
-        img2: "https://blog.swiggy.com/wp-content/uploads/2024/06/Image-2_Tandoori-Chicken-1024x538.png",
-        It2: "Mutton Biryani",
-        img3: "https://blog.swiggy.com/wp-content/uploads/2024/06/Image-2_Tandoori-Chicken-1024x538.png",
-        It3: "Grilled Mutton",
-        he: "flex items-center gap-2",
-      },
-      {
-        id: "3",
-        Item: "FISH",
-        img1: "httpshttps://blog.swiggy.com/wp-content/uploads/2024/06/Image-2_Tandoori-Chicken-1024x538.png",
-        It1: "Fish Curry",
-        img2: "httpshttps://blog.swiggy.com/wp-content/uploads/2024/06/Image-2_Tandoori-Chicken-1024x538.png",
-        It2: "Fish Fry",
-        img3: "httpshttps://blog.swiggy.com/wp-content/uploads/2024/06/Image-2_Tandoori-Chicken-1024x538.png",
-        It3: "Grilled Fish",
-        he: "flex items-center gap-2",
-      },
-      {
-        id: "4",
-        Item: "EGG",
-        img1: "https://https://blog.swiggy.com/wp-content/uploads/2024/06/Image-2_Tandoori-Chicken-1024x538.png",
-        It1: "Egg Curry",
-        img2: "https://https://blog.swiggy.com/wp-content/uploads/2024/06/Image-2_Tandoori-Chicken-1024x538.png",
-        It2: "Egg Biryani",
-        img3: "https://https://blog.swiggy.com/wp-content/uploads/2024/06/Image-2_Tandoori-Chicken-1024x538.png",
-        It3: "Grilled Egg",
-        he: "flex items-center gap-2",
-      },
-    ],
+        img4: "https://images.getrecipekit.com/20221019114738-moong-20dal-20halwa.jpg?aspect_ratio=16:9&quality=90&",
+        It4: "Moong Dal Halwa",
+      }
+    ]
   },
 ];

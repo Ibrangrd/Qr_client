@@ -52,7 +52,7 @@ const NewCatering = ({ ItemName, ItemData }) => {
       <div className="sm:text-6xl text-4xl text-black text-center font-extrabold">
         {ItemName}
       </div>
-      <div className="bg-[#ffffff]">
+      <div className="bg-[#FCF7F8]">
         <div className="flex flex-col m-auto w-[86%] pt-10 pb-10 justify-center gap-10">
           <Slider {...settings}>
             {ItemData.map((item) => (

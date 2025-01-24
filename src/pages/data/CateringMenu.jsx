@@ -1,79 +1,76 @@
  export const menuData = [
+    
     {
       id: 1,
-      itemName: "Mocktails",
+      itemName: "Mocktails(1 nos.)",
       description: "Blue Lagoon",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB7w9uu2DOeahMH8g94DW2Kmk6Sga5MR-C9w&s",
     },
     {
       id: 2,
-      itemName: "Soup",
+      itemName: "Soup(2 nos.)",
       description: "Lemon Coriander, Hong Kong",
-      image: "",
     },
     {
       id: 3,
-      itemName: "Salad Bar",
-      description:
-        "Thai Spicy Shredded Veg Peanut, Spicy Corn Tex Mex, Broken Wheat Salad, Dahi Bhalla, Aloo Papdi Chaat, Assorted Cut Veg Chutney, Pickles & Papads",
-      image: "",
+      itemName: "Salad Bar(5 nos.)",
+      description:"Thai Spicy Shredded Veg Peanut, Spicy Corn Tex Mex, Broken Wheat Salad, Dahi Bhalla, Aloo Papdi Chaat, Assorted Cut Veg Chutney, Pickles & Papads",
     },
     {
       id: 4,
-      itemName: "Curd",
+      itemName: "Curd(2 nos.)",
       description: "Kakdi Pudina Raita, Bagara Dahi (Jain & Non-Jain)",
-      image: "",
+       
     },
     {
       id: 5,
-      itemName: "Starters",
+      itemName: "Starters(4 nos.)",
       description:
         "Hara Mutter Methi Kebab with Tangy Tomato Chutney, Paneer Poppers Tossed Sriracha Chili, Safedyan Paneer Tikka with Dhaniya Lasan ki Chutney",
-      image: "",
+       
     },
     {
       id: 6,
-      itemName: "Farsan",
+      itemName: "Farsan(2 nos.)",
       description:
         "Thai Spring Roll with Spicy Dip, Cheese Chilli Cilantro Samosa with Mint Chutney",
-      image: "",
+       
     },
     {
       id: 7,
-      itemName: "Main Course",
+      itemName: "Main Course(6 nos.)",
       description:
         "Paneer Tikka Masala, Shahi Kofta, Vegetables Jaipuri, Sarson ka Saag (w/ Butter & Jaggery), Tawa Sabzi, Punjabi Chole",
-      image: "",
+       
     },
     {
       id: 8,
-      itemName: "Rice",
+      itemName: "Rice (2 nos.)",
       description: "Vegetable Dum Biryani, Jeera Rice",
-      image: "",
+       
     },
     {
       id: 9,
-      itemName: "Dal",
+      itemName: "Dal (2 nos.)",
       description: "Punjabi Kadhi Pakoda, Dal Double Tadka",
-      image: "",
+       
     },
     {
       id: 10,
-      itemName: "Assorted Breads",
+      itemName: "Assorted Breads (3 nos.)",
       description: "Tandoori Naan & Kulcha, Roti, Paratha",
-      image: "",
+       
     },
     {
       id: 11,
-      itemName: "Live Counters",
+      itemName: "Live Counters (2 nos.)",
       description: "Pizza Counter, Wok Bar: Noodles & Rice with Choice of Gravy",
-      image: "",
+       
     },
     {
       id: 12,
-      itemName: "Desserts",
+      itemName: "Desserts (4 nos.)",
       description: "Assorted Pastry",
-      image: "",
+       
     },
   ];
   
