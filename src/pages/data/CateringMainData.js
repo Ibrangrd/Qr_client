@@ -219,6 +219,73 @@ export const AllData = [
       }
     ]
   },
+ {
+    id: "3",
+    ItemName: "Farsan",
+    ItemData: [
+      {
+        id: "1",
+        img1: "https://cdn.tarladalal.com/members/9306/procstepimgs/moong-dal-kachori-14-188310.jpg",
+        It1: "Dal Kachori",
+        img2: "https://www.nehascookbook.com/wp-content/uploads/2022/09/Vatana-kachori-WS.jpg",
+        It2: "Green Peas Kachori",
+        img3: "https://www.cuknuk.in/uploaded_files/product/1698650484.jpg",
+        It3: "Mini Punjabi Samosa",
+        he: "flex items-center gap-2",
+        img4: "https://i.ytimg.com/vi/VPVOg-orvpw/maxresdefault.jpg",
+        It4: "Green Peas Samosa"
+      },
+      {
+        id: "2",
+        img1: "https://i0.wp.com/bhavnaskitchen.com/wp-content/uploads/2016/02/KhandviPressureCooker-copy.jpg?fit=1280%2C883&ssl=1",
+        It1: "Khandvi",
+        img2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQVK8kzzm9ZZ6Zmam5UoIaSqhgkhZxA-auFw&s",
+        It2: "Khaman Dhokla",
+        img3: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ0i5N1i3FxAGzLhJ6M4kFOuQWW14uFqoYtg&s",
+        It3: "Sandwich Dhokla",
+        he: "flex items-center gap-2",
+        img4: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuJWXHC50xImWCJHBvTreo4VkcpRrHbJNxKQ&s",
+        It4: "Batata Vada"
+      },
+      {
+        id: "3",
+        img1: "https://c.ndtvimg.com/raw-banana-samosa_625x300_1530164135226.jpg",
+        It1: "Kaccha Kele Ka Samosa",
+        img2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReidfSD1FUTXSItwbpMRImPo6GFy3HVHuE4g&s",
+        It2: "Moong Dal Bhajiya",
+        img3: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQrFxpCS2tKcFPisgq563DmJ382dGRNtWKIw&s",
+        It3: "Khasta Kachori",
+        he: "flex items-center gap-2",
+        img4: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIeFuARah6gZ0A-XHyQyFKfoDQEdthx_yq9Q&s",
+        It4: "Patra Vadi"
+      },
+      {
+        id: "4",
+        img1: "https://i0.wp.com/southindianrecipes.in/wp-content/uploads/2021/08/Kothimbir-Vadi.jpg?resize=768%2C1024&ssl=1",
+        It1: "Kothimbir Vadi",
+        img2: "https://cdn.tarladalal.com/members/9306/procstepimgs/methi-and-moong-sprouts-wrap-7-190077.jpg",
+        It2: "Methi Moong Roll",
+        img3: "https://i.ytimg.com/vi/5oSulCW3QGw/maxresdefault.jpg",
+        It3: "Jodhpuri Mirchi Vada",
+        he: "flex items-center gap-2",
+        img4: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfa-soPVT_yoCi189Acg2Ihknj2q6qIojl7w&s",
+        It4: "Aloo Methi Ki Tikki"
+      },
+      {
+        id: "5",
+        img1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5Enyc4amOTfuWwnBlmwUgO1hP16GIlNLdXQ&s",
+        It1: "Shahi Mutter Ghughra",
+        img2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp29pPgItztyuPEixsXwbDcsU3Ehsrl20Ouw&s",
+        It2: "Hara Mutter Cheese Tikki",
+        img3: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3IXcq4COa60SHCFWp0537gm2Vs431SI99Ww&s",
+        It3: "Palak Cheese Tikki",
+        he: "flex items-center gap-2",
+        img4: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQVK8kzzm9ZZ6Zmam5UoIaSqhgkhZxA-auFw&s",
+        It4: "Khaman Dhokla"
+      },
+    ]
+  },
+
   {
     id: "47",
     ItemName: "Paneer",// ItemName
