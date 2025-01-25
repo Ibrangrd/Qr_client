@@ -4,7 +4,7 @@ import HomeAboutUs from "./HomeAboutUs"
 import HomeService from "./HomeService"
 import HomeTop from "./HomeTop"
 import HomeVideo from "./HomeVideo"
-import { ThemeContext } from "../App"
+import {ThemeContext} from "../../App"
 import HomeFAQ from "./HomeFAQ"
 import HomeReview from "./HomeReview"
 

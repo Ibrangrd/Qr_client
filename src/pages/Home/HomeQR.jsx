@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { QRDetails } from "../pages/data/qr-Details";
+import { QRDetails } from "../data/qr-Details";
 const HomeQR = () => {
   return (
     <div className="pb-8">

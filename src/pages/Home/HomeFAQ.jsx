@@ -1,4 +1,4 @@
-import { faq } from "../utils";
+import {faq } from "../../utils";
 const HomeFAQ = ({count}) => {
   return (
     <div>

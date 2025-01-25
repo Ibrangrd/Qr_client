@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { videoThumbnailDetails } from "../utils";
+import { videoThumbnailDetails } from "../../utils";
 const HomeVideo = () => {
   return (
     <div className="mb-8">
