@@ -1,6 +1,6 @@
 import React from "react";
 import { Link,useParams } from "react-router-dom";
-import { CusData } from "../data/CusData";
+import { CusData } from "../../data/CusData";
 import Error from "../Error";
 const CusScan = () => {
 

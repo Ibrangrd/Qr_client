@@ -1,5 +1,5 @@
 import Card from "./Card";
-import { cardMahalDetails } from "../data/cardMahalDetails";
+import { cardMahalDetails } from "../../data/cardMahalDetails";
 import { useEffect, useState } from "react";
 import Pagination from '../Pagination'
 const CardList = ({ showCategory, price , pageNumber, cardPerPage,setPageNumber }) => {

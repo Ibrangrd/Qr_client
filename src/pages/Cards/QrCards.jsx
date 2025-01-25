@@ -1,5 +1,5 @@
 import Card from "./Card";
-import { QrCardsData } from "../data/QrCardsData";
+import { QrCardsData } from "../../data/QrCardsData";
 import { useEffect, useState } from "react";
 import Pagination from '../Pagination'
 const CardList = ({ showCategory, price , pageNumber, cardPerPage,setPageNumber }) => {

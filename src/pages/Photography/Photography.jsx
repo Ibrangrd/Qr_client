@@ -4,11 +4,11 @@ import Videography from "./Mainphotography";
 import "./photo.css";
 import VideoList from "../Videos/VideoList";
 import Album from "./Album";
-import { albumData } from "../data/albumdata";
-import { videosample } from "../data/VideoSample";
-import { Images1 } from "../data/Images1";
-import { Images2 } from "../data/Images2";
-import { video12 } from "../data/Video12";
+import { albumData } from "../../data/albumdata";
+import { videosample } from "../../data/VideoSample";
+import { Images1 } from "../../data/Images1";
+import { Images2 } from "../../data/Images2";
+import { video12 } from "../../data/Video12";
 import "aos/dist/aos.css";
 const Slider = lazy(() => import("./slider"));
 const Photography = () => {

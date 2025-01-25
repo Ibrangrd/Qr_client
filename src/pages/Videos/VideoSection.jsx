@@ -1,5 +1,5 @@
 import VideoList from "./VideoList";
-import { videoDetails } from "../data/VideoDetails";
+import { videoDetails } from "../../data/VideoDetails";
 const VideoSection = () => {
   return (
     <div className="bg-gradient-to-b bg-[#FCF7F8]">

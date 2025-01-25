@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
 import "./Scan.css";
-import { scanVideoData } from "../data/scanVideoData";
+import { scanVideoData } from "../../data/scanVideoData";
 import Error from "../Error";
 
 const ScanVideo = () => {

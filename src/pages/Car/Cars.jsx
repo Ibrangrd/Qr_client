@@ -1,7 +1,7 @@
 import React from "react";
 import CarList from "./CarsList"
 import "./car.css";
-import { cardat } from "../data/CarDetails";
+import { cardat } from "../../data/CarDetails";
 
 const Cars =() =>{
     return(

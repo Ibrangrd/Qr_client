@@ -1,5 +1,5 @@
 import React from "react";
-import { AllData } from "../data/CateringMainData";
+import { AllData } from "../../data/CateringMainData";
 import NewCatering from "./NewCatering";
 import Button from '@mui/material/Button';
 import { Link } from "react-router-dom";

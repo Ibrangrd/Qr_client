@@ -1,6 +1,6 @@
 import QRList from "./QRList";
-import { QRDetails } from "../data/qr-Details"
-import { QrWork } from "../data/qr-Details";
+import { QRDetails } from "../../data/qr-Details"
+import { QrWork } from "../../data/qr-Details";
 import VideoList from "../Videos/VideoList";
 const QRSection = () => {
 

@@ -2,7 +2,7 @@ import React from "react"
 import Button from '@mui/material/Button';
 import { Link } from "react-router-dom";
 import Tooltip from '@mui/material/Tooltip';
-import { Service2List } from "../data/Servicelist";
+import { Service2List } from "../../data/Servicelist";
 const Service = () =>{
 return (
     <>

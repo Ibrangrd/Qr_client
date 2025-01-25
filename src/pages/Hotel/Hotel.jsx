@@ -2,7 +2,7 @@ import React from "react";
 import './hotel.css'
 import VideoList from "../Videos/VideoList";
 import HotelList from "./HotelList";
-import { Hoteldet } from "../data/HotelDetails";
+import { Hoteldet } from "../../data/HotelDetails";
 const Hotel = () => {
   return (
     <>

@@ -2,8 +2,8 @@ import React from "react";
 import Button from '@mui/material/Button';
 import { Link } from "react-router-dom";
 import Tooltip from '@mui/material/Tooltip';
-import { CateringSectionData } from "../data/CateringMainData";
-import { VegnVegData } from "../data/CateringMainData";
+import { CateringSectionData } from "../../data/CateringMainData";
+import { VegnVegData } from "../../data/CateringMainData";
 const CateringSection = ()=>{
 return (
 <>
