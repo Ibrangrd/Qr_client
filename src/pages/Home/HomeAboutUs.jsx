@@ -5,7 +5,7 @@ import Tooltip from "@mui/material/Tooltip";
 const HomeAboutUs = () => {
   return (
     <>
-      <div className="w-full lg:h-screen h-full m-auto flex items-center justify-cetner py-10 sm:py-20 bg-[#FCF7F8] dark:bg-gray-900">
+      <div className="w-full lg:h-screen h-full m-auto flex items-center justify-cetner py-10 sm:py-20 bg-[#FCF7F8] ">
         <div className="w-full h-full flex flex-col justify-center items-center sm:px-4 px-2">
           {/* <!--  --> */}
           <div className="lg:w-[90%] w-full mx-auto flex flex-col lg:gap-6 lg:flex-row items-center justify-center ">
@@ -43,13 +43,13 @@ const HomeAboutUs = () => {
               <h2 className="text-4xl text-center text-[#457b9d] font-bold px-4 py-0 sm:py-1 lg:py-1 md:mt-0 mt-7 lg:mt-10 sm:mt-10">
                 About Us
               </h2>
-              <p className="md:text-3xl text-2xl text-center text-black dark:text-gray-200 font-bold my-2 lg:my-5 sm:my-5">
+              <p className="md:text-3xl text-2xl text-center text-black font-bold my-2 lg:my-5 sm:my-5">
                 Modern Weddings, Simplified
               </p>
-              <p className="md:text-xl sm:text-lg text-base text-justify sm:px-2 text-black">
+              <p className="md:text-xl sm:text-lg text-xl text-justify sm:px-2 text-black">
                 QR Weds blends technology with love to simplify your wedding
-                journey. From QR invitations to seamless guest management, we
-                make planning effortless and memorable. Celebrate smarter with
+                journey.From QR invitations to seamless guest management, we
+                make planning effortless and memorable.Celebrate smarter with
                 QR Weds—where innovation meets tradition
               </p>
 
