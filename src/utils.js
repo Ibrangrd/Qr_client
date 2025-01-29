@@ -231,7 +231,7 @@ export const ParCardsData = [
   },
   {
     id: "2",
-    img: "https://i.ibb.co/qdbtB7f/freepik-create-a-luxurious-card-design-with-a-pastel-turqu-14739.jpg",
+    img: "https://scontent.fpat11-2.fna.fbcdn.net/v/t39.30808-6/475792307_122098774250750552_8689255591439271600_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=vE11mGR2es8Q7kNvgFvZItR&_nc_zt=23&_nc_ht=scontent.fpat11-2.fna&_nc_gid=AOeZqz9Kkm0xiFq7o3eku3G&oh=00_AYAsYZb7C8v8A2DwRSGK6TmsG8xtYGQrBfawwDmfnfh0Cw&oe=67A03183",
     shop: "Card Mahal",
     dis:"Unique cards for every occasion in Dhanbad.",
     link: "/cardmahal",
