@@ -79,7 +79,7 @@ export const videoThumbnailDetails = [
   {
     id: 1002,
     title: "Sweet",
-    price: "₹ 1",
+    price: "₹1",
     path: "https://www.craftyartapp.com/blog/wp-content/uploads/2023/07/6a9cb107bb26b18e9246e945466d0294-3.webp",
     des: "This card is for this this this",
     cat: "Nature",
@@ -87,8 +87,8 @@ export const videoThumbnailDetails = [
   {
     id: 1003,
     title: "Sweet",
-    price: "₹ 1",
-    path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnwUo7OaNr1b-o0UuRgtrt1_jlVs27UFrmhw&s",
+    price: "₹1",
+    path: "https://i.ytimg.com/vi/wDaTs7hpZBY/maxresdefault.jpg",
     des: "This card is for this this this",
     cat: "Nature",
   },
