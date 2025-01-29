@@ -224,7 +224,7 @@ export const hoverShadowColors = [
 export const ParCardsData = [
   {
     id: "1",
-    img: "https://i.ibb.co/cNxcYYy/Screenshot-2024-12-09-024131.png",
+    img: "https://scontent.fpat1-1.fna.fbcdn.net/v/t39.30808-6/475490408_122098579856750552_7173246646439998817_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=la5DKHWSMIAQ7kNvgGf9pAt&_nc_zt=23&_nc_ht=scontent.fpat1-1.fna&_nc_gid=AxTOd1IJa8Ez4rrfozoKt-n&oh=00_AYCQ385OGEsljBHB5Y5zAO_QAnWRRa6q-rgDvaNhYRJLAQ&oe=679FEBFB",
     shop: "Qr Weds Special cards",
     dis:"Premium QR cards for memorable moments.",
     link: "/qrcards",
