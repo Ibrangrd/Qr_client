@@ -7,7 +7,7 @@ const HomeReview = () => {
   const sliderData = [
     {
       image: 'https://images.bhaskarassets.com/web2images/521/2023/06/08/orig_26-1_1686179647.jpg',
-      title: 'DK Sign',
+      title: 'DK Singh',
       description: '(Vice Chancellor of JUT)',
       service:"Card,Photography",
       review:"Absolutely loved the photography and card services! The team was professional, creative, and delivered beyond expectations. Highly recommend",
