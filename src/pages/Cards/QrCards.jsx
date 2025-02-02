@@ -1,36 +1,27 @@
-import Card from "./Card";
-import { QrCardsData } from "../../data/QrCardsData";
-import { useEffect, useState } from "react";
-import Pagination from '../Pagination'
-const CardList = ({ showCategory, price , pageNumber, cardPerPage,setPageNumber }) => {
-  console.log(price);
-  
-  if (price === "") price = 10000;
-  const [cardToShow, setCardToShow] = useState([]);
-
-  useEffect(() => {
-    const filteredCards = QrCardsData.filter(
-      (card) =>
-        (showCategory === "All" || card?.cat === showCategory) &&
-        card?.price <= price
-    );
-    setCardToShow(filteredCards);
-  }, [showCategory, price]);
-
-  // Calculate indices for pagination
-  const indexOfLastItem = pageNumber * cardPerPage;
-  const indexOfFirstItem = indexOfLastItem - cardPerPage;
-  const currentCards = cardToShow.slice(indexOfFirstItem, indexOfLastItem);
+import React from "react";
+import { NewQrCardsData } from "../../data/NewQrCardsData";
+import QrSection from "./QrSection";
+const QrCards = () => {
+  // console.log("All Data " + AllData);
 
   return (
-    <div className="flex px-2 md:px-9 justify-center md:py-10 flex-wrap">
-      {currentCards.map((card) => (
-        <Card key={card.id} info={card} />
-      ))}
-      <Pagination pageNumber ={pageNumber}  setPageNumber = {setPageNumber} cardToShow= {cardToShow}
-      cardPerPage={cardPerPage}/>
+    <>
+    <div className="bg-[#FCF7F8]">
+    <h1 className="text-center sm:text-6xl text-5xl font-bold mb-10 text-[#4E8098] text-shadow-light pt-4"> OUR CARDS </h1>
+      {NewQrCardsData.map((val) => {
+
+        return (
+          <QrSection
+            key={val.id}
+            CardName={val.CardName}
+            CardData={val.CardData}
+          />
+        );
+      })}
+
     </div>
+    </>
   );
 };
 
-export default CardList;
+export default QrCards;

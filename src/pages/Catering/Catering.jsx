@@ -20,7 +20,7 @@ const Catering = () => {
             key={val.id}
             ItemName={val.ItemName}
             ItemData={val.ItemData}
-            Display={val.Display}
+            // Display={val.Display}
           />
         );
       })}

@@ -19,7 +19,7 @@ export const Servicelist = [
       id: "Service3",
       imgsrc:
         "https://i.ibb.co/vvFMZV4/Screenshot-2024-11-14-155134.png",
-      heading: "FirCrakers",
+      heading: "FireCrackers",
       des: "Light up your celebration with our stunning fireworks! From vibrant bursts to mesmerizing patterns, we add excitement to your special occasion within your budget.",
       Link: "/FireCrackers",
     },
@@ -84,7 +84,7 @@ export const Service2List = [
     id: "Service4",
     imgsrc:
       "https://t4.ftcdn.net/jpg/05/57/64/85/360_F_557648557_hyn34muXj7kwad5cOAoOjP2lRxMZOYBl.jpg",
-    heading: "FirCrakers",
+    heading: "FireCrackers",
     Link: "/FireCrackers",
   },
   {

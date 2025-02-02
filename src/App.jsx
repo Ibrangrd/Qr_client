@@ -42,15 +42,16 @@ import {
   Memories,
   Catering,
   CardsPartners,
-  QrCardSection,
   CardMahalSection,
   CateringMain,
   YourMenu,
   CateringSection,
+  QrCards,
   LoginForImage,
 } from "./pages/index.js";
 
 import Mscan from "./pages/Scan/MScan.jsx";
+import Ibran from "./pages/Cards/Newqrcardslist.jsx";
 // import Home from "./pages/Home.jsx";
 const CardSection = lazy((e) => import("./pages/Cards/CardMahalSection.jsx"));
 
@@ -102,7 +103,7 @@ const App = () => {
             path="/qrcards"
             element={
               <Suspense fallback={<div>Loading QR Special Cards...</div>}> 
-              <QrCardSection />
+              <QrCards />
               </Suspense>
             }
           />

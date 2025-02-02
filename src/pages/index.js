@@ -41,13 +41,13 @@ import { ImOpt } from "react-icons/im";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import CardsPartners from "./Cards/CardsPartners";
-import QrCardSection from "./Cards/QrCardSection";
 import CardMahalSection from "./Cards/CardMahalSection";
 import CateringMain from "./Catering/CateringMain";
 import Catering from "./Catering/Catering";
 import YourMenu from "./Catering/YourMenu";
 import CateringSection from "./Catering/CateringSection";
 import LoginForImage from "./LoginForImage";
+import QrCards from "./Cards/QrCards";
 AOS.init();
 
 
@@ -93,7 +93,7 @@ export {
   Cars,
   Memories,
   CardsPartners,
-  QrCardSection,
+  QrCards,
   CardMahalSection,
   CateringMain,
   YourMenu,
