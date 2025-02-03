@@ -18,7 +18,7 @@ export const serviceDetails = [
   },
   {
     id: 2003,
-    path: "https://scontent.fpat1-1.fna.fbcdn.net/v/t39.30808-6/475324589_122098190282750552_8068783664855930713_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=EqERZh-nWOMQ7kNvgEBxBKA&_nc_zt=23&_nc_ht=scontent.fpat1-1.fna&_nc_gid=ALoB5jUhVL3JbZVYfPk7FKT&oh=00_AYDBZX_6laO4V4BONjTnyfkDjdMqTaTrZn4E7qri7AZFqg&oe=679F1299",
+    path: "https://i.ibb.co/s90Hq0gP/Whats-App-Image-2025-01-23-at-17-47-49-75e2de5b.jpg",
     title: "Courier Service",
     link: "/courier",
   },
@@ -224,14 +224,14 @@ export const hoverShadowColors = [
 export const ParCardsData = [
   {
     id: "1",
-    img: "https://scontent.fpat1-1.fna.fbcdn.net/v/t39.30808-6/475490408_122098579856750552_7173246646439998817_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=la5DKHWSMIAQ7kNvgGf9pAt&_nc_zt=23&_nc_ht=scontent.fpat1-1.fna&_nc_gid=AxTOd1IJa8Ez4rrfozoKt-n&oh=00_AYCQ385OGEsljBHB5Y5zAO_QAnWRRa6q-rgDvaNhYRJLAQ&oe=679FEBFB",
+    img: "https://i.ibb.co/hR2rH8yY/Screenshot-2024-12-09-024131.png",
     shop: "Qr Weds Special cards",
     dis:"Premium QR cards for memorable moments.",
     link: "/qrcards",
   },
   {
     id: "2",
-    img: "https://scontent.fpat11-2.fna.fbcdn.net/v/t39.30808-6/475792307_122098774250750552_8689255591439271600_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=vE11mGR2es8Q7kNvgFvZItR&_nc_zt=23&_nc_ht=scontent.fpat11-2.fna&_nc_gid=AOeZqz9Kkm0xiFq7o3eku3G&oh=00_AYAsYZb7C8v8A2DwRSGK6TmsG8xtYGQrBfawwDmfnfh0Cw&oe=67A03183",
+    img: "https://i.ibb.co/jk2fHMT3/Card-Mahal.webp",
     shop: "Card Mahal",
     dis:"Unique cards for every occasion in Dhanbad.",
     link: "/cardmahal",
