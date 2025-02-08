@@ -19,7 +19,7 @@ export const VegnVegData = [
     id: "1",
     img: "https://b.zmtcdn.com/data/collections/8ea321c04135aacaac89eddb10ef64bd_1688552905.jpg?fit=around|562.5:360&crop=562.5:360;*,*",
     shop: "VEG SECTION",
-    dis: "(Customized)",
+    dis: "(Customized)", 
     link: "/Catering",
   },
   {
