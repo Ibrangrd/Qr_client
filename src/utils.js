@@ -23,6 +23,12 @@ export const serviceDetails = [
     link: "/courier",
   },
   {
+    id: 20018,
+    path:"https://naomisheadmasters.com/wp-content/uploads/2024/01/Bridal-Makeup-for-Different-Wedding-Themes-Boho-Vintage-Classic-and-More.jpg",
+    title:"Makeup",
+    link:"/makeup",
+  },
+  {
     id: 2007,
     path:"https://t4.ftcdn.net/jpg/05/57/64/85/360_F_557648557_hyn34muXj7kwad5cOAoOjP2lRxMZOYBl.jpg",
     title:"FireCrackers",

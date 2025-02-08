@@ -68,10 +68,9 @@ export const Servicelist = [
 export const Service2List = [
   {
     id: "Service2",
-    imgsrc:
-      "https://www.carandbike.com/_next/image?url=https%3A%2F%2Fimages.carandbike.com%2Fcar-images%2Fbig%2Fhyundai%2Fcreta%2Fhyundai-creta.jpg%3Fv%3D92&w=3840&q=75",
-    heading: "Car Services:",
-    Link: "/Cars",
+    imgsrc:"https://www.forestessentialsindia.com/blog/wp-content/uploads/2024/05/Title_Bridal-Makeup.jpg",
+    heading: "Makeup",
+    Link: "/makeup",
   },
   {
     id: "Service3",
@@ -107,6 +106,13 @@ export const Service2List = [
       "https://i.ytimg.com/vi/01FXIOZyAk0/maxresdefault.jpg",
     heading: "QR Designs:",
     Link: "/qr",
+  },
+  {
+    id: "Service2",
+    imgsrc:
+      "https://www.carandbike.com/_next/image?url=https%3A%2F%2Fimages.carandbike.com%2Fcar-images%2Fbig%2Fhyundai%2Fcreta%2Fhyundai-creta.jpg%3Fv%3D92&w=3840&q=75",
+    heading: "Car Services:",
+    Link: "/Cars",
   },
   {
     id: "Service8",

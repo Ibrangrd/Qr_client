@@ -48,6 +48,7 @@ import YourMenu from "./Catering/YourMenu";
 import CateringSection from "./Catering/CateringSection";
 import LoginForImage from "./LoginForImage";
 import QrCards from "./Cards/QrCards";
+import MakeUp from "./MakeUp/MakeUp";
 AOS.init();
 
 
@@ -98,5 +99,6 @@ export {
   CateringMain,
   YourMenu,
   CateringSection,
-  LoginForImage
+  LoginForImage,
+  MakeUp,
 };
