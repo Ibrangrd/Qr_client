@@ -1,7 +1,7 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 const QRCard = ({ info }) => {
-  console.log(info);
+  // console.log(info);
   return (
     <div className="mx-1 sm:my-0 group rounded-lg hover:scale-110 duration-500 p-2 sm:h-[25rem] h-[20rem]  flex flex-col items-center" data-aos="zoom-in-left">
       <img

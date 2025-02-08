@@ -19,7 +19,7 @@ const QRSection = () => {
         <VideoList videoDetails={QrWork} />
         </div>
         </div>
-        <QRList qrDetails={QRDetails} />
+        <QRList qrDetails={QRDetails}  />
       </div>
     </div>
     </div>

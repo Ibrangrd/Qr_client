@@ -9,7 +9,8 @@ const HomeQR = () => {
         </p>
       </div>
       <div className="shadow-inner rounded-lg w-10/12 h-[20rem] mx-auto flex overflow-x-scroll no-scrollbar">
-        {QRDetails.map((qr) => (
+        {QRDetails.map((qr , idx) => (
+          idx < 5 && 
           <img
             className="h-[18rem] my-auto rounded-lg shadow-lg mx-2 hover:scale-[110%] duration-700"
             key={qr.id}
