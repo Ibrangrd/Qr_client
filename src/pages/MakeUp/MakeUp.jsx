@@ -9,35 +9,35 @@ const MakeUp = () => {
       imgsrc:"https://beautycourses.in/images/blog/bridal2.jpg",
      title: "Bridal makeup",
      price:"₹ 7000-25000",
-      link: "/Cars",
+     link: "https://wa.me/919832704206?text=Hello%20%20I%20would%20like%20to%20talk%20about%20your%20bridal%20makeup%20services.",
     },
     {
       id: "Service3",
       imgsrc:"https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_836,h_1024/https://www.bismatrimony.com/blog/wp-content/uploads/2022/09/kerala-bridal-makeup-836x1024.jpg",
      title: "Party Makeup",
-    price:"₹3000-5000",
-      link: "/Photography",
+    price:"₹ 3000-5000",
+    link: "https://wa.me/919832704206??text=Hello%20%20I%20would%20like%20to%20talk%20about%20your%20Party%20makeup%20services.",
     },
     {
       id: "Service4",
       imgsrc:"https://tejaswinimakeupartist.com/wp-content/uploads/2021/05/Haldi-Makeup-Pune-Mumbai-India-e1621758851999.jpeg",
      title: "Haldi Makeup",
      price:"₹ 3000-5000",
-      link: "/FireCrackers",
+     link: "https://wa.me/919832704206?text=Hello%20%20I%20would%20like%20to%20talk%20about%20your%20Haldi%20makeup%20services.",
     },
     {
       id: "Service7",
       imgsrc:"https://files.myglamm.com/site-images/original/Green-Goddess-Makeup-Look-For-Mehndi.jpg",
-     title: "Mehendi",
-     price:"₹3000-5000",
-      link: "/CateringMain",
+     title: "Mehendi Makeup",
+     price:"₹ 3000-5000",
+     link: "https://wa.me/919832704206?text=Hello%20%20I%20would%20like%20to%20talk%20about%20your%20Mahendi%20makeup%20services.",
     },
     {
       id: "Service6",
       imgsrc:"https://www.shaadidukaan.com/vogue/wp-content/uploads/2020/03/Matte-Look.jpg",
      title: "Engagement makeup",
      price:"₹ 3000-5000",
-      link: "/contact",
+     link: "https://wa.me/919832704206?text=Hello%20%20I%20would%20like%20to%20talk%20about%20your%20bridal%20Engagement%20services.",
     },
   ]
   return (
@@ -98,7 +98,7 @@ const MakeUp = () => {
     </div>
   <div className="flex justify-center -translate-y-9">
     <Tooltip className="text-5xl" title="Book Now">
-      <Link to={val.link}>
+      <Link to={val.link} target="_blank">
       <button className="bg-red-30 text-xl border-2 py-2 text-red-600 border-red-200 rounded-lg hover:text-red-800 shadow-inner hover:bg-red-200 hover:scale-110 duration-300 h-[3rem] w-[10rem] sm:w-[15rem]">
           Book Now
           </button>
@@ -111,16 +111,14 @@ const MakeUp = () => {
       }
      </div>
     <p className="text-xl text-black">Note:- <i>Pricing varies depending on the choice of foundation.</i> </p>
-    {/* <p className="text-2xl text-black font-semibold text-center pt-14">The foundations we offer - </p> */}
-    <p className="text-2xl pt-5 font-semibold text-black text-center"> Makeup artist - Mrs. Summy Gupta    </p>
-    <div className=" text-black text-center text-xl font-bold p-2"> <p> For any Queries </p></div>
-   <div className=" text-black text-center text-xl font-bold"> <p> Conatct Us </p></div>
-   <div className="  ml-[0%] md:ml-[35%] flex gap-6 p-6" >
-        <h2 className=" text-black hidden sm:block text-xl font-bold"> Mobile no. :- </h2>
-        <p className="text-[#ef233c] font-bold" >9832704206</p>
-        <p className="text-[#ef233c] font-bold">6200339631</p>
-        <p className="text-[#ef233c] font-bold">9508853398</p>
-        </div>
+    <p className="text-2xl pt-5 font-semibold text-black text-center"> Makeup artist - Mrs. Summy Gupta</p>
+    <a href="tel:+919832704206"  className=" justify-center flex pt-10 pb-10">
+    <Tooltip className="text-5xl" title="Call Now">
+      <button className="bg-red-30 text-xl border-2 py-2 text-red-600 border-red-200 rounded-lg hover:text-red-800 shadow-inner hover:bg-red-200 hover:scale-110 duration-300 h-[3rem] w-[10rem] sm:w-[15rem]">
+          Call Now
+          </button>
+    </Tooltip>
+    </a>
     <img className="h-40 sm:h-96 w-full" src="https://hips.hearstapps.com/hmg-prod/images/makeup-supplies-amidst-shiny-glitter-royalty-free-image-1640037507.jpg" alt="makeup" />
       </div>
     </>
