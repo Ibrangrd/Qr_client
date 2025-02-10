@@ -9,14 +9,14 @@ const MakeUp = () => {
       imgsrc:"https://beautycourses.in/images/blog/bridal2.jpg",
      title: "Bridal makeup",
      price:"₹ 7000-25000",
-     link: "https://wa.me/919832704206?text=Hello%20%20I%20would%20like%20to%20talk%20about%20your%20bridal%20makeup%20services.",
+     link: "https://wa.me/919832704206?text=Hello%20I%20would%20like%20to%20talk%20about%20your%20bridal%20makeup%20services.",
     },
     {
       id: "Service3",
       imgsrc:"https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_836,h_1024/https://www.bismatrimony.com/blog/wp-content/uploads/2022/09/kerala-bridal-makeup-836x1024.jpg",
      title: "Party Makeup",
     price:"₹ 3000-5000",
-    link: "https://wa.me/919832704206??text=Hello%20%20I%20would%20like%20to%20talk%20about%20your%20Party%20makeup%20services.",
+    link: "https://wa.me/919832704206?text=Hello%20I%20would%20like%20to%20talk%20about%20your%20Party%20makeup%20services.",
     },
     {
       id: "Service4",
@@ -114,8 +114,8 @@ const MakeUp = () => {
     <p className="text-2xl pt-5 font-semibold text-black text-center"> Makeup artist - Mrs. Summy Gupta</p>
     <a href="tel:+919832704206"  className=" justify-center flex pt-10 pb-10">
     <Tooltip className="text-5xl" title="Call Now">
-      <button className="bg-red-30 text-xl border-2 py-2 text-red-600 border-red-200 rounded-lg hover:text-red-800 shadow-inner hover:bg-red-200 hover:scale-110 duration-300 h-[3rem] w-[10rem] sm:w-[15rem]">
-          Call Now
+      <button className="bg-white text-xl border-2 py-2 text-black border-black rounded-3xl shadow-inner  hover:scale-110 duration-300 h-[3rem] w-[10rem] sm:w-[15rem]">
+        Call Now
           </button>
     </Tooltip>
     </a>

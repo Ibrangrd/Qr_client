@@ -44,13 +44,12 @@ const HomeAboutUs = () => {
                 About Us
               </h2>
               <p className="md:text-3xl text-2xl text-center text-black font-bold my-2 lg:my-5 sm:my-5">
-                Modern Weddings, Simplified
+              QR Weds: Creating Memories
               </p>
               <p className="md:text-xl sm:text-lg text-xl text-justify sm:px-2 text-black">
-                QR Weds blends technology with love to simplify your wedding
-                journey.From QR invitations to seamless guest management, we
-                make planning effortless and memorable.Celebrate smarter with
-                QR Weds—where innovation meets tradition
+              We make wedding planning easy and memorable with the power of technology. 
+              From digital invites to seamless event management, our QR-based solutions help 
+              couples and families create, share, and cherish their special moments effortlessly.
               </p>
 
               {/* <!-- button --> */}
