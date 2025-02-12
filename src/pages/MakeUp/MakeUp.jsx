@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Tooltip from '@mui/material/Tooltip';
-import Button from '@mui/material/Button';
 const MakeUp = () => {
   const makeupdata=[
     {

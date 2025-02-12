@@ -21,7 +21,7 @@ return (
       <h1 className="text-3xl pt-2 font-bold text-[#4f772d]">{val.heading}</h1>
       <Tooltip className="text-5xl" title="VIEW">
       <Link to={val.Link}>
-      <Button className="w-52 pb-6 h-12 hover:bg-blue-100 hover:text-red-700" variant="outlined">VIEW</Button>
+      <button className="bg-red-30 text-xl border-2 py-2 text-red-600 border-red-200 rounded-lg hover:text-red-800 shadow-inner hover:bg-red-200 hover:scale-110 duration-300 h-[3rem] w-[10rem] sm:w-[15rem]">VIEW</button>
       </Link> 
       </Tooltip>
       </div> 
