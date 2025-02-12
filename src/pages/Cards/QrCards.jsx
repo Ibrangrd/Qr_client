@@ -18,7 +18,19 @@ const QrCards = () => {
           />
         );
       })}
-
+      <div className="flex justify-around pb-10 pt-10">
+    <a href="tel:+919832704206" target="_blank">
+        <button className="px-6 py-3 bg-green-600 text-white rounded-full shadow-lg sm:hover:bg-green-700 transition">
+            📞 Call Now
+        </button>
+    </a>
+    
+    <a href="https://wa.me/919832704206?text=Hello!%20I'm%20interested%20in%20your%20services.%20Can%20we%20discuss%3F" target="_blank">
+        <button className="px-6 py-3 bg-green-600 text-white rounded-full shadow-lg sm:hover:bg-green-700 transition">
+            💬 Chat with Us
+        </button>
+    </a>
+</div>
     </div>
     </>
   );

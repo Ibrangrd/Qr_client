@@ -17,16 +17,16 @@ export const serviceDetails = [
     link: "/photography",
   },
   {
-    id: 2003,
-    path: "https://i.ibb.co/s90Hq0gP/Whats-App-Image-2025-01-23-at-17-47-49-75e2de5b.jpg",
-    title: "Courier Service",
-    link: "/courier",
-  },
-  {
     id: 20018,
     path:"https://naomisheadmasters.com/wp-content/uploads/2024/01/Bridal-Makeup-for-Different-Wedding-Themes-Boho-Vintage-Classic-and-More.jpg",
     title:"Makeup",
     link:"/makeup",
+  },
+  {
+    id: 2003,
+    path: "https://i.ibb.co/s90Hq0gP/Whats-App-Image-2025-01-23-at-17-47-49-75e2de5b.jpg",
+    title: "Courier Service",
+    link: "/courier",
   },
   {
     id: 2007,
@@ -194,10 +194,6 @@ export const menuOptions = [
   {
     opt: "VIDEO",
     route: "/videos",
-  },
-  {
-    opt: "QR DESIGN",
-    route: "/qr",
   },
   {
     opt: "PHOTOGRAPHY",

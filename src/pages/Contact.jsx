@@ -57,7 +57,7 @@ const Contact = () => {
   return (
     <div className="px-1 pt-4 bg-[#FCF7F8]">
       <div className="text-center bg-[#FCF7F8]">
-        <span className="mb-2 block text-base bg-[#FCF7F8]  font-semibold text-[#C75B7A]">
+        <span className="mb-2 block sm:text-5xl text-3xl bg-[#FCF7F8]  font-semibold text-[#C75B7A]">
           Contact Us
         </span>
         <h2 className=" hidden sm:block bg-[#FCF7F8] text-black md:block mb-2 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px]">
@@ -155,13 +155,13 @@ const Contact = () => {
         </div>
         <div className="flex justify-around pb-10 pt-10">
     <a href="tel:+919832704206" target="_blank">
-        <button className="px-6 py-3 bg-green-700 text-white rounded-full shadow-lg hover:bg-green-600 transition">
+        <button className="px-6 py-3 bg-green-600 text-white rounded-full shadow-lg sm:hover:bg-green-700 transition">
             📞 Call Now
         </button>
     </a>
     
     <a href="https://wa.me/919832704206?text=Hello!%20I'm%20interested%20in%20your%20services.%20Can%20we%20discuss%3F" target="_blank">
-        <button className="px-6 py-3 bg-green-700 text-white rounded-full shadow-lg hover:bg-green-600 transition">
+        <button className="px-6 py-3 bg-green-600 text-white rounded-full shadow-lg sm:hover:bg-green-700 transition">
             💬 Chat with Us
         </button>
     </a>

@@ -10,16 +10,16 @@ const HomeService = () => {
         </p>
       </div>
 
-      {/* Restoring horizontal scroll with flexbox, adjusting for responsiveness */}
       <div className="shadow-inner rounded-lg w-10/12 h-[20rem] mx-auto flex space-x-4 overflow-x-scroll no-scrollbar">
         {serviceDetails.map((ser) => (
           <div key={ser.id} className="flex-none w-[18rem]">
-            {/* Adjusting image width and height to fit the flex layout */}
+            <Link to={ser.link}>
             <img
               className="h-[18rem] w-full object-cover rounded-lg shadow-lg hover:scale-105 duration-700"
               src={ser.path}
               alt={ser.title}
             />
+             </Link>
             <Link to={ser.link}>
               <p className="text-center text-lg font-bold text-black mt-2">
                 {ser.title}
