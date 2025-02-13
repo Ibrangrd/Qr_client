@@ -21,16 +21,10 @@ const Home = () => {
       <HomeReview />
       <HomeFAQ count={4} />
 
-    <div className="fixed sm:bottom-5 bottom-1 left-3 right-3 sm:left-6 sm:right-6 flex justify-between">
-    <a href="tel:+919832704206" target="_blank">
-        <button className="px-5 py-2 bg-green-600 text-white rounded-full shadow-lg sm:hover:bg-green-700 transition">
-            📞Call
-        </button>
-    </a>
-    
+    <div className="fixed sm:bottom-5 bottom-2 right-3 sm:right-10 flex ">
     <a href="https://wa.me/919832704206?text=Hello!%20I'm%20interested%20in%20your%20services.%20Can%20we%20discuss%3F" target="_blank">
-        <button className="px-5 py-2 bg-green-600 text-white rounded-full shadow-lg sm:hover:bg-green-700 transition">
-            💬Chat
+        <button className="px-5 py-2 sm:px-8 sm:py-3 bg-green-600 text-white rounded-full shadow-lg sm:hover:bg-green-700 transition">
+            💬 Chat
         </button>
     </a>
 </div>
