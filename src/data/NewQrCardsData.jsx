@@ -5,7 +5,7 @@ export const NewQrCardsData = [
     CardData: [
       {
         id: "51",
-        path: "https://i.ibb.co/3fWhqHt/qrcards72.jpg",
+        path: "https://storage.googleapis.com/my-website-image/QrCards/qrcards72.jpg",
         title: "Charming Grace",
         cat: "All",
         price: 25,
@@ -13,7 +13,7 @@ export const NewQrCardsData = [
       },
       {
         id: "52",
-        path: "https://i.ibb.co/YPjKrZB/Qr-Card-49.jpg",
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(49).jpg",
         title: "Golden Aura",
         cat: "All",
         price: 35,
@@ -21,7 +21,7 @@ export const NewQrCardsData = [
       },
       {
         id: "53",
-        path: "https://i.ibb.co/vJq2Ppt/Qr-Card-50.jpg",
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(50).jpg",
         title: "Serene Blooms",
         cat: "All",
         price: 35,
@@ -29,7 +29,7 @@ export const NewQrCardsData = [
       },
       {
         id: "49",
-        path: "https://i.ibb.co/wshr6wc/Qr-Card-52.jpg",
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(52).jpg",
         title: "Golden Aura",
         cat: "All",
         price: 25,
@@ -37,7 +37,7 @@ export const NewQrCardsData = [
       },
       {
         id: "50",
-        path: "https://i.ibb.co/SnCPbhy/Qr-Card-53.jpg",
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(53).jpg",
         title: "Serene Blooms",
         cat: "All",
         price: 25,
@@ -51,7 +51,7 @@ export const NewQrCardsData = [
     CardData: [
       {
         id: "54",
-        path: "https://i.ibb.co/z6Wnxz8/Qr-Card-54.jpg",
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(54).jpg",
         title: "Beautiful Card",
         description:
           "A beautiful seed card that symbolizes new beginnings and growth.",
@@ -62,7 +62,7 @@ export const NewQrCardsData = [
         id: "55",
         title: "Elegant Card",
         description: "An elegant seed card perfect for sophisticated events.",
-        path: "https://i.ibb.co/nB7xpqK/Qr-Card-55.jpg",
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(55).jpg",
         price: 18,
         cat: "All",
       },
@@ -71,7 +71,7 @@ export const NewQrCardsData = [
         title: "Charming Card",
         description:
           "A charming seed card that adds a touch of grace to any occasion.",
-        path: "https://i.ibb.co/rb0XNXc/Qr-Card-56.jpg",
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(56).jpg",
         price: 18,
         cat: "All",
       },
@@ -79,7 +79,7 @@ export const NewQrCardsData = [
         id: "57",
         title: "Graceful Card",
         description: "A graceful seed card that embodies elegance and beauty.",
-        path: "https://i.ibb.co/smnmNYG/Qr-Card-57.jpg",
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(57).jpg",
         price: 18,
         cat: "All",
       },
@@ -87,7 +87,7 @@ export const NewQrCardsData = [
         id: "59",
         title: "Vibrant Card",
         description: "A vibrant seed card full of life and energy.",
-        path: "https://i.ibb.co/Px2Gm4v/Qr-Card-59.jpg",
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(59).jpg",
         price: 18,
         cat: "All",
       },
@@ -96,7 +96,7 @@ export const NewQrCardsData = [
         title: "Radiant Card",
         description:
           "A radiant seed card that shines with positivity and warmth.",
-        path: "https://i.ibb.co/f0FL4wX/Qr-Card-58.jpg",
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(58).jpg",
         price: 18,
         cat: "All",
       },
@@ -108,7 +108,7 @@ export const NewQrCardsData = [
     CardData: [
       {
         id: "2",
-        path: "https://i.ibb.co/8nMfBzdp/Qr-Card-61.jpg",
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(61).jpg",
         title: "Celestial Whisper",
         cat: "All",
         price: 70,
@@ -116,7 +116,7 @@ export const NewQrCardsData = [
       },
       {
         id: "3",
-        path: "https://i.ibb.co/hxK03M4m/Qr-Card-62.jpg",
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(62).jpg",
         title: "Mystic Charm",
         cat: "All",
         price: 65,
@@ -124,7 +124,7 @@ export const NewQrCardsData = [
       },
       {
         id: "4",
-        path: "https://i.ibb.co/mVFX0hkV/Qr-Card-63.jpg",
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(63).jpg",
         title: "Ethereal Glow",
         cat: "All",
         price: 68,
@@ -132,7 +132,7 @@ export const NewQrCardsData = [
       },
       {
         id: "1",
-        path: "https://i.ibb.co/Pz1P163k/Qr-Card-60.jpg",
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(60).jpg",
         title: "Golden Mirage",
         cat: "All",
         price: 60,
@@ -140,7 +140,7 @@ export const NewQrCardsData = [
       },
       {
         id: "13",
-        path: "https://i.ibb.co/6Y7PstF/Qr-Card-13.jpg",
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(13).jpg",
         title: "Sophisticated Charm",
         cat: "All",
         price: 58,
@@ -148,7 +148,7 @@ export const NewQrCardsData = [
       },
       {
         id: "14",
-        path: "https://i.ibb.co/y0PH96W/Qr-Card-14.jpg",
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(14).jpg",
         title: "Artful Radiance",
         cat: "All",
         price: 55,
@@ -156,7 +156,7 @@ export const NewQrCardsData = [
       },
       {
         id: "15",
-        path: "https://i.ibb.co/KjgtMPm/Qr-Card-15.jpg",
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(15).jpg",
         title: "Timeless Simplicity",
         cat: "All",
         price: 55,
@@ -164,7 +164,7 @@ export const NewQrCardsData = [
       },
       {
         id: "16",
-        path: "https://i.ibb.co/cCBSzsn/Qr-Card-16.jpg",
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(16).jpg",
         title: "Joyful Elegance",
         cat: "All",
         price: 58,
@@ -172,7 +172,7 @@ export const NewQrCardsData = [
       },
       {
         id: "17",
-        path: "https://i.ibb.co/2jN82VC/Qr-Card-17.jpg",
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(17).jpg",
         title: "Bold Harmony",
         cat: "All",
         price: 52,
@@ -180,7 +180,7 @@ export const NewQrCardsData = [
       },
       {
         id: "18",
-        path: "https://i.ibb.co/vXKqMx8/Qr-Card-18.jpg",
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(18).jpg",
         title: "Magical Whimsy",
         cat: "All",
         price: 54,
@@ -188,7 +188,7 @@ export const NewQrCardsData = [
       },
       {
         id: "19",
-        path: "https://i.ibb.co/D76tJ54/Qr-Card-19.jpg",
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(19).jpg",
         title: "Personalized Beauty",
         cat: "All",
         price: 56,
@@ -202,7 +202,7 @@ export const NewQrCardsData = [
     CardData: [
         {
           "id": "1",
-          "path": "https://i.ibb.co/JKxZ1B1/Qr-Card-1.jpg",
+          "path": "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(1).jpg",
           "title": "Golden Elegance",
           "cat": "All",
           "price": 16,
@@ -210,7 +210,7 @@ export const NewQrCardsData = [
         },
         {
           "id": "5",
-          "path": "https://i.ibb.co/7QVxDqk/Qr-Card-5.jpg",
+          "path": "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(5).jpg",
           "title": "Rustic Grace",
           "cat": "All",
           "price": 13,
@@ -218,7 +218,7 @@ export const NewQrCardsData = [
         },
         {
           "id": "6",
-          "path": "https://i.ibb.co/b3ndCSv/Qr-Card-6.jpg",
+          "path": "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(6).jpg",
           "title": "Vintage Love",
           "cat": "All",
           "price": 12,
@@ -226,7 +226,7 @@ export const NewQrCardsData = [
         },
         {
           "id": "44",
-          "path": "https://i.ibb.co/5MCwJjG/Qr-Card-44.jpg",
+          "path": "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(44).jpg",
           "title": "Opulent Vibes",
           "cat": "All",
           "price": 16,
@@ -234,7 +234,7 @@ export const NewQrCardsData = [
         },
         {
           "id": "45",
-          "path": "https://i.ibb.co/Yjw3tHv/Qr-Card-45.jpg",
+          "path": "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(45).jpg",
           "title": "Modern Grace",
           "cat": "All",
           "price": 16,
@@ -242,7 +242,7 @@ export const NewQrCardsData = [
         },
         {
           "id": "46",
-          "path": "https://i.ibb.co/9qXZdn4/Qr-Card-46.jpg",
+          "path": "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(46).jpg",
           "title": "Regal Patterns",
           "cat": "All",
           "price": 15,
@@ -250,7 +250,7 @@ export const NewQrCardsData = [
         },
         {
           "id": "41",
-          "path": "https://i.ibb.co/c2cQ0Yq/Qr-Card-41.jpg",
+          "path": "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(41).jpg",
           "title": "Celestial Grace",
           "cat": "All",
           "price": 15,
@@ -264,7 +264,7 @@ export const NewQrCardsData = [
     CardData: [
         {
           id: "33",
-          path: "https://i.ibb.co/G9PVzjD/Qr-Card-33.jpg",
+          path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(33).jpg",
           title: "Artistic Elegance",
           cat: "All",
           price: 18,
@@ -272,7 +272,7 @@ export const NewQrCardsData = [
         },
         {
           id: "8",
-          path: "https://i.ibb.co/zFVK25q/Qr-Card-8.jpg",
+          path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(8).jpg",
           title: "Radiant Joy",
           cat: "All",
           price: 27,
@@ -280,7 +280,7 @@ export const NewQrCardsData = [
         },
         {
           id: "38",
-          path: "https://i.ibb.co/VxhG8gy/Qr-Card-38.jpg",
+          path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(38).jpg",
           title: "Radiant Bliss",
           cat: "All",
           price: 15,
@@ -288,7 +288,7 @@ export const NewQrCardsData = [
         },
         {
           id: "9",
-          path: "https://i.ibb.co/tMJgDtb/Qr-Card-9.jpg",
+          path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(9).jpg",
           title: "Ethereal Elegance",
           cat: "All",
           price: 27,
@@ -302,7 +302,7 @@ export const NewQrCardsData = [
         CardData: [
           {
             id: "2",
-            path: "https://i.ibb.co/R0mmn29/Qr-Card-2.jpg",
+            path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(2).jpg",
             title: "Elegant Blossoms",
             cat: "All",
             price: 14,
@@ -310,7 +310,7 @@ export const NewQrCardsData = [
           },
           {
             id: "3",
-            path: "https://i.ibb.co/R62CDnb/Qr-Card-3.jpg",
+            path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(3).jpg",
             title: "Regal Harmony",
             cat: "All",
             price: 9,
@@ -318,7 +318,7 @@ export const NewQrCardsData = [
           },
           {
             id: "4",
-            path: "https://i.ibb.co/hDD7ssJ/Qr-Card-4.jpg",
+            path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(4).jpg",
             title: "Classic Charm",
             cat: "All",
             price: 9,
@@ -326,7 +326,7 @@ export const NewQrCardsData = [
           },
           {
             id: "7",
-            path: "https://i.ibb.co/521tJXZ/Qr-Card-7.jpg",
+            path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(7).jpg",
             title: "Modern Bliss",
             cat: "All",
             price: 14,
@@ -334,7 +334,7 @@ export const NewQrCardsData = [
           },
           {
             id: "10",
-            path: "https://i.ibb.co/Z8G2ndR/Qr-Card-10.jpg",
+            path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(10).jpg",
             title: "Golden Celebration",
             cat: "All",
             price: 15,
@@ -342,7 +342,7 @@ export const NewQrCardsData = [
           },
           {
             id: "32",
-            path: "https://i.ibb.co/Sddxtjn/Qr-Card-32.jpg",
+            path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(32).jpg",
             title: "Minimal Marvel",
             cat: "All",
             price: 15,
@@ -356,7 +356,7 @@ export const NewQrCardsData = [
     CardData: [
         {
           id: "12",
-          path: "https://i.ibb.co/B41MsBQ/Qr-Card-12.jpg",
+          path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(12).jpg",
           title: "Elegant Essence",
           cat: "All",
           price: 40,
@@ -364,7 +364,7 @@ export const NewQrCardsData = [
         },
         {
           id: "11",
-          path: "https://i.ibb.co/Xj953mx/Qr-Card-11.jpg",
+          path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(11).jpg",
           title: "Modern Delight",
           cat: "All",
           price: 18,
@@ -372,7 +372,7 @@ export const NewQrCardsData = [
         },
         {
           id: "20",
-          path: "https://i.ibb.co/qRSzx9f/Qr-Card-20.jpg",
+          path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(20).jpg",
           title: "Graceful Touch",
           cat: "All",
           price: 24,
@@ -388,7 +388,7 @@ export const NewQrCardsData = [
         },
         {
           id: "22",
-          path: "https://i.ibb.co/zPyLGzB/Qr-Card-22.jpg",
+          path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(22).jpg",
           title: "Floral Serenity",
           cat: "All",
           price: 16,
@@ -396,7 +396,7 @@ export const NewQrCardsData = [
         },
         {
           id: "23",
-          path: "https://i.ibb.co/CwXhWDL/Qr-Card-23.jpg",
+          path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(23).jpg",
           title: "Vibrant Blossoms",
           cat: "All",
           price: 16,
@@ -404,7 +404,7 @@ export const NewQrCardsData = [
         },
         {
           id: "24",
-          path: "https://i.ibb.co/wd7W6pf/Qr-Card-24.jpg",
+          path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(24).jpg",
           title: "Royal Grace",
           cat: "All",
           price: 42,
@@ -412,7 +412,7 @@ export const NewQrCardsData = [
         },
         {
           id: "25",
-          path: "https://i.ibb.co/Z85mkPn/Qr-Card-25.jpg",
+          path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(25).jpg",
           title: "Eternal Harmony",
           cat: "All",
           price: 42,
@@ -420,7 +420,7 @@ export const NewQrCardsData = [
         },
         {
           id: "27",
-          path: "https://i.ibb.co/h1j6CDH/Qr-Card-27.jpg",
+          path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(27).jpg",
           title: "Celestial Dreams",
           cat: "All",
           price: 18,
@@ -428,7 +428,7 @@ export const NewQrCardsData = [
         },
         {
           id: "28",
-          path: "https://i.ibb.co/vPyhc15/Qr-Card-28.jpg",
+          path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(28).jpg",
           title: "Rustic Whimsy",
           cat: "All",
           price: 20,
@@ -436,7 +436,7 @@ export const NewQrCardsData = [
         },
         {
           id: "29",
-          path: "https://i.ibb.co/VgFcY3T/Qr-Card-29.jpg",
+          path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(29).jpg",
           title: "Festive Delight",
           cat: "All",
           price: 18,
@@ -444,7 +444,7 @@ export const NewQrCardsData = [
         },
         {
           id: "30",
-          path: "https://i.ibb.co/TKGRBGm/Qr-Card-30.jpg",
+          path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(30).jpg",
           title: "Opulent Bliss",
           cat: "All",
           price: 18,
@@ -452,7 +452,7 @@ export const NewQrCardsData = [
         },
         {
           id: "31",
-          path: "https://i.ibb.co/dt6RXZr/Qr-Card-31.jpg",
+          path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(31).jpg",
           title: "Timeless Beauty",
           cat: "All",
           price: 18,
@@ -466,7 +466,7 @@ export const NewQrCardsData = [
     CardData: [
       {
         id: "34",
-        path: "https://i.ibb.co/P90Zmmm/Qr-Card-34.jpg",
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(34).jpg",
         title: "Festive Harmony",
         cat: "All",
         price: 15,
@@ -474,7 +474,7 @@ export const NewQrCardsData = [
       },
       {
         id: "35",
-        path: "https://i.ibb.co/3FCGQmw/Qr-Card-35.jpg",
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(35).jpg",
         title: "Sophisticated Charm",
         cat: "All",
         price: 15,
@@ -482,7 +482,7 @@ export const NewQrCardsData = [
       },
       {
         id: "36",
-        path: "https://i.ibb.co/M858x6q/Qr-Card-36.jpg",
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(36).jpg",
         title: "Golden Symphony",
         cat: "All",
         price: 17,
@@ -490,7 +490,7 @@ export const NewQrCardsData = [
       },
       {
         id: "37",
-        path: "https://i.ibb.co/h1H30FB/Qr-Card-37.jpg",
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(37).jpg",
         title: "Petal Perfection",
         cat: "All",
         price: 18,
@@ -499,7 +499,7 @@ export const NewQrCardsData = [
 
       {
         id: "39",
-        path: "https://i.ibb.co/q7pfsFz/Qr-Card-39.jpg",
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(39).jpg",
         title: "Elegant Majesty",
         cat: "All",
         price: 15,
@@ -508,7 +508,7 @@ export const NewQrCardsData = [
 
       {
         id: "42",
-        path: "https://i.ibb.co/bsNcQbn/Qr-Card-42.jpg",
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(42).jpg",
         title: "Timeless Splendor",
         cat: "All",
         price: 13,
