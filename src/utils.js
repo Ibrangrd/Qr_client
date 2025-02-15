@@ -226,14 +226,14 @@ export const hoverShadowColors = [
 export const ParCardsData = [
   {
     id: "1",
-    img: "https://i.ibb.co/hR2rH8yY/Screenshot-2024-12-09-024131.png",
+    img: "https://storage.googleapis.com/my-website-image/ExtraPhotos/QRCards.jpg",
     shop: "Qr Weds Special cards",
     dis:"Premium QR cards for memorable moments.",
     link: "/qrcards",
   },
   {
     id: "2",
-    img: "https://i.ibb.co/jk2fHMT3/Card-Mahal.webp",
+    img: "https://storage.googleapis.com/my-website-image/ExtraPhotos/Card%20Mahal%20(1).jpg",
     shop: "Card Mahal",
     dis:"Unique cards for every occasion in Dhanbad.",
     link: "/cardmahal",
