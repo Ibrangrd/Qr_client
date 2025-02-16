@@ -1,5 +1,5 @@
-export const LOGO_IMG = "https://i.ibb.co/LnRSdjt/logo.png";
-export const HOME_IMG = "https://i.ibb.co/s5ZNqK6/final.jpg";
+export const LOGO_IMG = "https://storage.googleapis.com/my-website-image/ExtraPhotos/LOGO3.png";
+export const HOME_IMG = "https://storage.googleapis.com/my-website-image/ExtraPhotos/final.jpg";
 export const REG_IMG = "https://i.ibb.co/RDqP0rh/backg.png";
 export const LOGIN_IMG = "https://i.ibb.co/0jHj2q9/back2.png";
 
@@ -24,7 +24,7 @@ export const serviceDetails = [
   },
   {
     id: 2003,
-    path: "https://i.ibb.co/s90Hq0gP/Whats-App-Image-2025-01-23-at-17-47-49-75e2de5b.jpg",
+    path: "https://storage.googleapis.com/my-website-image/ExtraPhotos/C.jpg",
     title: "Courier Service",
     link: "/courier",
   },
