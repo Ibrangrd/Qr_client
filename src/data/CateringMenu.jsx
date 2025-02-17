@@ -1,5 +1,4 @@
-export const menuData = {
-  vegMenu: [
+export const menuData = [
     {
       id: 1,
       itemName: "Mocktails(1 nos.)",
@@ -65,18 +64,4 @@ export const menuData = {
       itemName: "Desserts (4 nos.)",
       description: "Assorted Pastry",
     },
-  ],
-  nonVegMenu: [
-    // Add non-veg menu items here
-    {
-      id: 8,
-      itemName: "Rice (2 nos.)",
-      description: "Vegetable Dum Biryani, Jeera Rice",
-    },
-    {
-      id: 9,
-      itemName: "Dal (2 nos.)",
-      description: "Punjabi Kadhi Pakoda, Dal Double Tadka",
-    },
-  ],
-};
+]
