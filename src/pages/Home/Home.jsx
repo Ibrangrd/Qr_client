@@ -7,7 +7,7 @@ import HomeVideo from "./HomeVideo";
 import { ThemeContext } from "../../App";
 import HomeFAQ from "./HomeFAQ";
 import HomeReview from "./HomeReview";
-
+import BenefitsSection from "./BenefitsSection";
 const Home = () => {
   const theme = useContext(ThemeContext);
 
@@ -18,12 +18,13 @@ const Home = () => {
       <HomeService />
       <HomeVideo />
       <HomeQR />
+      <BenefitsSection/>
       <HomeReview />
       <HomeFAQ count={4} />
 
     <div className="fixed sm:bottom-5 bottom-2 right-3 sm:right-10 flex ">
     <a href="https://wa.me/919832704206?text=Hello!%20I'm%20interested%20in%20your%20services.%20Can%20we%20discuss%3F" target="_blank">
-        <button className="px-5 py-2 sm:px-8 sm:py-3 bg-green-600 text-white rounded-full shadow-lg sm:hover:bg-green-700 transition">
+        <button className="px-5 py-2 sm:px-8 sm:py-3 font-semibold bg-pink-200  border-pink-600 border-2 text-black rounded-full shadow-lg sm:hover:bg-green-700 transition">
             💬 Chat
         </button>
     </a>
