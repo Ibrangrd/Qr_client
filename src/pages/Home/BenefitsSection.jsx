@@ -33,15 +33,15 @@ const BenefitsSection = () => {
           <h2 className="my-4 text-3xl md:text-5xl font-bold text-[#457b9d] pb-4">
             Benefits with us
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-11/12 max-w-6xl">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 sm:gap-8 gap-4 w-11/12 max-w-6xl">
             {benefits.map((benefit, index) => (
               <div
                 key={index}
-                className="bg-white p-6 rounded-xl shadow-md flex items-center space-x-4">
+                className="bg-white sm:p-6 p-2 rounded-xl shadow-md flex items-center space-x-4">
                 <img
                   src={benefit.img}
                   alt="icon"
-                  className="w-24 h-24 rounded-full object-cover"
+                  className="w-20 h-20 rounded-full object-cover"
                 />
                 {/* Text on the right */}
                 <p className="text-lg font-medium text-gray-700">{benefit.title}</p>

@@ -31,12 +31,12 @@ const QrCards = () => {
         </div>
       <div className="flex justify-around pb-10 pt-10">
     <a href="tel:+919832704206" target="_blank">
-        <button className="px-6 py-3 font-semibold bg-pink-200 border-pink-600 border-2 text-black rounded-full shadow-lg">
+        <button className="px-6 py-3 font-semibold bg-pink-200 border-pink-500 border-2 text-black rounded-full shadow-lg">
             📞Call Now
         </button>
     </a>
     <a href="https://wa.me/919832704206?text=Hello!%20I'm%20interested%20in%20your%20services.%20Can%20we%20discuss%3F" target="_blank">
-        <button className="px-6 py-3 font-semibold bg-pink-200  border-pink-600 border-2 text-black rounded-full shadow-lg  transition">
+        <button className="px-6 py-3 font-semibold bg-pink-200  border-pink-500 border-2 text-black rounded-full shadow-lg  transition">
             💬Chat With Us
         </button>
     </a>

@@ -111,12 +111,10 @@ const MakeUp = () => {
      </div>
     <p className="text-xl text-black">Note:- <i>Pricing varies depending on the choice of foundation.</i> </p>
     <p className="text-2xl pt-5 font-semibold text-black text-center"> Makeup artist - Mrs. Summy Gupta</p>
-    <a href="tel:+919832704206"  className=" justify-center flex pt-10 pb-10">
-    <Tooltip className="text-5xl" title="Call Now">
-      <button className="bg-white text-xl border-2 py-2 text-black border-black rounded-3xl shadow-inner  hover:scale-110 duration-300 h-[3rem] w-[10rem] sm:w-[15rem]">
-        Call Now
-          </button>
-    </Tooltip>
+    <a href="tel:+919832704206" target="_blank" className="text-center m-auto justify-center flex pt-5 pb-4">
+        <button className="px-6 py-3 font-semibold bg-pink-200 border-pink-500 border-2 text-black rounded-full shadow-lg">
+            📞Call Now
+        </button>
     </a>
     <img className="h-40 sm:h-96 w-full" src="https://hips.hearstapps.com/hmg-prod/images/makeup-supplies-amidst-shiny-glitter-royalty-free-image-1640037507.jpg" alt="makeup" />
       </div>
