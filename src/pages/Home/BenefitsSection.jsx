@@ -2,7 +2,7 @@ import React from "react";
 
 const benefits = [
         {
-          img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkkeNsqrECLUuLOB1jVc6O_Dvq8bnL4ZiuKQ&s",
+          img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMz6yGontxV21MguKaAX4_LrmOc3IgTzGYzQ&s",
           title: "Personalized Invitations for Your Special Day",
         },
         {
@@ -18,11 +18,11 @@ const benefits = [
           title: "Premium Quality Services",
         },
         {
-          img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShZv7jbBBQY3dYx7E1aErAqIajlS8kysRyL9aQ3cPzdyTAUjiJh-RKiPLjqDFl-KfAgFM&usqp=CAU",
+          img: "https://chiedesign.in/wp-content/uploads/2023/01/Luxury-Interiors-Den-Room-scaled-1-1080x675.webp",
           title: "Fully Customizable to Reflect Your Style",
         },
         {
-          img: "https://i.pinimg.com/736x/73/46/ef/7346efb08d0bef5aaaeab305fdd0ccc9.jpg",
+          img: "https://media-api.xogrp.com/images/b0e84a56-db35-4752-acdd-c8d39c2743cc~rs_768.h",
           title: "Capture & Preserve Your Precious Moments",
         },
       ];

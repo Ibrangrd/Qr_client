@@ -8,6 +8,7 @@ import { ThemeContext } from "../../App";
 import HomeFAQ from "./HomeFAQ";
 import HomeReview from "./HomeReview";
 import BenefitsSection from "./BenefitsSection";
+import Count from "./Count";
 const Home = () => {
   const theme = useContext(ThemeContext);
 
@@ -19,6 +20,7 @@ const Home = () => {
       <HomeVideo />
       <HomeQR />
       <BenefitsSection/>
+      <Count/>
       <HomeReview />
       <HomeFAQ count={4} />
 

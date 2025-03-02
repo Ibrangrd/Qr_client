@@ -40,7 +40,7 @@ const HomeAboutUs = () => {
             </div>
             {/* <!--  --> */}
             <div className="lg:w-[60%] p-0 sm:p-4 lg:p-4 w-full h-full shadow-lg flex flex-col justify-center items-center sm:px-6 px-4 rounded-xl">
-              <h2 className="text-4xl text-center text-[#457b9d] font-bold px-4 py-0 sm:py-1 lg:py-1 md:mt-0 mt-7 lg:mt-10 sm:mt-10">
+              <h2 className="sm:text-5xl text-3xl text-center text-[#457b9d] font-bold px-4 py-0 sm:py-1 lg:py-1 md:mt-0 mt-7 lg:mt-10 sm:mt-10">
                 About Us
               </h2>
               <p className="md:text-3xl text-2xl text-center text-black font-bold my-2 lg:my-5 sm:my-5">
