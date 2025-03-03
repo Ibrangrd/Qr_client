@@ -29,7 +29,7 @@ const Count = () => {
 
   return (
     <div ref={sectionRef} className="flex flex-col items-center justify-center bg-[#FCF7F8]]  pb-10 sm:py-16 sm:px-6">
-      <h2 className="sm:sm:text-5xl text-3xl text-3xl font-bold text-center text-[#4E8098]">
+      <h2 className="sm:sm:text-5xl text-3xl font-bold text-center text-[#4E8098]">
         QR Weds <span className="text-[#50a0c5]">Transforms Weddings</span> with Digital Innovation
       </h2>
       <p className="text-black text-lg text-center mt-2 max-w-2xl pb-4 sm:pb-0">
@@ -39,21 +39,21 @@ const Count = () => {
       <div className="flex flex-wrap justify-center gap-4 mt-2 sm:mt-10">
         <div className="text-center">
           <h3 className="sm:text-5xl text-3xl  font-bold text-[#4E8098]">
-            {inView && <CountUp start={0} end={500} duration={3} separator="," />}+
+            {inView && <CountUp start={0} end={200} duration={3} separator="," />}+
           </h3>
           <p className="text-lg text-black">Weddings Simplified</p>
         </div>
 
         <div className="text-center">
           <h3 className="sm:text-5xl text-3xl font-bold text-[#4E8098]">
-            {inView && <CountUp start={0} end={1000} duration={3} separator="," />}+
+            {inView && <CountUp start={0} end={100} duration={3} separator="," />}+
           </h3>
           <p className="text-lg text-black">Happy Couples</p>
         </div>
 
         <div className="text-center">
           <h3 className="sm:text-5xl text-3xl font-bold text-[#4E8098]">
-            {inView && <CountUp start={0} end={20000} duration={3} separator="," />}+
+            {inView && <CountUp start={0} end={10000} duration={3} separator="," />}+
           </h3>
           <p className="text-lg text-black">QR Codes Scanned</p>
         </div>

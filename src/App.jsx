@@ -49,6 +49,7 @@ import {
   QrCards,
   LoginForImage,
   MakeUp,
+  ComingSoon,
 } from "./pages/index.js";
 
 import Mscan from "./pages/Scan/MScan.jsx";
@@ -125,6 +126,7 @@ const App = () => {
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
           <Route path="/logout" element={<Logout />} />
+          <Route path="/comingsoon" element={<ComingSoon />} />
           <Route path="/service" element={<Service />} />
           <Route path="/makeup" element={<MakeUp/>} />
           <Route path="/CateringMain" element={<CateringMain/>}/>

@@ -67,17 +67,28 @@ export const Servicelist = [
 
 export const Service2List = [
   {
+    id: "Service6",
+    imgsrc:"https://i.etsystatic.com/37821626/r/il/478a64/5848937267/il_570xN.5848937267_19dh.jpg",
+    heading: "Invitation Cards",
+    Link: "/Cards",
+  },
+  {
+    id: "Service3",
+    imgsrc:"https://www.ptaufiqphotography.com/wp-content/uploads/2024/06/ptaufiq-indian-wedding-rajkot-India-ceremony-couple-portraits.jpg",
+    heading: "Photography",
+    Link: "/Photography",
+  },
+  {
     id: "Service2",
-    imgsrc:"https://www.forestessentialsindia.com/blog/wp-content/uploads/2024/05/Title_Bridal-Makeup.jpg",
+    imgsrc:"https://www.selfobsessed.in/wp-content/uploads/2024/04/Bridal-Makeup.jpeg",
     heading: "Makeup",
     Link: "/makeup",
   },
   {
-    id: "Service3",
-    imgsrc:
-      "https://aaftonline.com/blog/wp-content/uploads/2024/01/What-are-the-Benefits-of-Photography-Complete-Overview.png",
-    heading: "Photography",
-    Link: "/Photography",
+    id: "Service10",
+    imgsrc:"https://matrimonialgurus.com/wp-content/uploads/2021/07/decorate-wedding-mandap-flowers-beautiful-flower-decoration-ideas-wedding-day-1.jpeg",
+    heading: "Pandal",
+    Link: "/comingsoon",
   },
   {
     id: "Service4",
@@ -94,11 +105,11 @@ export const Service2List = [
     Link: "/CateringMain",
   },
   {
-    id: "Service6",
+    id: "Service2",
     imgsrc:
-      "https://graphicsfamily.com/wp-content/uploads/edd/2020/11/Free-Golden-Wedding-Invitation-Photoshop-Template-1180x664.jpg",
-    heading: "Invitation Cards",
-    Link: "/Cards",
+      "https://www.carandbike.com/_next/image?url=https%3A%2F%2Fimages.carandbike.com%2Fcar-images%2Fbig%2Fhyundai%2Fcreta%2Fhyundai-creta.jpg%3Fv%3D92&w=3840&q=75",
+    heading: "Car Services:",
+    Link: "/Cars",
   },
   {
     id: "Service5",
@@ -108,11 +119,10 @@ export const Service2List = [
     Link: "/qr",
   },
   {
-    id: "Service2",
-    imgsrc:
-      "https://www.carandbike.com/_next/image?url=https%3A%2F%2Fimages.carandbike.com%2Fcar-images%2Fbig%2Fhyundai%2Fcreta%2Fhyundai-creta.jpg%3Fv%3D92&w=3840&q=75",
-    heading: "Car Services:",
-    Link: "/Cars",
+    id: "Service9",
+    imgsrc:"https://weddingsecrets.in/wp-content/uploads/2024/03/WD30.jpeg",
+    heading: "Decoration",
+    Link: "/comingsoon",
   },
   {
     id: "Service8",

@@ -56,13 +56,13 @@ export const serviceDetails = [
     id: 2005,
     path: "https://5.imimg.com/data5/XF/DB/MY-46699044/decoration-services.jpg",
     title: "Pandal",
-    link: "/decoration",
+    link: "/comingsoon",
   },
   {
     id: 2004,
     path: "https://anilevents.in/wp-content/uploads/2020/03/Stylish-Floral-Wedding-Decoration.jpg",
     title: "Decoration",
-    link: "/decoration",
+    link: "/comingsoon",
   },
 ];
 export const videoThumbnailDetails = [
