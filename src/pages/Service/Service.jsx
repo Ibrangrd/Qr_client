@@ -23,7 +23,7 @@ return (
           </div>
         <div className="flex justify-center -translate-y-9">
           <Tooltip className="text-5xl" title="Book Now">
-            <Link to={val.Link} target="_blank">
+            <Link to={val.Link}>
             <button className="bg-red-30 text-xl border-2 py-2 text-red-600 border-red-200 rounded-lg hover:text-red-800 shadow-inner hover:bg-red-200 hover:scale-110 duration-300 h-[3rem] w-[10rem] sm:w-[15rem]">
                 VIEW
                 </button>

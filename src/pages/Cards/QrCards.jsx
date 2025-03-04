@@ -8,7 +8,7 @@ const QrCards = () => {
   return (
     <>
     <div className="bg-[#FCF7F8]">
-    <h1 className="text-center sm:text-6xl text-5xl font-bold mb-10 text-[#4E8098] text-shadow-light pt-4"> OUR CARDS </h1>
+    <h1 className="text-center sm:text-5xl text-4xl font-bold mb-10 text-[#4E8098] text-shadow-light pt-4"> OUR CARDS </h1>
       {NewQrCardsData.map((val) => {
 
         return (

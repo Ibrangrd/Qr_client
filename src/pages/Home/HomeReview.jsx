@@ -55,10 +55,9 @@ const HomeReview = () => {
         </p>
       </div>
 
-      <div className="relative w-10/12 mx-auto overflow-x-auto scrollbar-none">
-        <div className="shadow-inner rounded-lg w-auto h-auto flex space-x-4 scrollbar-none">
+      <div className="shadow-inner rounded-lg w-10/12 h-[20rem] mx-auto flex space-x-4 overflow-x-scroll no-scrollbar">
             {sliderData.map((ser, index) => (
-              <div key={index} className="flex-none w-[18rem] snap-start">
+              <div key={index} className="flex-none w-[18rem] ">
                 <div className="flex flex-col bg-white p-4 rounded-lg shadow-lg">
                   
                   {/* Image & Text */}
@@ -73,15 +72,12 @@ const HomeReview = () => {
                       <p className="text-black">{ser.description}</p>
                     </div>
                   </div>
-
-                  {/* Review */}
                   <p className="text-left text-lg font-semibold text-gray-700 mt-4">
                     {ser.review}
                   </p>
                 </div>
               </div>
             ))}
-          </div>
       </div>
     </div>
   );
