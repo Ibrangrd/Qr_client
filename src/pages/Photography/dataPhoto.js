@@ -35,3 +35,5 @@ const dataPhoto = [
 ];
 
 export default dataPhoto;
+
+
