@@ -13,7 +13,7 @@ const Newqrcardslist = ({ path,title,price,des }) => {
             src={path}
           ></img>
           <div className="flex justify-between p-2 w-full">
-            <p className="text-lg sm:text-3xl font-bold text-[#C75B7A]">
+            <p className="text-lg sm:text-2xl font-bold text-[#C75B7A]">
               {title}
             </p>
             <p className="text-lg sm:text-xl font-bold text-green-500">

@@ -8,7 +8,7 @@ export const NewQrCardsData = [
         path: "https://storage.googleapis.com/my-website-image/QrCards/qrcards72.jpg",
         title: "Charming Grace",
         cat: "All",
-        price: 25,
+        price: 35,
         des: "An enchanting design for joyous occasions.",
       },
       {
@@ -32,7 +32,7 @@ export const NewQrCardsData = [
         path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(52).jpg",
         title: "Golden Aura",
         cat: "All",
-        price: 25,
+        price: 30,
         des: "A radiant design with golden highlights for your special moments.",
       },
       {
@@ -40,7 +40,7 @@ export const NewQrCardsData = [
         path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(53).jpg",
         title: "Serene Blooms",
         cat: "All",
-        price: 25,
+        price: 30,
         des: "Soft floral beauty for timeless celebrations.",
       },
     ],
@@ -55,7 +55,7 @@ export const NewQrCardsData = [
         title: "Beautiful Card",
         description:
           "A beautiful seed card that symbolizes new beginnings and growth.",
-        price: 18,
+        price: 20,
         cat: "All",
       },
       {
@@ -63,7 +63,7 @@ export const NewQrCardsData = [
         title: "Elegant Card",
         description: "An elegant seed card perfect for sophisticated events.",
         path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(55).jpg",
-        price: 18,
+        price: 20,
         cat: "All",
       },
       {
@@ -72,7 +72,7 @@ export const NewQrCardsData = [
         description:
           "A charming seed card that adds a touch of grace to any occasion.",
         path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(56).jpg",
-        price: 18,
+        price: 20,
         cat: "All",
       },
       {
@@ -80,7 +80,7 @@ export const NewQrCardsData = [
         title: "Graceful Card",
         description: "A graceful seed card that embodies elegance and beauty.",
         path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(57).jpg",
-        price: 18,
+        price: 20,
         cat: "All",
       },
       {
@@ -88,7 +88,7 @@ export const NewQrCardsData = [
         title: "Vibrant Card",
         description: "A vibrant seed card full of life and energy.",
         path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(59).jpg",
-        price: 18,
+        price: 20,
         cat: "All",
       },
       {
@@ -97,7 +97,7 @@ export const NewQrCardsData = [
         description:
           "A radiant seed card that shines with positivity and warmth.",
         path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(58).jpg",
-        price: 18,
+        price: 20,
         cat: "All",
       },
     ],
@@ -135,7 +135,7 @@ export const NewQrCardsData = [
         path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(60).jpg",
         title: "Golden Mirage",
         cat: "All",
-        price: 60,
+        price: 65,
         des: "A timeless blend of tradition, capturing the essence of regal romance.",
       },
       {
@@ -143,7 +143,7 @@ export const NewQrCardsData = [
         path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(13).jpg",
         title: "Sophisticated Charm",
         cat: "All",
-        price: 58,
+        price:"75-85",
         des: "Delicate and sophisticated for cherished events.",
       },
       {
@@ -151,7 +151,7 @@ export const NewQrCardsData = [
         path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(14).jpg",
         title: "Artful Radiance",
         cat: "All",
-        price: 55,
+        price:"75-85",
         des: "Celebrate your moments with vibrant artistry.",
       },
       {
@@ -159,7 +159,7 @@ export const NewQrCardsData = [
         path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(15).jpg",
         title: "Timeless Simplicity",
         cat: "All",
-        price: 55,
+        price: "75-85",
         des: "Modern simplicity for timeless celebrations.",
       },
       {
@@ -167,7 +167,7 @@ export const NewQrCardsData = [
         path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(16).jpg",
         title: "Joyful Elegance",
         cat: "All",
-        price: 58,
+        price: "75-85",
         des: "Charming designs for every joyful occasion.",
       },
       {
@@ -175,7 +175,7 @@ export const NewQrCardsData = [
         path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(17).jpg",
         title: "Bold Harmony",
         cat: "All",
-        price: 52,
+        price: "75-85",
         des: "A bold and stylish choice for special events.",
       },
       {
@@ -183,7 +183,7 @@ export const NewQrCardsData = [
         path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(18).jpg",
         title: "Magical Whimsy",
         cat: "All",
-        price: 54,
+        price: "75-85",
         des: "Exquisite details for magical moments.",
       },
       {
@@ -191,7 +191,7 @@ export const NewQrCardsData = [
         path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(19).jpg",
         title: "Personalized Beauty",
         cat: "All",
-        price: 56,
+        price: "75-85",
         des: "Unique design to reflect your personal style.",
       },
     ],
@@ -359,7 +359,7 @@ export const NewQrCardsData = [
           path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(12).jpg",
           title: "Elegant Essence",
           cat: "All",
-          price: 40,
+          price: "50-60",
           des: "Elegant details for unforgettable moments."
         },
         {
@@ -367,7 +367,7 @@ export const NewQrCardsData = [
           path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(11).jpg",
           title: "Modern Delight",
           cat: "All",
-          price: 18,
+          price: "30-40",
           des: "A timeless pattern with a modern flair."
         },
         {
@@ -375,7 +375,7 @@ export const NewQrCardsData = [
           path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(20).jpg",
           title: "Graceful Touch",
           cat: "All",
-          price: 24,
+          price: "25-32",
           des: "Celebrate with elegance and grace."
         },
         {
@@ -383,7 +383,7 @@ export const NewQrCardsData = [
           path: "https://i.ibb.co/xfDKn39/Qr-Card-21.jpg",
           title: "Golden Radiance",
           cat: "All",
-          price: 20,
+          price: "25-32",
           des: "A delightful design for joyful occasions."
         },
         {
@@ -391,7 +391,7 @@ export const NewQrCardsData = [
           path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(22).jpg",
           title: "Floral Serenity",
           cat: "All",
-          price: 16,
+          price: "19-24",
           des: "An elegant blend of charm and sophistication."
         },
         {
@@ -399,7 +399,7 @@ export const NewQrCardsData = [
           path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(23).jpg",
           title: "Vibrant Blossoms",
           cat: "All",
-          price: 16,
+          price: "19-24",
           des: "Bright and vibrant design for special celebrations."
         },
         {
@@ -407,7 +407,7 @@ export const NewQrCardsData = [
           path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(24).jpg",
           title: "Royal Grace",
           cat: "All",
-          price: 42,
+          price: "35-48",
           des: "A captivating design for memorable events."
         },
         {
@@ -415,7 +415,7 @@ export const NewQrCardsData = [
           path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(25).jpg",
           title: "Eternal Harmony",
           cat: "All",
-          price: 42,
+          price:"35-48" ,
           des: "Simplicity and elegance combined."
         },
         {
@@ -431,7 +431,7 @@ export const NewQrCardsData = [
           path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(28).jpg",
           title: "Rustic Whimsy",
           cat: "All",
-          price: 20,
+          price: "58-70",
           des: "A modern twist to traditional beauty."
         },
         {
@@ -439,7 +439,7 @@ export const NewQrCardsData = [
           path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(29).jpg",
           title: "Festive Delight",
           cat: "All",
-          price: 18,
+          price: "58-70",
           des: "Vivid colors for celebrating life’s best moments."
         },
         {
@@ -447,7 +447,7 @@ export const NewQrCardsData = [
           path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(30).jpg",
           title: "Opulent Bliss",
           cat: "All",
-          price: 18,
+          price: "58-70",
           des: "An artistic masterpiece for your special day."
         },
         {
@@ -455,7 +455,7 @@ export const NewQrCardsData = [
           path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(31).jpg",
           title: "Timeless Beauty",
           cat: "All",
-          price: 18,
+          price: "20-30",
           des: "Timeless charm for unforgettable celebrations."
         },
     ],
