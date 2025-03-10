@@ -140,7 +140,7 @@ const App = () => {
               <Route path="/images" element={<LoginForImage />} />
               <Route path="/Cards" element={<CardsPartners />} />
               {/* <Route path="/:inviteId" element={<CusScan2 />} /> */}
-              <Route path="/qr/:inviteId" element={<VerticalScan />} />
+              <Route path="/ayushmati_weds_ayushman" element={<VerticalScan />} />
               <Route path="/Courier" element={<Courier />} />
               <Route path="/Cars" element={<Cars />} />
               <Route path="/CusAfter" element={<CusAfter />} />
