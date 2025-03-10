@@ -79,3 +79,112 @@ const Count = () => {
 };
 
 export default Count;
+/*
+Code Breakdown:
+1️⃣ Importing Dependencies
+jsx
+Copy
+Edit
+import React, { useState, useEffect, useRef } from "react";
+import CountUp from "react-countup";
+React: The core library for building UI components.
+useState: A React Hook that allows us to add state (variables that trigger re-renders) inside function components.
+useEffect: A React Hook that lets us run side effects (such as event listeners or API calls) when the component is mounted or updated.
+useRef: A React Hook that creates a reference to a DOM element, allowing us to interact with it directly.
+CountUp: A third-party package that creates animated number counters.
+2️⃣ Creating the StatsSection Component
+jsx
+Copy
+Edit
+const StatsSection = () => {
+This defines a functional component in React.
+The component contains logic for displaying animated numbers when it comes into view.
+3️⃣ Defining State and Refs
+jsx
+Copy
+Edit
+  const [inView, setInView] = useState(false);
+  const sectionRef = useRef(null);
+inView: A state variable that tracks whether the section is visible on the screen.
+setInView: A function to update the inView state.
+sectionRef: A reference to the <div> element that contains the stats. We will use this to track when it appears on screen.
+4️⃣ Detecting When the Section is Visible
+jsx
+Copy
+Edit
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setInView(true);
+        }
+      },
+      { threshold: 0.5 }
+    );
+useEffect(): Runs the code inside when the component is mounted.
+IntersectionObserver: A built-in JavaScript API that detects when an element is visible in the viewport.
+entry.isIntersecting: Checks if the section is at least 50% visible (threshold: 0.5).
+If entry.isIntersecting === true, we call setInView(true) to trigger the number animation.
+5️⃣ Connecting the Observer to Our Section
+jsx
+Copy
+Edit
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+sectionRef.current is the actual <div> element.
+observer.observe(sectionRef.current) starts observing when it enters the viewport.
+6️⃣ Cleaning Up the Observer
+jsx
+Copy
+Edit
+    return () => {
+      if (sectionRef.current) {
+        observer.unobserve(sectionRef.current);
+      }
+    };
+  }, []);
+This runs when the component unmounts (to prevent memory leaks).
+It stops observing the section when it's no longer needed.
+7️⃣ Rendering the UI
+jsx
+Copy
+Edit
+  return (
+    <div ref={sectionRef} className="flex flex-col items-center justify-center bg-gray-100 py-16">
+The ref={sectionRef} connects this <div> to sectionRef so that we can track its visibility.
+The className uses Tailwind CSS for styling.
+8️⃣ Animated Numbers
+jsx
+Copy
+Edit
+<h3 className="text-5xl font-bold text-black">
+  {inView && <CountUp start={0} end={96000} duration={3} separator="," />}+
+</h3>
+inView && <CountUp />: If inView is true, the animation starts.
+start={0} end={96000}: Starts from 0 and counts up to 96,000.
+duration={3}: The animation lasts 3 seconds.
+separator=",": Formats large numbers with commas (e.g., 96,000 instead of 96000).
+9️⃣ Button
+jsx
+Copy
+Edit
+<button className="mt-8 px-6 py-3 bg-black text-white rounded-full text-lg hover:bg-gray-800">
+  Get Started
+</button>
+A simple call-to-action (CTA) button.
+Uses Tailwind CSS for styling.
+💡 Summary
+Concept	Explanation
+useState	Manages the state (inView) to track visibility.
+useRef	References the section element to observe its position.
+useEffect	Runs the observer logic when the component mounts.
+IntersectionObserver	Detects when the section becomes visible.
+CountUp	Animates numbers when inView becomes true.
+Tailwind CSS	Used for styling.
+🚀 Final Thoughts
+This React component detects when the section is visible and animates numbers accordingly.
+Uses React hooks (useState, useEffect, useRef) and IntersectionObserver for efficient performance.
+Easy to customize for your QR Weds website (just change text, colors, and numbers!).
+Would you like any modifications or explanations in more detail? 😊
+*/

@@ -51,10 +51,12 @@ import QrCards from "./Cards/QrCards";
 import MakeUp from "./MakeUp/MakeUp";
 import ComingSoon from "./Coming";
 import Preloader from "./Preloader";
+import VerticalScan from "./Scan/VerticalScan";
 AOS.init();
 
 
 export {
+  VerticalScan,
   Header,
   Footer,
   About,
