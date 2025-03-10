@@ -2,16 +2,16 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { useParams } from "react-router";
-import Error from "../Error";
-import { verticalData } from "./Data";
+// import Error from "../Error";
+// import { verticalData } from "./Data";
 
 const VerticalScan = () => {
-  const { inviteId } = useParams();
-  const data = verticalData.find((data) => data.id === inviteId);
+  // const { inviteId } = useParams();
+  // const data = verticalData.find((data) => data.id === inviteId);
 
-  if (data === undefined) {
-    return <Error />;
-  }
+  // if (data === undefined) {
+  //   return <Error />;
+  // }
   return (
     <>
       <div className="">
@@ -29,9 +29,9 @@ const VerticalScan = () => {
                 Ayushman
               </h1>
             </div>
-            <div className={data.position}>
+            <div className="mt-[28%] ml-[7%] sm:flex sm:flex sm:justify-center sm:items-center sm:mt-[10%]">
               <iframe
-                className={data.videoStyle}
+                className="border-double border-[#00afb9] border-8 w-[85%] h-[280px] sm:w-[50%] sm:h-[500px]"
                 // style="w-[85%] h-[220px]"
                 src="https://www.youtube.com/embed/JN8jhTjEckE?autoplay=1&si=jx_4fd0vRaeFIHox"
                 title="YouTube video player"
