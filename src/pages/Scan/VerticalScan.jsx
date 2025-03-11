@@ -17,10 +17,10 @@ const VerticalScan = () => {
       <div className="">
       <div className=" h-auto w-auto bg-cover bg-no-repeat " style={{ backgroundImage: `url("https://i.ibb.co/HHgF694/freepik.jpg")` }}>
           <div className=" flex flex-col">
-          <div className="items-center flex justify-center mb-0 pb-0">
-            <img className="w-[60%] h-44 mb-0 pb-0" src="https://i.ibb.co/jvHPWBPq/s-removebg-preview.png"/>
+          <div className="items-center flex justify-center pt-[70px]">
+            <img className="w-[60%] h-44 mb-0 pb-0" src="https://i.ibb.co/Gvth9DVQ/s2-removebg-preview.png"/>
           </div>
-            <div className=" flex justify-center text-center gap-0">
+            <div className=" flex justify-center text-center gap-0 -mt-8">
               <h1 className=" text-[25px] sm:text-[35px] font-extrabold text-[#5f0f40]">
               राजनन्दनी
               </h1>
@@ -46,7 +46,7 @@ const VerticalScan = () => {
               
             </div> */}
             <div className=" ml-[6%] sm:flex sm:justify-center sm:items-center sm:mt-[10%]">
-            <iframe src="https://player.vimeo.com/video/1064439735?h=a251396d4d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+            <iframe src="https://player.vimeo.com/video/1064644032?h=afd3753bfd&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
             frameborder="0" 
             allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" 
             className="border-double border-[#C2A5A1] border-8 w-[85%] h-[280px] sm:w-[50%] sm:h-[500px]"
