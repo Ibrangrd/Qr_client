@@ -18,15 +18,15 @@ const VerticalScan = () => {
       <div className=" h-auto w-auto bg-cover bg-no-repeat " style={{ backgroundImage: `url("https://i.ibb.co/HHgF694/freepik.jpg")` }}>
           <div className=" flex flex-col">
             <div className=" flex justify-center text-center gap-3">
-              <h1 className=" text-[20px] sm:text-[35px] font-bold mt-[60px] italic text-[#e9ff70]">
-              आयुष्मती
+              <h1 className=" text-[25px] sm:text-[35px] font-extrabold mt-[60px] pt-[60px] text-[#e9ff70]">
+              राजनन्दनी 
               </h1>
               <img
-                className=" w-20 h-20 mt-10 animate-heart-size"
-                src="https://i.postimg.cc/0QNBbMSM/testimage.png"
+                className=" w-20 h-20 mt-[95px] animate-heart-size"
+                src="https://i.ibb.co/sdTDhp7D/h.png"
               />
-              <h1 className=" text-[20px] sm:text-[35px] font-bold mt-[60px] italic text-[#e9ff70]">
-              आयुष्मान् 
+              <h1 className=" text-[25px] sm:text-[35px] font-bold mt-[60px] pt-[60px] text-[#e9ff70]">
+              अभिनव 
               </h1>
             </div>
             {/* <div className="mt-[28%] ml-[6%] sm:flex sm:justify-center sm:items-center sm:mt-[10%]">
@@ -52,7 +52,7 @@ className="border-double border-[#C2A5A1] border-8 w-[85%] h-[280px] sm:w-[50%] 
  </iframe>
  </div>
  <script src="https://player.vimeo.com/api/player.js"></script>
-            <div className="pt-6 pb-8 flex justify-center gap-14 mb-[14%] sm:mb-0 sm:mt-[7%] sm:gap-60 sm:ml-[30%]">
+            <div className="pt-1 pb-8 flex justify-center gap-14 mb-[14%] sm:mb-0 sm:mt-[7%] sm:gap-60 sm:ml-[30%]">
               <div className="">
                 <div className="text-[15px] font-bold  text-green-800 text-center">
                 <a
