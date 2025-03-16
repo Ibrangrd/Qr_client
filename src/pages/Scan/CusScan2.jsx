@@ -19,24 +19,31 @@ const CusScan2 = () => {
       <div className="flex justify-center items-center -mr-[4%]">
 
 
-        <div className=" flex flex-col -mr-14 gap-24">
-              <div  className={item?.venue_col}>
+        <div className=" flex flex-col -mr-8 gap-2 mt-10">
+              <div  className="text-[22px] font-bold rotate-90 mb-10 text-shadow text-black">
               <a 
                   href={item?.address2}
                   target="_blank"
                 >
-                <img className="w-12" src="https://iili.io/dL52914.png"/>
+                <img className="w-12" src="https://i.ibb.co/27mz9vpK/Whats-App-Image-2025-03-11-at-00-37-42-db78e4e4-removebg-preview.png"/>
                 </a>
             </div>
-
-            <div className="">
+            <div className="text-[10px] font-bold mb-10 text-shadow text-black">
             <Link to="/images">
-              <p className={item?.after_col}>
-              <img className="w-20" src="https://i.ibb.co/C8D2s1s/galary.png"/>
+              <p className="font-bold text-[12px]  rotate-90 text-shadow-lg  text-[#f8f7ff]">
+              <img className="w-12" src="https://i.ibb.co/99bnh5nW/Whats-App-Image-2025-03-16-at-05-34-20-0f32e26e-removebg-preview.png"/>
               </p>
               </Link>
-              
             </div>
+            <div className="text-[22px] font-bold rotate-90 mb-10 text-shadow text-black">
+              <a 
+                  href={item?.address2}
+                  target="_blank"
+                >
+                <img className="w-12" src="https://i.ibb.co/gpPbYDj/camera-removebg-preview.png"/>
+                </a>
+            </div>
+            
           </div>
 
           

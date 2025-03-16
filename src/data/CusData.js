@@ -1,5 +1,3 @@
-import { video12 } from "./Video12";
-
 export const CusData = [
    // {
    //  id:"Neha_Weds_Sandip",
@@ -15,35 +13,35 @@ export const CusData = [
    //  address:"https://maps.app.goo.gl/6yDeRzLb1JRVB2saA",
    //  // Memories:"",
    // },
-   {
-      id:"sammi-weds-rahul",
-      namepo1:"text-2xl font-bold mt-[90px] sm:text-[35px] animate-change-color",
-      namepo2:"text-2xl sm:text-[35px] font-bold mt-[90px] animate-change-color",
-      hepos:" w-20 h-20 mt-[70px] animate-heart-size",
-      couple1:"𝒮𝒜𝑀𝑀𝐼",
-      couple2:"𝑅𝒜𝐻𝒰𝐿",
-      bgImage:"https://i.ibb.co/vcxykxq/z6.jpg",
-      video:"https://www.youtube.com/embed/uwvZNQ93uCg?si=TLuZSZEGzW_fXJHm",
-      position: "mt-[28%] ml-[5%] sm:flex sm:flex sm:justify-center sm:items-center sm:mt-[10%]",
-      videoStyle:"border-double border-[#ff99c8] border-8 w-[85%] mt-6 mb-8 h-[220px] sm:w-[50%] sm:h-[500px]",
-      address:"https://maps.app.goo.gl/8iKqi1RZts8zdHwe8",
-      // Memories:"",
-     },
+   // {
+   //    id:"sammi-weds-rahul",
+   //    namepo1:"text-2xl font-bold mt-[90px] sm:text-[35px] animate-change-color",
+   //    namepo2:"text-2xl sm:text-[35px] font-bold mt-[90px] animate-change-color",
+   //    hepos:" w-20 h-20 mt-[70px] animate-heart-size",
+   //    couple1:"𝒮𝒜𝑀𝑀𝐼",
+   //    couple2:"𝑅𝒜𝐻𝒰𝐿",
+   //    bgImage:"https://i.ibb.co/vcxykxq/z6.jpg",
+   //    video:"https://www.youtube.com/embed/uwvZNQ93uCg?si=TLuZSZEGzW_fXJHm",
+   //    position: "mt-[28%] ml-[5%] sm:flex sm:flex sm:justify-center sm:items-center sm:mt-[10%]",
+   //    videoStyle:"border-double border-[#ff99c8] border-8 w-[85%] mt-6 mb-8 h-[220px] sm:w-[50%] sm:h-[500px]",
+   //    address:"https://maps.app.goo.gl/8iKqi1RZts8zdHwe8",
+   //    // Memories:"",
+   //   },
     
      // Horizontal 
-    //  {
-    //   id:"sammi_weds_rahul",
-    //   bgImage2:"https://i.ibb.co/cx9vHSm/ca.jpg",
-    //   address2:"https://maps.app.goo.gl/8iKqi1RZts8zdHwe8",
-    //   position2:"flex items-center justify-center",
-    //   namepos:"flex flex-col -ml-8 gap-8 opacity-0",
-    //   videoStyle2:"border-solid border-[#ff99c8] border-4 w-[35vh] h-[25vh] rotate-90 sm:w-[50%] sm:h-[500px]",
-    //   video2:"https://www.youtube.com/embed/uwvZNQ93uCg?si=TLuZSZEGzW_fXJHm",
-    //   couple12:"𝒮𝒜𝑀𝑀𝐼",
-    //   couple22:"𝑅𝒜𝐻𝒰𝐿",
-    //   after_col:" font-bold text-[22px]  rotate-90 text-shadow-lg  text-[#f8f7ff]",
-    //   venue_col:" text-[22px] font-bold rotate-90 mb-10 text-shadow text-black",
-    //  },
+     {
+      id:"sammi_weds_rahul",
+      bgImage2:"https://i.ibb.co/cx9vHSm/ca.jpg",
+      address2:"https://maps.app.goo.gl/8iKqi1RZts8zdHwe8",
+      position2:"flex items-center justify-center",
+      namepos:"flex flex-col -ml-8 gap-8 opacity-0",
+      videoStyle2:"border-solid border-[#ff99c8] border-4 w-[35vh] h-[25vh] rotate-90 sm:w-[50%] sm:h-[500px]",
+      video2:"https://www.youtube.com/embed/uwvZNQ93uCg?si=TLuZSZEGzW_fXJHm",
+      couple12:"𝒮𝒜𝑀𝑀𝐼",
+      couple22:"𝑅𝒜𝐻𝒰𝐿",
+      after_col:" font-bold text-[22px]  rotate-90 text-shadow-lg  text-[#f8f7ff]",
+      venue_col:" text-[22px] font-bold rotate-90 mb-10 text-shadow text-black",
+     },
    //   {
    //    id:"rahul-weds-sammi",
    //    // bgImage2::"https://i.ibb.co/d5z1HSb/cus1.jpg",

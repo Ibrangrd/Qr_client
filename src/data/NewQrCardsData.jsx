@@ -7,511 +7,741 @@ export const NewQrCardsData = [
         id: "51",
         path: "https://storage.googleapis.com/my-website-image/QrCards/qrcards72.jpg",
         title: "Charming Grace",
-        cat: "All",
-        price: 32,
-        des: "An enchanting design for joyous occasions.",
       },
       {
         id: "52",
         path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(49).jpg",
         title: "Golden Aura",
-        cat: "All",
-        price: 42,
-        des: "A radiant design with golden highlights for your special moments.",
       },
       {
         id: "53",
         path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(50).jpg",
         title: "Serene Blooms",
-        cat: "All",
-        price: 32,
-        des: "Soft floral beauty for timeless celebrations.",
       },
       {
         id: "49",
         path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(52).jpg",
         title: "Golden Aura",
-        cat: "All",
-        price: 32,
-        des: "A radiant design with golden highlights for your special moments.",
       },
       {
         id: "50",
         path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(53).jpg",
         title: "Serene Blooms",
-        cat: "All",
-        price: 32,
-        des: "Soft floral beauty for timeless celebrations.",
       },
     ],
+    CardPrice: "20-30",
   },
   {
-    id: "2",
-    CardName: "Seed Cards",
+    id: "10-12",
+    CardName: "Celestial Dreamer",
     CardData: [
       {
-        id: "54",
-        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(54).jpg",
-        title: "Beautiful Card",
-        description:"A beautiful seed card that symbolizes new beginnings and growth.",
-        price: 20,
-        cat: "All",
+        id: 1,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1012/qrcards2_10-12%20(1).jpg",
+        title: "Charming Grace",
       },
       {
-        id: "55",
-        title: "Elegant Card",
-        description: "An elegant seed card perfect for sophisticated events.",
-        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(55).jpg",
-        price: 20,
-        cat: "All",
+        id: 2,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1012/qrcards2_10-12%20(2).jpg",
+        title: "Golden Aura",
       },
       {
-        id: "56",
-        title: "Charming Card",
-        description:"A charming seed card that adds a touch of grace to any occasion.",
-        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(56).jpg",
-        price: 20,
-        cat: "All",
+        id: 3,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1012/qrcards2_10-12%20(3).jpg	",
+        title: "Serene Blooms",
       },
       {
-        id: "57",
-        title: "Graceful Card",
-        description: "A graceful seed card that embodies elegance and beauty.",
-        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(57).jpg",
-        price: 20,
-        cat: "All",
+        id: 4,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1012/qrcards2_10-12%20(4).jpg",
+        title: "Radiant Dawn",
       },
       {
-        id: "59",
-        title: "Vibrant Card",
-        description: "A vibrant seed card full of life and energy.",
-        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(59).jpg",
-        price: 20,
-        cat: "All",
+        id: 5,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1012/qrcards2_10-12%20(4).jpg",
+        title: "Mystic Twilight",
       },
-      {
-        id: "58",
-        title: "Radiant Card",
-        description:
-          "A radiant seed card that shines with positivity and warmth.",
-        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(58).jpg",
-        price: 20,
-        cat: "All",
-      },
-    ],
-  },
-  {
-    id: "3",
-    CardName: "Laser Cut Cards",
-    CardData: [
-      {
-        id: "2",
-        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(61).jpg",
-        title: "Celestial Whisper",
-        cat: "All",
-        price: 68,
-        des: "An invitation that whispers celestial elegance, weaving dreams into reality.",
-      },
-      {
-        id: "3",
-        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(62).jpg",
-        title: "Mystic Charm",
-        cat: "All",
-        price: 64,
-        des: "A fusion of mystery and grace, embodying the beauty of untold stories.",
-      },
-      {
-        id: "4",
-        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(63).jpg",
-        title: "Ethereal Glow",
-        cat: "All",
-        price: 67,
-        des: "A poetic dance of elegance and sophistication, bringing dreams to life.",
-      },
-      {
-        id: "1",
-        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(60).jpg",
-        title: "Golden Mirage",
-        cat: "All",
-        price: 64,
-        des: "A timeless blend of tradition, capturing the essence of regal romance.",
-      },
-      {
-        id: "13",
-        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(13).jpg",
-        title: "Sophisticated Charm",
-        cat: "All",
-        price:"74-84",
-        des: "Delicate and sophisticated for cherished events.",
-      },
-      {
-        id: "14",
-        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(14).jpg",
-        title: "Artful Radiance",
-        cat: "All",
-        price:"74-84",
-        des: "Celebrate your moments with vibrant artistry.",
-      },
-      {
-        id: "15",
-        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(15).jpg",
-        title: "Timeless Simplicity",
-        cat: "All",
-        price: "74-84",
-        des: "Modern simplicity for timeless celebrations.",
-      },
-      {
-        id: "16",
-        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(16).jpg",
-        title: "Joyful Elegance",
-        cat: "All",
-        price: "74-84",
-        des: "Charming designs for every joyful occasion.",
-      },
-      {
-        id: "17",
-        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(17).jpg",
-        title: "Bold Harmony",
-        cat: "All",
-        price: "74-84",
-        des: "A bold and stylish choice for special events.",
-      },
-      {
-        id: "18",
-        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(18).jpg",
-        title: "Magical Whimsy",
-        cat: "All",
-        price: "74-84",
-        des: "Exquisite details for magical moments.",
-      },
-      {
-        id: "19",
-        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(19).jpg",
-        title: "Personalized Beauty",
-        cat: "All",
-        price: "74-84",
-        des: "Unique design to reflect your personal style.",
-      },
-    ],
-  },
-  {
-    id: "4",
-    CardName: "Golden Harmony",
-    CardData: [
-        {
-          "id": "1",
-          "path": "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(1).jpg",
-          "title": "Golden Elegance",
-          "cat": "All",
-          "price": 16,
-          "des": "Luxurious gold design for celebrations."
-        },
-        {
-          "id": "5",
-          "path": "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(5).jpg",
-          "title": "Rustic Grace",
-          "cat": "All",
-          "price": 13,
-          "des": "Rustic vibes with a modern touch."
-        },
-        {
-          "id": "6",
-          "path": "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(6).jpg",
-          "title": "Vintage Love",
-          "cat": "All",
-          "price": 12,
-          "des": "Vintage-inspired design."
-        },
-        {
-          "id": "44",
-          "path": "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(44).jpg",
-          "title": "Opulent Vibes",
-          "cat": "All",
-          "price": 16,
-          "des": "A rich and bold design for standout moments."
-        },
-        {
-          "id": "45",
-          "path": "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(45).jpg",
-          "title": "Modern Grace",
-          "cat": "All",
-          "price": 16,
-          "des": "A sleek and contemporary design."
-        },
-        {
-          "id": "46",
-          "path": "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(46).jpg",
-          "title": "Regal Patterns",
-          "cat": "All",
-          "price": 15,
-          "des": "Intricate patterns for a royal celebration."
-        },
-        {
-          "id": "41",
-          "path": "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(41).jpg",
-          "title": "Celestial Grace",
-          "cat": "All",
-          "price": 15,
-          "des": "A heavenly design for special occasions."
-        },
-    ],
-  },
-  {
-    id: 5,
-    CardName: "Heritage Vows",
-    CardData: [
-        {
-          id: "33",
-          path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(33).jpg",
-          title: "Artistic Elegance",
-          cat: "All",
-          price: 18,
-          des: "A creative design that stands out."
-        },
-        {
-          id: "8",
-          path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(8).jpg",
-          title: "Radiant Joy",
-          cat: "All",
-          price: 27,
-          des: "Bright and joyful design for happy moments."
-        },
-        {
-          id: "38",
-          path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(38).jpg",
-          title: "Radiant Bliss",
-          cat: "All",
-          price: 15,
-          des: "Bright and cheerful design for joyful moments."
-        },
-        {
-          id: "9",
-          path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(9).jpg",
-          title: "Ethereal Elegance",
-          cat: "All",
-          price: 27,
-          des: "Elegant and otherworldly for a grand event."
-        },
-      ],
-    },
       {
         id: 6,
-        CardName: "Pearl Whisper",
-        CardData: [
-          {
-            id: "2",
-            path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(2).jpg",
-            title: "Elegant Blossoms",
-            cat: "All",
-            price: 14,
-            des: "Beautiful floral patterns for a serene celebration."
-          },
-          {
-            id: "3",
-            path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(3).jpg",
-            title: "Regal Harmony",
-            cat: "All",
-            price: 9,
-            des: "Rich, harmonious colors for a memorable event."
-          },
-          {
-            id: "4",
-            path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(4).jpg",
-            title: "Classic Charm",
-            cat: "All",
-            price: 9,
-            des: "Timeless design with subtle elegance."
-          },
-          {
-            id: "7",
-            path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(7).jpg",
-            title: "Modern Bliss",
-            cat: "All",
-            price: 14,
-            des: "Contemporary style with vibrant colors."
-          },
-          {
-            id: "10",
-            path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(10).jpg",
-            title: "Golden Celebration",
-            cat: "All",
-            price: 15,
-            des: "A beautiful design for every occasion."
-          },
-          {
-            id: "32",
-            path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(32).jpg",
-            title: "Minimal Marvel",
-            cat: "All",
-            price: 15,
-            des: "A minimalistic yet elegant design."
-          }
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1012/qrcards2_10-12%20(6).jpg",
+        title: "Eternal Harmony",
+      },
+      {
+        id: 7,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1012/qrcards2_10-12%20(7).jpg",
+        title: "Whispering Winds",
+      },
     ],
+    CardPrice: "(18-22)",
   },
   {
-    id: "7",
-    CardName: "Eternal Majesty",
+    id: "10",
+    CardName: "Crimson Enigma",
     CardData: [
-        {
-          id: "12",
-          path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(12).jpg",
-          title: "Elegant Essence",
-          cat: "All",
-          price: "48-58",
-          des: "Elegant details for unforgettable moments."
-        },
-        {
-          id: "11",
-          path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(11).jpg",
-          title: "Modern Delight",
-          cat: "All",
-          price: "29-39",
-          des: "A timeless pattern with a modern flair."
-        },
-        {
-          id: "20",
-          path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(20).jpg",
-          title: "Graceful Touch",
-          cat: "All",
-          price: "24-31",
-          des: "Celebrate with elegance and grace."
-        },
-        {
-          id: "21",
-          path: "https://i.ibb.co/xfDKn39/Qr-Card-21.jpg",
-          title: "Golden Radiance",
-          cat: "All",
-          price: "24-31",
-          des: "A delightful design for joyful occasions."
-        },
-        {
-          id: "22",
-          path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(22).jpg",
-          title: "Floral Serenity",
-          cat: "All",
-          price: "18-22",
-          des: "An elegant blend of charm and sophistication."
-        },
-        {
-          id: "23",
-          path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(23).jpg",
-          title: "Vibrant Blossoms",
-          cat: "All",
-          price: "18-23",
-          des: "Bright and vibrant design for special celebrations."
-        },
-        {
-          id: "24",
-          path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(24).jpg",
-          title: "Royal Grace",
-          cat: "All",
-          price: "34-47",
-          des: "A captivating design for memorable events."
-        },
-        {
-          id: "25",
-          path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(25).jpg",
-          title: "Eternal Harmony",
-          cat: "All",
-          price:"34-47" ,
-          des: "Simplicity and elegance combined."
-        },
-        {
-          id: "27",
-          path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(27).jpg",
-          title: "Celestial Dreams",
-          cat: "All",
-          price: 18,
-          des: "Graceful designs for joyful moments."
-        },
-        {
-          id: "28",
-          path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(28).jpg",
-          title: "Rustic Whimsy",
-          cat: "All",
-          price: "56-68",
-          des: "A modern twist to traditional beauty."
-        },
-        {
-          id: "29",
-          path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(29).jpg",
-          title: "Festive Delight",
-          cat: "All",
-          price: "56-68",
-          des: "Vivid colors for celebrating life’s best moments."
-        },
-        {
-          id: "30",
-          path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(30).jpg",
-          title: "Opulent Bliss",
-          cat: "All",
-          price: "56-68",
-          des: "An artistic masterpiece for your special day."
-        },
-        {
-          id: "31",
-          path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(31).jpg",
-          title: "Timeless Beauty",
-          cat: "All",
-          price: "19-29",
-          des: "Timeless charm for unforgettable celebrations."
-        },
+      {
+        id: 21,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1822/qrcards_18-22%20(1).jpg",
+        title: "Lunar Serenade"
+      },
+      {
+        id: 22,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1822/qrcards_18-22%20(2).jpg",
+        title: "Crimson Tide"
+      },
+      {
+        id: 23,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1822/qrcards_18-22%20(3).jpg",
+        title: "Azure Whisper"
+      },
+      {
+        id: 24,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1822/qrcards_18-22%20(4).jpg",
+        title: "Golden Mirage"
+      },
+      {
+        id: 25,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1822/qrcards_18-22%20(5).jpg",
+        title: "Silver Cascade"
+      },
+      {
+        id: 26,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1822/qrcards_18-22%20(6).jpg",
+        title: "Obsidian Glow"
+      },
+      {
+        id: 27,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1822/qrcards_18-22%20(7).jpg",
+        title: "Ruby Horizon"
+      },
+      {
+        id: 28,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1822/qrcards_18-22%20(8).jpg",
+        title: "Pearl Radiance"
+      },
     ],
+    CardPrice: "(18)",
   },
   {
-    id: "8",
-    CardName: "Royal Invitations",
+    id: "10-15",
+    CardName: "",
     CardData: [
       {
-        id: "34",
-        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(34).jpg",
-        title: "Festive Harmony",
-        cat: "All",
-        price: 15,
-        des: "Rich patterns for your special celebrations.",
+        id: 1,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1015/qrcards2_10-15%20(1).jpg",
+        title: "Mystic Dawn"
       },
       {
-        id: "35",
-        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(35).jpg",
-        title: "Sophisticated Charm",
-        cat: "All",
-        price: 15,
-        des: "A sophisticated design for precious moments.",
+        id: 2,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1015/qrcards2_10-15%20(2).jpg",
+        title: "Velvet Twilight"
       },
       {
-        id: "36",
-        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(36).jpg",
-        title: "Golden Symphony",
-        cat: "All",
-        price: 17,
-        des: "A luxurious golden design for timeless occasions.",
+        id: 3,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1015/qrcards2_10-15%20(3).jpg",
+        title: "Crystal Cascade"
       },
       {
-        id: "37",
-        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(37).jpg",
-        title: "Petal Perfection",
-        cat: "All",
-        price: 18,
-        des: "Soft floral touches for a serene celebration.",
-      },
-
-      {
-        id: "39",
-        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(39).jpg",
-        title: "Elegant Majesty",
-        cat: "All",
-        price: 15,
-        des: "A regal design to make your event unforgettable.",
-      },
-
-      {
-        id: "42",
-        path: "https://storage.googleapis.com/my-website-image/QrCards/QrCard%20(42).jpg",
-        title: "Timeless Splendor",
-        cat: "All",
-        price: 13,
-        des: "A classic design with elegant accents.",
+        id: 4,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1015/qrcards2_10-15%20(4).jpg",
+        title: "Golden Mirage"
       },
     ],
+    CardPrice: "(18-24)"
+  },
+  {
+    id: "15-22",
+    CardName: "",
+    CardData: [
+      {
+        id: 1,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1522/QR%20WEDS2_1522%20(1).jpg",
+        title: "Enchanted Meadow"
+      },
+      {
+        id: 2,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1522/QR%20WEDS2_1522%20(3).jpg",
+        title: "Crimson Blaze"
+      },
+      {
+        id: 3,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1522/QR%20WEDS2_1522%20(4).jpg",
+        title: "Azure Wave"
+      },
+      {
+        id: 4,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1522/QR%20WEDS2_1522%20(5).jpg",
+        title: "Golden Sunbeam"
+      },
+      {
+        id: 5,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1522/QR%20WEDS2_1522%20(6).jpg",
+        title: "Silver Frost"
+      },
+      {
+        id: 6,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1522/QR%20WEDS2_1522%20(7).jpg",
+        title: "Obsidian Shadow"
+      },
+    ],
+    CardPrice: "(23-30)"
+  },
+  {
+    id: "15-20",
+    CardName: "",
+    CardData: [
+      {
+        id: 1,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1520/qrcards2_15-20%20(1).jpg",
+        title: "Lunar Serenade"
+      },
+      {
+        id: 2,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1520/qrcards2_15-20%20(2).jpg",
+        title: "Crimson Tide"
+      },
+      {
+        id: 3,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1520/qrcards_15-20%20(1).jpg",
+        title: "Azure Whisper"
+      },
+      {
+        id: 4,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1520/qrcards_15-20%20(2).jpg",
+        title: "Golden Mirage"
+      },
+      {
+        id: 5,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1520/qrcards_15-20%20(3).jpg",
+        title: "Silver Cascade"
+      },
+      {
+        id: 6,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1520/qrcards_15-20%20(4).jpg",
+        title: "Obsidian Glow"
+      },
+      {
+        id: 7,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1520/qrcards_15-20%20(5).jpg",
+        title: "Ruby Horizon"
+      },
+      {
+        id: 8,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1520/qrcards_15-20%20(6).jpg",
+        title: "Pearl Radiance"
+      },
+      {
+        id: 9,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1520/qrcards_15-20%20(7).jpg",
+        title: "Sapphire Echo"
+      },
+      {
+        id: 10,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1520/qrcards_15-20%20(8).jpg",
+        title: "Amber Veil"
+      }
+    ],
+    CardPrice: "(23-28)"
+  },
+  {
+    id: "16-22",
+    CardName: "",
+    CardData: [
+      {
+        id: 1,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1622/qrcards_16-22%20(1).jpg",
+        title: "Ethereal Dawn"
+      },
+      {
+        id: 2,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1622/qrcards_16-22%20(10).jpg",
+        title: "Scarlet Bloom"
+      },
+      {
+        id: 3,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1622/qrcards_16-22%20(11).jpg",
+        title: "Cerulean Wave"
+      },
+      {
+        id: 4,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1622/qrcards_16-22%20(2).jpg",
+        title: "Gilded Mirage"
+      },
+      {
+        id: 5,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1622/qrcards_16-22%20(3).jpg",
+        title: "Platinum Frost"
+      },
+      {
+        id: 6,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1622/qrcards_16-22%20(4).jpg",
+        title: "Onyx Shadow"
+      },
+      {
+        id: 7,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1622/qrcards_16-22%20(5).jpg",
+        title: "Garnet Ember"
+      },
+      {
+        id: 8,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1622/qrcards_16-22%20(6).jpg",
+        title: "Opal Glow"
+      },
+      {
+        id: 9,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1622/qrcards_16-22%20(7).jpg",
+        title: "Turquoise Breeze"
+      },
+      {
+        id: 10,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1622/qrcards_16-22%20(8).jpg",
+        title: "Topaz Whisper"
+      }
+    ],
+    CardPrice: "(24-32)"
+  },
+  {
+    id: "10-14",
+    CardName: "",
+    CardData: [
+      {
+        id: 1,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1014/qrcards2_10-14%20(1).jpg",
+        title: "Mystic Aurora"
+      },
+      {
+        id: 2,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1014/qrcards2_10-14%20(10).jpg",
+        title: "Crimson Tide"
+      },
+      {
+        id: 3,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1014/qrcards2_10-14%20(2).jpg",
+        title: "Sapphire Shimmer"
+      },
+      {
+        id: 4,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1014/qrcards2_10-14%20(3).jpg",
+        title: "Golden Mirage"
+      },
+      {
+        id: 5,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1014/qrcards2_10-14%20(4).jpg",
+        title: "Silver Cascade"
+      },
+      {
+        id: 6,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1014/qrcards2_10-14%20(5).jpg",
+        title: "Obsidian Glow"
+      },
+      {
+        id: 7,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1014/qrcards2_10-14%20(6).jpg",
+        title: "Ruby Horizon"
+      },
+      {
+        id: 8,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1014/qrcards2_10-14%20(7).jpg",
+        title: "Pearl Radiance"
+      },
+      {
+        id: 9,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1014/qrcards2_10-14%20(8).jpg",
+        title: "Emerald Echo"
+      },
+      {
+        id: 10,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1014/qrcards2_10-14%20(9).jpg",
+        title: "Amber Veil"
+      }
+    ],
+    CardPrice: "(18-22)"
+  },
+  {
+    id: "18-22",
+    CardName: "",
+    CardData: [
+      {
+        id: 1,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1822/qrcards_18-22%20(1).jpg",
+        title: "Celestial Harmony"
+      },
+      {
+        id: 2,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1822/qrcards_18-22%20(2).jpg",
+        title: "Crimson Ember"
+      },
+      {
+        id: 3,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1822/qrcards_18-22%20(3).jpg",
+        title: "Azure Mirage"
+      },
+      {
+        id: 4,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1822/qrcards_18-22%20(4).jpg",
+        title: "Golden Twilight"
+      },
+      {
+        id: 5,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1822/qrcards_18-22%20(5).jpg",
+        title: "Silver Veil"
+      },
+      {
+        id: 6,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1822/qrcards_18-22%20(6).jpg",
+        title: "Obsidian Cascade"
+      },
+      {
+        id: 7,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1822/qrcards_18-22%20(7).jpg",
+        title: "Ruby Horizon"
+      },
+      {
+        id: 8,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1822/qrcards_18-22%20(8).jpg",
+        title: "Pearl Glow"
+      },
+    ],
+    CardPrice: "(26-30)"
+  },
+  {
+    id: "14-20",
+    CardName: "",
+    CardData: [
+      {
+        id: 1,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1420/qrcard14-20%20(1).jpg",
+        title: "Enchanted Twilight"
+      },
+      {
+        id: 2,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1420/qrcard14-20%20(2).jpg",
+        title: "Scarlet Mirage"
+      },
+      {
+        id: 3,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1420/qrcard14-20%20(3).jpg",
+        title: "Cerulean Radiance"
+      },
+      {
+        id: 4,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1420/qrcard14-20%20(6).jpg",
+        title: "Gilded Horizon"
+      },
+    ],
+    CardPrice: "(20-28)"
+  },
+  {
+    id: "10-15",
+    CardName: "Celestial Dreamer",
+    CardData: [
+      {
+        id: 1,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1015/qrcards2_10-15%20(1).jpg",
+        title: "Ethereal Dawn"
+      },
+      {
+        id: 2,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1015/qrcards2_10-15%20(2).jpg",
+        title: "Scarlet Bloom"
+      },
+      {
+        id: 3,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1015/qrcards2_10-15%20(3).jpg",
+        title: "Cerulean Wave"
+      },
+      {
+        id: 4,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1015/qrcards2_10-15%20(4).jpg",
+        title: "Gilded Mirage"
+      },
+    ],
+    CardPrice: "(18-23)"
+  },
+  {
+    id: "25-38",
+    CardName: "Crimson Enigma",
+    CardData: [
+      {
+        id: 11,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/2538/qrcards2_25-38%20(1).jpg",
+        title: "Mystic Aurora"
+      },
+      {
+        id: 12,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/2538/qrcards2_25-38%20(2).jpg",
+        title: "Crimson Tide"
+      },
+      {
+        id: 13,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/2538/qrcards2_25-38%20(3).jpg",
+        title: "Sapphire Shimmer"
+      },
+      {
+        id: 14,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/2538/qrcards2_25-38%20(4).jpg",
+        title: "Golden Mirage"
+      },
+      {
+        id: 15,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/2538/qrcards2_25-38%20(5).jpg",
+        title: "Silver Cascade"
+      },
+      {
+        id: 16,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/2538/qrcards2_25-38%20(6).jpg",
+        title: "Obsidian Glow"
+      },
+      {
+        id: 17,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/2538/qrcards2_25-38%20(7).jpg",
+        title: "Ruby Horizon"
+      },
+    ],
+    CardPrice: "(33-46)"
+  },
+  {
+    id: "10-12",
+    CardName: "Golden Phoenix",
+    CardData: [
+      {
+        id: 31,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1012/qrcards2_10-12%20(1).jpg",
+        title: "Ethereal Dawn"
+      },
+      {
+        id: 32,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1012/qrcards2_10-12%20(2).jpg",
+        title: "Scarlet Bloom"
+      },
+      {
+        id: 33,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1012/qrcards2_10-12%20(3).jpg",
+        title: "Cerulean Wave"
+      },
+      {
+        id: 34,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1012/qrcards2_10-12%20(4).jpg",
+        title: "Gilded Mirage"
+      },
+      {
+        id: 35,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1012/qrcards2_10-12%20(5).jpg",
+        title: "Platinum Frost"
+      },
+      {
+        id: 36,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1012/qrcards2_10-12%20(6).jpg",
+        title: "Onyx Shadow"
+      },
+      {
+        id: 37,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1012/qrcards2_10-12%20(7).jpg",
+        title: "Garnet Ember"
+      },
+    ],
+    CardPrice: "(18-20)"
+  },
+  {
+    id: "40-55",
+    CardName: "Silver Sentinel",
+    CardData: [
+      {
+        id: 41,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/4055/qrcards2_40_55%20(1).jpg",
+        title: "Mystic Aurora"
+      },
+      {
+        id: 42,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/4055/qrcards2_40_55%20(2).jpg",
+        title: "Crimson Tide"
+      },
+      {
+        id: 43,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/4055/qrcards2_40_55%20(3).jpg",
+        title: "Sapphire Shimmer"
+      },
+      {
+        id: 44,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/4055/qrcards2_40_55%20(4).jpg",
+        title: "Golden Mirage"
+      },
+      {
+        id: 45,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/4055/qrcards2_40_55%20(5).jpg",
+        title: "Silver Cascade"
+      },
+      {
+        id: 46,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/4055/qrcards2_40_55%20(6).jpg",
+        title: "Obsidian Glow"
+      },
+      {
+        id: 47,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/4055/qrcards2_40_55%20(7).jpg",
+        title: "Ruby Horizon"
+      },
+      {
+        id: 48,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/4055/qrcards2_40_55%20(8).jpg",
+        title: "Pearl Radiance"
+      },
+      {
+        id: 49,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/4055/qrcards2_40_55%20(9).jpg",
+        title: "Emerald Echo"
+      },
+    ],
+    CardPrice: "(48-64)"
+  },
+  {
+    id: "65-75",
+    CardName: "Obsidian Oracle",
+    CardData: [
+      {
+        id: 51,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/6575/qrcards2_65-75%20(1).jpg",
+        title: "Celestial Harmony"
+      },
+      {
+        id: 52,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/6575/qrcards2_65-75%20(10).jpg",
+        title: "Crimson Ember"
+      },
+      {
+        id: 53,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/6575/qrcards2_65-75%20(2).jpg",
+        title: "Azure Mirage"
+      },
+      {
+        id: 54,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/6575/qrcards2_65-75%20(3).jpg",
+        title: "Golden Twilight"
+      },
+      {
+        id: 55,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/6575/qrcards2_65-75%20(4).jpg",
+        title: "Silver Veil"
+      },
+      {
+        id: 56,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/6575/qrcards2_65-75%20(5).jpg",
+        title: "Obsidian Cascade"
+      },
+      {
+        id: 57,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/6575/qrcards2_65-75%20(6).jpg",
+        title: "Ruby Horizon"
+      },
+      {
+        id: 58,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/6575/qrcards2_65-75%20(7).jpg",
+        title: "Pearl Glow"
+      },
+      {
+        id: 59,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/6575/qrcards2_65-75%20(8).jpg",
+        title: "Sapphire Haze"
+      },
+      {
+        id: 60,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/6575/qrcards2_65-75%20(9).jpg",
+        title: "Amber Whisper"
+      }
+    ],
+    CardPrice: "(74-84)"
+  },
+  {
+    id: "15-22",
+    CardName: "Ruby Guardian",
+    CardData: [
+      {
+        id: 61,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1522/QR%20WEDS2_1522%20(1).jpg",
+        title: "Enchanted Twilight"
+      },
+      {
+        id: 62,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1522/QR%20WEDS2_1522%20(3).jpg",
+        title: "Scarlet Mirage"
+      },
+      {
+        id: 63,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1522/QR%20WEDS2_1522%20(4).jpg",
+        title: "Cerulean Radiance"
+      },
+      {
+        id: 64,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1522/QR%20WEDS2_1522%20(5).jpg",
+        title: "Gilded Horizon"
+      },
+      {
+        id: 65,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1522/QR%20WEDS2_1522%20(6).jpg",
+        title: "Platinum Cascade"
+      },
+      {
+        id: 66,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/1522/QR%20WEDS2_1522%20(7).jpg",
+        title: "Onyx Whisper"
+      },
+    ],
+    CardPrice: "(23-30)"
+  },
+  {
+    id: "9-14",
+    CardName: "Pearl Mystic",
+    CardData: [
+      {
+        id: 71,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/914/qrcards2_9-14%20(1).jpg",
+        title: "Ethereal Dawn"
+      },
+      {
+        id: 72,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/914/qrcards2_9-14%20(10).jpg",
+        title: "Scarlet Bloom"
+      },
+      {
+        id: 73,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/914/qrcards2_9-14%20(2).jpg",
+        title: "Cerulean Wave"
+      },
+      {
+        id: 74,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/914/qrcards2_9-14%20(3).jpg",
+        title: "Gilded Mirage"
+      },
+      {
+        id: 75,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/914/qrcards2_9-14%20(4).jpg",
+        title: "Platinum Frost"
+      },
+      {
+        id: 76,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/914/qrcards2_9-14%20(5).jpg",
+        title: "Onyx Shadow"
+      },
+      {
+        id: 77,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/914/qrcards2_9-14%20(6).jpg",
+        title: "Garnet Ember"
+      },
+      {
+        id: 78,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/914/qrcards2_9-14%20(7).jpg",
+        title: "Opal Glow"
+      },
+      {
+        id: 79,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/914/qrcards2_9-14%20(8).jpg",
+        title: "Turquoise Breeze"
+      },
+      {
+        id: 80,
+        path: "https://storage.googleapis.com/my-website-image/QrCards/QRCArds/914/qrcards2_9-14%20(9).jpg",
+        title: "Topaz Whisper"
+      },
+    ],
+    CardPrice: "(16-21)"
   },
 ];
+export default NewQrCardsData;

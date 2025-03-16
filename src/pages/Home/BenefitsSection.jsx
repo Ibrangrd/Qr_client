@@ -1,5 +1,5 @@
 import React from "react";
-
+// import "aos/dist/aos.css";
 const benefits = [
         {
           img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMz6yGontxV21MguKaAX4_LrmOc3IgTzGYzQ&s",
@@ -37,7 +37,7 @@ const BenefitsSection = () => {
             {benefits.map((benefit, index) => (
               <div
                 key={index}
-                className="bg-white sm:p-6 p-2 rounded-xl shadow-md flex items-center space-x-4">
+                className="bg-white sm:p-6 p-2 rounded-xl shadow-md flex items-center space-x-4" data-aos="flip-left">
                 <img
                   src={benefit.img}
                   alt="icon"

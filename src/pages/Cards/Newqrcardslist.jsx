@@ -1,6 +1,6 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
-const Newqrcardslist = ({ path,title,price,des }) => {
+const Newqrcardslist = ({ path,title, }) => {
 
   return (
     <div className=" w-[100%]" data-aos="flip-right">
@@ -16,9 +16,9 @@ const Newqrcardslist = ({ path,title,price,des }) => {
             <p className="text-lg sm:text-2xl font-bold text-[#C75B7A]">
               {title}
             </p>
-            <p className="text-lg sm:text-xl font-bold text-green-500">
+            {/* <p className="text-lg sm:text-xl font-bold text-green-500">
             ₹{price}
-            </p>
+            </p> */}
           </div>
           {/* <p className=" hidden sm:block opacity-0 group-hover:opacity-100 duration-700 ease-in-out  font-mono text-gray-500">
             {des}

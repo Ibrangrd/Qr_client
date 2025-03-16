@@ -52,6 +52,8 @@ import MakeUp from "./MakeUp/MakeUp";
 import ComingSoon from "./Coming";
 import Preloader from "./Preloader";
 import VerticalScan from "./Scan/VerticalScan";
+import GiftSection from "./Gift/GiftSection";
+import Xyz2 from "./Scan/xyz";
 AOS.init();
 
 
@@ -107,4 +109,6 @@ export {
   MakeUp,
   ComingSoon,
   Preloader,
+  GiftSection,
+  Xyz2,
 };
