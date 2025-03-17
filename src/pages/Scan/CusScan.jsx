@@ -4,7 +4,7 @@ import { CusData } from "../../data/CusData";
 import Error from "../Error";
 const CusScan = () => {
 
-    const { inviteId } = useParams();
+  const { inviteId } = useParams();
   const data = CusData.find((data) => data.id === inviteId);
 
   if (data === undefined) {

@@ -4,7 +4,7 @@ const TermsAndConditions = () => {
   const [showTerms, setShowTerms] = useState(false); // State to manage terms visibility
 
   return (
-    <div className="w-full max-w-4xl mx-auto bg-white rounded-lg shadow-lg p-6 mb-8">
+    <div className="w-full max-w-4xl mx-auto bg-[#FCF7F8] rounded-lg shadow-lg p-6 mb-8">
       <button
         onClick={() => setShowTerms(!showTerms)}
         className="w-full text-center text-lg font-semibold text-[#457b9d] hover:text-[#2a4a5f] transition-colors duration-300"

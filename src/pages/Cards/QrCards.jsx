@@ -16,7 +16,7 @@ const QrCards = () => {
     </li>
     
     <li className="sm:text-xl text-lg text-[#4E8098] bg-white p-4 rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-300">
-      🛍️ Get <strong>50 carry bags free</strong> with the QRWeds card!
+      🛍️ Get <strong>20 carry bags free</strong> with the QRWeds card!
     </li>
     
     <li className="sm:text-xl text-lg text-[#4E8098] bg-white p-4 rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-300">

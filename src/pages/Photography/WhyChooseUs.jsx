@@ -9,7 +9,7 @@ export default function WhyChooseUs() {
   ];
 
   return (
-    <section className="py-12 bg-gray-50">
+    <section className="py-12 bg-[#FCF7F8]">
       <div className="max-w-4xl mx-auto px-6 text-center">
         <h2 className="text-3xl font-bold mb-8">Why Choose Us?</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">

@@ -18,7 +18,12 @@ const Photo = () => {
     "https://www.ptaufiqphotography.com/wp-content/uploads/2024/06/ptaufiq-indian-wedding-rajkot-India-ceremony-couple-portraits.jpg",
     "https://clickstory.in/wp-content/uploads/2024/11/sindur-dan-prasanna.jpg",
   ];
-
+    const { inviteId } = useParams();
+    const data = dataPhoto.find((data) => data.id === inviteId);
+  
+    if (data === undefined) {
+      return <Error />;
+    }
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
@@ -34,7 +39,7 @@ const Photo = () => {
       <div className="bg-[#FCF7F8] min-h-screen p-4">
         {/* Main Heading */}
         <p className="mt-4 text-4xl sm:text-5xl pb-10 font-bold pt-4 text-[#457b9d] text-center">
-          HELLO
+        {data.title}
         </p>
 
         {/* Carousel Section */}
@@ -54,24 +59,24 @@ const Photo = () => {
         </div>
 
         {/* Service Details Section */}
-        <div className="w-full max-w-4xl mx-auto bg-white rounded-lg shadow-lg p-6 mb-8">
-          <h2 className="text-2xl font-bold text-[#457b9d] mb-6 text-center">
+        <div className="w-full max-w-4xl mx-auto bg-[#FCF7F8] rounded-lg shadow-lg p-6 mb-8">
+          <h2 className="text-4xl font-bold text-[#457b9d] mb-6 text-center">
             Service Details
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Hours of Coverage */}
-            <div className="bg-[#FCF7F8] p-6 rounded-lg hover:shadow-md transition-shadow duration-300">
+            <div className="bg-white p-6 rounded-lg hover:shadow-md transition-shadow duration-300">
               <div className="flex items-center mb-4">
                 <FaCamera className="text-3xl text-[#457b9d] mr-4" />
                 <h3 className="text-lg font-semibold text-gray-800">
                   Hours of Coverage
                 </h3>
               </div>
-              <p className="text-gray-600">8 hours</p>
+              <p className="text-gray-600">{data.hours} hours</p>
             </div>
 
             {/* Types of Photography */}
-            <div className="bg-[#FCF7F8] p-6 rounded-lg hover:shadow-md transition-shadow duration-300">
+            <div className="bg-white p-6 rounded-lg hover:shadow-md transition-shadow duration-300">
               <div className="flex items-center mb-4">
                 <FaImages className="text-3xl text-[#457b9d] mr-4" />
                 <h3 className="text-lg font-semibold text-gray-800">
@@ -87,18 +92,18 @@ const Photo = () => {
             </div>
 
             {/* Number of Edited Images */}
-            <div className="bg-[#FCF7F8] p-6 rounded-lg hover:shadow-md transition-shadow duration-300">
+            <div className="bg-white p-6 rounded-lg hover:shadow-md transition-shadow duration-300">
               <div className="flex items-center mb-4">
                 <FaPhotoVideo className="text-3xl text-[#457b9d] mr-4" />
                 <h3 className="text-lg font-semibold text-gray-800">
                   Number of Edited Images
                 </h3>
               </div>
-              <p className="text-gray-600">200+</p>
+              <p className="text-gray-600">{data.noimages}</p>
             </div>
 
             {/* Album Details */}
-            <div className="bg-[#FCF7F8] p-6 rounded-lg hover:shadow-md transition-shadow duration-300">
+            <div className="bg-white p-6 rounded-lg hover:shadow-md transition-shadow duration-300">
               <div className="flex items-center mb-4">
                 <FaFilm className="text-3xl text-[#457b9d] mr-4" />
                 <h3 className="text-lg font-semibold text-gray-800">
@@ -111,7 +116,7 @@ const Photo = () => {
             </div>
 
             {/* Additional Services */}
-            <div className="bg-[#FCF7F8] p-6 rounded-lg hover:shadow-md transition-shadow duration-300">
+            <div className="bg-white p-6 rounded-lg hover:shadow-md transition-shadow duration-300">
               <div className="flex items-center mb-4">
                 <FaVideo className="text-3xl text-[#457b9d] mr-4" />
                 <h3 className="text-lg font-semibold text-gray-800">
@@ -119,22 +124,40 @@ const Photo = () => {
                 </h3>
               </div>
               <ul className="list-disc list-inside text-gray-600">
-                <li>Pre-wedding shoot</li>
-                <li>Reels creation</li>
+                <li>A speci Gift from QR Weds</li>
+                <li>Teaser</li>
                 <li>Trash the dress shoot</li>
               </ul>
             </div>
           </div>
         </div>
+        <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-lg p-6 mb-8 border border-gray-200">
+  <h2 className="text-2xl font-bold text-[#457b9d] mb-4">Pricing</h2>
+  <p className="text-lg text-gray-700">
+    <span className="font-semibold">{data.price}</span>
+  </p>
+  <p className="text-sm text-gray-500 mt-2">
+    This is an estimated price range for our services. Final pricing may vary based on specific requirements.
+  </p>
+</div>
 
+     <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-lg p-6 mb-8 border border-gray-200">
+     <h2 className="text-2xl font-bold text-[#457b9d] mb-4">Important Note</h2>
+     <p className="text-lg text-gray-700">
+     The price may vary according to the <span className="font-semibold">location</span> and the <span className="font-semibold">number of days</span> required for the project.
+     </p>
+     <p className="text-sm text-gray-500 mt-2">
+     For a detailed quote, please contact us with your specific requirements.
+     </p>
+     </div>
         {/* Terms and Conditions Section */}
-        <TermsAndConditions />
 
         {/* WhyChooseUs Section */}
         <div className="w-full max-w-4xl mx-auto">
           <WhyChooseUs />
         </div>
-
+        <TermsAndConditions />
+       
         {/* FAQ Section */}
         <div className="w-full max-w-4xl mx-auto">
           <FAQ />

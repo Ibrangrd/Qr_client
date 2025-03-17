@@ -55,6 +55,7 @@ import {
   CusScan,
   Xyz2,
   Wedding,
+  // Password,
 } from "./pages/index.js";
 
 export const ThemeContext = createContext("light");
@@ -117,7 +118,7 @@ const App = () => {
                 }
               />
               <Route path="/qrcards" element={<Suspense fallback={<div>Loading QR Special Cards...</div>}> <QrCards /> </Suspense>} />
-              <Route path="/Photoinfo1" element={<Suspense fallback={<Loading />}> <Photoinfo1 /></Suspense>} />
+              {/* <Route path="/Photoinfo1" element={<Suspense fallback={<Loading />}> <Photoinfo1 /></Suspense>} />
               <Route path="/Photoinfo2" element={<Suspense fallback={<Loading />}> <Photoinfo2 /></Suspense>} />
               <Route path="/Photoinfo3" element={<Suspense fallback={<Loading />}> <Photoinfo3 /></Suspense>} />
               <Route path="/Photoinfo4" element={<Suspense fallback={<Loading />}> <Photoinfo4 /></Suspense>} />
@@ -125,7 +126,7 @@ const App = () => {
               <Route path="/Photoinfo6" element={<Suspense fallback={<Loading />}> <Photoinfo6 /></Suspense>} />
               <Route path="/Photoinfo7" element={<Suspense fallback={<Loading />}> <Photoinfo7 /></Suspense>} />
               <Route path="/Photoinfo8" element={<Suspense fallback={<Loading />}> <Photoinfo8 /></Suspense>} />
-              <Route path="/Photoinfo9" element={<Suspense fallback={<Loading />}> <Photoinfo9 /></Suspense>} />
+              <Route path="/Photoinfo9" element={<Suspense fallback={<Loading />}> <Photoinfo9 /></Suspense>} /> */}
               <Route path="/FireCrackers" element={<Suspense fallback={<Loading />}> <FireCrakers /></Suspense>} />
               <Route path="/memories" element={<Suspense fallback={<Loading />}> <Memories /></Suspense>} />
               <Route path="/Hotel" element={<Suspense fallback={<Loading />}> <Hotel /></Suspense>} />
@@ -134,6 +135,7 @@ const App = () => {
               <Route path="/register" element={<Register />} />
               <Route path="/login" element={<Login />} />
               <Route path="/logout" element={<Logout />} />
+              {/* <Route path="/password" element={<Password />} /> */}
               <Route path="/comingsoon" element={<ComingSoon />} />
               <Route path="/service" element={<Service />} />
               <Route path="/makeup" element={<MakeUp />} />
@@ -152,7 +154,7 @@ const App = () => {
               <Route path="/Cars" element={<Cars />} />
               <Route path="/CusAfter" element={<CusAfter />} />
               <Route path="/gift" element={<GiftSection />} />
-              <Route path="/photo" element={<Photo />} />
+              <Route path="/photo/:inviteId" element={<Photo />} />
               <Route path="*" element={<Error />} />
               <Route path="/admin" element={<AdminLayout />}>
                 <Route path="users" element={<AdminUsers />} />

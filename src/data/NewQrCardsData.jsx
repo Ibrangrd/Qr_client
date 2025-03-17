@@ -29,7 +29,7 @@ export const NewQrCardsData = [
         title: "Serene Blooms",
       },
     ],
-    CardPrice: "20-30",
+    CardPrice: "(25-32)",
   },
   {
     id: "10-12",

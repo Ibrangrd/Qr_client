@@ -46,7 +46,7 @@ const VerticalScan = () => {
               
             </div> */}
             <div className=" ml-[6%] sm:flex sm:justify-center sm:items-center sm:mt-[10%]">
-            <iframe src="https://player.vimeo.com/video/1064644032?h=afd3753bfd&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+            <iframe src="https://player.vimeo.com/video/1066532692?h=89d19ff4ba&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
             frameborder="0" 
             allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" 
             className="border-double border-[#C2A5A1] border-8 w-[85%] h-[280px] sm:w-[50%] sm:h-[500px]"

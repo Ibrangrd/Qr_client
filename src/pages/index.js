@@ -55,6 +55,7 @@ import VerticalScan from "./Scan/VerticalScan";
 import GiftSection from "./Gift/GiftSection";
 import Xyz2 from "./Scan/xyz";
 import Wedding from "./Scan/Director";
+// import Password from "./Password";
 AOS.init();
 
 
@@ -113,4 +114,5 @@ export {
   GiftSection,
   Xyz2,
   Wedding,
+  // Password,
 };
