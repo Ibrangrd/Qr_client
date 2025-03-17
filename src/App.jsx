@@ -54,6 +54,7 @@ import {
   GiftSection,
   CusScan,
   Xyz2,
+  Wedding,
 } from "./pages/index.js";
 
 export const ThemeContext = createContext("light");
@@ -143,12 +144,15 @@ const App = () => {
               <Route path="/images" element={<LoginForImage />} />
               <Route path="/Cards" element={<CardsPartners />} />
               <Route path="/i/:inviteId" element={<CusScan2 />} />
+              <Route path="/i/:inviteId" element={<CusScan2 />} />
               <Route path="/xyz2" element={<Xyz2 />} />
+              <Route path="/wedding" element={<Wedding />} />
               <Route path="/ayushmati_weds_ayushman" element={<VerticalScan />} />
               <Route path="/Courier" element={<Courier />} />
               <Route path="/Cars" element={<Cars />} />
               <Route path="/CusAfter" element={<CusAfter />} />
               <Route path="/gift" element={<GiftSection />} />
+              <Route path="/photo" element={<Photo />} />
               <Route path="*" element={<Error />} />
               <Route path="/admin" element={<AdminLayout />}>
                 <Route path="users" element={<AdminUsers />} />

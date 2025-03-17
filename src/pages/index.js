@@ -54,6 +54,7 @@ import Preloader from "./Preloader";
 import VerticalScan from "./Scan/VerticalScan";
 import GiftSection from "./Gift/GiftSection";
 import Xyz2 from "./Scan/xyz";
+import Wedding from "./Scan/Director";
 AOS.init();
 
 
@@ -111,4 +112,5 @@ export {
   Preloader,
   GiftSection,
   Xyz2,
+  Wedding,
 };
