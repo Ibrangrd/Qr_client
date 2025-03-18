@@ -23,10 +23,22 @@ export const serviceDetails = [
     link:"/makeup",
   },
   {
+    id: 20013,
+    path:"https://images.pexels.com/photos/264787/pexels-photo-264787.jpeg?cs=srgb&dl=pexels-pixabay-264787.jpg&fm=jpg",
+    title:"Gift Up",
+    link:"/gift",
+  },
+  {
     id: 2003,
     path: "https://storage.googleapis.com/my-website-image/ExtraPhotos/C.jpg",
     title: "Courier Service",
     link: "/courier",
+  },
+  {
+    id: 20016,
+    path: "https://makemylagan.com/blog/wp-content/uploads/2023/02/blog2.jpg",
+    title: "Personal Website",
+    link: "/weddingsite",
   },
   {
     id: 2007,

@@ -55,7 +55,9 @@ import VerticalScan from "./Scan/VerticalScan";
 import GiftSection from "./Gift/GiftSection";
 import Xyz2 from "./Scan/xyz";
 import Wedding from "./Scan/Director";
-// import Password from "./Password";
+import Password from "./Password";
+import PhotosPage from "./PhotosPage";
+import WeddingSite from "./PersonalWebsite";
 AOS.init();
 
 
@@ -114,5 +116,7 @@ export {
   GiftSection,
   Xyz2,
   Wedding,
-  // Password,
+  Password,
+  PhotosPage,
+  WeddingSite,
 };

@@ -55,7 +55,9 @@ import {
   CusScan,
   Xyz2,
   Wedding,
-  // Password,
+  Password,
+  PhotosPage,
+  WeddingSite,
 } from "./pages/index.js";
 
 export const ThemeContext = createContext("light");
@@ -63,6 +65,7 @@ export const ThemeContext = createContext("light");
 const App = () => {
   const [theme, setTheme] = useState("light");
   const [loading, setLoading] = useState(true);
+  const [isAuthenticated, setIsAuthenticated] = useState(false); // Add this state
 
   // Hide Preloader after 2 seconds
   useEffect(() => {
@@ -118,15 +121,6 @@ const App = () => {
                 }
               />
               <Route path="/qrcards" element={<Suspense fallback={<div>Loading QR Special Cards...</div>}> <QrCards /> </Suspense>} />
-              {/* <Route path="/Photoinfo1" element={<Suspense fallback={<Loading />}> <Photoinfo1 /></Suspense>} />
-              <Route path="/Photoinfo2" element={<Suspense fallback={<Loading />}> <Photoinfo2 /></Suspense>} />
-              <Route path="/Photoinfo3" element={<Suspense fallback={<Loading />}> <Photoinfo3 /></Suspense>} />
-              <Route path="/Photoinfo4" element={<Suspense fallback={<Loading />}> <Photoinfo4 /></Suspense>} />
-              <Route path="/Photoinfo5" element={<Suspense fallback={<Loading />}> <Photoinfo5 /></Suspense>} />
-              <Route path="/Photoinfo6" element={<Suspense fallback={<Loading />}> <Photoinfo6 /></Suspense>} />
-              <Route path="/Photoinfo7" element={<Suspense fallback={<Loading />}> <Photoinfo7 /></Suspense>} />
-              <Route path="/Photoinfo8" element={<Suspense fallback={<Loading />}> <Photoinfo8 /></Suspense>} />
-              <Route path="/Photoinfo9" element={<Suspense fallback={<Loading />}> <Photoinfo9 /></Suspense>} /> */}
               <Route path="/FireCrackers" element={<Suspense fallback={<Loading />}> <FireCrakers /></Suspense>} />
               <Route path="/memories" element={<Suspense fallback={<Loading />}> <Memories /></Suspense>} />
               <Route path="/Hotel" element={<Suspense fallback={<Loading />}> <Hotel /></Suspense>} />
@@ -135,9 +129,9 @@ const App = () => {
               <Route path="/register" element={<Register />} />
               <Route path="/login" element={<Login />} />
               <Route path="/logout" element={<Logout />} />
-              {/* <Route path="/password" element={<Password />} /> */}
               <Route path="/comingsoon" element={<ComingSoon />} />
               <Route path="/service" element={<Service />} />
+              <Route path="/weddingsite" element={<WeddingSite />} />
               <Route path="/makeup" element={<MakeUp />} />
               <Route path="/CateringMain" element={<CateringMain />} />
               <Route path="/Catering" element={<Catering />} />
@@ -145,7 +139,6 @@ const App = () => {
               <Route path="/yourmenu" element={<YourMenu />} />
               <Route path="/images" element={<LoginForImage />} />
               <Route path="/Cards" element={<CardsPartners />} />
-              <Route path="/i/:inviteId" element={<CusScan2 />} />
               <Route path="/i/:inviteId" element={<CusScan2 />} />
               <Route path="/xyz2" element={<Xyz2 />} />
               <Route path="/wedding" element={<Wedding />} />
@@ -156,6 +149,8 @@ const App = () => {
               <Route path="/gift" element={<GiftSection />} />
               <Route path="/photo/:inviteId" element={<Photo />} />
               <Route path="*" element={<Error />} />
+              <Route path="/password" element={<Password setIsAuthenticated={setIsAuthenticated} />} />
+              <Route path="/photos" element={<PhotosPage />} />
               <Route path="/admin" element={<AdminLayout />}>
                 <Route path="users" element={<AdminUsers />} />
                 <Route path="contacts" element={<AdminContacts />} />

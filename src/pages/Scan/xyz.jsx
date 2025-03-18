@@ -80,45 +80,33 @@ const Xyz2 = () => {
               <div className="">
                 <div className="text-[15px] font-bold text-green-800 text-center">
                   {" "}
-                  <a
-                    href="https://maps.app.goo.gl/aU523jurYw5ZsYxJ6"
-                    target="_blank"
-                  >
+                  <Link to="password">
                   Photos{" "}
-                  </a>
+                  </Link>
                 </div>
                 <div className="ml-[0%]">
-                  <a
-                    href="https://maps.app.goo.gl/aU523jurYw5ZsYxJ6"
-                    target="_blank"
-                  >
+                <Link to = "/password">
                     <img
                       className="w-16 h-16"
                       src="https://i.ibb.co/gpPbYDj/camera-removebg-preview.png"
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="">
                 <div className="text-[15px] font-bold text-green-800 text-center">
                   {" "}
-                  <a
-                    href="https://maps.app.goo.gl/aU523jurYw5ZsYxJ6"
-                    target="_blank"
-                  >
+                  <Link to="/gift">
                   Gift{" "}
-                  </a>
+                  </Link>
                 </div>
                 <div className="ml-[4%]">
-                  <a
-                    href="https://maps.app.goo.gl/aU523jurYw5ZsYxJ6"
-                    target="_blank"
-                  >
+                  <Link to="/gift">
                     <img
                       className="w-12 h-12"
                       src="https://i.ibb.co/ym85jV3F/images-removebg-preview-1.png"
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

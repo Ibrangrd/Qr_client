@@ -46,7 +46,7 @@ const VerticalScan = () => {
               
             </div> */}
             <div className=" ml-[6%] sm:flex sm:justify-center sm:items-center sm:mt-[10%]">
-            <iframe src="https://player.vimeo.com/video/1066532692?h=89d19ff4ba&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+            <iframe src="https://player.vimeo.com/video/1066841350?h=a1fde0b1d7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
             frameborder="0" 
             allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" 
             className="border-double border-[#C2A5A1] border-8 w-[85%] h-[280px] sm:w-[50%] sm:h-[500px]"
@@ -59,7 +59,7 @@ const VerticalScan = () => {
               <div className="">
                 <div className="text-[15px] font-bold  text-green-800 text-center">
                 <a
-                    href="https://maps.app.goo.gl/S2SHZcypcHbMHS86A"
+                    href="https://maps.app.goo.gl/aU523jurYw5ZsYxJ6"
                     target="_blank"
                   >
                   Wedding Venue
@@ -81,7 +81,7 @@ const VerticalScan = () => {
                 <div className="text-[15px] font-bold text-green-800 text-center">
                   {" "}
                   <a
-                    href="https://maps.app.goo.gl/aU523jurYw5ZsYxJ6"
+                    href="https://maps.app.goo.gl/S2SHZcypcHbMHS86A"
                     target="_blank"
                   >
                   Residence{" "}

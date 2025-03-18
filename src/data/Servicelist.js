@@ -91,6 +91,12 @@ export const Service2List = [
     Link: "/comingsoon",
   },
   {
+    id: "Service17",
+    imgsrc:"https://hips.hearstapps.com/hmg-prod/images/gettyimages-1869680887-676ebb14b9fd2.jpg?crop=0.564xw:0.846xh;0.231xw,0.0913xh&resize=640:*",
+    heading: "Gift Up",
+    Link: "/gift",
+  },
+  {
     id: "Service4",
     imgsrc:
       "https://t4.ftcdn.net/jpg/05/57/64/85/360_F_557648557_hyn34muXj7kwad5cOAoOjP2lRxMZOYBl.jpg",

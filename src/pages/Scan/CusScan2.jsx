@@ -19,33 +19,32 @@ const CusScan2 = () => {
       <div className="flex justify-center items-center -mr-[4%]">
 
 
-        <div className=" flex flex-col -mr-8 gap-2 mt-10">
+        <div className=" flex flex-col -mr-8 mt-10">
               <div  className="text-[22px] font-bold rotate-90 mb-10 text-shadow text-black">
               <a 
                   href={item?.address2}
                   target="_blank"
                 >
-                <img className="w-12" src="https://i.ibb.co/27mz9vpK/Whats-App-Image-2025-03-11-at-00-37-42-db78e4e4-removebg-preview.png"/>
+                <img className="w-12 h-12" src="https://i.ibb.co/27mz9vpK/Whats-App-Image-2025-03-11-at-00-37-42-db78e4e4-removebg-preview.png"/>
                 </a>
             </div>
-            <div className="text-[10px] font-bold mb-10 text-shadow text-black">
-            <Link to="/images">
-              <p className="font-bold text-[12px]  rotate-90 text-shadow-lg  text-[#f8f7ff]">
-              <img className="w-12" src="https://i.ibb.co/99bnh5nW/Whats-App-Image-2025-03-16-at-05-34-20-0f32e26e-removebg-preview.png"/>
-              </p>
-              </Link>
+            <div className="text-[10px] font-bold mb-10 rotate-90 text-shadow text-black">
+                 <Link to = "/password">
+                   <img
+                     className="w-12 h-12"
+                     src="https://i.ibb.co/gpPbYDj/camera-removebg-preview.png"
+                   />
+                 </Link>
             </div>
             <div className="text-[22px] font-bold rotate-90 mb-10 text-shadow text-black">
-              <a 
-                  href={item?.address2}
-                  target="_blank"
-                >
-                <img className="w-12" src="https://i.ibb.co/gpPbYDj/camera-removebg-preview.png"/>
-                </a>
+              <Link to="/gift">
+               <img
+                 className="w-10 h-10"
+                 src="https://i.ibb.co/ym85jV3F/images-removebg-preview-1.png"
+                />
+              </Link>
             </div>
-            
           </div>
-
           
           <div className={item?.position2}>
             <iframe
