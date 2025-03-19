@@ -19,15 +19,6 @@ import {
   Logout,
   Service,
   Error,
-  Photoinfo1,
-  Photoinfo2,
-  Photoinfo3,
-  Photoinfo4,
-  Photoinfo5,
-  Photoinfo6,
-  Photoinfo7,
-  Photoinfo8,
-  Photoinfo9,
   ScanVideo,
   MScan,
   CusScan2,
@@ -125,6 +116,7 @@ const App = () => {
               <Route path="/memories" element={<Suspense fallback={<Loading />}> <Memories /></Suspense>} />
               <Route path="/Hotel" element={<Suspense fallback={<Loading />}> <Hotel /></Suspense>} />
               <Route path="/MScan" element={<Suspense fallback={<Loading />}> <MScan /></Suspense>} />
+              <Route path="/photo/:inviteId" element={<Suspense fallback={<Loading />}> <Photo /></Suspense>} />
               <Route path="/Scan/:inviteId" element={<Suspense fallback={<Loading />}> <ScanVideo /></Suspense>} />
               <Route path="/register" element={<Register />} />
               <Route path="/login" element={<Login />} />
@@ -147,7 +139,6 @@ const App = () => {
               <Route path="/Cars" element={<Cars />} />
               <Route path="/CusAfter" element={<CusAfter />} />
               <Route path="/gift" element={<GiftSection />} />
-              <Route path="/photo/:inviteId" element={<Photo />} />
               <Route path="*" element={<Error />} />
               <Route path="/password" element={<Password setIsAuthenticated={setIsAuthenticated} />} />
               <Route path="/photos" element={<PhotosPage />} />

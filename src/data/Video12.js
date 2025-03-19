@@ -6,7 +6,7 @@ export const video12 = [
     star: "4.9 🌟",
     rating: "(20 reviews)",
     path: "https://i.pinimg.com/736x/95/a8/5f/95a85fafee35613322e38a15bbd7731a.jpg",
-    link: "/Photo/1",
+    link: "/photo/1",
   },
   {
     id: "Type2",
@@ -15,7 +15,7 @@ export const video12 = [
     star: "4.5 🌟",
     rating: "(18 reviews)",
     path: "https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2020/11/Inside-image-Wedding-Photographers6.jpg",
-    link: "/Photo/2",
+    link: "/photo/2",
   },
   {
     id: "Type4",
@@ -24,7 +24,7 @@ export const video12 = [
     star: "4.7 🌟",
     rating: "(10 reviews)",
     path: "https://www.pixelworks.in/wp-content/uploads/2017/05/Pre-Wedding-Shoot-2.jpg",
-    link: "/Photo/3",
+    link: "/photo/3",
   },
   {
     id: "Type5",
@@ -33,7 +33,7 @@ export const video12 = [
     star: "4.4 🌟",
     rating: "(15 reviews)",
     path: "https://assets.vogue.in/photos/6360ee4b74016d3adc45f105/1:1/w_4534,h_4534,c_limit/JR.WP-244.jpg",
-    link: "/Photo/6",
+    link: "/photo/6",
   },
   {
     id: "Type7",
@@ -42,7 +42,7 @@ export const video12 = [
     star: "5 🌟",
     rating: "(30 reviews)",
     path: "https://www.weddingsutra.com/images/neelutsav.jpg",
-    link: "/Photo/4",
+    link: "/photo/4",
   },
   {
     id: "Type8",
@@ -51,6 +51,6 @@ export const video12 = [
     star: "5 🌟",
     rating: "(23 reviews)",
     path: "https://www.shaadibaraati.com/vendors-profile/2731767e69b62b9a415e6365377d2475.jpeg",
-    link: "/Photo/5",
+    link: "/photo/5",
   },
 ];

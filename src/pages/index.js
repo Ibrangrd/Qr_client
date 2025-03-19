@@ -17,15 +17,6 @@ import AdminUsers from "./Admin/AdminUsers";
 import AdminContacts from "./Admin/AdminContacts";
 import AdminUpdate from "./Admin/AdminUpdate";
 import Loading from "./Loading";
-import Photoinfo1 from "./Photography/Photoinfo1";
-import Photoinfo2 from "./Photography/Photoinfo2";
-import Photoinfo3 from "./Photography/Photoinfo3";
-import Photoinfo4 from "./Photography/Photoinfo4";
-import Photoinfo5 from "./Photography/Photoinfo5";
-import Photoinfo6 from "./Photography/Photoinfo6";
-import Photoinfo7 from "./Photography/Photoinfo7";
-import Photoinfo8 from "./Photography/Photoinfo8";
-import Photoinfo9 from "./Photography/Photoinfo9";
 import FireCrakers from "./FireCrakers/FireCrackers";
 import MScan from "./Scan/MScan"
 import ScanVideo from "./Scan/ScanVideo"
@@ -82,15 +73,6 @@ export {
   Home,
   Service,
   Error,
-  Photoinfo1,
-  Photoinfo2,
-  Photoinfo3,
-  Photoinfo4,
-  Photoinfo5,
-  Photoinfo6,
-  Photoinfo7,
-  Photoinfo8,
-  Photoinfo9,
   Photo,
   Catering,
   FireCrakers,
