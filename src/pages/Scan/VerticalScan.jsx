@@ -67,7 +67,7 @@ const VerticalScan = () => {
                 </div>
                 <div className="ml-[12%]">
                   <a
-                    href="https://maps.app.goo.gl/S2SHZcypcHbMHS86A"
+                    href="https://maps.app.goo.gl/aU523jurYw5ZsYxJ6"
                     target="_blank"
                   >
                     <img
@@ -89,7 +89,7 @@ const VerticalScan = () => {
                 </div>
                 <div className="ml-[4%]">
                   <a
-                    href="https://maps.app.goo.gl/aU523jurYw5ZsYxJ6"
+                   href="https://maps.app.goo.gl/S2SHZcypcHbMHS86A"
                     target="_blank"
                   >
                     <img
