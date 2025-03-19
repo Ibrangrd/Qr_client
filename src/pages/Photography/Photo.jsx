@@ -125,8 +125,8 @@ const Photo = () => {
                 </h3>
               </div>
               <ul className="list-disc list-inside text-gray-600">
-                <li>A special Gift from QR Weds</li>
                 <li>Teaser</li>
+                <li>A special gift from QR Weds</li>
                 <li>Trash the dress shoot</li>
               </ul>
             </div>
