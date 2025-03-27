@@ -118,7 +118,7 @@ export const NewQrCardsData = [
         title: "Pearl Radiance"
       },
     ],
-    CardPrice: "(18)",
+    CardPrice: "(26-30)",
   },
   {
     id: "10-15",
