@@ -49,6 +49,7 @@ import {
   Password,
   PhotosPage,
   WeddingSite,
+  Upasna,
 } from "./pages/index.js";
 
 export const ThemeContext = createContext("light");
@@ -118,6 +119,7 @@ const App = () => {
               <Route path="/MScan" element={<Suspense fallback={<Loading />}> <MScan /></Suspense>} />
               <Route path="/photo/:inviteId" element={<Suspense fallback={<Loading />}> <Photo /></Suspense>} />
               <Route path="/Scan/:inviteId" element={<Suspense fallback={<Loading />}> <ScanVideo /></Suspense>} />
+              <Route path="/upasna_weds_sumit" element={<Suspense fallback={<Loading />}> <Upasna /></Suspense>} />
               <Route path="/register" element={<Register />} />
               <Route path="/login" element={<Login />} />
               <Route path="/logout" element={<Logout />} />
