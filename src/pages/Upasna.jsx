@@ -52,7 +52,7 @@ const Upasna = () => {
       {/* Main Content */}
       <div className="relative z-10">
         {/* Header */}
-        <header className="text-center py-12">
+        <header className="text-center pt-4 pb-10">
           <div className="w-full max-w-[500px] mx-auto h-48 md:h-64">
             <DotLottieReact
               src="https://lottie.host/2efe3027-c79e-4049-96a8-ec6fd491a96c/NwTCSu2gBG.lottie"
@@ -117,15 +117,15 @@ const Upasna = () => {
                 <div className="grid grid-cols-2 gap-2">
                   <div className="flex items-center">
                     <span className="mr-2">📅</span>
-                    <span>{weddingEvents[currentEventIndex].date}</span>
+                    <span className="text-black">{weddingEvents[currentEventIndex].date}</span>
                   </div>
                   <div className="flex items-center">
                     <span className="mr-2">⏰</span>
-                    <span>{weddingEvents[currentEventIndex].time}</span>
+                    <span className="text-black" >{weddingEvents[currentEventIndex].time}</span>
                   </div>
                   <div className="col-span-2 flex items-start">
                     <span className="mr-2 mt-1">📍</span>
-                    <span>{weddingEvents[currentEventIndex].venue}</span>
+                    <span className="text-black">{weddingEvents[currentEventIndex].venue}</span>
                   </div>
                 </div>
               </div>
