@@ -50,6 +50,7 @@ import Password from "./Password";
 import PhotosPage from "./PhotosPage";
 import WeddingSite from "./PersonalWebsite";
 import Upasna from "./Upasna";
+import Upasna2 from "./Upasna2";
 AOS.init();
 
 
@@ -103,4 +104,5 @@ export {
   PhotosPage,
   WeddingSite,
   Upasna,
+  Upasna2,
 };
