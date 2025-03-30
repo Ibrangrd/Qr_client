@@ -51,6 +51,7 @@ import PhotosPage from "./PhotosPage";
 import WeddingSite from "./PersonalWebsite";
 import Upasna from "./Upasna";
 import Upasna2 from "./Upasna2";
+import Upasna3 from "./Upasna3"; 
 AOS.init();
 
 
@@ -105,4 +106,5 @@ export {
   WeddingSite,
   Upasna,
   Upasna2,
+  Upasna3,
 };

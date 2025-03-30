@@ -51,6 +51,7 @@ import {
   WeddingSite,
   Upasna,
   Upasna2,
+  Upasna3,
 } from "./pages/index.js";
 
 export const ThemeContext = createContext("light");
@@ -122,6 +123,7 @@ const App = () => {
               <Route path="/Scan/:inviteId" element={<Suspense fallback={<Loading />}> <ScanVideo /></Suspense>} />
               <Route path="/upasna_weds_sumit" element={<Suspense fallback={<Loading />}> <Upasna /></Suspense>} />
               <Route path="/upasna_weds_sumit2" element={<Suspense fallback={<Loading />}> <Upasna2 /></Suspense>} />
+              <Route path="/upasna_weds_sumit3" element={<Suspense fallback={<Loading />}> <Upasna3 /></Suspense>} />
               <Route path="/register" element={<Register />} />
               <Route path="/login" element={<Login />} />
               <Route path="/logout" element={<Logout />} />
