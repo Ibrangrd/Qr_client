@@ -15,7 +15,7 @@ const Upasna3 = () => {
   };
 
   const handleOptionSelect = (userType) => {
-    alert(`Redirecting to ${userType} upload page`);
+    // alert(`Redirecting to ${userType} upload page`);
     setShowUploadOptions(false);
   };
 
@@ -45,7 +45,7 @@ const Upasna3 = () => {
 
         {/* Photo Sharing Section */}
         <div className="p-6 pb-0 pt-1 text-center">
-          <h3 className="text-[25px] text-[#8d4548] mb-1 font-medium">𝓢𝓱𝓪𝓻𝓮 𝓨𝓸𝓾𝓻 𝓟𝓱𝓸𝓽𝓸𝓼</h3>
+          <h3 className="text-3xl text-[#8d4548] mb-1 font-medium">𝓢𝓱𝓪𝓻𝓮 𝓨𝓸𝓾𝓻 𝓟𝓱𝓸𝓽𝓸𝓼</h3>
           <p className="text-[#8d6e63] mb-2">Upload and view photos from the wedding day</p>
           
           {!showUploadOptions ? (
@@ -59,7 +59,7 @@ const Upasna3 = () => {
             <div className="flex flex-col space-y-3">
             <a href="https://waldophotos.app.link/0DeFeCO02Rb">
               <button 
-                onClick={() => handleOptionSelect('photographer')}
+                // onClick={() => handleOptionSelect('photographer')}
                 className="px-6 py-2 bg-[#eec4b8] text-[#8d4548] rounded-full transition-colors text-base shadow-sm"
               >
                 I'm a Photographer
@@ -67,7 +67,7 @@ const Upasna3 = () => {
               </a>
               <a href="https://waldophotos.app.link/tdUqfYMs4Rb">
               <button 
-                onClick={() => handleOptionSelect('guest')}
+                // onClick={() => handleOptionSelect('guest')}
                 className="px-6 py-2 bg-[#eec4b8] text-[#8d4548] rounded-full  transition-colors text-base shadow-sm"
               >
                 I'm a Guest
