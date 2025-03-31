@@ -22,14 +22,14 @@ const Wedding = () => {
           </div>
             <div className=" flex justify-center text-center gap-0 -mt-8">
               <h1 className=" text-[25px] sm:text-[35px] font-extrabold text-[#5f0f40]">
-              Ram
+              उपासना
               </h1>
               <img
                 className=" w-20 h-20 -mt-6 animate-heart-size"
                 src="https://i.ibb.co/sdTDhp7D/h.png"
               />
               <h1 className=" text-[25px] sm:text-[35px] font-bold text-[#5f0f40]">
-              Sita 
+              सुमित 
               </h1>
             </div>
             {/* <div className="mt-[28%] ml-[6%] sm:flex sm:justify-center sm:items-center sm:mt-[10%]">
@@ -46,7 +46,7 @@ const Wedding = () => {
               
             </div> */}
             <div className=" ml-[6%] sm:flex sm:justify-center sm:items-center sm:mt-[10%]">
-            <iframe src="https://player.vimeo.com/video/1064644032?h=afd3753bfd&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+            <iframe src="https://player.vimeo.com/video/1069864629?h=7c03506a48&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
             frameborder="0" 
             allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" 
             className="border-double border-[#C2A5A1] border-8 w-[85%] h-[280px] sm:w-[50%] sm:h-[500px]"
@@ -59,7 +59,7 @@ const Wedding = () => {
               <div className="">
                 <div className="text-[15px] font-bold text-green-800 text-center">
                 <a
-                    href="https://maps.app.goo.gl/S2SHZcypcHbMHS86A"
+                    href="https://maps.app.goo.gl/Pow9MuGrvjVr4yg18?g_st=aw"
                     target="_blank"
                   >
                   Venue
@@ -67,7 +67,7 @@ const Wedding = () => {
                 </div>
                 <div className="ml-[8%]">
                   <a
-                    href="https://maps.app.goo.gl/S2SHZcypcHbMHS86A"
+                    href="https://maps.app.goo.gl/Pow9MuGrvjVr4yg18?g_st=aw"
                     target="_blank"
                   >
                     <img
@@ -80,45 +80,33 @@ const Wedding = () => {
               <div className="">
                 <div className="text-[15px] font-bold text-green-800 text-center">
                   {" "}
-                  <a
-                    href="https://maps.app.goo.gl/aU523jurYw5ZsYxJ6"
-                    target="_blank"
-                  >
+                  <Link to="/upasna_weds_sumit3" target="_blank">
                   Photos{" "}
-                  </a>
+                  </Link>
                 </div>
                 <div className="ml-[0%]">
-                  <a
-                    href="https://maps.app.goo.gl/aU523jurYw5ZsYxJ6"
-                    target="_blank"
-                  >
+                  <Link to="/upasna_weds_sumit3" target="_blank">
                     <img
                       className="w-16 h-16"
                       src="https://i.ibb.co/gpPbYDj/camera-removebg-preview.png"
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="">
                 <div className="text-[15px] font-bold text-green-800 text-center">
                   {" "}
-                  <a
-                    href="https://maps.app.goo.gl/aU523jurYw5ZsYxJ6"
-                    target="_blank"
-                  >
-                  Gift{" "}
-                  </a>
+                 <Link to="/gift">
+                  Gift
+                  </Link>
                 </div>
                 <div className="ml-[4%]">
-                  <a
-                    href="https://maps.app.goo.gl/aU523jurYw5ZsYxJ6"
-                    target="_blank"
-                  >
+                 <Link to="/gift">
                     <img
                       className="w-12 h-12"
                       src="https://i.ibb.co/ym85jV3F/images-removebg-preview-1.png"
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
