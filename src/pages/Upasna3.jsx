@@ -35,9 +35,9 @@ const Upasna3 = () => {
         {/* Wedding Details */}
         <div className="px-6 pb-6 text-center">
           <h2 className="text-2xl text-[#5d4037] mb-1 font-medium">THE WEDDING</h2>
-          <p className="text-lg text-[#8d6e63] mb-1">Saturday, 12th October, 2024</p>
-          <p className="text-lg text-[#8d6e63] mb-1">at half past four in the afternoon</p>
-          <p className="text-xl text-[#5d4037] font-medium">Royal Palace · Bangalore</p>
+          <p className="text-lg text-[#8d6e63] mb-1">Friday, 18th April, 2025</p>
+          <p className="text-lg text-[#8d6e63] mb-1"> in the eveing</p>
+          <p className="text-xl text-[#5d4037] font-medium">JUT Campus,Ranchi </p>
         </div>
 
         {/* Divider */}
@@ -57,7 +57,7 @@ const Upasna3 = () => {
             </button>
           ) : (
             <div className="flex flex-col space-y-3">
-            <a href="https://waldophotos.app.link/0DeFeCO02Rb">
+            <a href="https://waldophotos.app.link/pCVpe2y0bSb">
               <button 
                 // onClick={() => handleOptionSelect('photographer')}
                 className="px-6 py-2 bg-[#eec4b8] text-[#8d4548] rounded-full transition-colors text-base shadow-sm"
@@ -65,7 +65,7 @@ const Upasna3 = () => {
                 I'm a Photographer
               </button>
               </a>
-              <a href="https://waldophotos.app.link/tdUqfYMs4Rb">
+              <a href="https://waldophotos.app.link/pOCsmJB0bSb">
               <button 
                 // onClick={() => handleOptionSelect('guest')}
                 className="px-6 py-2 bg-[#eec4b8] text-[#8d4548] rounded-full  transition-colors text-base shadow-sm"
