@@ -120,7 +120,7 @@ export const Service2List = [
   {
     id: "Service5",
     imgsrc:
-      "https://i.ytimg.com/vi/01FXIOZyAk0/maxresdefault.jpg",
+      "https://images.squarespace-cdn.com/content/v1/59bc0b4032601e21338e0fb9/f083232c-bd30-497e-8884-1450ba8795f9/SP_QRCodeToNewBlog.png",
     heading: "QR Designs:",
     Link: "/qr",
   },

@@ -82,7 +82,7 @@ export const videoThumbnailDetails = [
     id: 1000,
     title: "Sweet",
     price: "₹ 1",
-    path: "https://www.craftyartapp.com/blog/wp-content/uploads/2023/09/e8d29a1859fea3394b95b3868ba5fcb6-min.webp",
+    path: "https://fiverr-res.cloudinary.com/videos/t_smartwm/t_main1,q_auto,f_auto/v1/video-attachments/delivery/asset/328203d79b277932fab689ff578d086a-1712232171/_bt%20%284%29/design-an-indian-wedding-e-card-invitation-vedio.png",
     des: "This card is for this this this",
     cat: "Nature",
   },
@@ -98,7 +98,7 @@ export const videoThumbnailDetails = [
     id: 1002,
     title: "Sweet",
     price: "₹1",
-    path: "https://www.craftyartapp.com/blog/wp-content/uploads/2023/07/6a9cb107bb26b18e9246e945466d0294-3.webp",
+    path: "https://i.ytimg.com/vi/ocuV97y7NKE/maxresdefault.jpg",
     des: "This card is for this this this",
     cat: "Nature",
   },
@@ -238,7 +238,7 @@ export const hoverShadowColors = [
 export const ParCardsData = [
   {
     id: "1",
-    img: "https://storage.googleapis.com/my-website-image/ExtraPhotos/QRCards.jpg",
+    img: "https://storage.googleapis.com/my-website-image/ExtraPhotos/QrWeds.jpg",
     shop: "Qr Weds Special cards",
     dis:"Premium QR cards for memorable moments.",
     link: "/qrcards",

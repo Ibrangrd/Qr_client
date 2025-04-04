@@ -72,7 +72,7 @@ const GiftSection = () => {
     <div className="sm:text-5xl text-4xl text-center text-[#4E8098] font-bold pb-6">
           EXPLORE GIFT
           </div>
-    <div className="sm:text-5xl text-3xl text-center text-pink-400 font-bold pb-16">
+    <div className="sm:text-5xl text-3xl text-center text-black font-bold pb-16">
     Make this wedding live forever with a QRWeds Gift.
     </div>
     <Service />

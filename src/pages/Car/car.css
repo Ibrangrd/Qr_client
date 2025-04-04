@@ -145,16 +145,15 @@
   
   .f{
     margin-left: 0px;
-    font-size: 28px;
+    padding-top: 10px;
+    font-size: 30px;
   }
   .ma11 {
     width: 360px;
     margin-left: 3px;
     padding: 8px 11px;
   }
-  .space11 {
-    height: 40px;
-  }
+ 
   .r {
     margin-left: -20px;
   }
@@ -212,15 +211,16 @@
   
   .f{
     margin-left: 0px;
-    font-size: 28px;
+    padding-top: 20px;
+    font-size: 38px;
   }
   .ma11 {
     width: 350px;
     margin-left: 2.5px;
     padding: 8px 11px;
   }
-  .space11 {
-    height: 40px;
+  .space11{
+    height: 0px;
   }
   .r {
     margin-left: -20px;

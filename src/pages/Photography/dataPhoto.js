@@ -37,9 +37,9 @@ const dataPhoto = [
 {
   id:"6",
   title: "Classic",
-  hours: "5 hours",
-  noimages:"20",
-  price:"20000-30000",
+  hours: "5-7 hours",
+  noimages:"10-18",
+  price:"10000-35000",
 },
 ];
 
